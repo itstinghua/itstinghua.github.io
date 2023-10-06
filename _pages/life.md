@@ -7,32 +7,68 @@ nav: true
 nav_order: 5
 ---
 
-#### 2023 
-- I visited the research group of Prof. Karl Henrik Johansson in KTH, Sweden (June, 2023), and presented my work on "motion control for nonholonomic wheeled mobile robots". Many thanks for all the discussions and meetings! 
-- Attended the 42nd benelux meeting on system and control (Elspeet, The Netherlands), presented our work "Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation", and got the DISC certificates! 
+
+ Outside of my research, I enjoy my time in rock and romantics, exploring and recording life in poetry, music, sports and nature.
+
 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/news/disc_2023_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="/assets/img/life/w.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            (Wien, 2021).
+        </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/news/disc_2023_2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="/assets/img/news/p.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+        (Prague, 2021).
+        </div>
     </div>
+</div>
+
+
+
+
+
+<br>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="/assets/img/life/iceland_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="/assets/img/news/iceland_2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    (Iceland, 2022).
 </div>
 
 <br>
 
 
-#### 2022
-- Joined the DISC-organized Winter Course Data Learning & Dynamics at the Intersection of Neuroscience and Control.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="/assets/img/life/greenday.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            (Green Day's Concert in 2022).
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="/assets/img/news/FIVB.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+        (FIVB Women's World Championship 2022).
+        </div>
+    </div>
+</div>
 
-<br>
 
-
-#### 2021
-- Joined the 10th benelux meeting (Rotterdam, The Netherlands) and presented our work "Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors".
-- Joined the DISC-organized summer school 2021 “Planning, Learning and Control for Multi-Robot and Multi-Agent Systems” in Rotterdam, The Netherlands.
-- Presented our source-seeking paper in IROS 2021 (virtual conference) as invited T-RO paper.
-
-
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="/assets/img/news/f.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+        (France, 2022).
+        </div>
+    </div>
+</div>
