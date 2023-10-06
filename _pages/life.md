@@ -57,7 +57,7 @@ nav_order: 6
     </div>
 </div>
 <div class="caption">
-    (Switzerland, 2021)
+    (Switzerland, 2023)
 </div>
 
 
