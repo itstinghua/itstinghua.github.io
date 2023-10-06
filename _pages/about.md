@@ -18,6 +18,8 @@ profile:
 social: true  # includes social icons at the bottom of the page
 ---
 
+Welcome to my page! I am Tinghua (厉庭华).
+
 
 I'm currently a PhD candidate in robotics and control, at [Discrete Technology & Production Automation (DTPA)](https://www.rug.nl/research/discrete-technology-production-automation/?lang=en), University of Groningen, the Netherlands, under the supervison of [Prof. Bayu Jayawardhana](https://www.rug.nl/staff/b.jayawardhana/?lang=en) and [Prof. Ming Cao](https://www.rug.nl/staff/m.cao/?lang=en/).
 
