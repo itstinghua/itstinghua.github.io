@@ -30,7 +30,7 @@ I mainly work in the **control and robotics** field, aiming at the theoretical m
 
 <br />
 
-## Skills
+## Practical Skills
 **Software Programming & Development**
 - Programming with C/C++/python/Matlab in Win/Linux system
 - ROS/Gazebo/Matlab/Keil/Docker
@@ -44,6 +44,6 @@ I mainly work in the **control and robotics** field, aiming at the theoretical m
 
 <br />
 
- [I’m on the job market for potential postdoc opportunities in control & robotics, please feel free to contact me: lilytinghua@gmail.com](lilytinghua@gmail.com)
+ [**I’m on the job market for potential postdoc opportunities in control & robotics, please feel free to contact me: lilytinghua@gmail.com**](lilytinghua@gmail.com)
  
 <br />
