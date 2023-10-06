@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /life/
-title: Life
+title: Rock & Romantic
 description: 
 nav: true
 nav_order: 6
