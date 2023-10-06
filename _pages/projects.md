@@ -32,7 +32,7 @@ propose a combination of extremum-seeking control with our projected gradient as
 In this work, we propose a collision-free source seeking control framework for unicycle robots traversing an unknown cluttered environment. In this framework, the obstacle avoidance is guided by the control barrier functions (CBF) embedded in quadratic programming and the source seeking control relies solely on the use of on-board sensors that measure signal strength of the source. To tackle the mixed relative degree of the CBF, we proposed three different CBF, namely the zeroing control barrier functions (ZCBF), exponential control barrier functions (ECBF), and reciprocal control barrier functions (RCBF) that can directly be integrated with our recent gradient-ascent sourceseeking control law. 
 <div class="row mt-2">
     <div class="col-sm mt-2 mt-md-0">
-        {% include video.html path="/assets/video/CO.mov" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.html path="/assets/video/CO.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
 
