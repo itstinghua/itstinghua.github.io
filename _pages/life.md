@@ -19,7 +19,7 @@ nav_order: 6
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/news/p.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="/assets/img/life/p.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
         (Prague, 2021)
         </div>
@@ -34,7 +34,7 @@ nav_order: 6
         {% include figure.html path="/assets/img/life/iceland_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/news/iceland_2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="/assets/img/life/iceland_2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -52,7 +52,7 @@ nav_order: 6
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/news/FIVB.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="/assets/img/life/FIVB.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
         (FIVB Women's World Championship 2022)
         </div>
@@ -63,7 +63,7 @@ nav_order: 6
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/news/f.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="/assets/img/life/f.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
         (France, 2022)
         </div>
