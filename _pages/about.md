@@ -43,5 +43,7 @@ I mainly work in the **control and robotics** field, aiming at the theoretical m
 - Mecanum‑wheel Nexus Robotics
 
 <br />
- **I’m on the job market for potential postdoc opportunities in control & robotics, please feel free to contact me.**
+
+ [I’m on the job market for potential postdoc opportunities in control & robotics, please feel free to contact me: lilytinghua@gmail.com](lilytinghua@gmail.com)
+ 
 <br />
