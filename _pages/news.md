@@ -30,6 +30,8 @@ nav_order: 4
 #### 2022
 - Joined the DISC-organized Winter Course Data Learning & Dynamics at the Intersection of Neuroscience and Control.
 
+<br>
+
 
 #### 2021
 - Joined the 10th benelux meeting (Rotterdam, The Netherlands) and presented our work "Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors".

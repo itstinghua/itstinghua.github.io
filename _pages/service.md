@@ -13,12 +13,14 @@ nav_order: 5
 - IEEE Robotics & Automation Magazine (RAM) 
 - Journal of the Franklin Institute
 
+<br>
 
 #### Conference Reviewer
 - European Control Conference (ECC 2023)
 - American Control Conference (ACC 2021)
 - Third IFAC Conference on Modelling, Identification and Control of Nonlinear Systems (MICNON 2021)
 
+<br>
 
 #### Teaching Assistance
 - Master course: Robotics for IEM (University of Groningen, 2020-2022)
