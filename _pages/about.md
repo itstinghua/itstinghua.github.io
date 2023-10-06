@@ -30,7 +30,7 @@ I mainly work in the **control and robotics** field, aiming at the theoretical m
 
 <br />
 
-## Practical Skills
+## Experimental Skills
 **Software Programming & Development**
 - Programming with C/C++/python/Matlab in Win/Linux system
 - ROS/Gazebo/Matlab/Keil/Docker
