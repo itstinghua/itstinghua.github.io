@@ -18,6 +18,11 @@ email: lilytinghua@gmail.com
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🌷  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
+
+# 🙋🏻‍♀️
+# 👩‍🎓
+# 😄
+
 url: https://itstinghua.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
@@ -73,7 +78,7 @@ twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: # your LinkedIn user name
 telegram_username: # your Telegram user name
-scholar_userid:  https://scholar.google.com/citations?user=2xz7OucAAAAJ&hl=en
+scholar_userid:  https://scholar.google.com/citations?user=2xz7OucAAAAJ&hl=en&oi=ao
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: https://orcid.org/0000-0002-7634-0744
