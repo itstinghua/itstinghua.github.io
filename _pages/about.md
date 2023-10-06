@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>lilytinghua@gmail.com</p>
+#    <p>lilytinghua@gmail.com</p>
 
 # news: true  # includes a list of news items
 # latest_posts: true  # includes a list of the newest posts
@@ -17,7 +17,7 @@ profile:
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi, I am Tinghua (厉庭华).
+Hi, I am Tinghua Li (厉庭华).
 
 
 I'm currently a PhD candidate in robotics and control, at [Discrete Technology & Production Automation (DTPA)](https://www.rug.nl/research/discrete-technology-production-automation/?lang=en), University of Groningen, the Netherlands, under the supervison of [Prof. Bayu Jayawardhana](https://www.rug.nl/staff/b.jayawardhana/?lang=en) and [Prof. Ming Cao](https://www.rug.nl/staff/m.cao/?lang=en/).
