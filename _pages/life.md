@@ -56,9 +56,9 @@ nav_order: 6
         {% include figure.html path="/assets/img/life/s_2.JPG" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-    <div class="caption">
-        (Switzerland, 2021)
-    </div>
+<div class="caption">
+    (Switzerland, 2021)
+</div>
 
 
 <br>
