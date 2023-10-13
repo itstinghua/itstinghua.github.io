@@ -11,7 +11,7 @@ nav_order: 4
 - Joined the “Five decades of systems and control theory in Groningen” for celebrating the 50th anniversary of the founding of the Systeemtheorie en Regeltechniek research group at the Mathematics Institute of the University of Groningen. 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/news/Groningen_2023" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="/assets/img/news/Groningen_2023.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
