@@ -81,7 +81,7 @@ nav_order: 6
 
 <br>
 
-<div class="row">
+<!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="/assets/img/life/f.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
@@ -94,4 +94,4 @@ nav_order: 6
         (Groningen, 2021)
         </div>
     </div>
-</div>
+</div> -->
