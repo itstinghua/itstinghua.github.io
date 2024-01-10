@@ -42,8 +42,4 @@ I mainly work in the **control and robotics** field, aiming at the theoretical m
 - Airflow sensor/lidar/laser/RealSense Depth Camera D435i/ESP32 Wifi application
 - Mecanum‑wheel Nexus Robotics
 
-<br />
 
- [I’m on the job market for potential postdoc opportunities in control & robotics, please feel free to contact me: **lilytinghua@gmail.com**](lilytinghua@gmail.com). Thank you :)
- 
-<br />
