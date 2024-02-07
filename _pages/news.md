@@ -11,9 +11,14 @@ nav_order: 4
  on 30 January, 2024. This theis tackles the problems of source-seeking, collision avoidance using multi-input control barrier function, and flocking cohesion of multi-agent unicycle systems with guaranteed safety. The thesis presents both the experimental and theoretical aspects of control systems that solve these problems.  
 I would like to thank my dearest supervisor **Prof. Bayu Jayawardhana** and **Prof. Ming Cao** for their warm support in the past four-year study. Thank you for all defense committee members for the great discussion during the defense: **Claudio De Persis, Dimos Dimarogonas, Tamas Keviczky, Raffaella Carloni, Maryam Ghandchi Tehrani, Sami Haddadin, Bahar Haghighat, Ashish Cherukuri**.
 
+ <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="/assets/img/news/phd.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="/assets/img/news/phd_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 <br>
 
