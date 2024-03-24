@@ -11,6 +11,7 @@ nav_order: 5
 #### Journal Reviewer  
 - IEEE Transactions on Robotics (T-RO)
 - IEEE Robotics & Automation Magazine (RAM) 
+- Nonlinear Dynamics
 - Journal of the Franklin Institute
 
 <br>
