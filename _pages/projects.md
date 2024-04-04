@@ -1,4 +1,4 @@
----
+d---
 layout: page
 title: Projects
 permalink: /projects/
@@ -50,15 +50,20 @@ In this work, we propose a collision-free source seeking control framework for u
 #### Flocking Control of multi-agents with connectivity preservation [(PDF)](https://arxiv.org/pdf/2301.04576.pdf)
  We present a distributed source seeking and flocking control method for networked multi-agent systems with nonholonomic constraint in an unknown cluttered environment. Based solely on identical on-board sensor systems, which measure the source local field, the group objective is attained by appointing a leader agent, which has the largest signal strength to the source (as a proxy to the distance to the source), to seek the source while the remaining follower agents form a cohesive flocking with the leader using a distributed flocking control law
 in a connectivity-preserved undirected network of multi-agent systems. To guarantee the safe separation and group motion for all agents and to solve the conflicts with the ”cohesion” flocking rule of Reynolds, the distributed control algorithm is solved individually through quadratic-programming optimization problem with safety constraints, which guarantee the collision avoidance for inter-agents and obstacles in the cluttered environment. 
-<div class="row">
+<!-- <div class="row"> -->
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="/assets/img/pub/conn_flock/flocking_2.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="/assets/img/pub/conn_flock/flocking_3.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
+<!-- </div> -->
 
+<div class="row mt-2">
+    <div class="col-sm mt-2 mt-md-0">
+        {% include video.html path="/assets/video/connectivity.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+</div>
 <br />
 
 ---
