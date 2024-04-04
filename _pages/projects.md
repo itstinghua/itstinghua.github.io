@@ -52,7 +52,7 @@ In this work, we propose a collision-free source seeking control framework for u
 in a connectivity-preserved undirected network of multi-agent systems. To guarantee the safe separation and group motion for all agents and to solve the conflicts with the ”cohesion” flocking rule of Reynolds, the distributed control algorithm is solved individually through quadratic-programming optimization problem with safety constraints, which guarantee the collision avoidance for inter-agents and obstacles in the cluttered environment. 
 <div class="row mt-2">
     <div class="col-sm mt-2 mt-md-0">
-        {% include video.html path="/assets/video/connectivity.avi" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.html path="/assets/video/connectivity.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
 
