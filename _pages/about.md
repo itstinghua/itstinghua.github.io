@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: tinghua_2024.jpg
+  image: tinghua.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
 #    <p>lilytinghua@gmail.com</p>
@@ -20,13 +20,13 @@ social: true  # includes social icons at the bottom of the page
 Hi, I am Tinghua Li (厉庭华).
 
 
-I'm currently a PhD candidate in robotics and control, at [Discrete Technology & Production Automation (DTPA)](https://www.rug.nl/research/discrete-technology-production-automation/?lang=en), University of Groningen, the Netherlands, working with [Prof. Bayu Jayawardhana](https://www.rug.nl/staff/b.jayawardhana/?lang=en).
+I'm a PhD candidate in robotics and control, at [Discrete Technology & Production Automation (DTPA)](https://www.rug.nl/research/discrete-technology-production-automation/?lang=en), University of Groningen, the Netherlands, working with [Prof. Bayu Jayawardhana](https://www.rug.nl/staff/b.jayawardhana/?lang=en).
 
 <br />
 
 ## Research Interests
 
-I mainly work in the **control and robotics** field, aiming at the theoretical motion control (e.g., source-seeking, flocking, collision avoidance) and practical sensory applications of nonholonomic and multi-agent autonomous systems in cluttered environments. My research interests span from nonlinear control theory, optimization analysis, and mechanics and robotics (software/hardware), and the passion particularly lies in theoretical control methodology development and further realistic robotics implementation.
+I work in the **control and robotics** field, aiming at the theoretical motion control (e.g., source-seeking, flocking, collision avoidance) and practical sensory applications of nonholonomic and multi-agent autonomous systems in cluttered environments. My research interests span from nonlinear control theory, optimization analysis, and mechanics and robotics (software/hardware), and the passion particularly lies in theoretical control methodology development and further realistic robotics implementation.
 
 <br />
 
