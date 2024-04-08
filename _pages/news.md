@@ -10,7 +10,7 @@ nav_order: 4
 - I have sucessfully defended my Ph.D. thesis ["Motion control for nonholonomic unicycle robots"](https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots)
  on 30 January, 2024. This thesis tackles the problems of source-seeking, collision avoidance using multi-input control barrier function, and flocking cohesion of multi-agent unicycle systems with guaranteed safety. The thesis presents both the experimental and theoretical aspects of control systems that solve these problems.  
  
-I would like to thank my dearest supervisor **Prof. Bayu Jayawardhana** and **Prof. Ming Cao** for their warm support in the past four-year study, thank my lovely colleagues and friends in DTPA group. Thank you for all defense committee members for the great discussion during the defense: **Claudio De Persis, Dimos Dimarogonas, Tamas Keviczky, Raffaella Carloni, Maryam Ghandchi Tehrani, Sami Haddadin, Bahar Haghighat, Ashish Cherukuri**.
+I would like to thank my dearest supervisor **Prof. Bayu Jayawardhana** and **Prof. Ming Cao** for their warm support in the past four-year study, thank  ** Simon Busman** and ** Wouter Baar** for being my best paranymphs, thank my lovely colleagues and friends in DTPA group. Thank you for all defense committee members for the great discussion during the defense: **Claudio De Persis, Dimos Dimarogonas, Tamas Keviczky, Raffaella Carloni, Maryam Ghandchi Tehrani, Sami Haddadin, Bahar Haghighat, Ashish Cherukuri**.
 
  <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -31,7 +31,7 @@ I would like to thank my dearest supervisor **Prof. Bayu Jayawardhana** and **Pr
 
 #### 2023 
 - Joined the “Five decades of systems and control theory in Groningen” for celebrating the 50th anniversary of the founding of the Systeemtheorie en Regeltechniek research group at the Mathematics Institute of the University of Groningen. 
-- I visited the research group of Prof. Karl Henrik Johansson in KTH, Sweden (June, 2023), and presented my work on "motion control for nonholonomic wheeled mobile robots". Many thanks for all the discussions and meetings! 
+- Visited the research group of Prof. Karl Henrik Johansson in KTH, Sweden (June, 2023), and presented my work on "motion control for nonholonomic wheeled mobile robots". Many thanks for all the discussions and meetings! 
 - Attended the 42nd benelux meeting on system and control (Elspeet, The Netherlands), presented our work "Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation", and got the DISC certificates! 
 
 
