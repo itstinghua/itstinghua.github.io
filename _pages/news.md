@@ -20,11 +20,6 @@ nav_order: 4
     </div>
 </div>
 
-<div class="row mt-2">
-    <div class="col-sm mt-2 mt-md-0">
-        {% include video.html path="/assets/video/defense.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
-    </div>
-</div>
 <br>
 
 
