@@ -62,20 +62,11 @@ in a connectivity-preserved undirected network of multi-agent systems. To guaran
 
 #### Flexible Distributed Flocking Control for Multi-agent Unicycle Systems [(PDF)](https://arxiv.org/pdf/2308.04127.pdf)
  Currently, the general aim of flocking and formation control laws for multi-agent systems is to form and maintain a rigid configuration, such as, the alpha-lattices in flocking control methods, where the desired distance between each pair of connected agents is fixed. This introduces a scalability issue for large-scale deployment of agents due to unrealizable geometrical constraints and the constant need of centralized orchestrator to ensure the formation graph rigidity. This paper presents a flexible distributed flocking cohesion algorithm for nonholonomic multi-agent systems. The desired geometry configuration between each pair of agents is adaptive and flexible. The distributed flocking goal is achieved using limited information exchange (i.e., the local field gradient) between connected neighbor agents and it does not rely on any other motion variables measurements, such as (relative) position, velocity, or acceleration. Additionally, the flexible flocking scheme with safety is considered so that the agents with limited sensing capability are able to maintain the connectedness of communication topology at all time and avoid inter-agent collisions. The stability analysis of the proposed methods is presented along with numerical simulation results to show their effectiveness.
+<div class="row mt-2">
+    <div class="col-sm mt-2 mt-md-0">
+        {% include video.html path="/assets/video/flexible.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+</div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/pub/flex_flock/static_initial_graph_complete.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/pub/flex_flock/static_final_graph.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/pub/flex_flock/dynamic_initial_graph.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/pub/flex_flock/dynamic_final_graph.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+<br />
+<br />
