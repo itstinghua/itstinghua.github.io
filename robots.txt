@@ -1,4 +1,1 @@
-User-agent: *
-Disallow:
-
 Sitemap: https://itstinghua.github.io/sitemap.xml
