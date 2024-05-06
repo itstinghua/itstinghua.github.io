@@ -176,6 +176,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  thesis:
+    output: true
+    permalink: /thesis/:path/
 
 announcements:
   enabled: true
@@ -248,10 +251,10 @@ sass:
 # Jekyll Minifier
 # -----------------------------------------------------------------------------
 
-jekyll-minifier:
-  exclude: ['robots.txt']
-  uglifier_args:
-    harmony: true
+# jekyll-minifier:
+#   exclude: ['robots.txt']
+#   uglifier_args:
+#     harmony: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives
