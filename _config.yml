@@ -176,9 +176,7 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-  thesis:
-    output: true
-    permalink: /thesis/:path/
+
 
 announcements:
   enabled: true
