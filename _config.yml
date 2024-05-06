@@ -170,15 +170,12 @@ external_sources:
 collections:
   news:
     defaults:
-    layout: post
+      layout: post
     output: true
     permalink: /news/:path/
   projects:
-    defaults:
-    layout: post
     output: true
     permalink: /projects/:path/
-
 
 announcements:
   enabled: true
@@ -280,8 +277,8 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 
 scholar:
 
-  last_name: [Li]
-  first_name: [Tinghua]
+  last_name: [Einstein]
+  first_name: [Albert, A.]
 
   style: apa
   locale: en
