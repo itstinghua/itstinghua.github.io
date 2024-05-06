@@ -1,6 +1,6 @@
 ---
-layout: project
-permalink: /project/
+layout: projects
+permalink: /projecst/
 title: Projects
 description: 
 nav: true
