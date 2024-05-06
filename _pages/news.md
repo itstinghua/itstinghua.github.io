@@ -19,11 +19,11 @@ nav_order: 3
         {% include figure.html path="/assets/img/news/phd_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="row mt-2">
+<<!-- div class="row mt-2">
     <div class="col-sm mt-2 mt-md-0">
         {% include video.html path="/assets/video/defence.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
-</div>
+</d -->iv>
 
 <br>
 
