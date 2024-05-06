@@ -4,7 +4,7 @@ permalink: /news/
 title: News
 description: 
 nav: true
-nav_order: 4
+nav_order: 3
 ---
 #### 2024
 - I have sucessfully defended my Ph.D. thesis ["Motion control for nonholonomic unicycle robots"](https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots)
