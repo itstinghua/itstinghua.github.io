@@ -1,7 +1,7 @@
 ---
-layout: profiles
-permalink: /people/
-title: people
+layout: project
+permalink: /project/
+title: Projects
 description: 
 nav: true
 nav_order: 4
