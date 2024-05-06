@@ -2,11 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-# description: A growing collection of your cool projects.
+description: 
 nav: true
 nav_order: 2
-display_categories: [work, fun]
-horizontal: false
+
 ---
 
 For more videos, you are welcome to visit my [Youtube channel](https://www.youtube.com/channel/UCAduhzSeh_5dEN9CteFiM9w).
