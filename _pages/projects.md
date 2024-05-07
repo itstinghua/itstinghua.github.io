@@ -45,7 +45,7 @@ We present a distributed source-seeking and flocking control method for networke
 Currently, the general aim of flocking and formation control laws for multi-agent systems is to form and maintain a rigid configuration, such as the alpha-lattice in flocking control methods, where the desired distance between each pair of connected agents is constant and fixed. This introduces a scalability issue for large-scale deployment of agents due to unrealizable geometrical constraints and the constant need for a centralized orchestrator to ensure the formation graph rigidity. This paper proposes an adaptive spacing policy for multi-agent flocking motion, such that the desired geometry configuration between each pair of agents is flexible and not necessarily identical. This policy is integrated into a distributed smooth flocking control law for the multi-unicycle system, such that the agents could converge to a flexible configuration while not violating the nonholonomic constraints and the geometry posedness restriction. The proposed flexible flocking framework with an adaptive spacing policy can be applied to the tasks of large-scale multi-agent systems, and its stability analysis is presented along with numerical simulation results to show effectiveness. 
 <div class="row mt-2">
     <div class="col-sm mt-2 mt-md-0">
-        {% include video.liquid path="/assets/video/flexible.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="/assets/video/flexible.avi" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
 
