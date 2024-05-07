@@ -30,11 +30,11 @@ nav_order: 4
 - Attended the 42nd benelux meeting on system and control (Elspeet, The Netherlands), presented our work "Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation", and got the DISC certificates! 
 <div class="row">
 <div class="col-sm mt-3 mt-md-0">
-          {% include figure.liquid loading="eager" path="//assets/img/news/disc_2023_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+          {% include figure.liquid loading="eager" path="/assets/img/news/disc_2023_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     
        <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="//assets/img/news/disc_2023_2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="/assets/img/news/disc_2023_2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
