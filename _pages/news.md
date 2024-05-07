@@ -13,11 +13,11 @@ nav_order: 4
  - I would like to thank my dearest supervisor **Prof. Bayu Jayawardhana** and **Prof. Ming Cao** for their warm support in the past four-year study, thank  **Simon Busman** and **Wouter Baar** for being my best paranymphs, thank my lovely colleagues and friends in DTPA group. Thank you for all defense committee members for the great discussion during the defense: **Claudio De Persis, Dimos Dimarogonas, Tamas Keviczky, Raffaella Carloni, Maryam Ghandchi Tehrani, Sami Haddadin, Bahar Haghighat, Ashish Cherukuri**.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/news/phd.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+          {% include figure.liquid path="/assets/img/news/phd.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+          </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/news/phd_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+        {% include figure.liquid path="/assets/img/news/phd_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}    
+        </div>
 </div>
 
  
@@ -30,11 +30,11 @@ nav_order: 4
 - Attended the 42nd benelux meeting on system and control (Elspeet, The Netherlands), presented our work "Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation", and got the DISC certificates! 
 <div class="row">
 <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/news/disc_2023_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+          {% include figure.liquid path="//assets/img/news/disc_2023_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     
        <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/news/disc_2023_2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="//assets/img/news/disc_2023_2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
