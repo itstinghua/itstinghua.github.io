@@ -23,8 +23,7 @@ For more videos, you are welcome to visit my [Youtube channel](https://www.youtu
 
 #### CBF-based collision avoidance control [(PDF)](https://arxiv.org/pdf/2212.07203.pdf)
 In this work, we propose a collision-free source-seeking control framework for unicycle robots traversing an unknown cluttered environment. In this framework, obstacle avoidance is guided by the control barrier functions (CBF) embedded in quadratic programming and the source seeking control relies solely on the use of on-board sensors that measure the signal strength of the source. To tackle the mixed relative degree of the CBF, we proposed three different CBFs, namely the zeroing control barrier functions (ZCBF), exponential control barrier functions (ECBF), and reciprocal control barrier functions (RCBF)  that can directly be integrated with our recent gradient-ascent source-seeking control law. We provide rigorous analysis of the three different methods and show the efficacy of the approaches in simulations using Matlab, as well as, using a realistic dynamic environment with moving obstacles in Gazebo/ROS. 
-  <iframe width="420" height="315" src="https://www.youtube.com/watch?v=D5zXVeOPy30" frameborder="0" allowfullscreen></iframe>
-　　
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/D5zXVeOPy30?si=DBxwp24fjrIFYTbd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <br />
 
