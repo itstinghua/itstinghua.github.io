@@ -382,7 +382,7 @@ imagemagick:
   # output_formats:
   #   webp: "-quality 85"
   output_formats:
-    webp: "-resize 800x"
+    webp: "-resize 480x"
 
 # Lazy loading images
 #   If you enable lazy loading, all images will add the loading="lazy" attribute.
