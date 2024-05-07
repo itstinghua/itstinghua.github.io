@@ -39,7 +39,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -251,8 +251,8 @@ defaults:
     values:
       sitemap: false
 
-sass:
-  style: compressed
+# sass:
+#   style: compressed
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
@@ -304,6 +304,7 @@ scholar:
   join_strings: true
 
   details_dir: bibliography
+  details_layout: bibtex.html
   details_link: Details
 
   query: "@*"
