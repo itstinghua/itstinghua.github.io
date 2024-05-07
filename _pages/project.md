@@ -1,5 +1,5 @@
 ---
-layout: profile
+layout: project
 permalink: /projecst/
 title: Projects
 description: 
