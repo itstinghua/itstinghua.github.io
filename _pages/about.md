@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: pro.jpg
+  image: li.png
   image_circular: false # crops the image to make it circular
   more_info: >
 #    <p>lilytinghua@gmail.com</p>
