@@ -24,9 +24,7 @@ I am a PhD in robotics and control, at [Discrete Technology & Production Automat
 <br />
 
 ## Research Interests
-
 I work in the **control and robotics** field, aiming at the theoretical motion control (e.g., source-seeking, flocking, collision avoidance) and practical sensory applications of nonholonomic and multi-agent autonomous systems in cluttered environments. My research interests span from nonlinear control theory, optimization analysis, and mechanics and robotics (software/hardware), and the passion particularly lies in theoretical control methodology development and further realistic robotics implementation.
-
 <br />
 
 ## Experimental Skills
