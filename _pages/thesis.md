@@ -12,6 +12,7 @@ nav_order: 5
           {% include figure.liquid loading="eager" path="/assets/img/cover-all.png" title="example image" class="img-fluid rounded z-depth-1" %}
           </div>
 </div>
+<br>
 
 #### [Motion control for nonholonomic unicycle robots (abstract)](https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots)
 - With the rapid development of perception, communication and computation technologies and the increasing requirements on safety-critical systems, autonomous robots must be able to safely achieve missions in a hazardous environment and to cope with difficult situations. Such safety-critical tasks require smart motion control strategies to address complex constraints and to navigate in cluttered scenarios. However, the motion control for nonholonomic wheeled mobile robots is challenging as they are subject to the kinematic constraint which limits sideway movements. This restriction makes traditional control methods insufficient for precise motions, and it poses challenges in navigating cluttered environment safely.
@@ -38,8 +39,8 @@ nav_order: 5
 - In the typical group aggregation and cohesion problems, the desired collective configuration is defined as a rigid structure where each agent is equally distanced from all of its neighbors (e.g., the alpha-lattices). Practically, this introduces a scalability issue for large-scale deployment of agents due to unrealizable geometrical constraints and the constant need for a centralized orchestrator to ensure graph rigidity. Hence, I propose an adaptive spacing policy (ASP) and a flexible distributed flocking cohesion algorithm for nonholonomic multi-agent systems, where the desired geometry configuration between each pair of agents is adaptive and flexible.  Additionally, safety requirement is integrated so that the agents with limited sensing capability are able to maintain the connectedness of communication topology at all time and avoid inter-agent collisions. 
 <br>
 
-### Acknowledge 
-- I would like to thank my dearest supervisor **Prof. Bayu Jayawardhana** and **Prof. Ming Cao** for their warm support in the past four-year study, thank  **Simon Busman** and **Wouter Baar** for being my best paranymphs, thank my lovely colleagues and friends in DTPA group. Thank you for all defense committee members for the great discussion during the defense: **Claudio De Persis, Dimos Dimarogonas, Tamas Keviczky, Raffaella Carloni, Maryam Ghandchi Tehrani, Sami Haddadin, Bahar Haghighat, Ashish Cherukuri**. <a href="/assets/img/pdf/acknowledgment.pdf"  target = "_blank"> My full acknowledge is here. </a>
+### Acknowledgment 
+- I would like to thank my dearest supervisor **Prof. Bayu Jayawardhana** and **Prof. Ming Cao** for their warm support in the past four-year study, thank  **Simon Busman** and **Wouter Baar** for being my best paranymphs, thank my lovely colleagues and friends in DTPA group. Thank you for all defense committee members for the great discussion during the defense: **Claudio De Persis, Dimos Dimarogonas, Tamas Keviczky, Raffaella Carloni, Maryam Ghandchi Tehrani, Sami Haddadin, Bahar Haghighat, Ashish Cherukuri**. <a href="/assets/pdf/acknowledgment.pdf"  target = "_blank"> My full acknowledgment is here. </a>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
