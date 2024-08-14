@@ -37,7 +37,7 @@ nav_order: 5
 <br>
 
 ### Acknowledgment 
-- I would like to thank my dearest supervisor **Prof. Bayu Jayawardhana** and **Prof. Ming Cao** for their warm support in the past four-year study, thank  **Simon Busman** and **Wouter Baar** for being my best paranymphs, thank my lovely colleagues and friends in DTPA group. Thank you for all defense committee members for the great discussion during the defense: **Claudio De Persis, Dimos Dimarogonas, Tamas Keviczky, Raffaella Carloni, Maryam Ghandchi Tehrani, Sami Haddadin, Bahar Haghighat, Ashish Cherukuri**. <a href="/assets/pdf/acknowledgment.pdf"  target = "_blank"> My full acknowledgment is here. </a>
+- I would like to thank my dearest supervisor **Prof. Bayu Jayawardhana** and **Prof. Ming Cao** for their warm support in the past four-year study, thank  **Simon Busman** and **Wouter Baar** for being my best paranymphs, thank my lovely colleagues and friends in DTPA group. Thank you for all defense committee members for the great discussion during the defense: **Claudio De Persis, Dimos Dimarogonas, Tamas Keviczky, Raffaella Carloni, Maryam Ghandchi Tehrani, Sami Haddadin, Bahar Haghighat, Ashish Cherukuri**. <a href="/assets/pdf/acknowledge.pdf"  target = "_blank"> My full acknowledgment is here. </a>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
