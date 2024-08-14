@@ -13,6 +13,9 @@ nav_order: 5
           {% include figure.liquid loading="eager" path="/assets/img/cover-all.png" title="example image" class="img-fluid rounded z-depth-1" %}
           </div>
 </div>
+<center class="half">
+    <img src="/assets/img/cover-all.png"" width="500"/>
+</center>
 
 <br>
 

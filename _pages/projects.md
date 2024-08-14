@@ -16,6 +16,11 @@ For more videos, you are welcome to visit my [Youtube channel](https://www.youtu
     </div>
 </div>
 
+<center class="half">
+    <img src="/assets/video/tinghua.gif" width="500"/>
+</center>
+
+
 
 ---
 
