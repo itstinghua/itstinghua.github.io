@@ -9,15 +9,6 @@ nav_order: 4
 ---
 #### 2024
 - **June:** I give a talk about my PhD work in AI Qiantang Forum, School of Automation (School of Artificial Intelligence), Hangzhou Dianzi University, China. Thanks for all the warm invitation and interesting discussions.
-<div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
-          {% include figure.liquid loading="eager" path="/assets/img/news/hangzhou_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-          </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="/assets/img/news/hangzhou_2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}    
-        </div>
-</div>
-
 <center class="half">
     <img src="/assets/img/news/hangzhou_1.jpg width="200"/>
     <img src="/assets/img/news/hangzhou_2.jpg" width="200"/>
