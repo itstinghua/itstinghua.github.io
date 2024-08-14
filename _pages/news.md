@@ -12,6 +12,7 @@ nav_order: 4
 <center class="half">
     <img src="/assets/img/news/hangzhou_1.jpg" width="200"/>
     <img src="/assets/img/news/hangzhou_2.jpg" width="200"/>
+    <img src="/assets/img/news/hangzhou_3.jpg" width="200"/>
 </center>
 
 -  **January:** I have sucessfully defended my Ph.D. thesis ["Motion control for nonholonomic unicycle robots"](https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots)
@@ -23,15 +24,10 @@ nav_order: 4
 - **September:**  Joined the “Five decades of systems and control theory in Groningen” for celebrating the 50th anniversary of the founding of the Systeemtheorie en Regeltechniek research group at the Mathematics Institute of the University of Groningen. 
 - **June:**  Visited the research group of Prof. Karl Henrik Johansson in KTH, Sweden (June, 2023), and presented my work on "motion control for nonholonomic wheeled mobile robots". Many thanks for all the discussions and meetings! 
 - **March, 2023:** Attended the 42nd benelux meeting on system and control (Elspeet, The Netherlands), presented our work "Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation", and got the DISC certificates! 
-<div class="row">
-<div class="col-sm mt-3 mt-md-0">
-          {% include figure.liquid loading="eager" path="/assets/img/news/disc_2023_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    
-       <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="/assets/img/news/disc_2023_2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+<center class="half">
+    <img src="/assets/img/news/disc_2023_1.jpg" width="300"/>
+    <img src="/assets/img/news/disc_2023_2.jpg" width="300"/>
+</center>
 
 
 <br>
