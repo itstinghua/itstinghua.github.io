@@ -19,7 +19,8 @@ nav_order: 4
 </div>
 
 <center class="half">
-    <img src="/assets/img/news/hangzhou_1.jpg width="200"/><img src="/assets/img/news/hangzhou_2.jpg" width="200"/><img src="图片链接" width="200"/>
+    <img src="/assets/img/news/hangzhou_1.jpg width="200"/>
+    <img src="/assets/img/news/hangzhou_2.jpg" width="200"/>
 </center>
 
 -  **January:** I have sucessfully defended my Ph.D. thesis ["Motion control for nonholonomic unicycle robots"](https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots)
