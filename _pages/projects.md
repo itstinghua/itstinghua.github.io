@@ -17,7 +17,7 @@ For more videos, you are welcome to visit my [Youtube channel](https://www.youtu
 </div>
 
 <center class="half">
-    <img src="/assets/video/tinghua.gif" width="500"/>
+    <img src="/assets/video/tinghua.gif" width="600"/>
 </center>
 
 
@@ -31,6 +31,9 @@ We present the design and experimental validation of source seeking control algo
         {% include video.liquid path="/assets/video/SS.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
+<center class="half">
+    <img src="/assets/video/SS.mp4" width="600"/>
+ </center>
 
 <br />
 
@@ -43,6 +46,9 @@ In this work, we propose a collision-free source-seeking control framework for u
         {% include video.liquid path="/assets/video/CO.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
+<center class="half">
+    <img src="/assets/video/CO.mp4" width="600"/>
+ </center>
 
 <br />
 
@@ -55,6 +61,9 @@ We present a distributed source-seeking and flocking control method for networke
         {% include video.liquid path="/assets/video/connectivity.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
+<center class="half">
+    <img src="/assets/video/connectivity.mp4" width="600"/>
+ </center>
 
 <br />
 
@@ -67,6 +76,9 @@ Currently, the general aim of flocking and formation control laws for multi-agen
         {% include video.liquid path="/assets/video/flexible.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
+<center class="half">
+    <img src="/assets/video/flexible.mp4" width="600"/>
+ </center>
 
 
 <br />

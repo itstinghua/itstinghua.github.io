@@ -10,9 +10,8 @@ nav_order: 4
 #### 2024
 - **June:** I give a talk about my PhD work in AI Qiantang Forum, School of Automation (School of Artificial Intelligence), Hangzhou Dianzi University, China. Thanks for all the warm invitation and interesting discussions.
 <center class="half">
-    <img src="/assets/img/news/hangzhou_1.jpg" width="200"/>
-    <img src="/assets/img/news/hangzhou_2.jpg" width="200"/>
-    <img src="/assets/img/news/hangzhou_3.jpg" width="200"/>
+    <img src="/assets/img/news/hangzhou_1.jpg" width="300"/>
+    <img src="/assets/img/news/hangzhou_2.jpg" width="300"/>
 </center>
 
 -  **January:** I have sucessfully defended my Ph.D. thesis ["Motion control for nonholonomic unicycle robots"](https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots)
