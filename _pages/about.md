@@ -19,7 +19,6 @@ social: true  # includes social icons at the bottom of the page
 
 Hi, I am Tinghua Li (厉庭华).
 
-
 I am a PhD in robotics and control, at [Discrete Technology & Production Automation (DTPA)](https://www.rug.nl/research/discrete-technology-production-automation/?lang=en), University of Groningen, the Netherlands, working with [Prof. Bayu Jayawardhana](https://www.rug.nl/staff/b.jayawardhana/?lang=en).
 
 <br />
