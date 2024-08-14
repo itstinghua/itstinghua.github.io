@@ -9,7 +9,7 @@ nav_order: 5
 ---
 - **Motion control for nonholonomic unicycle robots** ([The full-text version can be found here.](https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots))
 <center class="half">
-    <img src="/assets/img/cover-all.png"" width="600"/>
+    <img src="/assets/img/cover-all.png" width="600"/>
 </center>
 
 <br>
