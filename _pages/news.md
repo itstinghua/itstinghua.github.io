@@ -13,6 +13,7 @@ nav_order: 4
     <img src="/assets/img/news/hangzhou_1.jpg" width="300"/>
     <img src="/assets/img/news/hangzhou_2.jpg" width="300"/>
 </center>
+<br>
 
 -  **January:** I have sucessfully defended my Ph.D. thesis ["Motion control for nonholonomic unicycle robots"](https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots)
  on 30 January, 2024. This thesis tackles the problems of source-seeking, collision avoidance using multi-input control barrier function, and flocking cohesion of multi-agent unicycle systems with guaranteed safety. The thesis presents both the experimental and theoretical aspects of control systems that solve these problems.   
