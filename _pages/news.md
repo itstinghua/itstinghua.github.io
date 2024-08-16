@@ -8,7 +8,7 @@ nav_order: 4
 
 ---
 #### 2024
-- **June:** I give a talk about my PhD work in AI Qiantang Forum, School of Automation (School of Artificial Intelligence), Hangzhou Dianzi University, China. Thanks Prof. Jiming Chen and Prof. Jiuwen Cao for the warm invitation and welcome.
+- **June:** I am very honored to be the keynote speaker at  the 6th AI Qiantang Forum, School of Automation (School of Artificial Intelligence), Hangzhou Dianzi University, China. Thanks Prof. Jiming Chen and Prof. Jiuwen Cao for the warm invitation and welcome.
 <center class="half">
     <img src="/assets/img/news/hangzhou_1.jpg" width="300"/>
     <img src="/assets/img/news/hangzhou_2.jpg" width="300"/>
