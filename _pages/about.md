@@ -20,7 +20,7 @@ social: true  # includes social icons at the bottom of the page
 Hi, I am Tinghua Li (<font face="KAITi">厉庭华</font>). Welcome to my page!
 
 I am a PhD in robotics and control, at [Discrete Technology & Production Automation (DTPA)](https://www.rug.nl/research/discrete-technology-production-automation/?lang=en), University of Groningen, the Netherlands, working with [Prof. Bayu Jayawardhana](https://www.rug.nl/staff/b.jayawardhana/?lang=en).
-
+<br />
 <br />
 
 ## Research Interests
@@ -39,5 +39,7 @@ I work in the **control and robotics** field, aiming at the theoretical motion c
 - STM32 ARM embedded programming/Arduino
 - Airflow sensor/lidar/laser/RealSense Depth Camera D435i/ESP32 Wifi application
 - Mecanum‑wheel Nexus Robotics
-
 <br />
+<br />
+
+## Social Media
