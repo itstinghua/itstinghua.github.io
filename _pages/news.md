@@ -44,6 +44,6 @@ nav_order: 4
 #### 2021
 - **October:** Presented our source-seeking paper in IROS 2021 (virtual conference) as invited T-RO paper.
 - **July:** Joined the 10th benelux meeting (Rotterdam, The Netherlands) and presented our work "Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors".
-- **July:** Joined the DISC-organized summer school 2021 “Planning, Learning and Control for Multi-Robot and Multi-Agent Systems” in Rotterdam, The Netherlands.
+- **June:** Joined the DISC-organized summer school 2021 “Planning, Learning and Control for Multi-Robot and Multi-Agent Systems” in Rotterdam, The Netherlands.
 
 
