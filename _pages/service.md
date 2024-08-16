@@ -16,7 +16,7 @@ nav_order: 3
 <br>
 
 #### Conference Reviewer
-- European Control Conference (ECC 2023)
+- European Control Conference (ECC 2023, 2024)
 - American Control Conference (ACC 2021)
 - Third IFAC Conference on Modelling, Identification and Control of Nonlinear Systems (MICNON 2021)
 <br>
