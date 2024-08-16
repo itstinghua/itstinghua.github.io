@@ -25,7 +25,7 @@ nav_order: 4
 -  **October:**  Visited the research group of Prof. Wenan Zhang in Zhejiang University of Technology, China. Thanks for the kind invitation.
 - **September:**  Joined the “Five decades of systems and control theory in Groningen” for celebrating the 50th anniversary of the founding of the Systeemtheorie en Regeltechniek research group at the Mathematics Institute of the University of Groningen. 
 - **June:**  Visited the research group of Prof. Karl Henrik Johansson in KTH, Sweden (June, 2023), and presented my work on "motion control for nonholonomic wheeled mobile robots". Many thanks for the inviatation and all discussions.
-- **March, 2023:** Attended the 42nd benelux meeting on system and control (Elspeet, The Netherlands), presented our work "Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation", and got the DISC certificates! 
+- **March:** Attended the 42nd benelux meeting on system and control (Elspeet, The Netherlands), presented our work "Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation", and got the DISC certificates! 
 <center class="half">
     <img src="/assets/img/news/disc_2023_1.jpg" width="300"/>
     <img src="/assets/img/news/disc_2023_2.jpg" width="300"/>
