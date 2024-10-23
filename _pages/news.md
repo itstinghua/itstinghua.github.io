@@ -8,6 +8,7 @@ nav_order: 4
 
 ---
 #### 2024
+-**October:** I am excited that our work "Collision-free Source Seeking Control Methods for Unicycle Robots" is officially accepted for publication in IEEE Transactions on Automatic Control! As an important chapter of my PhD thesis, this work proposes three types of control barrier function (CBF) constructions to solve the mixed relative degree problem for implementing the CBF-QP on unicycle robot. I would particularly thank my dear supervisor Prof. Bayu Jayawardhana for all the inspiring discussion and steadfast support :)
 - **June:** I am very honored to be the keynote speaker at  the 6th AI Qiantang Forum, School of Automation (School of Artificial Intelligence), Hangzhou Dianzi University, China. Thanks Prof. Jiming Chen and Prof. Jiuwen Cao for the warm invitation and welcome.
 <center class="half">
     <img src="/assets/img/news/hangzhou_1.jpg" width="300"/>
