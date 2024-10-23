@@ -8,7 +8,7 @@ nav_order: 4
 
 ---
 #### 2024
-- **October:** I am excited that our work **"Collision-free Source Seeking Control Methods for Unicycle Robots"** is officially accepted for publication in **IEEE Transactions on Automatic Control**! As an important chapter of my PhD thesis, this work proposes three types of control barrier function (CBF) constructions to solve the mixed relative degree problem for implementing the CBF-QP on unicycle robot. I would particularly thank my dear supervisor Prof. Bayu Jayawardhana for all the inspiring discussions and steadfast support :)
+- **October:** I am excited that our work **"Collision-free Source Seeking Control Methods for Unicycle Robots"** is officially accepted for publication in <i>**IEEE Transactions on Automatic Control**</i>! As an important chapter of my PhD thesis, this work proposes three types of control barrier function (CBF) constructions to solve the mixed relative degree problem for implementing the CBF-QP on unicycle robot. I would particularly thank my dear supervisor Prof. Bayu Jayawardhana for all the inspiring discussions and steadfast support :)
 <br>
 
 - **June:** I am very honored to be the keynote speaker at  the 6th AI Qiantang Forum, School of Automation (School of Artificial Intelligence), Hangzhou Dianzi University, China. Thanks Prof. Jiming Chen and Prof. Jiuwen Cao for the warm invitation and welcome.
@@ -47,6 +47,6 @@ nav_order: 4
 - **October:** Presented our source-seeking paper in IROS 2021 (virtual conference) as invited T-RO paper.
 - **July:** Joined the 10th benelux meeting (Rotterdam, The Netherlands) and presented our work "Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors".
 - **June:** Joined the DISC-organized summer school 2021 “Planning, Learning and Control for Multi-Robot and Multi-Agent Systems” in Rotterdam, The Netherlands.
-- **April:** I am happy that our work "**Source Seeking Control of Unicycle Robots with 3D-printed Flexible Piezoresistive Sensors**" has been accepted for publication in **IEEE Transactions on Robotics**!  I would like to thank all my dear collaborators Prof. Bayu Jayawardhana, Prof. Ajay Giri Prakash Kottapalli and Dr. Amar Kamat for all the interesting discussion and support!
+- **April:** I am happy that our work "**Source Seeking Control of Unicycle Robots with 3D-printed Flexible Piezoresistive Sensors**" has been accepted for publication in <i>**IEEE Transactions on Robotics**</i>!  I would like to thank all my dear collaborators Prof. Bayu Jayawardhana, Prof. Ajay Giri Prakash Kottapalli and Dr. Amar Kamat for all the interesting discussion and support!
 
 
