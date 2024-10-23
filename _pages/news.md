@@ -47,5 +47,6 @@ nav_order: 4
 - **October:** Presented our source-seeking paper in IROS 2021 (virtual conference) as invited T-RO paper.
 - **July:** Joined the 10th benelux meeting (Rotterdam, The Netherlands) and presented our work "Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors".
 - **June:** Joined the DISC-organized summer school 2021 “Planning, Learning and Control for Multi-Robot and Multi-Agent Systems” in Rotterdam, The Netherlands.
+- **April:** I am happy that our work "**Source Seeking Control of Unicycle Robots with 3D-printed Flexible Piezoresistive Sensors**" has been accepted for publication in **IEEE Transactions on Robotics**!  I would like to thank all my dear collaborators Prof. Bayu Jayawardhana, Prof. Ajay Giri Prakash Kottapalli and Dr. Amar Kamat for all the interesting discussion and support!
 
 
