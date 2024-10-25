@@ -26,7 +26,7 @@ nav_order: 3
 
 ---
 #### Teaching Assistance
-- Master course: Robotics (University of Groningen, Faculty of Science and Engineering, Fa2020-2022)
+- Master course: Robotics (University of Groningen, Faculty of Science and Engineering, Fall2020-2022)
 <br>
 <br>
 
