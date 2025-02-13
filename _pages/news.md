@@ -8,16 +8,17 @@ nav_order: 4
 
 ---
 #### 2024
-- **October:** I am excited that our work ["Collision-free Source Seeking Control Methods for Unicycle Robots"](https://ieeexplore.ieee.org/document/10735338) is officially accepted for publication in <i>**IEEE Transactions on Automatic Control**</i> ! As an important chapter of my PhD thesis, this work proposes three types of control barrier function (CBF) constructions to solve the mixed relative degree problem for implementing the CBF-QP on unicycle robot. I would particularly thank my dear supervisor Prof. Bayu Jayawardhana for all the inspiring discussions and steadfast support :)
+- **October:** I am excited that our work ["Collision-free Source Seeking Control Methods for Unicycle Robots"](https://ieeexplore.ieee.org/document/10735338) is **officially accepted for publication** in <i>**IEEE Transactions on Automatic Control**</i> ! As an important chapter of my PhD thesis, this work proposes three types of control barrier function (CBF) constructions to solve the mixed relative degree problem for implementing the CBF-QP on unicycle robot. I would particularly thank my dear supervisor Prof. Bayu Jayawardhana for all the inspiring discussions and steadfast support :)
 <br>
 
-- **June:** I am very honored to be the keynote speaker at  the 6th AI Qiantang Forum, School of Automation (School of Artificial Intelligence), Hangzhou Dianzi University, China. Thanks Prof. Jiming Chen and Prof. Jiuwen Cao for the warm invitation and welcome.
+- **June:** I am very honored to be the **keynote speaker at** the 6th **AI QianTang Forum**, School of Automation (School of Artificial Intelligence), Hangzhou Dianzi University, China. Thanks Prof. Jiming Chen and Prof. Jiuwen Cao for the warm invitation and welcome.
 <center class="half">
     <img src="/assets/img/news/hangzhou_1.jpg" width="300"/>
+    <img src="/assets/img/news/hangzhou_2.jpg" width="300"/>
 </center>
 <br>
 
--  **January:** I have sucessfully defended my Ph.D. thesis ["Motion control for nonholonomic unicycle robots"](https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots)
+-  **January:** I have sucessfully defended my **Ph.D. thesis** ["Motion control for nonholonomic unicycle robots"](https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots)
  on 30 January, 2024. This thesis tackles the problems of source-seeking, collision avoidance using multi-input control barrier function, and flocking cohesion of multi-agent unicycle systems with guaranteed safety. The thesis presents both the experimental and theoretical aspects of control systems that solve these problems.   
 <br>
 
