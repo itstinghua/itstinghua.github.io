@@ -50,14 +50,3 @@ We present a distributed source-seeking and flocking control method for networke
 <br />
 
 ---
-
-#### Flexible Distributed Flocking Control 
-Currently, the general aim of flocking and formation control laws for multi-agent systems is to form and maintain a rigid configuration, such as the alpha-lattice in flocking control methods, where the desired distance between each pair of connected agents is constant and fixed. This introduces a scalability issue for large-scale deployment of agents due to unrealizable geometrical constraints and the constant need for a centralized orchestrator to ensure the formation graph rigidity. This work proposes an adaptive spacing policy (ASP) to regulate the inter-agent gap, and presents a flexible flocking cohesion control law based on this policy, such that all agents converge to a flexible configuration while not violating their nonholonomic constraints and ensuring the well-posedness of the final flock geometry. The stability analysis and applications of the proposed flexible flocking framework are presented along with numerical simulation results.
-<div class="row mt-2">
-    <div class="col-sm mt-2 mt-md-0">
-        {% include video.liquid path="/assets/video/flexible.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
-    </div>
-</div>
-
-
-<br />
