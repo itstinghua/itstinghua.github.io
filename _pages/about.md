@@ -33,6 +33,8 @@ ul {
   <br>Postdoctoral Researcher  
   <br><a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">C&S, Delft University of Technology</a>
 
+<div style="height: 0.5rem;"></div>
+
   <p>PhD in Robotics & Control Engineering (2024)  
   <br><a href="https://www.rug.nl/research/discrete-technology-production-automation/?lang=en">DTPA, University of Groningen</a>  
   <br>Advisor: <a href="https://www.rug.nl/staff/b.jayawardhana">Prof. Bayu Jayawardhana</a> and <a href="https://www.rug.nl/staff/m.cao/">Prof. Ming Cao</a></p>
