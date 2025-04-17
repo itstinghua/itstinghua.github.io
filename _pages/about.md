@@ -19,28 +19,45 @@ social: true
   opacity: 1;
   transform: translateY(0);
 }
-.about-section {
+section.about-section {
   margin-bottom: 3rem;
+  padding-right: 1rem;
 }
 ul {
   margin-top: 0.3rem;
   margin-bottom: 1rem;
+  padding-left: 1.2rem;
+}
+.flex-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.flex-column {
+  flex: 1;
+  min-width: 200px;
 }
 </style>
 
-<div class="fade-in-section about-section">
-  <strong>厉庭华</strong>  
-  <br>Postdoctoral Researcher  
-  <br><a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">C&S, Delft University of Technology</a>
+<section id="about" class="fade-in-section about-section">
+  <header>
+    <strong>厉庭华</strong><br>
+    Postdoctoral Researcher<br>
+    <a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">C&S, Delft University of Technology</a>
+  </header>
 
-<div style="height: 1rem;"></div>
+  <div style="height: 1rem;"></div>
 
-  <p>PhD in Robotics & Control Engineering (2024)  
-  <br><a href="https://www.rug.nl/research/discrete-technology-production-automation/?lang=en">DTPA, University of Groningen</a>  
-  <br>Advisor: <a href="https://www.rug.nl/staff/b.jayawardhana">Prof. Bayu Jayawardhana</a> and <a href="https://www.rug.nl/staff/m.cao/">Prof. Ming Cao</a></p>
-</div>
+  <p>
+    PhD in Robotics & Control Engineering (2024)<br>
+    <a href="https://www.rug.nl/research/discrete-technology-production-automation/?lang=en">DTPA, University of Groningen</a><br>
+    Advisor: 
+    <a href="https://www.rug.nl/staff/b.jayawardhana">Prof. Bayu Jayawardhana</a> and 
+    <a href="https://www.rug.nl/staff/m.cao/">Prof. Ming Cao</a>
+  </p>
+</section>
 
-<div class="fade-in-section about-section">
+<section id="research" class="fade-in-section about-section">
   <h2>Research Interests</h2>
 
   <p><strong>Robotics</strong></p>
@@ -66,13 +83,13 @@ ul {
   </ul>
 
   <p><em>Bridging theoretical control methods with practical robotic implementations</em></p>
-</div>
+</section>
 
-<div class="fade-in-section about-section">
+<section id="skills" class="fade-in-section about-section">
   <h2>Technical Skills</h2>
 
-  <div style="display: flex; flex-wrap: wrap; gap: 40px;">
-    <div style="flex: 1; min-width: 200px;">
+  <div class="flex-columns">
+    <div class="flex-column">
       <p><strong>Software</strong></p>
       <ul>
         <li>C/C++</li>
@@ -86,7 +103,7 @@ ul {
       </ul>
     </div>
 
-    <div style="flex: 1; min-width: 200px;">
+    <div class="flex-column">
       <p><strong>Hardware</strong></p>
       <ul>
         <li>STM32 / Arduino</li>
@@ -95,12 +112,12 @@ ul {
       </ul>
     </div>
   </div>
-</div>
+</section>
 
-<div class="fade-in-section about-section">
+<section id="contact" class="fade-in-section about-section">
   <h2>Contact</h2>
   <p>Open to collaborations and discussions ↓</p>
-</div>
+</section>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
