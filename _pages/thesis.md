@@ -62,10 +62,10 @@ nav_order: 5
     </p>
   </div>
 
-  <div class="thesis-text">
-        <div class="thesis-title">
+      <div class="thesis-title">
       Motion Control for Nonholonomic Unicycle Robots
     </div>
+  <div class="thesis-text">
     <p>This doctoral research focuses on developing algorithms for nonholonomic robots in unknown cluttered environments, relying solely on limited onboard sensory measurements for exploration.</p>
 
     <h5>Part I: Perception-Control Integration</h5>
