@@ -59,7 +59,8 @@ nav_order: 2
   </div>
   <div class="project-text">
     <h3><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9458274&tag=1">Source-seeking Robot</a></h3>
-    <p>Experimental validation of source seeking control for unicycle robots with 3D-printed graphene-based airflow sensors. The algorithm ensures convergence to the source even with partial sensor failure.</p>
+    <p>Experimental validation of source seeking control for unicycle robots with 3D-printed graphene-based airflow sensors. The algorithm ensures convergence to the source even with partial sensor failure.
+    • T. Li, B. Jayawardhana, A. M. Kamat and A. G. P. Kottapalli, “Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors”, in **IEEE Transactions on Robotics**, vol.38, no.1, pp. 448-462, Feb. 2022, doi: 10.1109/TRO.2021.3076964.</p>
   </div>
 </div>
 
@@ -70,7 +71,8 @@ nav_order: 2
   </div>
   <div class="project-text">
     <h3><a href="https://ieeexplore.ieee.org/document/10735338"> Collision-free Source-seeking</a></h3>
-    <p>Collision-free source-seeking framework integrating control barrier functions (CBFs) in quadratic programming. Includes analysis of three CBF designs with experimental validation.</p>
+    <p>Collision-free source-seeking framework integrating control barrier functions (CBFs) in quadratic programming. Includes analysis of three CBF designs with experimental validation.
+    • T. Li and B. Jayawardhana, “Collision-free Source Seeking Control Methods for Unicycle Robots”, in **IEEE Transactions on Automatic Control**, vol. 70, no. 3, pp. 2020-2027, March 2025, doi: 10.1109/TAC.2024.3486654. </p>
   </div>
 </div>
 
