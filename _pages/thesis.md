@@ -88,34 +88,8 @@ nav_order: 5
 
 <!-- Acknowledgments Section -->
 <h2>Acknowledgments</h2>
-
-<div class="row">
-  <div class="col-md-6">
-    <h5>Ph.D. Supervisors:</h5>
-    <ul>
-      <li>Prof. Bayu Jayawardhana</li>
-      <li>Prof. Ming Cao</li>
-    </ul>
-  </div>
-  <div class="col-md-6">
-    <h5>Committee Members:</h5>
-    <ul>
-      <li>Prof. Claudio De Persis</li>
-      <li>Prof. Dimos Dimarogonas</li>
-      <li>Prof. Tamas Keviczky</li>
-      <li>Prof. Raffaella Carloni</li>
-      <li>Prof. Sami Haddadin</li>
-      <li>Prof. Maryam Ghandchi Tehrani</li>
-      <li>Dr. Bahar Haghighat</li>
-      <li>Dr. Ashish Cherukuri</li>
-    </ul>
-  </div>
-</div>
-
-<p><strong>Paranymphs:</strong> Simon Busman, Wouter Baar</p>
-<p>All my lovely colleagues, friends and family</p>
-
-<p><a href="/assets/pdf/acknowledge.pdf" class="btn btn-outline-primary">Full Acknowledgments</a></p>
+- I would like to thank my dearest supervisor **Prof. Bayu Jayawardhana** and **Prof. Ming Cao** for their warm support in the past four-year study, thank  **Simon Busman** and **Wouter Baar** for being my best paranymphs, thank my lovely colleagues and friends in DTPA group. Thank you for all defense committee members for the great discussion during the defense: **Prof. Claudio De Persis, Prof. Dimos Dimarogonas, Prof. Tamas Keviczky, Prof. Raffaella Carloni, Prof. Maryam Ghandchi Tehrani, Prof. Sami Haddadin, Dr. Bahar Haghighat, Dr. Ashish Cherukuri**. 
+- <a href="/assets/pdf/acknowledge.pdf"  target = "_blank"> My full acknowledgment is here. </a>
 
 <hr>
 
