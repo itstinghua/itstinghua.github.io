@@ -79,4 +79,13 @@ nav_order: 3
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          entry.target
+          entry.target.classList.add("visible");
+        }
+      });
+    }, { threshold: 0.15 });
+
+    document.querySelectorAll(".service-card").forEach(el => {
+      observer.observe(el);
+    });
+  });
+</script>
