@@ -16,7 +16,7 @@ nav_order: 4
   margin: 2.5rem 0 1.5rem;
   border-bottom: 2px solid #ddd;
   padding-bottom: 0.5rem;
-  color: #a78bfa; /* 紫色 */
+/*  color: #a78bfa; /* 紫色 */*/
 }
 .news-item {
   margin-bottom: 2rem;
