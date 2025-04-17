@@ -33,7 +33,7 @@ ul {
   <br>Postdoctoral Researcher  
   <br><a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">C&S, Delft University of Technology</a>
 
-<div style="height: 0.5rem;"></div>
+<div style="height: 1rem;"></div>
 
   <p>PhD in Robotics & Control Engineering (2024)  
   <br><a href="https://www.rug.nl/research/discrete-technology-production-automation/?lang=en">DTPA, University of Groningen</a>  
