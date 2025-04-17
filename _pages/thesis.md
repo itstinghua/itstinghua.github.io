@@ -111,24 +111,71 @@ nav_order: 5
 
 <hr>
 
+<style>
+.gallery-section {
+  margin-top: 3rem;
+}
+
+.gallery-section h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.gallery-row img {
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.gallery-col {
+  flex: 1 1 30%;
+  max-width: 320px;
+}
+
+.gallery-video {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.gallery-video video {
+  max-width: 800px;
+  width: 100%;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+</style>
+
 <!-- Defense Gallery Section -->
-<h2>Defense Gallery</h2>
+<div class="gallery-section">
+  <h2>Defense Gallery</h2>
 
-<div class="row gallery-row">
-  <div class="col-sm-4 mb-3">
-    <img src="/assets/img/news/phd_1.jpg" class="img-fluid rounded" alt="Defense Photo 1">
+  <div class="gallery-row">
+    <div class="gallery-col">
+      <img src="/assets/img/news/phd_1.jpg" alt="Defense Photo 1">
+    </div>
+    <div class="gallery-col">
+      <img src="/assets/img/news/phd.jpg" alt="Defense Photo 2">
+    </div>
+    <div class="gallery-col">
+      <img src="/assets/img/news/phd_3.jpg" alt="Defense Photo 3">
+    </div>
   </div>
-  <div class="col-sm-4 mb-3">
-    <img src="/assets/img/news/phd.jpg" class="img-fluid rounded" alt="Defense Photo 2">
-  </div>
-  <div class="col-sm-4 mb-3">
-    <img src="/assets/img/news/phd_3.jpg" class="img-fluid rounded" alt="Defense Photo 3">
-  </div>
-</div>
 
-<div class="mt-3">
-  <video controls class="img-fluid rounded w-100">
-    <source src="/assets/video/defence.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <div class="gallery-video">
+    <video controls>
+      <source src="/assets/video/defence.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
 </div>
