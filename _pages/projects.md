@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+title: 🛠️ Projects
 permalink: /projects/
 description:
 nav: true
@@ -14,30 +14,6 @@ For more videos, you are welcome to visit my [Youtube channel](https://www.youtu
 <center class="half">
   <img src="/assets/video/tinghua.gif" width="600"/>
 </center>
-
----
-
-### 🛠️ Projects
-
-<style>
-.project-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  margin-bottom: 40px;
-}
-.project-video {
-  flex: 1 1 300px;
-}
-.project-text {
-  flex: 2 1 400px;
-}
-@media screen and (max-width: 768px) {
-  .project-container {
-    flex-direction: column;
-  }
-}
-</style>
 
 ---
 
