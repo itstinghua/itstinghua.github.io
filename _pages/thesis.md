@@ -180,12 +180,9 @@ nav_order: 5
   <h2>Acknowledgments</h2>
   <p>I would like to sincerely thank my dearest supervisors <strong>Prof. Bayu Jayawardhana</strong> and <strong>Prof. Ming Cao</strong> for their constant support and guidance throughout my Ph.D. journey.</p>
 
-  <p>I’m deeply grateful to my paranymphs <strong>Simon Busman</strong> and <strong>Wouter Baar</strong> for their invaluable help and friendship.</p>
+  <p>I’m deeply grateful to my paranymphs <strong>Simon Busman</strong> and <strong>Wouter Baar</strong> for their invaluable help and friendship. Thanks to all my lovely colleagues and friends in the <strong>DTPA group</strong> for making this journey memorable.</p>
 
-  <p>Thanks to all my lovely colleagues and friends in the <strong>DTPA group</strong> for making this journey memorable.</p>
-
-  <p>Heartfelt appreciation to the defense committee members for their insightful discussions and valuable feedback:</p>
-  <p><strong>Prof. Claudio De Persis, Prof. Dimos Dimarogonas, Prof. Tamas Keviczky, Prof. Raffaella Carloni, Prof. Maryam Ghandchi Tehrani, Prof. Sami Haddadin, Dr. Bahar Haghighat, and Dr. Ashish Cherukuri</strong>.</p>
+  <p>Heartfelt appreciation to the defense committee members for their insightful discussions and valuable feedback: <strong>Prof. Claudio De Persis, Prof. Dimos Dimarogonas, Prof. Tamas Keviczky, Prof. Raffaella Carloni, Prof. Maryam Ghandchi Tehrani, Prof. Sami Haddadin, Dr. Bahar Haghighat, and Dr. Ashish Cherukuri</strong>.</p>
 
   <a href="/assets/pdf/acknowledge.pdf" target="_blank">Read the full acknowledgment here →</a>
 </div>
