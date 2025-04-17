@@ -52,7 +52,7 @@ nav_order: 5
 <div class="thesis-header">
   <div class="thesis-left">
     <div class="thesis-image">
-      <img src="/assets/img/cover-all.png" class="img-fluid rounded">
+      <img src="/assets/img/cover.jpg" class="img-fluid rounded">
     </div>
     <div class="thesis-text">
     <p><a href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots">Full thesis available here</a></p>
