@@ -12,16 +12,12 @@ nav_order: 4
 - **October**  
 Our work ["Collision-free Source Seeking Control Methods for Unicycle Robots"](https://ieeexplore.ieee.org/document/10735338) is officially accepted in **IEEE Transactions on Automatic Control (TAC)**! This is a key part of my PhD thesis and proposes three control barrier function (CBF) designs for solving the mixed relative degree problem in unicycle robot control. Many thanks to my advisor Prof. Bayu Jayawardhana for the insightful discussions and unwavering support! 😊
 
----
-
 - **June**  
 Honored to be a keynote speaker at the 6th AI QianTang Forum, School of Automation (School of AI), Hangzhou Dianzi University, China.  Thanks to Prof. Jiming Chen and Prof. Jiuwen Cao for the warm invitation and welcome!
 <center class="half">
   <img src="/assets/img/news/hangzhou_1.jpg" width="300"/>
   <img src="/assets/img/news/hangzhou_2.jpg" width="300"/>
 </center>
-
----
 
 - **January**  
 🎓 Successfully defended my **Ph.D. thesis**  ["Motion control for nonholonomic unicycle robots"](https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots).  This work addresses source-seeking, collision avoidance (via multi-input CBFs), and flocking cohesion, both from theoretical and experimental perspectives.
