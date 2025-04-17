@@ -1,4 +1,3 @@
----
 layout: page
 permalink: /news/
 title: News
@@ -17,8 +16,7 @@ nav_order: 4
   margin: 2.5rem 0 1.5rem;
   border-bottom: 2px solid #ddd;
   padding-bottom: 0.5rem;
-  color: #7c3aed;
-/*  #2c77d0; /* ← 修改颜色：这里是蓝色 */*/
+  color: #a78bfa; /* 紫色 */
 }
 .news-item {
   margin-bottom: 2rem;
@@ -38,14 +36,21 @@ nav_order: 4
   margin-bottom: 0.5rem;
   line-height: 1.7;
 }
+
+/* 优化图片排版 */
 .news-gallery {
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
   margin-top: 1rem;
 }
+
 .news-gallery img {
-  max-width: 300px;
-  margin: 0.5rem;
+  max-width: 180px;
+  height: auto;
   border-radius: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 </style>
 
