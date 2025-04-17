@@ -21,7 +21,7 @@ Honored to be a keynote speaker at the 6th AI QianTang Forum, School of Automati
 <div style="height: 2rem;"></div>
 
 - **January**  
-🎓 Successfully defended my **Ph.D. thesis**  ["Motion control for nonholonomic unicycle robots"](https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots).  This work addresses source-seeking, collision avoidance (via multi-input CBFs), and flocking cohesion, both from theoretical and experimental perspectives.
+🎓 I am excited to announce that I have defended my **Ph.D. thesis**  ["Motion control for nonholonomic unicycle robots"](https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots).  This work addresses source-seeking, collision avoidance (via multi-input CBFs), and flocking cohesion, both from theoretical and experimental perspectives.
 
 ---
 
