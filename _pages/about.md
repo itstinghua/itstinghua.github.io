@@ -1,3 +1,4 @@
+---
 layout: about
 title: About Me
 permalink: /
@@ -8,36 +9,42 @@ profile:
 social: true
 ---
 
-Hi, I’m **Tinghua Li** (厉庭华), a **postdoctoral researcher** at **Delft University of Technology**.  
-In 2024, I completed my PhD in Robotics and Control Engineering at the [University of Groningen](https://www.rug.nl), working with [Prof. Bayu Jayawardhana](https://www.rug.nl/staff/b.jayawardhana/?lang=en).
+**Tinghua Li (厉庭华)**  
+Postdoctoral Researcher  
+[Delft University of Technology](https://www.tudelft.nl)  
+
+PhD in Robotics & Control Engineering (2024)  
+[University of Groningen](https://www.rug.nl)  
+Advisor: [Prof. Bayu Jayawardhana](https://www.rug.nl/staff/b.jayawardhana)
 
 ---
 
-## 🧠 Research Interests
+## Research Focus
 
-- Motion control: *source seeking, flocking, collision avoidance*
-- Sensor-based control for nonholonomic and multi-agent systems in cluttered environments
+**Motion Control Systems**  
+• Source seeking • Flocking algorithms • Collision avoidance  
 
-I focus on **theoretical control methodologies** and their **real-world application in robotics**.
+**Robotics Applications**  
+• Sensor-based control for nonholonomic systems  
+• Multi-agent coordination in cluttered environments  
 
----
-
-## 🔧 Skills
-
-### 💻 Software
-
-- C/C++ / Python / MATLAB
-- ROS / Gazebo / Docker
-- OpenCV, SLAM, Pointcloud Mapping
-
-### 🔌 Hardware
-
-- STM32 / Arduino
-- Sensor integration (Lidar, RealSense, ESP32 WiFi)
-- Mecanum-wheel robotics platform
+*Bridging theoretical control methods with practical robotic implementations*
 
 ---
 
-## 🌐 Connect
+## Technical Skills
 
-Find me on social media (icons at the bottom of the page). Feel free to reach out!
+**Software**  
+C/C++ | Python | MATLAB | ROS | Gazebo  
+OpenCV | SLAM | Point Cloud Processing  
+
+**Hardware**  
+STM32/Arduino | Sensor Integration (LiDAR, RealSense)  
+Mecanum-wheel Robotics Platforms  
+
+---
+
+## Contact
+
+Social media icons appear below ↓  
+Open to collaborations and discussions!
