@@ -83,5 +83,4 @@ Advisor: [Prof. Bayu Jayawardhana](https://www.rug.nl/staff/b.jayawardhana) and 
 
 ## Contact
 
-Social media icons appear below ↓  
-Open to collaborations and discussions!
+Open to collaborations and discussions↓
