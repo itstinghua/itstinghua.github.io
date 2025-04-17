@@ -11,34 +11,58 @@ nav_order: 5
 .thesis-header {
   display: flex;
   gap: 40px;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 2rem;
 }
-.thesis-image {
+.thesis-left {
   flex: 1;
   min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.thesis-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+.thesis-title {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: bold;
 }
 .thesis-text {
-  flex: 1;
+  flex: 2;
   min-width: 0;
 }
 @media (max-width: 768px) {
   .thesis-header {
     flex-direction: column;
   }
+  .thesis-left, .thesis-text {
+    width: 100%;
+  }
+  .thesis-title {
+    text-align: left;
+  }
 }
 </style>
 
 <div class="thesis-header">
-  <div class="thesis-image">
-    <img src="/assets/img/cover-all.png" class="img-fluid rounded">
+  <div class="thesis-left">
+    <div class="thesis-image">
+      <img src="/assets/img/cover-all.png" class="img-fluid rounded">
+    </div>
+    <div class="thesis-title">
+      Motion Control for Nonholonomic Unicycle Robots
+    </div>
   </div>
   <div class="thesis-text">
-    <h2>Motion Control for Nonholonomic Unicycle Robots</h2>
     <p><a href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots">Full thesis available here</a></p>
-    
+
     <p>This doctoral research focuses on developing algorithms for nonholonomic robots in an unknown cluttered scenario, where the robot solely relies on the limited onboard sensory measurements for exploration.</p>
-    
+
     <p><strong>Part I</strong> bridges the gap between perception and control tasks, introducing:
     <ul>
       <li>Projected gradient-ascent source-seeking control</li>
@@ -46,7 +70,7 @@ nav_order: 5
       <li>CBF design with uniform relative degree</li>
     </ul>
     </p>
-    
+
     <p><strong>Part II</strong> extends to multi-agent systems with:
     <ul>
       <li>Distributed CBF-QP framework</li>
@@ -79,6 +103,7 @@ Wouter Baar
 **All my lovely colleagues, friends and family**
 
 [Full acknowledgments available here](https://yourdomain.com/assets/pdf/acknowledge.pdf)
+
 ---
 <br>
 

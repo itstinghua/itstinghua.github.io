@@ -50,7 +50,7 @@ nav_order: 2
 
 <!-- Visit my <a href="https://www.youtube.com/channel/UCAduhzSeh_5dEN9CteFiM9w" target="_blank">YouTube channel</a> for more videos. -->
 
----
+
 <br>
 
 <div class="project-container">
@@ -63,7 +63,6 @@ nav_order: 2
   </div>
 </div>
 
----
 
 <div class="project-container">
   <div class="project-video">
@@ -75,7 +74,7 @@ nav_order: 2
   </div>
 </div>
 
----
+
 
 <div class="project-container">
   <div class="project-video">
