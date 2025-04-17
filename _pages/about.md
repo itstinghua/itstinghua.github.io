@@ -21,7 +21,7 @@ Advisor: [Prof. Bayu Jayawardhana](https://www.rug.nl/staff/b.jayawardhana) and 
 
 <br>
 <br>
-## Research Focus
+## Research Interests
 **Robotics**
 • Nonholonomic Systems
 • Multi-agent Systems
