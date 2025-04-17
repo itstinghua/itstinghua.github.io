@@ -18,7 +18,6 @@ PhD in Robotics & Control Engineering (2024)
 Advisor: [Prof. Bayu Jayawardhana](https://www.rug.nl/staff/b.jayawardhana) and [Prof. Ming Cao](https://www.rug.nl/staff/m.cao/)
 
 ---
-
 <br>
 ## Research Interests
 
@@ -41,7 +40,6 @@ Navigation in the cluttered environment
 *Bridging theoretical control methods with practical robotic implementations*
 
 ---
-
 <br>
 ## Technical Skills
 
@@ -54,7 +52,6 @@ STM32/Arduino •  Sensor Integration (LiDAR, RealSense)
 Mecanum-wheel Robotics Platforms  
 
 ---
-
 <br>
 ## Contact
 
