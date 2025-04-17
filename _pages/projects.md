@@ -66,7 +66,7 @@ nav_order: 2
     </p>
     <p style="margin-top: 0.5rem;">
       • T. Li, B. Jayawardhana, A. M. Kamat and A. G. P. Kottapalli, “Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors”, in
-      <strong>IEEE Transactions on Robotics</strong>, vol. 38, no. 1, pp. 448–462, Feb. 2022,
+      <strong>IEEE Transactions on Robotics (TRO)</strong>, vol. 38, no. 1, pp. 448–462, Feb. 2022,
       doi: 10.1109/TRO.2021.3076964.
     </p>
   </div>
@@ -87,7 +87,7 @@ nav_order: 2
     </p>
     <p style="margin-top: 0.5rem;">
       • T. Li and B. Jayawardhana, “Collision-free Source Seeking Control Methods for Unicycle Robots”, in
-      <strong>IEEE Transactions on Automatic Control</strong>, vol. 70, no. 3, pp. 2020–2027, March 2025,
+      <strong>IEEE Transactions on Automatic Control (TAC)</strong>, vol. 70, no. 3, pp. 2020–2027, March 2025,
       doi: 10.1109/TAC.2024.3486654.
     </p>
   </div>
