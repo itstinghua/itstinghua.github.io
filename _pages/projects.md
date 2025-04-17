@@ -48,7 +48,7 @@ nav_order: 2
 
 <div class="container">
 
-Visit my <a href="https://www.youtube.com/channel/UCAduhzSeh_5dEN9CteFiM9w" target="_blank">YouTube channel</a> for more videos.
+<!-- Visit my <a href="https://www.youtube.com/channel/UCAduhzSeh_5dEN9CteFiM9w" target="_blank">YouTube channel</a> for more videos. -->
 
 ---
 <br>

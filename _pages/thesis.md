@@ -26,9 +26,8 @@ nav_order: 5
 
 ## Motion Control for Nonholonomic Unicycle Robots
 [Full thesis available here](https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots)
+
 This doctoral research focuses on developing algorithms for nonholonomic robots in an unknown cluttered scenario, where the robot solely relies on the limited onboard sensory measurements for exploration. Part I aims to bridge the gap between perception and control tasks, by introducing the projected gradient-ascent source-seeking control and safety guarantee for a single robot traversing an unknown signal field where random obstacles exist. The main contributions lie in the control design with asymptotic convergence analysis and the CBF design with uniform relative degree. The results are extended to the multi-agent system in Part II, where a distributed CBF-QP framework is proposed for achieving collision avoidance and maintaining connectivity preservation in flocking cohesion control problem, and an adaptive spacing policy is presented for flexible coordination. In summary, this doctoral thesis contributes to novel (distributed) control algorithms for nonholonomic robots that warrant four control systems properties: safety guarantee, configuration stabilization, optimization feasibility, and group behavior flexibility. 
-
-
 ---
 <br>
 
@@ -51,7 +50,6 @@ Wouter Baar
 **All my lovely colleagues, friends and family**
 
 [Full acknowledgments available here](https://yourdomain.com/assets/pdf/acknowledge.pdf)
-
 ---
 <br>
 
