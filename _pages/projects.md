@@ -1,3 +1,4 @@
+---
 layout: page
 title: 🛠️ Projects
 permalink: /projects/
@@ -5,6 +6,30 @@ description:
 nav: true
 nav_order: 2
 ---
+
+<style>
+.project-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.project-video {
+  flex: 1;
+  padding-right: 20px;
+}
+.project-text {
+  flex: 1;
+}
+@media (max-width: 768px) {
+  .project-container {
+    flex-direction: column;
+  }
+  .project-video, .project-text {
+    padding-right: 0;
+    width: 100%;
+  }
+}
+</style>
 
 # For more videos, visit my [Youtube channel](https://www.youtube.com/channel/UCAduhzSeh_5dEN9CteFiM9w).
 
@@ -55,4 +80,3 @@ nav_order: 2
 </div>
 
 ---
-
