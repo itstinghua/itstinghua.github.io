@@ -9,7 +9,7 @@ nav_order: 2
 
 <style>
 .container {
-  max-width: 1000px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -22,7 +22,7 @@ nav_order: 2
 .project-video {
   flex: 1;
   min-width: 0;
-  max-width: 50%; /* 新增：限制视频最大宽度 */
+  max-width: 40%; /* 新增：限制视频最大宽度 */
 }
 .project-video video {
   width: 100%;
