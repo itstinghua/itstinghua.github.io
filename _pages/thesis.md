@@ -57,15 +57,15 @@ nav_order: 5
     <div class="thesis-image">
       <img src="/assets/img/cover.jpg" class="img-fluid rounded" alt="Thesis Cover">
     </div>
-    <div class="thesis-title">
-      Motion Control for Nonholonomic Unicycle Robots
-    </div>
     <p class="text-center">
       <a href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots" class="btn btn-primary">Full Thesis PDF</a>
     </p>
   </div>
 
   <div class="thesis-text">
+        <div class="thesis-title">
+      Motion Control for Nonholonomic Unicycle Robots
+    </div>
     <p>This doctoral research focuses on developing algorithms for nonholonomic robots in unknown cluttered environments, relying solely on limited onboard sensory measurements for exploration.</p>
 
     <h5>Part I: Perception-Control Integration</h5>
