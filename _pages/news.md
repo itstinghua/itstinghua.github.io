@@ -7,16 +7,15 @@ nav: true
 nav_order: 4
 ---
 
-## 📰 2024
+## 2024
 
 - **October**  
-📌 Our work ["Collision-free Source Seeking Control Methods for Unicycle Robots"](https://ieeexplore.ieee.org/document/10735338) is officially accepted in **IEEE Transactions on Automatic Control**!  
-This is a key part of my PhD thesis and proposes three control barrier function (CBF) designs for solving the mixed relative degree problem in unicycle robot control. Many thanks to my advisor Prof. Bayu Jayawardhana for the insightful discussions and unwavering support! 😊
+Our work ["Collision-free Source Seeking Control Methods for Unicycle Robots"](https://ieeexplore.ieee.org/document/10735338) is officially accepted in **IEEE Transactions on Automatic Control**! This is a key part of my PhD thesis and proposes three control barrier function (CBF) designs for solving the mixed relative degree problem in unicycle robot control. Many thanks to my advisor Prof. Bayu Jayawardhana for the insightful discussions and unwavering support! 😊
 
 ---
 
 - **June**  
-🎤 Honored to be a keynote speaker at the 6th AI QianTang Forum, School of Automation (School of AI), Hangzhou Dianzi University, China.  Thanks to Prof. Jiming Chen and Prof. Jiuwen Cao for the warm invitation and welcome!
+Honored to be a keynote speaker at the 6th AI QianTang Forum, School of Automation (School of AI), Hangzhou Dianzi University, China.  Thanks to Prof. Jiming Chen and Prof. Jiuwen Cao for the warm invitation and welcome!
 <center class="half">
   <img src="/assets/img/news/hangzhou_1.jpg" width="300"/>
   <img src="/assets/img/news/hangzhou_2.jpg" width="300"/>
@@ -29,7 +28,7 @@ This is a key part of my PhD thesis and proposes three control barrier function 
 
 ---
 
-## 📰 2023
+## 2023
 
 - **November**  
 Visited Prof. Qinghua Yang's group at Shanghai University and shared my PhD work. Great to be back on campus!
@@ -54,17 +53,17 @@ Presented our paper *"Collision-free Source Seeking and Flocking Control of Mult
 
 ---
 
-## 📰 2022
+## 2022
 
 - **March**  
 Joined the DISC Winter Cours on Data Learning & Dynamics at the Intersection of Neuroscience and Control.
 
 ---
 
-## 📰 2021
+## 2021
 
 - **October**  
-Presented our source-seeking work at IROS 2021 (virtual), as an invited *T-RO* paper.
+Presented our source-seeking work at IROS 2021 (virtual), as an invited **T-RO** paper.
 
 - **July**  
 Presented *"Source-Seeking Control of Unicycle Robots With 3D-Printed Flexible Sensors"* at the 10th Benelux Meeting in Rotterdam.

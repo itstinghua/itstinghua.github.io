@@ -7,8 +7,17 @@ nav: true
 nav_order: 5
 ---
 
-## Motion Control for Nonholonomic Unicycle Robots  
-[Full thesis available here](https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots)
+<style>
+.small-text {
+  font-size: 14px;
+}
+.smaller-text {
+  font-size: 12px;
+}
+</style>
+
+## <span class="small-text">Motion Control for Nonholonomic Unicycle Robots</span>  
+[<span class="smaller-text">Full thesis available here</span>](https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots)
 
 <center>
   <img src="/assets/img/cover-all.png" width="600"/>
@@ -16,7 +25,7 @@ nav_order: 5
 
 ---
 
-## Abstract  
+## Key Contributions:
 
 Develops motion control algorithms for nonholonomic robots in cluttered environments using onboard sensing.
 
