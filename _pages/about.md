@@ -9,41 +9,55 @@ profile:
 social: true
 ---
 
-**Tinghua Li (厉庭华)**  
+**厉庭华**  
 Postdoctoral Researcher  
-[Delft University of Technology](https://www.tudelft.nl)  
+[C&S, Delft University of Technology](https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation)
 
 PhD in Robotics & Control Engineering (2024)  
-[University of Groningen](https://www.rug.nl)  
-Advisor: [Prof. Bayu Jayawardhana](https://www.rug.nl/staff/b.jayawardhana)
+[DTPA, University of Groningen](https://www.rug.nl/research/discrete-technology-production-automation/?lang=en)  
+Advisor: [Prof. Bayu Jayawardhana](https://www.rug.nl/staff/b.jayawardhana) and [Prof. Ming Cao](https://www.rug.nl/staff/m.cao/)
 
 ---
 
+<br>
+<br>
 ## Research Focus
+**Robotics**
+• Nonholonomic Systems
+• Multi-agent Systems
+• Wheeled Mobile Robots
+• Quadcopters
 
-**Motion Control Systems**  
-• Source seeking • Flocking algorithms • Collision avoidance  
+**Motion Control**  
+• Source seeking 
+• Flexible Flocking 
+• Safety Control (Collision/Obstacle avoidance)  
+• Loss-of-Control
 
-**Robotics Applications**  
-• Sensor-based control for nonholonomic systems  
-• Multi-agent coordination in cluttered environments  
+**Practical Applications**  
+• 3D-Printed Flexible Piezoresistive Sensors 
+• Navigation in the cluttered environment
 
 *Bridging theoretical control methods with practical robotic implementations*
 
 ---
 
+<br>
+<br>
 ## Technical Skills
 
 **Software**  
-C/C++ | Python | MATLAB | ROS | Gazebo  
-OpenCV | SLAM | Point Cloud Processing  
+C/C++ •  Python •  MATLAB •  ROS •  Gazebo  
+OpenCV •  SLAM •  Point Cloud Processing  
 
 **Hardware**  
-STM32/Arduino | Sensor Integration (LiDAR, RealSense)  
+STM32/Arduino •  Sensor Integration (LiDAR, RealSense)  
 Mecanum-wheel Robotics Platforms  
 
 ---
 
+<br>
+<br>
 ## Contact
 
 Social media icons appear below ↓  

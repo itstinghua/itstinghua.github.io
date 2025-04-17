@@ -31,7 +31,7 @@ nav_order: 2
 }
 </style>
 
-# For more videos, visit my [Youtube channel](https://www.youtube.com/channel/UCAduhzSeh_5dEN9CteFiM9w).
+Please feel free tp visit my [Youtube channel](https://www.youtube.com/channel/UCAduhzSeh_5dEN9CteFiM9w) for more videos.
 
 <center class="half">
   <img src="/assets/video/tinghua.gif" width="600"/>
