@@ -17,6 +17,8 @@ nav_order: 4
   margin: 2.5rem 0 1.5rem;
   border-bottom: 2px solid #ddd;
   padding-bottom: 0.5rem;
+  color: #7c3aed;
+/*  #2c77d0; /* ← 修改颜色：这里是蓝色 */*/
 }
 .news-item {
   margin-bottom: 2rem;
