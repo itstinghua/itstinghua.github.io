@@ -23,20 +23,20 @@ Advisor: [Prof. Bayu Jayawardhana](https://www.rug.nl/staff/b.jayawardhana) and 
 ## Research Interests
 
 **Robotics**  
-• Nonholonomic Systems
-• Multi-agent Systems
-• Wheeled Mobile Robots
-• Quadcopters
+Nonholonomic Systems
+Multi-agent Systems
+Wheeled Mobile Robots
+Quadcopters
 
-**Motion Control**  
-• Source seeking 
-• Flexible Flocking 
-• Safety Control (Collision/Obstacle avoidance)  
-• Loss-of-Control
+**Motion Control**
+Source seeking
+Flexible Flocking
+Safety Control (Collision/Obstacle avoidance)
+Loss-of-Control
 
-**Practical Applications**  
-• 3D-Printed Flexible Piezoresistive Sensors 
-• Navigation in the cluttered environment
+**Practical Applications**
+3D-Printed Flexible Piezoresistive Sensors
+Navigation in the cluttered environment
 
 *Bridging theoretical control methods with practical robotic implementations*
 
