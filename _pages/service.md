@@ -23,7 +23,8 @@ nav_order: 3
 .service-section h4 {
   margin-bottom: 0.8rem;
   font-size: 1.25rem;
-  border-left: 4px solid #a78bfa;
+  border-left: 4px solid;
+/*   #a78bfa;*/
   padding-left: 0.6rem;
 }
 .service-section ul {
