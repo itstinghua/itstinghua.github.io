@@ -37,7 +37,7 @@ nav_order: 4
   line-height: 1.7;
 }
 
-/* 优化图片排版 */
+
 .news-gallery {
   display: flex;
   flex-wrap: wrap;
