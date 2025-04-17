@@ -1,15 +1,12 @@
----
 layout: page
 title: 🛠️ Projects
 permalink: /projects/
 description:
 nav: true
 nav_order: 2
-display_categories: 
-horizontal: 
 ---
 
-For more videos, you are welcome to visit my [Youtube channel](https://www.youtube.com/channel/UCAduhzSeh_5dEN9CteFiM9w).
+# For more videos, visit my [Youtube channel](https://www.youtube.com/channel/UCAduhzSeh_5dEN9CteFiM9w).
 
 <center class="half">
   <img src="/assets/video/tinghua.gif" width="600"/>
@@ -22,8 +19,10 @@ For more videos, you are welcome to visit my [Youtube channel](https://www.youtu
     {% include video.liquid path="/assets/video/SS.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
   </div>
   <div class="project-text">
-    #### [Source-seeking Robot](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9458274&tag=1)  
-    We present the design and experimental validation of source seeking control algorithms for a unicycle mobile robot that is equipped with novel 3D-printed flexible graphene-based piezoresistive airflow sensors. Based solely on a local gradient measurement from the airflow sensors, we propose and analyze a projected gradient ascent algorithm to solve the source seeking problem. In the case of partial sensor failure, we propose a combination of Extremum-Seeking Control with our projected gradient ascent algorithm. For both control laws, we prove the asymptotic convergence of the robot to the source. Numerical simulations were performed to validate the algorithms and experimental validations are presented to demonstrate the efficacy of the proposed methods.
+    <h3><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9458274&tag=1">Source-seeking Robot</a></h3>
+    <p>
+      We present the design and experimental validation of source seeking control algorithms for a unicycle mobile robot that is equipped with novel 3D-printed flexible graphene-based piezoresistive airflow sensors. The proposed algorithm ensures convergence to the source even with partial sensor failure. Experimental validations demonstrate the efficacy of the methods.
+    </p>
   </div>
 </div>
 
@@ -34,8 +33,10 @@ For more videos, you are welcome to visit my [Youtube channel](https://www.youtu
     {% include video.liquid path="/assets/video/CO.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
   </div>
   <div class="project-text">
-    #### [CBF-based collision avoidance control](https://ieeexplore.ieee.org/document/10735338)  
-    In this work, we propose a collision-free source-seeking control framework for unicycle robots traversing an unknown cluttered environment. In this framework, obstacle avoidance is guided by the control barrier functions (CBF) embedded in quadratic programming and the source seeking control relies solely on the use of on-board sensors that measure the signal strength of the source. To tackle the mixed relative degree of the CBF, we proposed three different CBFs, namely the zeroing control barrier functions (ZCBF), exponential control barrier functions (ECBF), and reciprocal control barrier functions (RCBF)  that can directly be integrated with our recent gradient-ascent source-seeking control law. We provide rigorous analysis of the three different methods and show the efficacy of the approaches in simulations using Matlab, as well as, using a realistic dynamic environment with moving obstacles in Gazebo/ROS.
+    <h3><a href="https://ieeexplore.ieee.org/document/10735338">CBF-based Collision Avoidance Control</a></h3>
+    <p>
+      This work introduces a collision-free source-seeking control framework for unicycle robots traversing an unknown cluttered environment. It integrates control barrier functions (CBFs) in quadratic programming and provides a detailed analysis of three CBF designs. Simulations and experimental validations confirm the effectiveness of the methods.
+    </p>
   </div>
 </div>
 
@@ -46,9 +47,12 @@ For more videos, you are welcome to visit my [Youtube channel](https://www.youtu
     {% include video.liquid path="/assets/video/connectivity.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
   </div>
   <div class="project-text">
-    #### [Flocking Control of multi-agents with connectivity preservation](https://arxiv.org/pdf/2301.04576.pdf)  
-    We present a distributed source-seeking and flocking control method for networked multi-agent systems with non-holonomic constraints. Based solely on identical on-board sensor systems, which measure the source local field, the group objective is attained by appointing a leader agent to seek the source while the remaining follower agents form a cohesive flocking with their neighbors using a distributed flocking control law in a connectivity-preserved undirected network. To guarantee the safe separation and group motion for all agents and to solve the conflicts with the "cohesion" flocking rule of Reynolds, the distributed control algorithm is solved individually through quadratic-programming optimization problem with constraints, which guarantees the inter-agent collision avoidance and connectivity preservation. Stability analysis of the closed-loop system is presented and the efficacy of the methods is shown in simulation results.
+    <h3><a href="https://arxiv.org/pdf/2301.04576.pdf">Flocking Control with Connectivity Preservation</a></h3>
+    <p>
+      This project presents a distributed control method for networked multi-agent systems with non-holonomic constraints. Agents seek a source while maintaining flocking cohesion and avoiding collisions. The method guarantees connectivity preservation and ensures safe separation among agents in the network.
+    </p>
   </div>
 </div>
 
 ---
+
