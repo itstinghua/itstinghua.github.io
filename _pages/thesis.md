@@ -16,8 +16,8 @@ nav_order: 5
 }
 </style>
 
-## <span class="small-text">Motion Control for Nonholonomic Unicycle Robots</span>  
-[<span class="smaller-text">Full thesis available here</span>](https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots)
+## Motion Control for Nonholonomic Unicycle Robots
+[Full thesis available here](https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots)
 
 <center>
   <img src="/assets/img/cover-all.png" width="600"/>
@@ -35,7 +35,7 @@ This doctoral research focuses on developing algorithms for nonholonomic robots 
 
 ## Acknowledgments  
 
-**Supervisors:**  
+**Ph.D. Supervisors:**  
 Prof. Bayu Jayawardhana  
 Prof. Ming Cao  
 
@@ -45,13 +45,13 @@ Prof. Tamas Keviczky, Prof. Raffaella Carloni,
 Prof. Sami Haddadin, Prof. Maryam Ghandchi Tehrani,
 Dr. Bahar Haghighat, Dr. Ashish Cherukuri. 
 
-**Paranymphs**
+**Paranymphs:**
 Simon Busman
 Wouter Baar
 
 **All my lovely colleagues, friends and family**
 
-[Full acknowledgments](https://yourdomain.com/assets/pdf/acknowledge.pdf)
+[Full acknowledgments available here](https://yourdomain.com/assets/pdf/acknowledge.pdf)
 
 ---
 <br>
