@@ -70,7 +70,7 @@ nav_order: 2
     {% include video.liquid path="/assets/video/CO.mp4" class="img-fluid rounded z-depth-1" controls=true %}
   </div>
   <div class="project-text">
-    <h3><a href="https://ieeexplore.ieee.org/document/10735338">CBF-based Collision Avoidance</a></h3>
+    <h3><a href="https://ieeexplore.ieee.org/document/10735338"> Collision-free Source-seeking</a></h3>
     <p>Collision-free source-seeking framework integrating control barrier functions (CBFs) in quadratic programming. Includes analysis of three CBF designs with experimental validation.</p>
   </div>
 </div>
@@ -82,7 +82,7 @@ nav_order: 2
     {% include video.liquid path="/assets/video/connectivity.mp4" class="img-fluid rounded z-depth-1" controls=true %}
   </div>
   <div class="project-text">
-    <h3><a href="https://arxiv.org/pdf/2301.04576.pdf">Flocking Control with Connectivity</a></h3>
+    <h3><a href="https://arxiv.org/pdf/2301.04576.pdf">Flocking Control with Connectivity Preservation</a></h3>
     <p>Distributed control method for networked multi-agent systems with non-holonomic constraints. Maintains flocking cohesion while ensuring connectivity preservation and collision avoidance.</p>
   </div>
 </div>
