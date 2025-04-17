@@ -41,4 +41,3 @@ I focus on **theoretical control methodologies** and their **real-world applicat
 ## 🌐 Connect
 
 Find me on social media (icons at the bottom of the page). Feel free to reach out!
-
