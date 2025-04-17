@@ -48,38 +48,38 @@ nav_order: 5
   }
 }
 </style>
-
 <div class="thesis-header">
   <div class="thesis-left">
     <div class="thesis-image">
       <img src="/assets/img/cover.jpg" class="img-fluid rounded">
     </div>
     <div class="thesis-text">
-    <p><a href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots">Full thesis available here</a></p>
-  </div>
-   <div class="thesis-title">
+      <p><a href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots">Full thesis available here</a></p>
+    </div>
+    <div class="thesis-title">
       Motion Control for Nonholonomic Unicycle Robots
     </div>
 
     <p>This doctoral research focuses on developing algorithms for nonholonomic robots in an unknown cluttered scenario, where the robot solely relies on the limited onboard sensory measurements for exploration.</p>
 
     <p><strong>Part I</strong> bridges the gap between perception and control tasks, introducing:
-    <ul>
-      <li>Projected gradient-ascent source-seeking control</li>
-      <li>Safety guarantees for single robots in obstacle fields</li>
-      <li>CBF design with uniform relative degree</li>
-    </ul>
+      <ul>
+        <li>Projected gradient-ascent source-seeking control</li>
+        <li>Safety guarantees for single robots in obstacle fields</li>
+        <li>CBF design with uniform relative degree</li>
+      </ul>
     </p>
 
     <p><strong>Part II</strong> extends to multi-agent systems with:
-    <ul>
-      <li>Distributed CBF-QP framework</li>
-      <li>Collision avoidance and connectivity preservation</li>
-      <li>Adaptive spacing policy for flexible coordination</li>
-    </ul>
+      <ul>
+        <li>Distributed CBF-QP framework</li>
+        <li>Collision avoidance and connectivity preservation</li>
+        <li>Adaptive spacing policy for flexible coordination</li>
+      </ul>
     </p>
   </div>
 </div>
+
 
 ---
 <br>

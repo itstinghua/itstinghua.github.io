@@ -19,40 +19,68 @@ Advisor: [Prof. Bayu Jayawardhana](https://www.rug.nl/staff/b.jayawardhana) and 
 
 ---
 <div style="height: 1rem;"></div>
+
 ## Research Interests
 
-**Robotics**  
-- Nonholonomic Systems  
-- Multi-agent Systems  
-- Wheeled Mobile Robots  
-- Quadcopters  
+<p style="margin-bottom: 0.3rem;"><strong>Robotics</strong></p>
+<ul style="margin-top: 0;">
+  <li>Nonholonomic Systems</li>
+  <li>Multi-agent Systems</li>
+  <li>Wheeled Mobile Robots</li>
+  <li>Quadcopters</li>
+</ul>
 
-**Motion Control**  
-- Source seeking  
-- Flexible Flocking  
-- Safety Control (Collision/Obstacle avoidance)  
-- Loss-of-Control  
+<p style="margin-bottom: 0.3rem;"><strong>Motion Control</strong></p>
+<ul style="margin-top: 0;">
+  <li>Source seeking</li>
+  <li>Flexible Flocking</li>
+  <li>Safety Control (Collision/Obstacle avoidance)</li>
+  <li>Loss-of-Control</li>
+</ul>
 
-**Practical Applications**  
-- 3D-Printed Flexible Piezoresistive Sensors  
-- Navigation in the cluttered environment
+<p style="margin-bottom: 0.3rem;"><strong>Practical Applications</strong></p>
+<ul style="margin-top: 0;">
+  <li>3D-Printed Flexible Piezoresistive Sensors</li>
+  <li>Navigation in the cluttered environment</li>
+</ul>
 
-*Bridging theoretical control methods with practical robotic implementations*
+<p><em>Bridging theoretical control methods with practical robotic implementations</em></p>
 
 ---
 <div style="height: 1rem;"></div>
+
 ## Technical Skills
 
-**Software**  
-C/C++ •  Python •  MATLAB •  ROS •  Gazebo  
-OpenCV •  SLAM •  Point Cloud Processing  
+<div style="display: flex; flex-wrap: wrap; gap: 40px;">
 
-**Hardware**  
-STM32/Arduino •  Sensor Integration (LiDAR, RealSense)  
-Mecanum-wheel Robotics Platforms  
+  <div style="flex: 1; min-width: 200px;">
+    <p style="margin-bottom: 0.3rem;"><strong>Software</strong></p>
+    <ul style="margin-top: 0;">
+      <li>C/C++</li>
+      <li>Python</li>
+      <li>MATLAB</li>
+      <li>ROS</li>
+      <li>Gazebo</li>
+      <li>OpenCV</li>
+      <li>SLAM</li>
+      <li>Point Cloud Processing</li>
+    </ul>
+  </div>
+
+  <div style="flex: 1; min-width: 200px;">
+    <p style="margin-bottom: 0.3rem;"><strong>Hardware</strong></p>
+    <ul style="margin-top: 0;">
+      <li>STM32 / Arduino</li>
+      <li>Sensor Integration (LiDAR, RealSense)</li>
+      <li>Mecanum-wheel Robotics Platforms</li>
+    </ul>
+  </div>
+
+</div>
 
 ---
 <div style="height: 1rem;"></div>
+
 ## Contact
 
 Social media icons appear below ↓  
