@@ -22,6 +22,11 @@ nav_order: 2
 .project-video {
   flex: 1;
   min-width: 0;
+  max-width: 50%; /* 新增：限制视频最大宽度 */
+}
+.project-video video {
+  width: 100%;
+  max-height: 300px; /* 新增：限制视频最大高度 */
 }
 .project-text {
   flex: 1;
@@ -35,6 +40,9 @@ nav_order: 2
     flex-direction: column;
     gap: 20px;
   }
+  .project-video {
+    max-width: 100%; /* 移动端恢复全宽 */
+  }
 }
 </style>
 
@@ -42,11 +50,8 @@ nav_order: 2
 
 Visit my <a href="https://www.youtube.com/channel/UCAduhzSeh_5dEN9CteFiM9w" target="_blank">YouTube channel</a> for more videos.
 
-<!-- <div class="text-center">
-  <img src="/assets/video/tinghua.gif" width="80%" class="rounded">
-</div> -->
-
 ---
+<br>
 
 <div class="project-container">
   <div class="project-video">
