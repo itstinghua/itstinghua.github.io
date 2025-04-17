@@ -10,7 +10,7 @@ nav_order: 4
 ## 2024
 
 - **October**  
-Our work ["Collision-free Source Seeking Control Methods for Unicycle Robots"](https://ieeexplore.ieee.org/document/10735338) is officially accepted in **IEEE Transactions on Automatic Control**! This is a key part of my PhD thesis and proposes three control barrier function (CBF) designs for solving the mixed relative degree problem in unicycle robot control. Many thanks to my advisor Prof. Bayu Jayawardhana for the insightful discussions and unwavering support! 😊
+Our work ["Collision-free Source Seeking Control Methods for Unicycle Robots"](https://ieeexplore.ieee.org/document/10735338) is officially accepted in **IEEE Transactions on Automatic Control (TAC)**! This is a key part of my PhD thesis and proposes three control barrier function (CBF) designs for solving the mixed relative degree problem in unicycle robot control. Many thanks to my advisor Prof. Bayu Jayawardhana for the insightful discussions and unwavering support! 😊
 
 ---
 

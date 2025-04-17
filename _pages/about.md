@@ -20,7 +20,6 @@ Advisor: [Prof. Bayu Jayawardhana](https://www.rug.nl/staff/b.jayawardhana) and 
 ---
 
 <br>
-<br>
 ## Research Interests
 **Robotics**
 • Nonholonomic Systems
@@ -43,7 +42,6 @@ Advisor: [Prof. Bayu Jayawardhana](https://www.rug.nl/staff/b.jayawardhana) and 
 ---
 
 <br>
-<br>
 ## Technical Skills
 
 **Software**  
@@ -56,7 +54,6 @@ Mecanum-wheel Robotics Platforms
 
 ---
 
-<br>
 <br>
 ## Contact
 
