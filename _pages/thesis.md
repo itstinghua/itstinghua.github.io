@@ -104,10 +104,62 @@ nav_order: 5
 
 <hr>
 
+<style>
+.acknowledgment-section {
+  margin-top: 3rem;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+.acknowledgment-section h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.acknowledgment-section p {
+  margin-bottom: 1rem;
+}
+.acknowledgment-section strong {
+  font-weight: 600;
+}
+.acknowledgment-section a {
+  color: #0056b3;
+  text-decoration: underline;
+}
+</style>
+
 <!-- Acknowledgments Section -->
-<h2>Acknowledgments</h2>
-- I would like to thank my dearest supervisor **Prof. Bayu Jayawardhana** and **Prof. Ming Cao** for their warm support in the past four-year study, thank  **Simon Busman** and **Wouter Baar** for being my best paranymphs, thank my lovely colleagues and friends in DTPA group. Thank you for all defense committee members for the great discussion during the defense: **Prof. Claudio De Persis, Prof. Dimos Dimarogonas, Prof. Tamas Keviczky, Prof. Raffaella Carloni, Prof. Maryam Ghandchi Tehrani, Prof. Sami Haddadin, Dr. Bahar Haghighat, Dr. Ashish Cherukuri**. 
-- <a href="/assets/pdf/acknowledge.pdf"  target = "_blank"> My full acknowledgment is here. </a>
+<div class="acknowledgment-section">
+  <h2>Acknowledgments</h2>
+
+  <p>
+    I would like to express my deepest gratitude to my supervisors 
+    <strong>Prof. Bayu Jayawardhana</strong> and <strong>Prof. Ming Cao</strong> 
+    for their continuous support and guidance throughout my Ph.D. journey.
+  </p>
+
+  <p>
+    Special thanks to my wonderful paranymphs, <strong>Simon Busman</strong> and 
+    <strong>Wouter Baar</strong>, and to all the amazing colleagues and friends 
+    in the DTPA group who made this journey unforgettable.
+  </p>
+
+  <p>
+    I sincerely thank the esteemed members of my defense committee for their insightful 
+    discussions and feedback: 
+    <strong>Prof. Claudio De Persis</strong>, <strong>Prof. Dimos Dimarogonas</strong>, 
+    <strong>Prof. Tamas Keviczky</strong>, <strong>Prof. Raffaella Carloni</strong>, 
+    <strong>Prof. Maryam Ghandchi Tehrani</strong>, <strong>Prof. Sami Haddadin</strong>, 
+    <strong>Dr. Bahar Haghighat</strong>, and <strong>Dr. Ashish Cherukuri</strong>.
+  </p>
+
+  <p>
+    <a href="/assets/pdf/acknowledge.pdf" target="_blank">
+      → View full acknowledgment here.
+    </a>
+  </p>
+</div>
+
 
 <hr>
 
