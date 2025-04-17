@@ -7,30 +7,76 @@ nav: true
 nav_order: 3
 ---
 
----
-#### Journal Reviewer  
-- IEEE Transactions on Robotics (T-RO)
-- IEEE Robotics & Automation Magazine (RAM) 
-- Nonlinear Dynamics
-- Journal of the Franklin Institute
-<br>
-<br>
+<style>
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.service-card {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  border-left: 4px solid #a78bfa;
+  padding-left: 1rem;
+}
+.service-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.service-card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.6rem;
+}
+.service-card ul {
+  margin-top: 0;
+  padding-left: 1.2rem;
+}
+</style>
 
----
-#### Conference Reviewer
-- European Control Conference (ECC 2023, 2024)
-- American Control Conference (ACC 2021)
-- Third IFAC Conference on Modelling, Identification and Control of Nonlinear Systems (MICNON 2021)
-<br>
-<br>
+<div class="service-grid">
 
----
-#### Teaching Assistance
-- Master course: Robotics (University of Groningen, Faculty of Science and Engineering, Fall2020-2022)
-<br>
-<br>
+  <div class="service-card">
+    <h4>Journal Reviewer</h4>
+    <ul>
+      <li>IEEE Transactions on Robotics (T-RO)</li>
+      <li>IEEE Robotics & Automation Magazine (RAM)</li>
+      <li>Nonlinear Dynamics</li>
+      <li>Journal of the Franklin Institute</li>
+    </ul>
+  </div>
 
----
-#### Professional Memberships
-- Dutch Institute of Systems and Control (DISC)
-- Jan C. Willems Center for Systems and Control
+  <div class="service-card">
+    <h4>Conference Reviewer</h4>
+    <ul>
+      <li>European Control Conference (ECC 2023, 2024)</li>
+      <li>American Control Conference (ACC 2021)</li>
+      <li>IFAC MICNON 2021</li>
+    </ul>
+  </div>
+
+  <div class="service-card">
+    <h4>Teaching Assistance</h4>
+    <ul>
+      <li>Master course: Robotics  
+          (University of Groningen, FSE, Fall 2020–2022)</li>
+    </ul>
+  </div>
+
+  <div class="service-card">
+    <h4>Professional Memberships</h4>
+    <ul>
+      <li>Dutch Institute of Systems and Control (DISC)</li>
+      <li>Jan C. Willems Center for Systems and Control</li>
+    </ul>
+  </div>
+
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target
