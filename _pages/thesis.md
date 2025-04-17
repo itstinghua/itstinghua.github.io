@@ -8,47 +8,64 @@ nav_order: 5
 ---
 
 <style>
+.thesis-header {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.thesis-left {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thesis-image img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.thesis-text {
+  flex: 2;
+  min-width: 0;
+  text-align: left;
+}
+
+.thesis-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.thesis-text h5 {
+  margin-top: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.thesis-text ul {
+  padding-left: 1.25rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
   .thesis-header {
-    display: flex;
-    gap: 40px;
-    align-items: flex-start;
-    margin-bottom: 2rem;
-  }
-  .thesis-left {
-    flex: 1;
-    min-width: 0;
-    display: flex;
     flex-direction: column;
-    align-items: center;
   }
-  .thesis-image img {
-    max-width: 300px;
-    height: auto;
-    border-radius: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  .thesis-title {
-    text-align: center;
-    font-size: 1.25rem;
-    font-weight: bold;
-    margin-bottom: 1.5rem;
+  .thesis-left, .thesis-text {
+    width: 100%;
   }
   .thesis-text {
-    flex: 2;
-    min-width: 0;
+    padding-top: 1rem;
   }
-  @media (max-width: 768px) {
-    .thesis-header {
-      flex-direction: column;
-      gap: 20px;
-    }
-    .thesis-left {
-      align-items: center;
-    }
-  }
-  .gallery-row {
-    margin-bottom: 1rem;
-  }
+}
 </style>
 
 <!-- Thesis Summary Section -->
@@ -57,15 +74,15 @@ nav_order: 5
     <div class="thesis-image">
       <img src="/assets/img/cover.jpg" class="img-fluid rounded" alt="Thesis Cover">
     </div>
-    <p class="text-center">
+    <p style="margin-top: 1rem;">
       <a href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots" class="btn btn-primary">Full Thesis PDF</a>
     </p>
   </div>
 
-      <div class="thesis-title">
+  <div class="thesis-text">
+    <div class="thesis-title">
       Motion Control for Nonholonomic Unicycle Robots
     </div>
-  <div class="thesis-text">
     <p>This doctoral research focuses on developing algorithms for nonholonomic robots in unknown cluttered environments, relying solely on limited onboard sensory measurements for exploration.</p>
 
     <h5>Part I: Perception-Control Integration</h5>
@@ -83,6 +100,7 @@ nav_order: 5
     </ul>
   </div>
 </div>
+
 
 <hr>
 
