@@ -54,12 +54,12 @@ nav_order: 5
     <div class="thesis-image">
       <img src="/assets/img/cover-all.png" class="img-fluid rounded">
     </div>
-    <div class="thesis-title">
+    <div class="thesis-text">
+    <p><a href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots">Full thesis available here</a></p>
+  </div>
+   <div class="thesis-title">
       Motion Control for Nonholonomic Unicycle Robots
     </div>
-  </div>
-  <div class="thesis-text">
-    <p><a href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots">Full thesis available here</a></p>
 
     <p>This doctoral research focuses on developing algorithms for nonholonomic robots in an unknown cluttered scenario, where the robot solely relies on the limited onboard sensory measurements for exploration.</p>
 
