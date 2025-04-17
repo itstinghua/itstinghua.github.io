@@ -9,7 +9,7 @@ nav_order: 2
 
 <style>
 .container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 20px;
 }
