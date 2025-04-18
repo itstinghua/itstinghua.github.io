@@ -49,6 +49,7 @@ nav_order: 3
     <li>European Control Conference (ECC 2023, 2024)</li>
     <li>American Control Conference (ACC 2021)</li>
     <li>Third IFAC Conference on Modelling, Identification and Control of Nonlinear Systems (MICNON 2021)</li>
+    <li>IEEE Conference on Decision and Control (CDC 2025)</li>
   </ul>
 </div>
 
