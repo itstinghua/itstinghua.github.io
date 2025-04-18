@@ -10,6 +10,7 @@ social: true
 ---
 
 <style>
+/* 页面动画和排版样式 */
 .fade-in-section {
   opacity: 0;
   transform: translateY(30px);
@@ -39,24 +40,30 @@ ul {
 }
 </style>
 
+<!-- 🔹 个人简介模块 -->
 <section id="about" class="fade-in-section about-section">
   <header>
     <strong>厉庭华</strong><br>
     Postdoctoral Researcher<br>
-    <a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">C&S, Delft University of Technology</a>
+    <a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">
+      C&S, Delft University of Technology
+    </a>
   </header>
 
   <div style="height: 1rem;"></div>
 
   <p>
     PhD in Robotics & Control Engineering (2024)<br>
-    <a href="https://www.rug.nl/research/discrete-technology-production-automation/?lang=en">DTPA, University of Groningen</a><br>
-    Advisor: 
-    <a href="https://www.rug.nl/staff/b.jayawardhana">Prof. Bayu Jayawardhana</a> and 
+    <a href="https://www.rug.nl/research/discrete-technology-production-automation/?lang=en">
+      DTPA, University of Groningen
+    </a><br>
+    Advisor:
+    <a href="https://www.rug.nl/staff/b.jayawardhana">Prof. Bayu Jayawardhana</a> and
     <a href="https://www.rug.nl/staff/m.cao/">Prof. Ming Cao</a>
   </p>
 </section>
 
+<!-- 🔹 研究方向模块 -->
 <section id="research" class="fade-in-section about-section">
   <h2>Research Interests</h2>
 
@@ -85,6 +92,7 @@ ul {
   <p><em>Bridging theoretical control methods with practical robotic implementations</em></p>
 </section>
 
+<!-- 🔹 技术技能模块 -->
 <section id="skills" class="fade-in-section about-section">
   <h2>Technical Skills</h2>
 
@@ -114,11 +122,13 @@ ul {
   </div>
 </section>
 
+<!-- 🔹 联系方式模块 -->
 <section id="contact" class="fade-in-section about-section">
   <h2>Contact</h2>
   <p>Open to collaborations and discussions ↓</p>
 </section>
 
+<!-- 🔹 页面动画脚本 -->
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const observer = new IntersectionObserver(entries => {
