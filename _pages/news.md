@@ -2,43 +2,57 @@
 layout: page
 permalink: /news/
 title: News
-description: 
+description:
 nav: true
 nav_order: 4
 ---
 
 <style>
+/* 主体样式 */
 .news-section {
   margin: 2rem 0;
+  padding: 0 1rem;
 }
+
+/* 年份分隔标题 */
 .news-year {
-  font-size: 1.75rem;
-  font-weight: bold;
-  margin: 2.5rem 0 1.5rem;
-  border-bottom: 2px solid #ddd;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 3rem 0 1.5rem;
+  border-bottom: 2px solid #e2e8f0;
   padding-bottom: 0.5rem;
-/*  color: #a78bfa; /* 紫色 */*/
+  color: #4b5563;
 }
+
+/* 单条新闻卡片 */
 .news-item {
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
   opacity: 0;
   transform: translateY(30px);
-  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
 }
 .news-item.visible {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* 新闻标题 */
 .news-item h4 {
-  font-weight: bold;
+  font-size: 1.25rem;
+  font-weight: 600;
   margin-bottom: 0.5rem;
+  color: #1f2937;
 }
+
+/* 新闻正文 */
 .news-item p {
   margin-bottom: 0.5rem;
   line-height: 1.7;
+  font-size: 1rem;
+  color: #374151;
 }
 
-
+/* 图片展示区域 */
 .news-gallery {
   display: flex;
   flex-wrap: wrap;
@@ -47,11 +61,14 @@ nav_order: 4
   margin-top: 1rem;
 }
 
+/* 单张图样式 */
 .news-gallery img {
-  max-width: 180px;
+  width: 100%;
+  max-width: 220px;
   height: auto;
   border-radius: 0.5rem;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
 }
 </style>
 
@@ -61,7 +78,9 @@ nav_order: 4
 
   <div class="news-item">
     <h4>October</h4>
-    <p>Our work <a href="https://ieeexplore.ieee.org/document/10735338">"Collision-free Source Seeking Control Methods for Unicycle Robots"</a> is officially accepted in <strong>IEEE Transactions on Automatic Control (TAC)</strong>! This is a key part of my PhD thesis and proposes three control barrier function (CBF) designs for solving the mixed relative degree problem in unicycle robot control. Many thanks to my advisor Prof. Bayu Jayawardhana for the insightful discussions and unwavering support! 😊</p>
+    <p>
+      Our work <a href="https://ieeexplore.ieee.org/document/10735338">"Collision-free Source Seeking Control Methods for Unicycle Robots"</a> is officially accepted in <strong>IEEE Transactions on Automatic Control (TAC)</strong>! This is a key part of my PhD thesis and proposes three control barrier function (CBF) designs for solving the mixed relative degree problem in unicycle robot control. Many thanks to my advisor Prof. Bayu Jayawardhana for the insightful discussions and unwavering support! 😊
+    </p>
   </div>
 
   <div class="news-item">
