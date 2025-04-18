@@ -94,7 +94,7 @@ nav_order: 4
 
   <div class="news-item">
     <h4>January</h4>
-    <p>🎓 I am excited to announce that I have defended my <strong>Ph.D. thesis</strong> <a href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots">"Motion control for nonholonomic unicycle robots"</a>. This work addresses source-seeking, collision avoidance (via multi-input CBFs), and flocking cohesion, both from theoretical and experimental perspectives.</p>
+    <p>🎓 I am excited to announce that I have defended my <strong>Ph.D. thesis</strong> <a href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots">"Motion control for nonholonomic unicycle robots"</a>. This work addresses source-seeking, collision avoidance, and flocking cohesion, both from theoretical and experimental perspectives.</p>
   </div>
 
   <div class="news-year">2023</div>
