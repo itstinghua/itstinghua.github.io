@@ -283,7 +283,7 @@ a:hover {
         <ul class="skills-list">
           <li>C/C++/Python/MATLAB</li>
           <li>ROS/Gazebo/OpenCV</li>
-          <li>SLAM/Point Cloud Processing</li>
+          <li>SLAM</li>
         </ul>
       </td>
     </tr>
