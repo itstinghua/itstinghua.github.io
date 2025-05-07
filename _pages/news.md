@@ -107,7 +107,7 @@ a:hover {
   <div class="news-item">
     <h4>March</h4>
     <p>
-     Our paper "Collision-free Source Seeking Control Methods for Unicycle Robots is now online at TAC, please feel free to check out the details <a href="https://ieeexplore.ieee.org/abstract/document/10735338">here</a> :)
+     Our paper <a href="https://ieeexplore.ieee.org/document/10735338">"Collision-free Source Seeking Control Methods for Unicycle Robots"</a> is now online at TAC, please feel free to check out the details :)
     </p>
   </div>
   
@@ -124,7 +124,7 @@ a:hover {
   <div class="news-item">
     <h4>October</h4>
     <p>
-      Our work <a href="https://ieeexplore.ieee.org/document/10735338">"Collision-free Source Seeking Control Methods for Unicycle Robots"</a> is officially accepted in <strong>IEEE Transactions on Automatic Control (TAC)</strong>! This is a key part of my PhD thesis and proposes three control barrier function (CBF) designs for solving the mixed relative degree problem in unicycle robot control. Many thanks to my advisor Prof. Bayu Jayawardhana for the insightful discussions and unwavering support! 😊
+      Our work "Collision-free Source Seeking Control Methods for Unicycle Robots" is officially accepted in <strong>IEEE Transactions on Automatic Control (TAC)</strong>. This is a key part of my PhD thesis and proposes three control barrier function (CBF) designs for solving the mixed relative degree problem in unicycle robot control. Many thanks to my advisor Prof. Bayu Jayawardhana for the insightful discussions and unwavering support! 😊
     </p>
   </div>
 
