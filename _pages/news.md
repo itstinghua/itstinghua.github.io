@@ -41,7 +41,7 @@ nav_order: 4
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
-  color: #1f2937;
+  color: #4b5563;
 }
 
 /* 新闻正文 */
@@ -49,7 +49,7 @@ nav_order: 4
   margin-bottom: 0.5rem;
   line-height: 1.7;
   font-size: 1rem;
-  color: #374151;
+  color: #4b5563;
 }
 
 /* 图片展示区域 */
