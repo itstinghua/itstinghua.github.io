@@ -1,183 +1,93 @@
----
-layout: about
-title: About Me
-permalink: /
-profile:
-  align: right
-  image: Tinghua_li.jpg
-  image_circular: false
-social: true
----
-
-<style>
-/* 页面动画和排版样式 */
-.fade-in-section {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-}
-.fade-in-section.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-section.about-section {
-  margin-bottom: 3rem;
-  padding-right: 1rem;
-}
-ul {
-  margin-top: 0.3rem;
-  margin-bottom: 1rem;
-  padding-left: 1.2rem;
-}
-.flex-columns {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-}
-.flex-column {
-  flex: 1;
-  min-width: 200px;
-}
-
-
-/* ===== 紧凑型表格技能展示 ===== */
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-  margin-top: 1rem;
-}
-
-.skill-category {
-  background: var(--light-bg);
-  padding: 1rem;
-  border-radius: 6px;
-  border-left: 3px solid var(--theme-color);
-}
-
-.skill-category h3 {
-  margin-top: 0;
-  color: var(--theme-color);
-  font-size: 1.1rem;
-}
-
-.skill-list {
-  margin: 0;
-  padding-left: 1.2rem;
-  columns: 2;
-  column-gap: 1.5rem;
-}
-
-.skill-list li {
-  font-size: 0.9rem;
-  margin-bottom: 0.4rem;
-  break-inside: avoid;
-}
-
-</style>
-
-
-<!-- 🔹 个人简介模块 -->
-<section id="about" class="fade-in-section about-section">
-  <header>
-    <strong>厉庭华</strong><br>
-    Postdoctoral Researcher<br>
-    <a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">
-      C&S, Delft University of Technology (2025--)
-    </a>
-  </header>
-
-  <div style="height: 1rem;"></div>
-
-  <p>
-    PhD in Robotics & Control Engineering (2024)<br>
-    <a href="https://www.rug.nl/research/discrete-technology-production-automation/?lang=en">
-      DTPA, University of Groningen
-    </a><br>
-    Advisor:
-    <a href="https://www.rug.nl/staff/b.jayawardhana">Prof. Bayu Jayawardhana</a> and
-    <a href="https://www.rug.nl/staff/m.cao/">Prof. Ming Cao</a>
-  </p>
-</section>
-
-<!-- 🔹 研究方向模块 -->
-<section id="research" class="fade-in-section about-section">
-  <h2>Research Interests</h2>
-
-  <p><strong>Robotics</strong></p>
-  <ul>
-    <li>Nonholonomic Systems</li>
-    <li>Multi-agent Systems</li>
-    <li>Wheeled Mobile Robots</li>
-    <li>Quadcopters</li>
-  </ul>
-
-  <p><strong>Motion Control</strong></p>
-  <ul>
-    <li>Source seeking</li>
-    <li>Flexible Flocking</li>
-    <li>Safety Control (Collision/Obstacle avoidance)</li>
-    <li>Loss-of-Control</li>
-  </ul>
-
-  <p><strong>Practical Applications</strong></p>
-  <ul>
-    <li>3D-Printed Flexible Piezoresistive Sensors</li>
-    <li>Navigation in the cluttered environment</li>
-  </ul>
-
-  <p><em>Bridging theoretical control methods with practical robotic implementations</em></p>
-</section>
-
-
-<!-- 技术技能模块 -->
-<section class="about-section">
-  <h2>Technical Skills</h2>
-  <div class="skills-grid">
-    <div class="skill-category">
-      <h3>Software</h3>
-      <ul class="skill-list">
-        <li>C/C++/Python/MATLAB</li>
-        <li>ROS/Gazebo</li>
-        <li>SLAM</li>
-      </ul>
+<!-- 顶部个人信息栏 -->
+<div class="profile-header">
+  <div class="profile-text">
+    <h1>Tinghua Li</h1>
+    <p class="subtitle">Postdoctoral Researcher @ TU Delft</p>
+    <div class="contact-info">
+      <span>✉️ tinghua.li@tudelft.nl</span>
+      <span>📍 Delft, Netherlands</span>
     </div>
+  </div>
+  <div class="profile-image">
+    <img src="/assets/img/Tinghua_li.jpg" alt="Tinghua Li" class="profile-photo">
+  </div>
+</div>
 
-    <div class="skill-category">
-      <h3>Hardware</h3>
-      <ul class="skill-list">
-        <li>STM32/Arduino</li>
-        <li>Sensor Integration</li>
-        <li>Robotics Platforms</li>
-        <li>3D Printing</li>
-      </ul>
+<!-- 紧凑版研究兴趣 -->
+<section class="compact-section">
+  <h2>Research Interests</h2>
+  <div class="research-grid">
+    <div>
+      <h3>Robotics</h3>
+      <p>Nonholonomic Systems · Multi-agent Systems · Wheeled Robots · Quadcopters</p>
+    </div>
+    <div>
+      <h3>Motion Control</h3>
+      <p>Source Seeking · Flocking Control · Collision Avoidance · Sensor Integration</p>
     </div>
   </div>
 </section>
 
-
-
-<!-- 🔹 联系方式模块 -->
-<section id="contact" class="fade-in-section about-section">
-  <h2>Contact</h2>
-  <p>Open to collaborations and discussions ↓</p>
+<!-- 技术技能表格 -->
+<section class="compact-section">
+  <h2>Technical Skills</h2>
+  <table class="compact-table">
+    <tr>
+      <th>Software</th>
+      <td>C/C++ · Python · MATLAB · ROS/Gazebo · SLAM</td>
+    </tr>
+    <tr>
+      <th>Hardware</th>
+      <td>STM32/Arduino · LiDAR/RealSense · Robotics Platforms</td>
+    </tr>
+  </table>
 </section>
 
-<!-- 🔹 页面动画脚本 -->
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("visible");
-        }
-      });
-    }, {
-      threshold: 0.15
-    });
-
-    document.querySelectorAll(".fade-in-section").forEach(el => {
-      observer.observe(el);
-    });
-  });
-</script>
+<style>
+  /* 紧凑布局样式 */
+  .profile-header {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .profile-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #f0f0f0;
+  }
+  .compact-section {
+    margin-bottom: 1.8rem;
+  }
+  .research-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  .compact-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .compact-table th, 
+  .compact-table td {
+    padding: 0.6rem 0;
+    border-bottom: 1px solid #eee;
+    vertical-align: top;
+  }
+  .compact-table th {
+    width: 25%;
+    text-align: left;
+    font-weight: 600;
+    color: #6f42c1;
+  }
+  h3 {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+  }
+  p {
+    margin: 0.3rem 0;
+    line-height: 1.5;
+  }
+</style>
