@@ -4,8 +4,8 @@ title: About Me
 permalink: /
 profile:
   align: right
-  image: Tinghua_li.jpg
-  image_circular: false
+  # image: Tinghua_li.jpg
+  # image_circular: false
 social: true
 ---
 
@@ -163,7 +163,7 @@ social: true
 
 <!-- Research Interests -->
 <section class="compact-section">
-  <h2>Research Interests</h2>
+  <h2>Research Interests</h3>
   <div class="research-grid">
     <div class="research-group">
       <h3>Robotics</h3>
