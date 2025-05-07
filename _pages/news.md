@@ -78,14 +78,14 @@ nav_order: 4
   <div class="news-item">
     <h4>March</h4>
     <p>
-     Our paper is now online at TAC, check it out <a href="https://ieeexplore.ieee.org/abstract/document/10735338">here</a> :)
+     Our paper "Collision-free Source Seeking Control Methods for Unicycle Robots is now online at TAC, check it out <a href="https://ieeexplore.ieee.org/abstract/document/10735338">here</a> :)
     </p>
   </div>
   
    <div class="news-item">
     <h4>February</h4>
     <p>
-     I have started my postdoc journey at <a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">Control and Simulation (C&S)</a>, Delft University of Technology (TU Delft).  
+     I have started my postdoc journey at <a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">Control and Simulation (C&S)</a>, Delft University of Technology (TU Delft). Excited to explore the challenges from ground mobile robots to aerial robots!
     </p>
   </div>
 
