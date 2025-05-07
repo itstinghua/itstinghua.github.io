@@ -46,7 +46,7 @@ ul {
     <strong>厉庭华</strong><br>
     Postdoctoral Researcher<br>
     <a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">
-      C&S, Delft University of Technology
+      C&S, Delft University of Technology (2015-)
     </a>
   </header>
 
