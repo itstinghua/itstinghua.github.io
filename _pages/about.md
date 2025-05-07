@@ -29,8 +29,7 @@ social: true
   width: 150px;
   height: 150px;
   object-fit: cover;
-  border-radius: 50%;
-  border: 2px solid #ccc;
+  border: none; /* 移除边框 */
   flex-shrink: 0; /* 防止图片被压缩 */
 }
 
@@ -239,16 +238,15 @@ a:hover {
 
   <div class="profile-info">
      <h2>
-      Tinghua Li <span class="chinese-name">厉庭华</span>
+      <span class="chinese-name">厉庭华</span>
     </h2>
     <div class="profile-section">
       <p>
         <strong>Postdoctoral Researcher (2025–)</strong><br>
         <a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">Control & Simulation, Delft University of Technology </a><br>
-        <span>📍🇳🇱 Delft, Netherlands</span>
+        <span>📍🇳🇱 Delft, Netherlands</span><br>
       </p>
     </div>
-
 
 
     <div class="profile-section">
