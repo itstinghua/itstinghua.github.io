@@ -75,10 +75,17 @@ nav_order: 4
 <div class="news-section">
 
    <div class="news-year">2025</div>
-    <div class="news-item">
+  <div class="news-item">
+    <h4>March</h4>
+    <p>
+     Our paper is now online at TAC, check it out <a href="https://ieeexplore.ieee.org/abstract/document/10735338">here!</a>
+    </p>
+  </div>
+  
+   <div class="news-item">
     <h4>February</h4>
     <p>
-      Our work <a href="https://ieeexplore.ieee.org/document/10735338">"Collision-free Source Seeking Control Methods for Unicycle Robots"</a> is officially accepted in <strong>IEEE Transactions on Automatic Control (TAC)</strong>! This is a key part of my PhD thesis and proposes three control barrier function (CBF) designs for solving the mixed relative degree problem in unicycle robot control. Many thanks to my advisor Prof. Bayu Jayawardhana for the insightful discussions and unwavering support! 😊
+     I have started my postdoc journey at <a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">Control and Simulation (C&S)</a>, Delft University of Technology (TU Delft).  
     </p>
   </div>
 
