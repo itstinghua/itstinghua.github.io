@@ -19,29 +19,33 @@ social: true
 /* Profile header */
 .profile-header {
   display: flex;
-  align-items: center;
-  gap: 2rem;
-  margin-bottom: 2rem;
+  align-items: flex-start;
+  gap: 20px;
 }
+
 .profile-photo {
   width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #f0f0f0;
+  height: auto;
+  border-radius: 8px;
 }
-.profile-text h1 {
-  margin: 0 0 0.3rem 0;
-  font-size: 1.8rem;
-}
-.profile-text p {
-  margin: 0.2rem 0;
-}
-.contact-badges {
+
+.profile-info {
   display: flex;
+  flex-direction: column;
   gap: 1rem;
-  margin: 0.5rem 0;
 }
+
+.position-info, .education-info {
+  font-size: 0.95rem;
+}
+
+.contact-badges span {
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
 
 /* Compact sections */
 .compact-section {
@@ -56,20 +60,33 @@ social: true
 /* Research grid */
 .research-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
+  margin-top: 1rem;
 }
+
 .research-group h3 {
-  color: var(--primary-color);
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
+  color: #333;
 }
+
 .research-group ul {
-  margin: 0;
+  list-style-type: disc;
   padding-left: 1.2rem;
+  margin: 0;
 }
+
 .research-group li {
   margin-bottom: 0.3rem;
+  font-size: 0.95rem;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+  .research-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Skills table */
@@ -140,33 +157,39 @@ social: true
 
 <!-- Profile Header with Photo -->
 <div class="profile-header">
-  <img src="/assets/img/Tinghua_li.jpg" alt="Tinghua Li" class="profile-photo">
-  <div class="profile-text">
-    <h1>厉庭华</h1>
-    <p><strong>Postdoctoral Researcher</strong></p>
-    <p><a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">
-      C&S, Delft University of Technology (2025--)
-    </a></p>
-    <div class="contact-badges">
-      <span>📍 Delft, Netherlands</span>
-    </div>
-     </div>
-  <div class="profile-text">
-     <p><strong>PhD in Robotics & Control Engineering</strong>, 2024<br>
-    <a href="https://www.rug.nl/research/discrete-technology-production-automation/?lang=en">
-      DTPA, University of Groningen <br>
-    </a>
-  Advisors: <a href="https://www.rug.nl/staff/b.jayawardhana">Prof. Bayu Jayawardhana</a> and 
-  <a href="https://www.rug.nl/staff/m.cao/">Prof. Ming Cao</a></p>
-  </div>
-   </div>
-</div>
+  <img src="/assets/img/Tinghua_li.jpg" alt="Tinghua Li (厉庭华)" class="profile-photo">
 
+  <div class="profile-info">
+    <div class="position-info">
+      <p><strong>Postdoctoral Researcher</strong></p>
+      <p>
+        <a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">
+          Control & Simulation, Delft University of Technology (2025–)
+        </a>
+      </p>
+      <div class="contact-badges">
+        <span>📍 Delft, Netherlands</span>
+      </div>
+    </div>
+
+    <div class="education-info">
+      <p>
+        <strong>PhD in Robotics & Control Engineering</strong>, 2024<br>
+        <a href="https://www.rug.nl/research/discrete-technology-production-automation/?lang=en">
+          DTPA, University of Groningen
+        </a><br>
+        Advisors:
+        <a href="https://www.rug.nl/staff/b.jayawardhana">Prof. Bayu Jayawardhana</a> and
+        <a href="https://www.rug.nl/staff/m.cao/">Prof. Ming Cao</a>
+      </p>
+    </div>
+  </div>
+</div>
 
 
 <!-- Research Interests -->
 <section class="compact-section">
-  <h3>Research Interests</h3>
+  <h2>Research Interests</h2>
   <div class="research-grid">
     <div class="research-group">
       <h3>Robotics</h3>
@@ -182,7 +205,7 @@ social: true
       <ul>
         <li>Source seeking</li>
         <li>Flexible Flocking</li>
-        <li>Collision/Obstacle avoidance</li>
+        <li>Collision/Obstacle Avoidance</li>
         <li>Sensor Integration</li>
       </ul>
     </div>
@@ -195,6 +218,7 @@ social: true
     </div>
   </div>
 </section>
+
 
 <!-- Technical Skills -->
 <section class="compact-section">
