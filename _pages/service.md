@@ -24,7 +24,7 @@ nav_order: 3
   margin-bottom: 0.8rem;
   font-size: 1.25rem;
   border-left: 4px solid;
-/*   #a78bfa;*/
+  #e9f5ff;
   padding-left: 0.6rem;
 }
 .service-section ul {
