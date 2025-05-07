@@ -73,7 +73,6 @@ nav_order: 2
     <p style="margin-top: 0.5rem;">
       <p class="reference">
       • <strong>T. Li</strong>, B. Jayawardhana, A. M. Kamat and A. G. P. Kottapalli, “Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors”, in <strong>IEEE Transactions on Robotics (TRO)</strong>, vol. 38, no. 1, pp. 448–462, Feb. 2022, doi: 10.1109/TRO.2021.3076964.
-       </p>
       </p>
     </p>
   </div>

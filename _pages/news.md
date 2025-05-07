@@ -85,7 +85,7 @@ nav_order: 4
    <div class="news-item">
     <h4>February</h4>
     <p>
-     I have started my postdoc journey at Control and Simulation (C&S), Delft University of Technology (TU Delft). Excited to explore the challenges from ground mobile robots to aerial robots!
+     I have started my postdoc journey at Control and Simulation (C&S), Delft University of Technology (TU Delft). Excited to explore the challenges from ground mobile robots to aerospace!
     </p>
   </div>
 
