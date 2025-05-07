@@ -65,7 +65,8 @@ body {
 h1, h2, h3, h4 {
   font-family: "Inter", "Helvetica Neue", sans-serif;
   font-weight: 600;
-  color: #111;
+  font-size: 18px;
+  color: #00539C;
   margin-top: 1.2rem;
   margin-bottom: 0.6rem;
 }
