@@ -248,7 +248,7 @@ a:hover {
         <a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation" target="_blank">
           Control & Simulation, Delft University of Technology
         </a><br>
-        <span>📍 Delft, Netherlands</span>
+        <span>📍🇳🇱 Delft, Netherlands</span>
       </p>
     </div>
   </div>
@@ -264,7 +264,7 @@ a:hover {
         Advisors:
         <a href="https://www.rug.nl/staff/b.jayawardhana">Prof. Bayu Jayawardhana</a> and
         <a href="https://www.rug.nl/staff/m.cao/">Prof. Ming Cao</a><br>
-        <span>📍 Groningen, Netherlands</span>
+        <span>📍🇳🇱 Groningen, Netherlands</span>
       </p>
     </div>
   </div>
