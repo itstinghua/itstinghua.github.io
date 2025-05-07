@@ -70,6 +70,35 @@ nav_order: 4
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   object-fit: cover;
 }
+
+/* Global font settings */
+body {
+  font-family: "Inter", "Helvetica Neue", "Segoe UI", "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #222;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Inter", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  color: #111;
+  margin-top: 1.2rem;
+  margin-bottom: 0.6rem;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 </style>
 
 <div class="news-section">
