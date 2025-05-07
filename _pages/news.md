@@ -21,7 +21,7 @@ nav_order: 4
   margin: 3rem 0 1.5rem;
   border-bottom: 2px solid #e2e8f0;
   padding-bottom: 0.5rem;
-  color: #4b5563;
+  color: #1f2937;
 }
 
 /* 单条新闻卡片 */
@@ -41,7 +41,7 @@ nav_order: 4
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
-  color: #4b5563;
+  color: #1f2937;
 }
 
 /* 新闻正文 */
@@ -49,7 +49,7 @@ nav_order: 4
   margin-bottom: 0.5rem;
   line-height: 1.7;
   font-size: 1rem;
-  color: #4b5563;
+  color: #1f2937;
 }
 
 /* 图片展示区域 */
@@ -76,7 +76,7 @@ body {
   font-family: "Inter", "Helvetica Neue", "Segoe UI", "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  color: #222;
+  color: #1f2937;
   background-color: #fff;
   margin: 0;
   padding: 0;
