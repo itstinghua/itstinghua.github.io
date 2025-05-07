@@ -235,24 +235,20 @@ a:hover {
 </style>
 
 <!-- Profile Header with Photo -->
-<div class="profile-header">
-  <img src="/assets/img/Tinghua_li.jpg" alt="Tinghua Li (厉庭华)" class="profile-photo">
+<div class="profile-header"> <img src="/assets/img/Tinghua_li.jpg" class="profile-photo">
 
   <div class="profile-info">
-    <h2 class="name-heading">
+     <h2>
       Tinghua Li <span class="chinese-name">厉庭华</span>
     </h2>
     <div class="profile-section">
       <p>
         <strong>Postdoctoral Researcher (2025–)</strong><br>
-        <a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation" target="_blank">
-          Control & Simulation, Delft University of Technology
-        </a><br>
+        <a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">Control & Simulation, Delft University of Technology </a><br>
         <span>📍🇳🇱 Delft, Netherlands</span>
       </p>
     </div>
-  </div>
-</div>
+
 
 
     <div class="profile-section">
