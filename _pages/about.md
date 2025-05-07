@@ -144,14 +144,18 @@ social: true
   <div class="profile-text">
     <h1>厉庭华</h1>
     <p><strong>Postdoctoral Researcher</strong></p>
-    <p>Control & Simulation, TU Delft (2025—)</p>
+    <p><a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">
+      C&S, Delft University of Technology (2025--)
+    </a></p>
     <div class="contact-badges">
       <span>📍 Delft, Netherlands</span>
     </div>
      </div>
   <div class="profile-text">
      <p><strong>PhD in Robotics & Control Engineering</strong>, 2024<br>
-  University of Groningen<br>
+    <a href="https://www.rug.nl/research/discrete-technology-production-automation/?lang=en">
+      DTPA, University of Groningen <br>
+    </a>
   Advisors: <a href="https://www.rug.nl/staff/b.jayawardhana">Prof. Bayu Jayawardhana</a> and 
   <a href="https://www.rug.nl/staff/m.cao/">Prof. Ming Cao</a></p>
   </div>
