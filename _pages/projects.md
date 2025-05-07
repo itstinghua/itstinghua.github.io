@@ -13,6 +13,12 @@ nav_order: 2
   margin: 0 auto;
   padding: 0 20px;
 }
+.reference {
+  background-color: #e9f5ff;  
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0.5rem 0;
+}
 .project-container {
   display: flex;
   gap: 40px;
@@ -65,9 +71,10 @@ nav_order: 2
       Experimental validation of source seeking control for unicycle robots with 3D-printed graphene-based airflow sensors. The algorithm ensures convergence to the source even with partial sensor failure.
     </p>
     <p style="margin-top: 0.5rem;">
+      <p class="reference">
       • <strong>T. Li</strong>, B. Jayawardhana, A. M. Kamat and A. G. P. Kottapalli, “Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors”, in
-      <strong>IEEE Transactions on Robotics (TRO)</strong>, vol. 38, no. 1, pp. 448–462, Feb. 2022,
-      doi: 10.1109/TRO.2021.3076964.
+      <strong>IEEE Transactions on Robotics (TRO)</strong>, vol. 38, no. 1, pp. 448–462, Feb. 2022, doi: 10.1109/TRO.2021.3076964.
+      </p>
     </p>
   </div>
 </div>
