@@ -8,35 +8,30 @@ nav_order: 2
 ---
 
 <style>
-/* Card Container */
-/*.project-card {
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  padding: 1.5rem;
-  margin-bottom: 2rem;
-}*/
+/* 全局容器样式 */
+.container {
+  max-width: 900px;     /* 设置页面最大宽度 */
+  margin: 0 auto;        /* 左右居中 */
+  padding: 20px 30px;    /* 内边距（可根据需要调整） */
+  box-sizing: border-box;
+}
 
-/*.project-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12);
-}*/
-
-/* Flex Container for Video and Text */
+/* Flex 容器样式 */
 .project-container {
   display: flex;
   align-items: stretch;
   gap: 2rem;
+  margin-bottom: 3rem;   /* 每组之间添加间隔 */
 }
 
+/* 视频与文本区域 */
 .project-video,
 .project-text {
   flex: 1;
   min-width: 0;
 }
 
-/* Video Styling */
+/* 视频样式 */
 .project-video video {
   width: 100%;
   height: 100%;
@@ -44,7 +39,7 @@ nav_order: 2
   border-radius: 8px;
 }
 
-/* Text Section Styling */
+/* 文本排版 */
 .project-text {
   display: flex;
   flex-direction: column;
@@ -63,29 +58,34 @@ nav_order: 2
   line-height: 1.6;
 }
 
+/* 参考信息块 */
 .reference {
-  background-color: #f0f8ff;  
+  background-color: #f0f8ff;
   padding: 10px;
   border-radius: 5px;
   margin-top: 0.5rem;
   font-size: 0.95rem;
 }
 
-/* Responsive Styles */
+/* 响应式：小屏幕下改为竖排 */
 @media (max-width: 768px) {
   .project-container {
     flex-direction: column;
   }
+
   .project-video video {
     height: auto;
+  }
+
+  .container {
+    padding: 10px 15px; /* 减小内边距 */
   }
 }
 </style>
 
 <div class="container">
 
-<!-- First Project -->
-<!-- <div class="project-card"> -->
+  <!-- 第一个项目 -->
   <div class="project-container">
     <div class="project-video">
       {% include video.liquid path="/assets/video/SS.mp4" class="img-fluid rounded z-depth-1" controls=true %}
@@ -102,10 +102,8 @@ nav_order: 2
       </p>
     </div>
   </div>
-<!-- </div> -->
 
-<!-- Second Project -->
-<!-- <div class="project-card"> -->
+  <!-- 第二个项目 -->
   <div class="project-container">
     <div class="project-video">
       {% include video.liquid path="/assets/video/CO.mp4" class="img-fluid rounded z-depth-1" controls=true %}
@@ -122,10 +120,8 @@ nav_order: 2
       </p>
     </div>
   </div>
-<!-- </div> -->
 
-<!-- Third Project -->
-<!-- <div class="project-card"> -->
+  <!-- 第三个项目 -->
   <div class="project-container">
     <div class="project-video">
       {% include video.liquid path="/assets/video/connectivity.mp4" class="img-fluid rounded z-depth-1" controls=true %}
@@ -142,6 +138,5 @@ nav_order: 2
       </p>
     </div>
   </div>
-<!-- </div> -->
 
 </div>
