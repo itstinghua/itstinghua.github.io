@@ -8,11 +8,11 @@ nav_order: 2
 ---
 
 <style>
-.container {
-/*  max-width: 1000px;*/
+/*.container {
+  max-width: 800px;
   margin: 0 auto;
   padding: 0 20px;
-}
+}*/
 .reference {
   background-color: #f0f8ff;  
   padding: 10px;
