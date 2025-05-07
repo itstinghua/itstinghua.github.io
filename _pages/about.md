@@ -215,19 +215,19 @@ a:hover {
   <div class="profile-info">
     <div class="position-info">
       <p>
-      <strong>Postdoctoral Researcher</strong><br>
-      <a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">Control & Simulation, Delft University of Technology (2025–)</a><br>
+      <strong>Postdoctoral Researcher (2025–)</strong><br>
+      <a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">Control & Simulation, Delft University of Technology </a><br>
       <span>📍 Delft, Netherlands</span><br>
       </p>
     </div>
     </div>
-    <br>
+    <!-- <br> -->
 
     <div class="education-info">
       <p>
-        <strong>PhD in Robotics & Control Engineering </strong> <br>
+        <strong>PhD in Robotics & Control Engineering (2024) </strong> <br>
         <a href="https://www.rug.nl/research/discrete-technology-production-automation/?lang=en">
-          DTPA Group, University of Groningen (2024)
+          DTPA Group, University of Groningen 
         </a><br>
         Advisors:
         <a href="https://www.rug.nl/staff/b.jayawardhana">Prof. Bayu Jayawardhana</a> and
