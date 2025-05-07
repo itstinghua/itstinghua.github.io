@@ -215,7 +215,7 @@ h1, h2, h3, h4 {
   color: #111;
   margin-top: 1.2rem;
   margin-bottom: 0.6rem;
-  font-size: 22px;
+  font-size: 23px;
 }
 
 a {
