@@ -215,9 +215,9 @@ a:hover {
   <div class="profile-info">
     <div class="position-info">
       <p>
-      <strong>Postdoctoral Researcher</strong>
-      <a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">Control & Simulation, Delft University of Technology (2025–)</a>
-      <span>📍 Delft, Netherlands</span>
+      <strong>Postdoctoral Researcher</strong><br>
+      <a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">Control & Simulation, Delft University of Technology (2025–)</a><br>
+      <span>📍 Delft, Netherlands</span><br>
       </p>
     </div>
     </div>
@@ -230,7 +230,8 @@ a:hover {
         </a><br>
         Advisors:
         <a href="https://www.rug.nl/staff/b.jayawardhana">Prof. Bayu Jayawardhana</a> and
-        <a href="https://www.rug.nl/staff/m.cao/">Prof. Ming Cao</a>
+        <a href="https://www.rug.nl/staff/m.cao/">Prof. Ming Cao</a><br>
+        <span>📍 Groningen, Netherlands</span>
       </p>
     </div>
   </div>
