@@ -20,30 +20,53 @@ social: true
 .profile-header {
   display: flex;
   align-items: flex-start;
-  gap: 20px;
+  gap: 30px;
+  flex-wrap: wrap; /* 保证移动端换行 */
+  margin-bottom: 2rem;
 }
 
 .profile-photo {
-  width: 120px;
+  width: 180px;      /* 更大尺寸 */
   height: auto;
-  border-radius: 8px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  flex-shrink: 0;    /* 防止在小屏压缩照片 */
 }
 
 .profile-info {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.2rem;
+  flex: 1;           /* 占据剩余宽度 */
 }
 
 .position-info, .education-info {
-  font-size: 0.95rem;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 .contact-badges span {
   display: inline-block;
-  margin-top: 5px;
-  font-size: 0.9rem;
+  margin-top: 6px;
+  font-size: 0.95rem;
   color: #555;
+}
+
+/* 手机端优化 */
+@media (max-width: 600px) {
+  .profile-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-photo {
+    width: 140px;
+  }
+
+  .profile-info {
+    align-items: center;
+  }
 }
 
 
