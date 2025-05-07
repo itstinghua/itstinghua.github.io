@@ -138,12 +138,8 @@ body {
     <div class="skill-category">
       <h3>Software</h3>
       <ul class="skill-list">
-        <li>C/C++</li>
-        <li>Python</li>
-        <li>MATLAB</li>
-        <li>ROS</li>
-        <li>Gazebo</li>
-        <li>OpenCV</li>
+        <li>C/C++/Python/MATLAB</li>
+        <li>ROS/Gazebo</li>
         <li>SLAM</li>
       </ul>
     </div>
