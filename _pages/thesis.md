@@ -126,7 +126,7 @@ nav_order: 5
   font-weight: 600;
 }
 .acknowledgment-section a {
-  color: #0056b3;
+  color: #00539C;
   text-decoration: underline;
 }
 </style>
