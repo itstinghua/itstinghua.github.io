@@ -21,15 +21,20 @@ nav_order: 2
 }
 .project-container {
   display: flex;
+  align-items: stretch; /* 强制子元素等高 */
   gap: 40px;
-  align-items: center;
   margin-bottom: 3rem;
 }
-.project-video {
+
+.project-video,
+.project-text {
   flex: 1;
-  min-width: 0;
-  max-width: 50%; /* 新增：限制视频最大宽度 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: center;
 }
+
 .project-video video {
   width: 100%;
   max-height: 600px; /* 新增：限制视频最大高度 */
