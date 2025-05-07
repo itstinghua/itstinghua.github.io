@@ -1,3 +1,15 @@
+---
+layout: about
+title: About Me
+permalink: /
+profile:
+  align: right
+  image: Tinghua_li.jpg
+  image_circular: false
+social: true
+---
+
+
 <!-- 顶部个人信息栏 -->
 <div class="profile-header">
   <div class="profile-text">
