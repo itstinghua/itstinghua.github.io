@@ -35,7 +35,7 @@ nav_order: 3
 }
 
 /* Global font settings */
-body {
+/*body {
   font-family: "Inter", "Helvetica Neue", "Segoe UI", "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.6;
@@ -60,7 +60,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-}
+}*/
 
 
 </style>

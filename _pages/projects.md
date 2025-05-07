@@ -40,6 +40,9 @@ nav_order: 2
 }
 .project-text h3 {
   margin-top: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #00539C;
 }
 @media (max-width: 768px) {
   .project-container {
@@ -52,7 +55,7 @@ nav_order: 2
 }
 
 /* Global font settings */
-body {
+bo/*dy {
   font-family: "Inter", "Helvetica Neue", "Segoe UI", "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.6;
@@ -66,6 +69,7 @@ h1, h2, h3, h4 {
   font-family: "Inter", "Helvetica Neue", sans-serif;
   font-weight: 600;
   color: #00539C;
+  font-size: 22px;
   margin-top: 1.2rem;
   margin-bottom: 0.6rem;
 }
@@ -78,7 +82,7 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
+*/
 
 </style>
 
