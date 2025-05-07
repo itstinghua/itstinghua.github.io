@@ -26,6 +26,8 @@ nav_order: 3
   border-left: 4px solid;
   #e9f5ff;
   padding-left: 0.6rem;
+  font-weight: 600;
+  color: #4b5563;
 }
 .service-section ul {
   margin-top: 0;
