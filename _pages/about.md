@@ -38,6 +38,62 @@ ul {
   flex: 1;
   min-width: 200px;
 }
+
+/* 表格样式 */
+.skills-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.95rem;
+}
+
+.skills-table th, .skills-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.skills-table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.skills-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* 技能列表样式 */
+.skills-list {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.skills-list li {
+  margin-bottom: 5px;
+  position: relative;
+  padding-left: 1.2em;
+}
+
+.skills-list li:before {
+  content: "•";
+  color: #6f42c1; /* 紫色圆点 */
+  position: absolute;
+  left: 0;
+}
+.skills-table {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+@media (max-width: 768px) {
+  .skills-table {
+    font-size: 0.9rem;
+  }
+}
+.skills-table td {
+  padding: 8px 12px;
+}
 </style>
 
 <!-- 🔹 个人简介模块 -->
@@ -92,34 +148,41 @@ ul {
   <p><em>Bridging theoretical control methods with practical robotic implementations</em></p>
 </section>
 
+
 <!-- 🔹 技术技能模块 -->
 <section id="skills" class="fade-in-section about-section">
   <h2>Technical Skills</h2>
 
-  <div class="flex-columns">
-    <div class="flex-column">
-      <p><strong>Software</strong></p>
-      <ul>
-        <li>C/C++</li>
-        <li>Python</li>
-        <li>MATLAB</li>
-        <li>ROS</li>
-        <li>Gazebo</li>
-        <li>OpenCV</li>
-        <li>SLAM</li>
-        <li>Point Cloud Processing</li>
-      </ul>
-    </div>
-
-    <div class="flex-column">
-      <p><strong>Hardware</strong></p>
-      <ul>
-        <li>STM32 / Arduino</li>
-        <li>Sensor Integration (LiDAR, RealSense)</li>
-        <li>Mecanum-wheel Robotics Platforms</li>
-      </ul>
-    </div>
-  </div>
+  <table class="skills-table">
+    <tr>
+      <th>Category</th>
+      <th>Skills</th>
+    </tr>
+    <tr>
+      <td><strong>Software</strong></td>
+      <td>
+        <ul class="skills-list">
+          <li>C/C++</li>
+          <li>Python</li>
+          <li>MATLAB</li>
+          <li>ROS</li>
+          <li>Gazebo</li>
+          <li>OpenCV</li>
+          <li>SLAM</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Hardware</strong></td>
+      <td>
+        <ul class="skills-list">
+          <li>STM32 / Arduino</li>
+          <li>Sensor Integration (LiDAR, RealSense)</li>
+          <li>Mecanum-wheel Robotics Platforms</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
 </section>
 
 <!-- 🔹 联系方式模块 -->
