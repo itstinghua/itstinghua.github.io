@@ -214,10 +214,12 @@ a:hover {
 
   <div class="profile-info">
     <div class="position-info">
-      <p><strong>Postdoctoral Researcher</strong>
-      <a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">Control & Simulation, Delft University of Technology (2025–-)</a>
-      <span>📍 Delft, Netherlands</span></p>
-      </div>
+      <p>
+      <strong>Postdoctoral Researcher</strong>
+      <a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">Control & Simulation, Delft University of Technology (2025–)</a>
+      <span>📍 Delft, Netherlands</span>
+      </p>
+    </div>
     </div>
 
     <div class="education-info">
