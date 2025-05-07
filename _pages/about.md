@@ -10,202 +10,152 @@ social: true
 ---
 
 <style>
-/* 页面动画和排版样式 */
-.fade-in-section {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-}
-.fade-in-section.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-section.about-section {
-  margin-bottom: 3rem;
-  padding-right: 1rem;
-}
-ul {
-  margin-top: 0.3rem;
-  margin-bottom: 1rem;
-  padding-left: 1.2rem;
-}
-.flex-columns {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-}
-.flex-column {
-  flex: 1;
-  min-width: 200px;
+/* ===== 全局紧凑排版 ===== */
+:root {
+  --theme-color: #6f42c1;
+  --text-color: #333;
+  --light-bg: #f8f9fa;
 }
 
-/* 表格样式 */
-.skills-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1rem 0;
-  font-size: 0.95rem;
+body {
+  line-height: 1.5;
 }
 
-.skills-table th, .skills-table td {
-  padding: 12px 15px;
-  text-align: left;
-  border-bottom: 1px solid #e0e0e0;
-}
-
-.skills-table th {
-  background-color: #f8f9fa;
-  font-weight: 600;
-}
-
-.skills-table tr:hover {
-  background-color: #f5f5f5;
-}
-
-/* 技能列表样式 */
-.skills-list {
-  margin: 0;
-  padding-left: 0;
-  list-style-type: none;
-}
-
-.skills-list li {
-  margin-bottom: 5px;
-  position: relative;
-  padding-left: 1.2em;
-}
-
-.skills-list li:before {
-  content: "•";
-  color: #6f42c1; /* 紫色圆点 */
-  position: absolute;
-  left: 0;
-}
-.skills-table {
+/* ===== 模块通用样式 ===== */
+.about-section {
+  margin-bottom: 2rem;
+  padding: 1.2rem;
+  background: white;
   border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
+
+/* ===== 紧凑型表格技能展示 ===== */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.skill-category {
+  background: var(--light-bg);
+  padding: 1rem;
+  border-radius: 6px;
+  border-left: 3px solid var(--theme-color);
+}
+
+.skill-category h3 {
+  margin-top: 0;
+  color: var(--theme-color);
+  font-size: 1.1rem;
+}
+
+.skill-list {
+  margin: 0;
+  padding-left: 1.2rem;
+  columns: 2;
+  column-gap: 1.5rem;
+}
+
+.skill-list li {
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+  break-inside: avoid;
+}
+
+/* ===== 研究方向多列布局 ===== */
+.research-columns {
+  columns: 2;
+  column-gap: 2rem;
+}
+
+.research-group {
+  break-inside: avoid;
+  margin-bottom: 1.2rem;
+}
+
+/* ===== 响应式调整 ===== */
 @media (max-width: 768px) {
-  .skills-table {
-    font-size: 0.9rem;
+  .skills-grid {
+    grid-template-columns: 1fr;
   }
-}
-.skills-table td {
-  padding: 8px 12px;
+  .research-columns {
+    columns: 1;
+  }
+  .skill-list {
+    columns: 1;
+  }
 }
 </style>
 
-<!-- 🔹 个人简介模块 -->
-<section id="about" class="fade-in-section about-section">
-  <header>
-    <strong>厉庭华</strong><br>
-    Postdoctoral Researcher<br>
-    <a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">
-      C&S, Delft University of Technology (2025--)
-    </a>
-  </header>
+<!-- 个人信息模块 -->
+<section class="about-section">
+  <h1>厉庭华</h1>
+  <p class="subtitle">Postdoctoral Researcher @ <a href="https://www.tudelft.nl/lr">TU Delft</a></p>
+  
+  <div class="contact-badges">
+    <span>✉️ tinghua.li@tudelft.nl</span>
+    <span>📍 Delft, Netherlands</span>
+  </div>
 
-  <div style="height: 1rem;"></div>
-
-  <p>
-    PhD in Robotics & Control Engineering (2024)<br>
-    <a href="https://www.rug.nl/research/discrete-technology-production-automation/?lang=en">
-      DTPA, University of Groningen
-    </a><br>
-    Advisor:
-    <a href="https://www.rug.nl/staff/b.jayawardhana">Prof. Bayu Jayawardhana</a> and
-    <a href="https://www.rug.nl/staff/m.cao/">Prof. Ming Cao</a>
+  <p class="education">
+    <strong>PhD in Robotics & Control</strong><br>
+    University of Groningen, 2024<br>
+    Advisors: <a href="#">Prof. Bayu Jayawardhana</a>, <a href="#">Prof. Ming Cao</a>
   </p>
 </section>
 
-<!-- 🔹 研究方向模块 -->
-<section id="research" class="fade-in-section about-section">
+<!-- 研究方向模块 -->
+<section class="about-section">
   <h2>Research Interests</h2>
+  <div class="research-columns">
+    <div class="research-group">
+      <h3>Robotics</h3>
+      <ul>
+        <li>Nonholonomic Systems</li>
+        <li>Multi-agent Systems</li>
+        <li>Wheeled Mobile Robots</li>
+        <li>Quadcopters</li>
+      </ul>
+    </div>
 
-  <p><strong>Robotics</strong></p>
-  <ul>
-    <li>Nonholonomic Systems</li>
-    <li>Multi-agent Systems</li>
-    <li>Wheeled Mobile Robots</li>
-    <li>Quadcopters</li>
-  </ul>
-
-  <p><strong>Motion Control</strong></p>
-  <ul>
-    <li>Source seeking</li>
-    <li>Flexible Flocking</li>
-    <li>Safety Control (Collision/Obstacle avoidance)</li>
-    <li>Loss-of-Control</li>
-  </ul>
-
-  <p><strong>Practical Applications</strong></p>
-  <ul>
-    <li>3D-Printed Flexible Piezoresistive Sensors</li>
-    <li>Navigation in the cluttered environment</li>
-  </ul>
-
-  <p><em>Bridging theoretical control methods with practical robotic implementations</em></p>
+    <div class="research-group">
+      <h3>Motion Control</h3>
+      <ul>
+        <li>Source seeking</li>
+        <li>Flexible Flocking</li>
+        <li>Safety Control</li>
+      </ul>
+    </div>
+  </div>
 </section>
 
-
-<!-- 🔹 技术技能模块 -->
-<section id="skills" class="fade-in-section about-section">
+<!-- 技术技能模块 -->
+<section class="about-section">
   <h2>Technical Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-category">
+      <h3>Software</h3>
+      <ul class="skill-list">
+        <li>C/C++</li>
+        <li>Python</li>
+        <li>MATLAB</li>
+        <li>ROS</li>
+        <li>Gazebo</li>
+        <li>OpenCV</li>
+        <li>SLAM</li>
+      </ul>
+    </div>
 
-  <table class="skills-table">
-    <tr>
-      <th>Category</th>
-      <th>Skills</th>
-    </tr>
-    <tr>
-      <td><strong>Software</strong></td>
-      <td>
-        <ul class="skills-list">
-          <li>C/C++</li>
-          <li>Python</li>
-          <li>MATLAB</li>
-          <li>ROS</li>
-          <li>Gazebo</li>
-          <li>OpenCV</li>
-          <li>SLAM</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td><strong>Hardware</strong></td>
-      <td>
-        <ul class="skills-list">
-          <li>STM32 / Arduino</li>
-          <li>Sensor Integration (LiDAR, RealSense)</li>
-          <li>Mecanum-wheel Robotics Platforms</li>
-        </ul>
-      </td>
-    </tr>
-  </table>
+    <div class="skill-category">
+      <h3>Hardware</h3>
+      <ul class="skill-list">
+        <li>STM32/Arduino</li>
+        <li>Sensor Integration</li>
+        <li>Robotics Platforms</li>
+        <li>3D Printing</li>
+      </ul>
+    </div>
+  </div>
 </section>
-
-<!-- 🔹 联系方式模块 -->
-<section id="contact" class="fade-in-section about-section">
-  <h2>Contact</h2>
-  <p>Open to collaborations and discussions ↓</p>
-</section>
-
-<!-- 🔹 页面动画脚本 -->
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("visible");
-        }
-      });
-    }, {
-      threshold: 0.15
-    });
-
-    document.querySelectorAll(".fade-in-section").forEach(el => {
-      observer.observe(el);
-    });
-  });
-</script>
