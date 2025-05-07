@@ -78,7 +78,7 @@ nav_order: 4
   <div class="news-item">
     <h4>March</h4>
     <p>
-     Our paper is now online at TAC, check it out <a href="https://ieeexplore.ieee.org/abstract/document/10735338">here!</a>
+     Our paper is now online at TAC, check it out <a href="https://ieeexplore.ieee.org/abstract/document/10735338">here</a> :)
     </p>
   </div>
   
