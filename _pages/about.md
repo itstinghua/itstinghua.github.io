@@ -11,7 +11,7 @@ social: true
 
 <style>
 :root {
-  --primary-color: #6f42c1;
+  --primary-color:#00539C;
   --light-bg: #f8f9fa;
   --border-color: #e0e0e0;
 }
