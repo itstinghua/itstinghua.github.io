@@ -209,6 +209,32 @@ a:hover {
 </style>
 
 <!-- Profile Header with Photo -->
+<div class="profile-header">
+  <img src="/assets/img/Tinghua_li.jpg" alt="Tinghua Li (厉庭华)" class="profile-photo">
+
+  <div class="profile-info">
+    <div class="profile-section">
+      <p>
+        <strong>Postdoctoral Researcher (2025–)</strong><br>
+        <a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">Control & Simulation, Delft University of Technology </a><br>
+        <span>📍 Delft, Netherlands</span>
+      </p>
+    </div>
+
+    <div class="profile-section">
+      <p>
+        <strong>PhD in Robotics & Control Engineering (2024)</strong><br>
+        <a href="https://www.rug.nl/research/discrete-technology-production-automation/?lang=en">
+          DTPA Group, University of Groningen 
+        </a><br>
+        Advisors:
+        <a href="https://www.rug.nl/staff/b.jayawardhana">Prof. Bayu Jayawardhana</a> and
+        <a href="https://www.rug.nl/staff/m.cao/">Prof. Ming Cao</a><br>
+        <span>📍 Groningen, Netherlands</span>
+      </p>
+    </div>
+  </div>
+</div>
 
 
 
