@@ -19,28 +19,50 @@ social: true
 /* Profile header */
 .profile-header {
   display: flex;
-  align-items: flex-start;
-  gap: 30px;
+  align-items: center;
+  gap: 1.5rem;
   flex-wrap: wrap; /* 保证移动端换行 */
   margin-bottom: 2rem;
 }
 
 .profile-photo {
-  width: 180px;      /* 更大尺寸 */
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  flex-shrink: 0;    /* 防止在小屏压缩照片 */
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  flex-shrink: 0; /* 防止图片被压缩 */
 }
 
 .profile-info {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem; /* 控制两行之间的间距 */
+  flex: 1;
 }
 
-.profile-section {
-  /* 可添加边框或内边距美化 */
+.name-heading {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.chinese-name {
+  font-family: 'KaiTi', 'STKaiti', '楷体', serif;
+  font-size: 1.4rem;
+  margin-left: 10px;
+  color: #444;
+}
+
+.profile-section p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.profile-section a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+.profile-section a:hover {
+  text-decoration: underline;
 }
 
 
@@ -217,16 +239,21 @@ a:hover {
   <img src="/assets/img/Tinghua_li.jpg" alt="Tinghua Li (厉庭华)" class="profile-photo">
 
   <div class="profile-info">
-     <h2>
+    <h2 class="name-heading">
       Tinghua Li <span class="chinese-name">厉庭华</span>
     </h2>
     <div class="profile-section">
       <p>
         <strong>Postdoctoral Researcher (2025–)</strong><br>
-        <a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">Control & Simulation, Delft University of Technology </a><br>
+        <a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation" target="_blank">
+          Control & Simulation, Delft University of Technology
+        </a><br>
         <span>📍 Delft, Netherlands</span>
       </p>
     </div>
+  </div>
+</div>
+
 
     <div class="profile-section">
       <p>
