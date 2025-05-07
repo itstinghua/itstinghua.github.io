@@ -221,6 +221,7 @@ a:hover {
       </p>
     </div>
     </div>
+    <br>
 
     <div class="education-info">
       <p>
