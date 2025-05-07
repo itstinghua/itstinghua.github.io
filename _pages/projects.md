@@ -9,19 +9,19 @@ nav_order: 2
 
 <style>
 /* Card Container */
-.project-card {
+/*.project-card {
   background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   padding: 1.5rem;
   margin-bottom: 2rem;
-}
+}*/
 
-.project-card:hover {
+/*.project-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12);
-}
+}*/
 
 /* Flex Container for Video and Text */
 .project-container {
@@ -85,7 +85,7 @@ nav_order: 2
 <div class="container">
 
 <!-- First Project -->
-<div class="project-card">
+<!-- <div class="project-card"> -->
   <div class="project-container">
     <div class="project-video">
       {% include video.liquid path="/assets/video/SS.mp4" class="img-fluid rounded z-depth-1" controls=true %}
@@ -102,10 +102,10 @@ nav_order: 2
       </p>
     </div>
   </div>
-</div>
+<!-- </div> -->
 
 <!-- Second Project -->
-<div class="project-card">
+<!-- <div class="project-card"> -->
   <div class="project-container">
     <div class="project-video">
       {% include video.liquid path="/assets/video/CO.mp4" class="img-fluid rounded z-depth-1" controls=true %}
@@ -122,10 +122,10 @@ nav_order: 2
       </p>
     </div>
   </div>
-</div>
+<!-- </div> -->
 
 <!-- Third Project -->
-<div class="project-card">
+<!-- <div class="project-card"> -->
   <div class="project-container">
     <div class="project-video">
       {% include video.liquid path="/assets/video/connectivity.mp4" class="img-fluid rounded z-depth-1" controls=true %}
@@ -142,6 +142,6 @@ nav_order: 2
       </p>
     </div>
   </div>
-</div>
+<!-- </div> -->
 
 </div>
