@@ -21,7 +21,7 @@ nav_order: 4
   margin: 3rem 0 1.5rem;
   border-bottom: 2px solid #e2e8f0;
   padding-bottom: 0.5rem;
-  color: #1f2937;
+  color: #00539C;
 }
 
 /* 单条新闻卡片 */
