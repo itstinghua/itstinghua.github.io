@@ -205,7 +205,11 @@ a:hover {
   text-decoration: underline;
 }
 
-
+.chinese-name {
+  font-family: 'KaiTi', 'STKaiti', '楷体', serif;
+  margin-left: 8px;
+  font-size: 1.1em;
+}
 </style>
 
 <!-- Profile Header with Photo -->
@@ -213,6 +217,9 @@ a:hover {
   <img src="/assets/img/Tinghua_li.jpg" alt="Tinghua Li (厉庭华)" class="profile-photo">
 
   <div class="profile-info">
+     <h2>
+      Tinghua Li <span class="chinese-name">厉庭华</span>
+    </h2>
     <div class="profile-section">
       <p>
         <strong>Postdoctoral Researcher (2025–)</strong><br>
