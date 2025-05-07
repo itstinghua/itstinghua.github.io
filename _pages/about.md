@@ -27,7 +27,7 @@ social: true
 
 .profile-photo {
   width: 150px;
-  height: 150px;
+/*  height: 150px;*/
   object-fit: cover;
   border: none; /* 移除边框 */
   flex-shrink: 0; /* 防止图片被压缩 */
@@ -247,6 +247,7 @@ a:hover {
         <span>📍🇳🇱 Delft, Netherlands</span><br>
       </p>
     </div>
+    <br>
 
 
     <div class="profile-section">
