@@ -235,7 +235,6 @@ a:hover {
         <span>📍 Groningen, Netherlands</span>
       </p>
     </div>
-  </div>
 </div>
 
 
