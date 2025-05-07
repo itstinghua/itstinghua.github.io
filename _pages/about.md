@@ -227,9 +227,9 @@ a:hover {
 
     <div class="education-info">
       <p>
-        <strong>PhD in Robotics & Control Engineering (2024)</strong> <br>
+        <strong>PhD in Robotics & Control Engineering </strong> <br>
         <a href="https://www.rug.nl/research/discrete-technology-production-automation/?lang=en">
-          DTPA, University of Groningen
+          DTPA Group, University of Groningen (2024)
         </a><br>
         Advisors:
         <a href="https://www.rug.nl/staff/b.jayawardhana">Prof. Bayu Jayawardhana</a> and
