@@ -47,6 +47,7 @@ nav_order: 5
   margin-top: 1.2rem;
   font-size: 1.1rem;
   font-weight: 600;
+/*  color: #00539C;*/
 }
 
 .thesis-text ul {
@@ -187,7 +188,7 @@ nav_order: 5
 
   <p>Heartfelt appreciation to the defense committee members for their insightful discussions and valuable feedback: <strong>Prof. Claudio De Persis, Prof. Dimos Dimarogonas, Prof. Tamas Keviczky, Prof. Raffaella Carloni, Prof. Maryam Ghandchi Tehrani, Prof. Sami Haddadin, Dr. Bahar Haghighat, and Dr. Ashish Cherukuri</strong>.</p>
 
-  <a href="/assets/pdf/acknowledge.pdf" target="_blank">Read the full acknowledgment here →</a>
+  <a href="/assets/pdf/acknowledge.pdf" target="_blank" style="color:#00539C;">Read the full acknowledgment here →</a>
 </div>
 
 <!-- Intersection Observer Script for Scroll Animation -->
