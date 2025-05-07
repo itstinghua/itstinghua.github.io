@@ -162,7 +162,7 @@ social: true
 
 <!-- Research Interests -->
 <section class="compact-section">
-  <h2>Research Interests</h3>
+  <h3>Research Interests</h3>
   <div class="research-grid">
     <div class="research-group">
       <h3>Robotics</h3>
