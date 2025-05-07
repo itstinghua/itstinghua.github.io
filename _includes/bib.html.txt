@@ -1,0 +1,12 @@
+<!-- _includes/bib.html -->
+{% if entry.author %}
+  {% assign authors = entry.author | split: " and " %}
+  {% for author in authors %}
+    {% if author contains "Li, Tinghua" or author contains "厉庭华" %}
+      <strong class="first-author">{{ author }}</strong>
+    {% else %}
+      {{ author }}
+    {% endif %}
+    {% unless forloop.last %} and {% endunless %}
+  {% endfor %}
+{% endif %}
