@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: Tinghua Li # the website title (if blank, full name will be used instead)
-first_name: Tinghua
+# first_name: Tinghua
 middle_name:
-last_name: Li
+# last_name: Li
 email: lilytinghua@gmail.com
 description: The best way to contact me is by email.
 
@@ -50,7 +50,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 1000px
+max_width: 900px
 
 # TODO: add layout settings (single page vs. multi-page)
 

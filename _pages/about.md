@@ -26,7 +26,7 @@ social: true
 }
 
 .profile-photo {
-  width: 150px;
+  width: 200px;
 /*  height: 150px;*/
   object-fit: cover;
   border: none; /* 移除边框 */
