@@ -142,24 +142,23 @@ social: true
 <div class="profile-header">
   <img src="/assets/img/Tinghua_li.jpg" alt="Tinghua Li" class="profile-photo">
   <div class="profile-text">
-    <h1>Tinghua Li</h1>
+    <h1>厉庭华</h1>
     <p><strong>Postdoctoral Researcher</strong></p>
     <p>Control & Simulation, TU Delft (2025—)</p>
     <div class="contact-badges">
-      <span>✉️ tinghua.li@tudelft.nl</span>
       <span>📍 Delft, Netherlands</span>
     </div>
-  </div>
-</div>
-
-<!-- Education -->
-<section class="compact-section">
-  <h2>Education</h2>
-  <p><strong>PhD in Robotics & Control Engineering</strong>, 2024<br>
+     </div>
+  <div class="profile-text">
+     <p><strong>PhD in Robotics & Control Engineering</strong>, 2024<br>
   University of Groningen<br>
   Advisors: <a href="https://www.rug.nl/staff/b.jayawardhana">Prof. Bayu Jayawardhana</a> and 
   <a href="https://www.rug.nl/staff/m.cao/">Prof. Ming Cao</a></p>
-</section>
+  </div>
+   </div>
+</div>
+
+
 
 <!-- Research Interests -->
 <section class="compact-section">
@@ -238,5 +237,5 @@ social: true
 <!-- Contact -->
 <section class="compact-section">
   <h2>Contact</h2>
-  <p>Open to collaborations and discussions. Please reach out via email or social media links above.</p>
+  <p>Open to collaborations and discussions. Please reach out via email or social media links :)</p>
 </section>
