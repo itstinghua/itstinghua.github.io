@@ -32,7 +32,7 @@ nav_order: 2
 }
 .project-video video {
   width: 100%;
-  max-height: 300px; /* 新增：限制视频最大高度 */
+  max-height: 600px; /* 新增：限制视频最大高度 */
 }
 .project-text {
   flex: 1;
