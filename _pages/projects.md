@@ -14,7 +14,7 @@ nav_order: 2
   padding: 0 20px;
 }
 .reference {
-  background-color: #e9f5ff;  
+  background-color: #f0f8ff;  
   padding: 10px;
   border-radius: 5px;
   margin: 0.5rem 0;
