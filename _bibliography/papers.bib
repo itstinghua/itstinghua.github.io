@@ -1,7 +1,17 @@
 ---
+
+{% if entry.author %}
+  {% assign authors = entry.author | split: " and " %}
+  {% for author in authors %}
+    {% if forloop.first %}<b>{{ author }}</b>{% else %}{{ author }}{% endif %}
+    {% unless forloop.last %} and {% endunless %}
+  {% endfor %}
+{% endif %}
+
+
 @article{10735338,
 	abbr={T-AC},
-	author={<b>Li, Tinghua<\b> and Jayawardhana, Bayu},
+	author={Li, Tinghua and Jayawardhana, Bayu},
 	journal={IEEE Transactions on Automatic Control}, 
 	title={Collision-free Source Seeking Control Methods for Unicycle Robots}, 
 	year={2024},
