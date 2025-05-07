@@ -194,7 +194,7 @@ a:hover {
 .acknowledgment-section a {
   display: inline-block;
   margin-top: 1rem;
-  color: #007bff;
+  color: #4b5563;
   text-decoration: underline;
 }
 
