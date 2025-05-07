@@ -104,7 +104,7 @@ nav_order: 2
     <h3><a href="https://arxiv.org/pdf/2301.04576.pdf">Flocking Control with Connectivity Preservation</a></h3>
     <p>Distributed control method for networked multi-agent systems with non-holonomic constraints. Maintains flocking cohesion while ensuring connectivity preservation and collision avoidance.</p>
     <p style="margin-top: 0.5rem;">
-      •  <strong>T. Li</strong> and B. Jayawardhana, “Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation", arXiv preprint arXiv:2301.04576, 2023. (<strong>conditionally accepted to be published as regular paper in IEEE Transactions on Automatic Control (T-AC)</strong>)
+      •  <strong>T. Li</strong> and B. Jayawardhana, “Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation", arXiv preprint arXiv:2301.04576, 2023. (<strong>conditionally accepted as regular paper in IEEE Transactions on Automatic Control (T-AC)</strong>)
     </p>
   </div>
 </div>
