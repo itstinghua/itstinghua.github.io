@@ -212,7 +212,8 @@ h1, h2, h3, h4 {
   font-family: "Inter", "Helvetica Neue", sans-serif;
   font-weight: 600;
   color: #111;
-  margin-top: 1.2rem;
+/*  margin-top: 1.2rem;*/
+gap: 1.5rem;
   margin-bottom: 0.6rem;
   font-size: 23px;
 }
