@@ -72,7 +72,7 @@ body {
   font-family: "Inter", "Helvetica Neue", "Segoe UI", "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  color: #1f2937;
+/*  color: #1f2937;*/
   background-color: #fff;
   margin: 0;
   padding: 0;
