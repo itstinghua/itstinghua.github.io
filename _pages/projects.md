@@ -12,15 +12,15 @@ nav_order: 2
 .container {
   max-width: 900px;     /* 设置页面最大宽度 */
   margin: 0 auto;        /* 左右居中 */
-  padding: 20px 30px;    /* 内边距（可根据需要调整） */
-  box-sizing: border-box;
+/*  padding: 20px 30px;    /* 内边距（可根据需要调整） */*/
+/*  box-sizing: border-box;*/
 }
 
 /* Flex 容器样式 */
 .project-container {
   display: flex;
   align-items: stretch;
-  gap: 2rem;
+  gap: 1rem;
   margin-bottom: 3rem;   /* 每组之间添加间隔 */
 }
 
@@ -34,9 +34,9 @@ nav_order: 2
 /* 视频样式 */
 .project-video video {
   width: 100%;
-  height: 100%;
+/*  height: 100%;*/
   object-fit: cover;
-  border-radius: 8px;
+/*  border-radius: 2px;*/
 }
 
 /* 文本排版 */
