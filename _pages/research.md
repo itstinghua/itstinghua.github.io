@@ -40,7 +40,7 @@ nav_order: 2
   max-width: 50%;
 }
 .project-video video {
-  width: 90%;
+  width: 100%;
 /*  max-height: 400px;*/
   border-radius: 8px;
 }
