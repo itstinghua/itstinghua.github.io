@@ -11,7 +11,7 @@ nav_order: 2
 .container {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0 20px;
+  /* padding: 0 20px; */  /* 如需页面两侧留白，可保留这句 */
 }
 
 .project-container {
@@ -24,10 +24,11 @@ nav_order: 2
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  width: 120%;  /* ，可以根据需要调整 */
-  max-width: 1000px; /* 可选：设置最大宽度，避免超出容器 */
+  width: 100%;  /* 这句保留，表示占满 container */
+  /* max-width: 1000px; */  /* 删除这句 */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .project-container:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
