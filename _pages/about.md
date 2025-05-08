@@ -8,7 +8,7 @@ profile:
   # image_circular: false
 social: true
 ---
-
+<meta charset="UTF-8">
 <style>
 :root {
   --primary-color:#00539C;
@@ -245,8 +245,7 @@ a:hover {
       <p>
         <strong>Postdoctoral Researcher (2025–)</strong><br>
         <a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">Control & Simulation, Delft University of Technology </a><br>
-        <!-- <span>📍🇳🇱 Delft, Netherlands</span><br> -->
-        <span>📍 <img src="https://flagcdn.com/w40/nl.png" alt="Netherlands flag" style="vertical-align: middle;"> Delft, Netherlands</span><br>
+        <span>📍🇳🇱 Delft, Netherlands</span><br>
       </p>
     </div>
     <br>
@@ -261,8 +260,7 @@ a:hover {
         Advisors:
         <a href="https://www.rug.nl/staff/b.jayawardhana">Prof. Bayu Jayawardhana</a> and
         <a href="https://www.rug.nl/staff/m.cao/">Prof. Ming Cao</a><br>
-        <!-- <span>📍 Groningen, Netherlands</span> -->
-        <span>📍 <img src="https://flagcdn.com/w40/nl.png" alt="Netherlands flag" style="vertical-align: middle;"> Groningen, Netherlands</span><br>
+        <span>📍🇳🇱 Groningen, Netherlands</span> 
       </p>
     </div>
   </div>
