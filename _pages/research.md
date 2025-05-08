@@ -16,9 +16,9 @@ nav_order: 2
 
 .project-container {
   display: flex;
-  gap: 10xp;
+  gap: 15xp;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   background: #fff;
   border: 2px solid #ddd;
   border-radius: 12px;
