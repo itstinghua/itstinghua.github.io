@@ -227,11 +227,11 @@ a:hover {
   text-decoration: underline;
 }
 
-.chinese-name {
+/*.chinese-name {
   font-family: 'KaiTi', 'STKaiti', '楷体', serif;
   margin-left: 8px;
   font-size: 1.1em;
-}
+}*/
 </style>
 
 <!-- Profile Header with Photo -->
