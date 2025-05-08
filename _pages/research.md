@@ -24,6 +24,8 @@ nav_order: 2
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   padding: 20px;
+  width: 100%;  /* 这里设置为80%，可以根据需要调整 */
+  max-width: 1000px; /* 可选：设置最大宽度，避免超出容器 */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .project-container:hover {
@@ -34,7 +36,7 @@ nav_order: 2
 .project-video {
   flex: 1;
   min-width: 0;
-  max-width: 50%;
+  max-width: 60%;
 }
 .project-video video {
   width: 100%;
@@ -48,10 +50,15 @@ nav_order: 2
 }
 .project-text h3 {
   margin-top: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #00539C;
 }
 .project-text h3 a {
-  color: #007acc;
-  text-decoration: none;
+   margin-top: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #00539C;
 }
 .project-text h3 a:hover {
   text-decoration: underline;
