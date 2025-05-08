@@ -37,7 +37,7 @@ nav_order: 2
 .project-video {
   flex: 1;
   min-width: 0;
-  max-width: 60%;
+  max-width: 50%;
 }
 .project-video video {
   width: 100%;
