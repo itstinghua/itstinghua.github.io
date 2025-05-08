@@ -9,7 +9,7 @@ nav_order: 2
 
 <style>
 .container {
-  max-width: 1000px;
+  max-width: 1050px;
   margin: 0 auto;
   /* padding: 0 20px; */  /* 如需页面两侧留白，可保留这句 */
 }
@@ -18,12 +18,12 @@ nav_order: 2
   display: flex;
   gap: 10xp;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   background: #fff;
-  border: 1px solid #ddd;
+  border: 2px solid #ddd;
   border-radius: 12px;
 /*  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);*/
-  padding: 10px;
+  padding: 15px;
   width: 100%;  /* 这句保留，表示占满 container */
   /* max-width: 1000px; */  /* 删除这句 */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
