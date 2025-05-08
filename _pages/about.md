@@ -267,9 +267,7 @@ a:hover {
         Advisors:
         <a href="https://www.rug.nl/staff/b.jayawardhana">Prof. Bayu Jayawardhana</a> and
         <a href="https://www.rug.nl/staff/m.cao/">Prof. Ming Cao</a><br>
-        <!-- <span>📍🇳🇱 Groningen, Netherlands</span>  -->
-        <p>📍 <img src="https://www.countryflags.io/nl/flat/32.png" alt="Netherlands Flag" style="width: 16px;"> Delft, Netherlands</p>
-
+        <span>📍🇳🇱 Groningen, Netherlands</span>  
       </p>
     </div>
   </div>
