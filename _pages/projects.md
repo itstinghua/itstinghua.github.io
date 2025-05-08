@@ -63,7 +63,7 @@ nav_order: 2
   background-color: #f0f8ff;
   padding: 10px;
   border-radius: 5px;
-  margin-top: 0.5rem;
+/*  margin-top: 0.5rem;*/
   font-size: 0.95rem;
 }
 
