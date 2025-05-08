@@ -10,7 +10,7 @@ nav_order: 2
 <style>
 /* 全局容器样式 */
 .container {
-  max-width: 900px;     /* 设置页面最大宽度 */
+  max-width: 1000px;     /* 设置页面最大宽度 */
   margin: 0 auto;        /* 左右居中 */
 /*  padding: 20px 30px;    /* 内边距（可根据需要调整） */*/
 /*  box-sizing: border-box;*/
