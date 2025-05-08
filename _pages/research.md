@@ -90,7 +90,7 @@ nav_order: 2
     <p>
       Experimental validation of source seeking control for unicycle robots with 3D-printed graphene-based airflow sensors. The algorithm ensures convergence to the source even with partial sensor failure.
     </p>
-    <p style="margin-top: 0.5rem; background-color: #e0f7fa; padding: 10px;">
+    <p style="margin-top: 0.5rem; background-color: #f0f8ff; padding: 10px;">
       • <strong>T. Li</strong>, B. Jayawardhana, A. M. Kamat and A. G. P. Kottapalli, “Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors”, in
       <strong>IEEE Transactions on Robotics (TRO)</strong>, vol. 38, no. 1, pp. 448–462, Feb. 2022,
       doi: 10.1109/TRO.2021.3076964.
@@ -109,7 +109,7 @@ nav_order: 2
     <p>
       Collision-free source-seeking framework integrating control barrier functions (CBFs) in quadratic programming. Includes analysis of three CBF designs with experimental validation.
     </p>
-    <p style="margin-top: 0.5rem; background-color: #e0f7fa; padding: 10px;">
+    <p style="margin-top: 0.5rem; background-color: #f0f8ff; padding: 10px;">
       •  <strong>T. Li</strong> and B. Jayawardhana, “Collision-free Source Seeking Control Methods for Unicycle Robots”, in
       <strong>IEEE Transactions on Automatic Control (TAC)</strong>, vol. 70, no. 3, pp. 2020–2027, March 2025,
       doi: 10.1109/TAC.2024.3486654.
@@ -126,7 +126,7 @@ nav_order: 2
     <p>
       Distributed control method for networked multi-agent systems with non-holonomic constraints. Maintains flocking cohesion while ensuring connectivity preservation and collision avoidance.
     </p>
-    <p style="margin-top: 0.5rem; background-color: #e0f7fa; padding: 10px;">
+    <p style="margin-top: 0.5rem; background-color: #f0f8ff; padding: 10px;">
       •  <strong>T. Li</strong> and B. Jayawardhana, “Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation", arXiv preprint arXiv:2301.04576, 2023. (<strong>conditionally accepted as regular paper in IEEE Transactions on Automatic Control (T-AC)</strong>)
     </p>
   </div>
