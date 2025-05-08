@@ -9,14 +9,14 @@ nav_order: 2
 
 <style>
 .container {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
   /* padding: 0 20px; */  /* 如需页面两侧留白，可保留这句 */
 }
 
 .project-container {
   display: flex;
-  gap: 20xp;
+  gap: 10xp;
   align-items: center;
   margin-bottom: 3rem;
   background: #fff;
