@@ -421,7 +421,7 @@ head_scripts: |
       line-height: 1.6;
     }
     h1, h2, h3 {
-      font-family: 'Times New Roman', serif;
+      font-family: 'Roboto', serif;
     }
   </style>
 
