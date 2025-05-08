@@ -251,7 +251,7 @@ nav_order: 5
 }
 
 .gallery-video video {
-  max-width: 900px;
+  max-width: 1000px;
   width: 100%;
   border-radius: 0.75rem;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
