@@ -43,12 +43,12 @@ social: true
   font-weight: bold;
 }
 
-.chinese-name {
+/*.chinese-name {
   font-family: 'KaiTi', 'STKaiti', '楷体', serif;
   font-size: 1.4rem;
   margin-left: 10px;
   color: #444;
-}
+}*/
 
 .profile-section p {
   margin: 0;
@@ -232,6 +232,13 @@ a:hover {
   margin-left: 8px;
   font-size: 1.1em;
 }*/
+.chinese-name {
+  font-family: 'KaiTi', 'STKaiti', '楷体', serif;
+  font-size: 1.4rem;
+  margin-left: 10px;
+  color: #444;
+}
+
 </style>
 
 <!-- Profile Header with Photo -->
