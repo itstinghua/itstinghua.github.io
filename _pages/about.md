@@ -257,7 +257,6 @@ a:hover {
     </div>
     <br>
 
-
     <div class="profile-section">
       <p>
         <strong>PhD in Robotics & Control Engineering (2024)</strong><br>
@@ -272,7 +271,6 @@ a:hover {
     </div>
   </div>
 </div>
-
 
 
 <!-- Research Interests -->
