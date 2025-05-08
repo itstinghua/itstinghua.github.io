@@ -339,12 +339,12 @@ a:hover {
   <div class="publication-item">
     <div class="publication-title"><a href="https://ieeexplore.ieee.org/document/10735338">Collision-free Source Seeking Control Methods for Unicycle Robots</a></div>
     <div class="publication-authors"><strong>Tinghua Li*</strong>, Bayu Jayawardhana</div>
-    <div class="publication-venue">IEEE Transactions on Automatic Control (TAC), 2024</div>
+    <div class="publication-venue">IEEE Transactions on Automatic Control (TAC), vol. 70, no. 3, pp. 2020-2027, March 2025, doi: 10.1109/TAC.2024.3486654. </div>
   </div>
   <div class="publication-item">
     <div class="publication-title"><a href="https://ieeexplore.ieee.org/document/9458274">Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors</a> </div>
     <div class="publication-authors"><strong>Tinghua Li*</strong>, B. Jayawardhana, A.M. Kamat, A.G.P. Kottapalli</div>
-    <div class="publication-venue">IEEE Transactions on Robotics (TRO), 2022</div>
+    <div class="publication-venue">IEEE Transactions on Robotics (TRO), vol. 38, no. 1, pp. 448-462, Feb. 2022, doi: 10.1109/TRO.2021.3076964.</div>
   </div>
 </section>
 
