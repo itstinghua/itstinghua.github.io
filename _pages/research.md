@@ -22,7 +22,7 @@ nav_order: 2
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+/*  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);*/
   padding: 10px;
   width: 100%;  /* 这句保留，表示占满 container */
   /* max-width: 1000px; */  /* 删除这句 */
