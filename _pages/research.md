@@ -16,14 +16,14 @@ nav_order: 2
 
 .project-container {
   display: flex;
-  gap: 40px;
+/*  gap: 40px;*/
   align-items: center;
   margin-bottom: 3rem;
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  padding: 10px;
   width: 100%;  /* 这句保留，表示占满 container */
   /* max-width: 1000px; */  /* 删除这句 */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
