@@ -345,7 +345,7 @@ a:hover {
   </div>
   <div class="publication-item">
     <div class="publication-title">Source-seeking control with 3D-printed flexible sensors</div>
-    <div class="publication-authors"><strong>Tinghua Li</strong>, B. Jayawardhana, A.M. Kamat</div>
+    <div class="publication-authors"><strong>Tinghua Li</strong>, B. Jayawardhana, A.M. Kamat, A.G.P. Kottapalli</div>
     <div class="publication-venue">IEEE Transactions on Robotics (TRO), 2022</div>
   </div>
 </section>
