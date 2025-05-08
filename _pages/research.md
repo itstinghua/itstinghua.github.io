@@ -9,7 +9,7 @@ nav_order: 2
 
 <style>
 .container {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   /* padding: 0 20px; */  /* 如需页面两侧留白，可保留这句 */
 }
