@@ -77,14 +77,6 @@
           {% assign is_Tinghua_Li = true %}
         {% endif %}
 
-        {% if author.first == "庭华" and author.last == "厉*" %}     
-          {% assign is_Tinghua_Li = true %}
-        {% endif %}
-
-        {% if author.first == "庭华" and author.last == "厉" %}     
-          {% assign is_Tinghua_Li = true %}
-        {% endif %}
-
 
         {% assign coauthor_url = null %}
         {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
