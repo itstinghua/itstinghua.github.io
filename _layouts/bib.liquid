@@ -66,6 +66,18 @@
             {% assign author_is_self = true %}
           {% endif %}
         {%- endif -%}
+
+      
+        {% assign is_Tinghua_Li = false %}
+        {% if author.first == "Tinghua" and author.last == "Li*" %}
+        {% if author.first == "庭华" and author.last == "厉" %}
+        {% if author.first == "庭华" and author.last == "厉*" %}
+        {% assign is_Tinghua_Li = true %}
+        {% endif %}
+        
+
+
+
         {% assign coauthor_url = null %}
         {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
         {% if site.data.coauthors[clean_last_name] %}
@@ -86,6 +98,8 @@
             {{- author.first }}
             {{ author.last -}}
           </em>
+           {%- elsif is_Tinghua_Li -%}  {# 新增：Marco Li加粗 #}
+           <strong>{{- author.first }} {{ author.last -}}</strong>
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{coauthor_url}}">
