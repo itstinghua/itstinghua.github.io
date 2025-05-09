@@ -50,6 +50,12 @@
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
     <div class="author">
+      {% assign authors = entry.author | split: " and " %}
+      <strong>{{ authors.first }}</strong>
+      {% for author in authors offset:1 %}
+        and {{ author }}
+      {% endfor %}
+    
       {% assign author_array_size = entry.author_array | size %}
 
       {% assign author_array_limit = author_array_size %}
