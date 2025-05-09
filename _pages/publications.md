@@ -13,7 +13,10 @@ nav_order: 3
   }
   
   /* 或者更精确的选择器 */
-  [data-author="Li, Tinghua"] {
+  [data-author="Li*, Tinghua"] {
+    font-weight: bold !important;
+  }
+   [data-author="厉庭华"] {
     font-weight: bold !important;
   }
 </style>
