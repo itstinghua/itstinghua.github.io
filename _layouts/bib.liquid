@@ -51,6 +51,22 @@
     <!-- Author -->
     <div class="author">
 
+    {% raw %}{%- for author in entry.author_array -%}
+  {# 提取中文姓名（假设中文名不含空格） #}
+  {% assign is_chinese = author.last | size | modulo: 2 } # 简单中文检测
+  {% if is_chinese == 0 or author.last contains "杨" or author.last contains "李" %}
+    {% if author.first == "庆华" and author.last == "杨" %}
+      <strong>{{ author.last }}{{ author.first }}</strong>
+    {% else %}
+      {{ author.last }}{{ author.first }}
+    {% endif %}
+  {% else %}
+    {{ author.first }} {{ author.last }} {# 英文名处理 #}
+  {% endif %}
+  {% unless forloop.last %}, {% endunless %}
+{%- endfor -%}{% endraw %}
+
+
       {% assign author_array_size = entry.author_array | size %}
 
       {% assign author_array_limit = author_array_size %}
@@ -98,7 +114,7 @@
             {{- author.first }}
             {{ author.last -}}
           </em>
-           {%- elsif is_Tinghua_Li -%}  {# 新增：Marco Li加粗 #}
+           {%- elsif is_Tinghua_Li -%} 
            <strong>{{- author.first }} {{ author.last -}}</strong>
         {%- else -%}
           {%- if coauthor_url -%}
