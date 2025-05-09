@@ -51,7 +51,6 @@
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
-
       {% assign author_array_limit = author_array_size %}
       {% if site.max_author_limit and author_array_size > site.max_author_limit %}
         {% assign author_array_limit = site.max_author_limit %}
@@ -98,7 +97,7 @@
             {{ author.last -}}
           </em>
            {%- elsif is_Tinghua_Li -%} 
-           <u>{{- author.first }} {{ author.last -}}</u>
+           <u><strong>{{- author.first }} {{ author.last -}}</strong></u>
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{coauthor_url}}">
