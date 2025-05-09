@@ -6,21 +6,20 @@ nav: true
 nav_order: 3
 ---
 
-<style>
-  /* 加粗第一个作者名 */
-  .publications .entry .author:first-child {
-    font-weight: bold !important;
-  }
-  
-  /* 或者更精确的选择器 */
-  [data-author="Li*, Tinghua"] {
-    font-weight: bold !important;
-  }
-   [data-author="厉庭华"] {
-    font-weight: bold !important;
-  }
-</style>
+
 
 <div class="publications">
   {% bibliography -f {{ site.scholar.bibliography }} %}
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // 精确匹配作者名
+  const entries = document.querySelectorAll('.publications .entry [itemprop="author"]');
+  entries.forEach(el => {
+    el.innerHTML = el.innerHTML.replace('Li*, Tinghua', '<strong>Li*, Tinghua</strong>');
+    el.innerHTML = el.innerHTML.replace('厉庭华*', '<strong>厉庭华*</strong>');
+    el.innerHTML = el.innerHTML.replace('厉庭华', '<strong>厉庭华</strong>');
+  });
+});
+</script>

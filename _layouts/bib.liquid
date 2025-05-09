@@ -132,13 +132,6 @@
           {{- more_authors_hide -}}
         </span>
       {% endif %}
-
-      {% assign authors = entry.author %}
-      <strong>{{ authors.first }}</strong>
-      {% for author in authors offset:1 %}
-        and {{ author }}
-      {% endfor %}
-      
     </div>
 
     <!-- Journal/Book title and date -->
