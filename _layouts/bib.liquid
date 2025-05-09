@@ -51,8 +51,6 @@
     <!-- Author -->
     <div class="author">
 
-      <strong>{{ author.first }}</strong>
-
       {% assign author_array_size = entry.author_array | size %}
 
       {% assign author_array_limit = author_array_size %}
@@ -134,6 +132,13 @@
           {{- more_authors_hide -}}
         </span>
       {% endif %}
+
+      {% assign authors = entry.author %}
+      <strong>{{ authors.first }}</strong>
+      {% for author in authors offset:1 %}
+        and {{ author }}
+      {% endfor %}
+      
     </div>
 
     <!-- Journal/Book title and date -->
