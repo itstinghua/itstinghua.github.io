@@ -344,7 +344,7 @@ a:hover {
   </div>
   <div class="publication-item">
     <div class="publication-title"><a href="https://ieeexplore.ieee.org/document/9458274">Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors</a> </div>
-    <div class="publication-authors"><strong>Tinghua Li*</strong>, B. Jayawardhana, A.M. Kamat, A.G.P. Kottapalli</div>
+    <div class="publication-authors"><strong>Tinghua Li*</strong>, Bayu Jayawardhana, Amar M. Kamat, Ajay Giri Prakash Kottapalli</div>
     <div class="publication-venue">IEEE Transactions on Robotics (TRO), 2022</div>
     <!-- vol. 38, no. 1, pp. 448-462, Feb. 2022, doi: 10.1109/TRO.2021.3076964.</div> -->
   </div>
