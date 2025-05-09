@@ -69,13 +69,21 @@
 
       
         {% assign is_Tinghua_Li = false %}
-        {% if author.first == "Tinghua" and author.last == "Li*" %}
-        {% if author.first == "庭华" and author.last == "厉" %}
-        {% if author.first == "庭华" and author.last == "厉*" %}
+        {% if author.first == "Tinghua" and author.last == "Li*" %}     
           {% assign is_Tinghua_Li = true %}
         {% endif %}
-        
 
+        {% if author.first == "Tinghua" and author.last == "Li" %}     
+          {% assign is_Tinghua_Li = true %}
+        {% endif %}
+
+        {% if author.first == "庭华" and author.last == "厉*" %}     
+          {% assign is_Tinghua_Li = true %}
+        {% endif %}
+
+        {% if author.first == "庭华" and author.last == "厉" %}     
+          {% assign is_Tinghua_Li = true %}
+        {% endif %}
 
 
         {% assign coauthor_url = null %}
