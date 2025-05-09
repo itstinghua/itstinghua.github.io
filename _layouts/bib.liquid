@@ -98,7 +98,7 @@
             {{ author.last -}}
           </em>
            {%- elsif is_Tinghua_Li -%} 
-           <u><strong>{{- author.first }} {{ author.last -}}</strong></u>
+           <u>{{- author.first }} {{ author.last -}}</u>
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{coauthor_url}}">
