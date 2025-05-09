@@ -65,18 +65,6 @@
             {% assign author_is_self = true %}
           {% endif %}
         {%- endif -%}
-
-      
-        {% assign is_Tinghua_Li = false %}
-        {% if author.first == "Tinghua" and author.last == "Li*" %}     
-          {% assign is_Tinghua_Li = true %}
-        {% endif %}
-
-        {% if author.first == "Tinghua" and author.last == "Li" %}     
-          {% assign is_Tinghua_Li = true %}
-        {% endif %}
-
-
         {% assign coauthor_url = null %}
         {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
         {% if site.data.coauthors[clean_last_name] %}
@@ -97,8 +85,6 @@
             {{- author.first }}
             {{ author.last -}}
           </em>
-           {%- elsif is_Tinghua_Li -%} 
-           <u>{{- author.first }} {{ author.last -}}</u>
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{coauthor_url}}">
