@@ -66,16 +66,13 @@
           {% endif %}
         {%- endif -%}
 
-      
         {% assign is_Tinghua_Li = false %}
         {% if author.first == "Tinghua" and author.last == "Li*" %}     
           {% assign is_Tinghua_Li = true %}
         {% endif %}
-
         {% if author.first == "Tinghua" and author.last == "Li" %}     
           {% assign is_Tinghua_Li = true %}
         {% endif %}
-
 
         {% assign coauthor_url = null %}
         {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
