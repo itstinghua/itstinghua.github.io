@@ -92,7 +92,9 @@ nav_order: 5
     <p>
      I did my first guest lecture for the Master course "Nonlinear Control" at Faculty of Aerospace Engineering, TU Delft. 
     </p>
-      <img src="/assets/img/news/guest_lecture_TUD.png" class="large-img">
+     <div class="large-img">
+      <img src="/assets/img/news/guest_lecture_TUD.png">
+     </div>
   </div>
   <div class="news-item">
     <h4>March</h4>
