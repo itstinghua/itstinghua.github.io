@@ -72,7 +72,12 @@ nav_order: 5
 }
 
 .large-img {
-  max-width: 500px; /* 原来是 220px，这里放大 */
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
 }
 
 /* Global font settings */
