@@ -64,11 +64,15 @@ nav_order: 5
 /* 单张图样式 */
 .news-gallery img {
   width: 100%;
-  max-width: 220px;
+  max-width: 250px;
   height: auto;
   border-radius: 0.5rem;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   object-fit: cover;
+}
+
+.large-img {
+  max-width: 350px; /* 原来是 220px，这里放大 */
 }
 
 /* Global font settings */
@@ -84,7 +88,7 @@ nav_order: 5
      I did my first guest lecture for the Master course "Nonlinear Control" at Faculty of Aerospace Engineering, TU Delft. 
     </p>
      <div class="news-gallery">
-      <img src="/assets/img/news/guest_lecture_TUD.png" >
+      <img src="/assets/img/news/guest_lecture_TUD.png" class="large-img">
     </div>
   </div>
   <div class="news-item">
