@@ -73,7 +73,7 @@ nav_order: 5
 
 .large-img {
   width: 100%;
-  max-width: 650px;
+  max-width: 450px;
   height: auto;
   border-radius: 0.5rem;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
