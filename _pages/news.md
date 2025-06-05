@@ -78,6 +78,11 @@ nav_order: 5
   border-radius: 0.5rem;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   object-fit: cover;
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
 }
 
 /* Global font settings */
