@@ -99,7 +99,7 @@ nav_order: 5
   <div class="news-item">
     <h4>March</h4>
     <p>
-     Our paper <a href="https://ieeexplore.ieee.org/document/10735338">"Collision-free Source Seeking Control Methods for Unicycle Robots"</a> is now online at TAC, please feel free to check out the details :)
+     Our paper <a href="https://ieeexplore.ieee.org/document/10735338">"Collision-free Source Seeking Control Methods for Unicycle Robots"</a> is now online at IEEE TAC, please feel free to check out the details :)
     </p>
   </div>
   
