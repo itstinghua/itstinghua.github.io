@@ -71,9 +71,9 @@ nav_order: 5
   object-fit: cover;
 }
 
-.large-img {
+.large-img img {
   width: 100%;
-  max-width: 100px;
+  max-width: 500px;
   height: auto;
   border-radius: 0.5rem;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
