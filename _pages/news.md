@@ -90,7 +90,7 @@ nav_order: 5
     <div class="news-item">
     <h4>June</h4>
     <p>
-     I did my first guest lecture for the Master course "Nonlinear Control" at Faculty of Aerospace Engineering, TU Delft. 
+     I had the pleasure of delivering my first guest lecture in the Master’s course “Nonlinear Control” at the Faculty of Aerospace Engineering, TU Delft. 
     </p>
      <div class="large-img">
       <img src="/assets/img/news/guest_lecture_TUD.png">
