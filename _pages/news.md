@@ -71,14 +71,16 @@ nav_order: 5
   object-fit: cover;
 }
 
+.large-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
 .large-img img {
-  width: 100%;
-  max-width: 500px;
-  height: auto;
-  border-radius: 0.5rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  object-fit: cover;
-   display: flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 0.75rem;
