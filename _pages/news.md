@@ -64,7 +64,24 @@ nav_order: 5
 /* 单张图样式 */
 .news-gallery img {
   width: 100%;
-  max-width: 220px;
+  max-width: 400px;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+.large-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.large-img img {
+  width: 100%;
+  max-width: 500px;
   height: auto;
   border-radius: 0.5rem;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -78,10 +95,19 @@ nav_order: 5
 <div class="news-section">
 
    <div class="news-year">2025</div>
+    <div class="news-item">
+    <h4>June</h4>
+    <p>
+     I had the pleasure of delivering my first guest lecture in the Master’s course “Nonlinear Control” at the Faculty of Aerospace Engineering, TU Delft. 
+    </p>
+     <div class="large-img">
+      <img src="/assets/img/news/guest_lecture_TUD.png">
+     </div>
+  </div>
   <div class="news-item">
     <h4>March</h4>
     <p>
-     Our paper <a href="https://ieeexplore.ieee.org/document/10735338">"Collision-free Source Seeking Control Methods for Unicycle Robots"</a> is now online at TAC, please feel free to check out the details :)
+     Our paper <a href="https://ieeexplore.ieee.org/document/10735338">"Collision-free Source Seeking Control Methods for Unicycle Robots"</a> is now online at IEEE TAC, please feel free to check out the details :)
     </p>
   </div>
   
