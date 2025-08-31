@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://itstinghua.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://itstinghua.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-08-15T18:50:33+00:00</updated><id>https://itstinghua.github.io/feed.xml</id><title type="html">Tinghua Li</title><subtitle>The best way to contact me is by email.</subtitle><entry><title type="html">a post with tabs</title><link href="https://itstinghua.github.io/blog/2024/tabs/" rel="alternate" type="text/html" title="a post with tabs" /><published>2024-05-01T00:32:13+00:00</published><updated>2024-05-01T00:32:13+00:00</updated><id>https://itstinghua.github.io/blog/2024/tabs</id><content type="html" xml:base="https://itstinghua.github.io/blog/2024/tabs/"><![CDATA[<p>This is how a post with <a href="https://github.com/Ovski4/jekyll-tabs">tabs</a> looks like. Note that the tabs could be used for different purposes, not only for code.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://itstinghua.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://itstinghua.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-08-31T09:14:06+00:00</updated><id>https://itstinghua.github.io/feed.xml</id><title type="html">Tinghua Li</title><subtitle>The best way to contact me is by email.</subtitle><entry><title type="html">a post with tabs</title><link href="https://itstinghua.github.io/blog/2024/tabs/" rel="alternate" type="text/html" title="a post with tabs" /><published>2024-05-01T00:32:13+00:00</published><updated>2024-05-01T00:32:13+00:00</updated><id>https://itstinghua.github.io/blog/2024/tabs</id><content type="html" xml:base="https://itstinghua.github.io/blog/2024/tabs/"><![CDATA[<p>This is how a post with <a href="https://github.com/Ovski4/jekyll-tabs">tabs</a> looks like. Note that the tabs could be used for different purposes, not only for code.</p>
 
 <h2 id="first-tabs">First tabs</h2>
 
@@ -23,7 +23,7 @@ Content 2
 
 <p>With this you can generate visualizations like:</p>
 
-<ul id="log" class="tab" data-tab="fc2630d2-716a-43f8-823d-77ab01b9e0bd" data-name="log">
+<ul id="log" class="tab" data-tab="b6618583-58be-4b1d-b8c5-662f0f2cf546" data-name="log">
   
       <li class="active" id="log-php">
           <a href="#">php </a>
@@ -38,7 +38,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="fc2630d2-716a-43f8-823d-77ab01b9e0bd" data-name="log">
+<ul class="tab-content" id="b6618583-58be-4b1d-b8c5-662f0f2cf546" data-name="log">
   
       <li class="active">
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
@@ -62,7 +62,7 @@ Content 2
 
 <h2 id="another-example">Another example</h2>
 
-<ul id="data-struct" class="tab" data-tab="076baf24-21dc-43ab-b5aa-cbcb68bd833e" data-name="data-struct">
+<ul id="data-struct" class="tab" data-tab="eae2dd9e-9ca5-4008-a12d-3da10e84e752" data-name="data-struct">
   
       <li class="active" id="data-struct-yaml">
           <a href="#">yaml </a>
@@ -73,7 +73,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="076baf24-21dc-43ab-b5aa-cbcb68bd833e" data-name="data-struct">
+<ul class="tab-content" id="eae2dd9e-9ca5-4008-a12d-3da10e84e752" data-name="data-struct">
   
       <li class="active">
 <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
@@ -95,7 +95,7 @@ Content 2
 
 <h2 id="tabs-for-something-else">Tabs for something else</h2>
 
-<ul id="something-else" class="tab" data-tab="71788ab7-6b57-48eb-b132-840e4a6cff11" data-name="something-else">
+<ul id="something-else" class="tab" data-tab="edde4c71-453c-48dd-a811-dd1f3fc06a52" data-name="something-else">
   
       <li class="active" id="something-else-text">
           <a href="#">text </a>
@@ -110,7 +110,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="71788ab7-6b57-48eb-b132-840e4a6cff11" data-name="something-else">
+<ul class="tab-content" id="edde4c71-453c-48dd-a811-dd1f3fc06a52" data-name="something-else">
   
       <li class="active">
 <p>Regular text</p>
