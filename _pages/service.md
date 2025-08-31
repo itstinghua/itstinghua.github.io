@@ -69,6 +69,7 @@ a:hover {
   <h4>Journal Reviewer</h4>
   <ul>
     <li>IEEE Transactions on Robotics (T-RO)</li>
+    <li>IEEE Robotics and Automation Letters(R-AL)</li>
     <li>IEEE Robotics & Automation Magazine (RAM)</li>
     <li>Nonlinear Dynamics</li>
     <li>Journal of the Franklin Institute</li>
