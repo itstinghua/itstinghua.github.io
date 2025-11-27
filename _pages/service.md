@@ -79,7 +79,7 @@ a:hover {
 <div class="fade-in-section service-section">
   <h4>Conference Reviewer</h4>
   <ul>
-    <li>European Control Conference (ECC 2023, 2024)</li>
+    <li>European Control Conference (ECC 2023, 2024, 2026)</li>
     <li>American Control Conference (ACC 2021)</li>
     <li>Third IFAC Conference on Modelling, Identification and Control of Nonlinear Systems (MICNON 2021)</li>
     <li>IEEE Conference on Decision and Control (CDC 2025)</li>
