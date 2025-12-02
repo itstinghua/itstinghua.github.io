@@ -246,7 +246,7 @@ a:hover {
 
   <div class="profile-info">
      <h2>
-      <span class="chinese-name">厉庭华 (/ˈtɪŋ-hwɑː li:/ or /ting-hwah Lee/)</span>
+      <span class="chinese-name">厉庭华 (/ˈtɪŋ-hwɑː li:/ or /ting-hwa Lee/)</span>
     </h2>
     <div class="profile-section">
       <p>
