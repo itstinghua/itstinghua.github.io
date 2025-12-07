@@ -124,7 +124,7 @@ nav_order: 5
   <div class="news-item">
     <h4>March</h4>
     <p>
-     Our paper <a href="https://ieeexplore.ieee.org/document/10735338">"Collision-free Source Seeking Control Methods for Unicycle Robots"</a> is now online in <strong><em>IEEE TAC</em></strong>, please feel free to check out the details :)
+     Our paper <strong><a href="https://ieeexplore.ieee.org/document/10735338">"Collision-free Source Seeking Control Methods for Unicycle Robots"</a></strong> is now online in <strong><em>IEEE TAC</em></strong>, please feel free to check out the details :)
     </p>
   </div>
   
@@ -141,7 +141,7 @@ nav_order: 5
   <div class="news-item">
     <h4>October</h4>
     <p>
-      Our work "Collision-free Source Seeking Control Methods for Unicycle Robots" is officially accepted in <strong><em>IEEE Transactions on Automatic Control (TAC)</em></strong>. This is a key part of my PhD thesis and proposes three control barrier function (CBF) designs for solving the mixed relative degree problem in unicycle robot control. Many thanks to my advisor Prof. Bayu Jayawardhana for the insightful discussions and unwavering support! 😊
+      Our work <strong>"Collision-free Source Seeking Control Methods for Unicycle Robots"</strong> is officially accepted in <strong><em>IEEE Transactions on Automatic Control (TAC)</em></strong>. This is a key part of my PhD thesis and proposes three control barrier function (CBF) designs for solving the mixed relative degree problem in unicycle robot control. Many thanks to my advisor Prof. Bayu Jayawardhana for the insightful discussions and unwavering support! 😊
     </p>
   </div>
 
@@ -156,7 +156,7 @@ nav_order: 5
 
   <div class="news-item">
     <h4>January</h4>
-    <p>🎓 I am excited to announce that I have defended my <strong><em>Ph.D. thesis</em></strong> <a href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots">"Motion control for nonholonomic unicycle robots"</a>. This work addresses source-seeking, collision avoidance, and flocking cohesion, both from theoretical and experimental perspectives.</p>
+    <p>🎓 I am excited to announce that I have defended my <strong><em>Ph.D. thesis</em> <a href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots">"Motion control for nonholonomic unicycle robots".</a></strong> This work addresses source-seeking, collision avoidance, and flocking cohesion, both from theoretical and experimental perspectives.</p>
   </div>
 
   <div class="news-year">2023</div>
@@ -214,7 +214,7 @@ nav_order: 5
 
   <div class="news-item">
     <h4>April</h4>
-    <p>Our paper <a href="https://ieeexplore.ieee.org/document/9458274"><strong>"Source Seeking Control of Unicycle Robots with 3D-printed Flexible Piezoresistive Sensors"</strong></a> was accepted by <strong><em>IEEE Transactions on Robotics (TRO)</em></strong>! Huge thanks to Prof. Bayu Jayawardhana, Prof. Ajay Giri Prakash Kottapalli, and Dr. Amar Kamat for the fruitful collaboration!</p>
+    <p>Our paper <strong><a href="https://ieeexplore.ieee.org/document/9458274"> "Source Seeking Control of Unicycle Robots with 3D-printed Flexible Piezoresistive Sensors"</a></strong> was accepted by <strong><em>IEEE Transactions on Robotics (TRO)</em></strong>! Huge thanks to Prof. Bayu Jayawardhana, Prof. Ajay Giri Prakash Kottapalli, and Dr. Amar Kamat for the fruitful collaboration!</p>
   </div>
 
 </div>
