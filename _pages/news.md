@@ -98,8 +98,8 @@ nav_order: 5
    <div class="news-item">
     <h4>December</h4>
     <p>
-     I am pleased to share that our paper "Collision-free Source Seeking and Flocking Control of Multi-agents
-    with Connectivity Preservation" has been offically accepted for publication as full paper in IEEE TAC. It is expected to appear in June, 2026. Stay Tuned!
+     I am pleased to share that our paper <strong>"Collision-free Source Seeking and Flocking Control of Multi-agents
+    with Connectivity Preservation"</strong> has been offically accepted for publication as full paper in <strong><em>IEEE TAC</em></strong>. It is expected to appear in June, 2026. Stay Tuned!
     </p>
    </div>
    <div class="news-item">
@@ -124,7 +124,7 @@ nav_order: 5
   <div class="news-item">
     <h4>March</h4>
     <p>
-     Our paper <a href="https://ieeexplore.ieee.org/document/10735338">"Collision-free Source Seeking Control Methods for Unicycle Robots"</a> is now online in IEEE TAC, please feel free to check out the details :)
+     Our paper <a href="https://ieeexplore.ieee.org/document/10735338">"Collision-free Source Seeking Control Methods for Unicycle Robots"</a> is now online in <strong><em>IEEE TAC</em></strong>, please feel free to check out the details :)
     </p>
   </div>
   
@@ -141,7 +141,7 @@ nav_order: 5
   <div class="news-item">
     <h4>October</h4>
     <p>
-      Our work "Collision-free Source Seeking Control Methods for Unicycle Robots" is officially accepted in <strong>IEEE Transactions on Automatic Control (TAC)</strong>. This is a key part of my PhD thesis and proposes three control barrier function (CBF) designs for solving the mixed relative degree problem in unicycle robot control. Many thanks to my advisor Prof. Bayu Jayawardhana for the insightful discussions and unwavering support! 😊
+      Our work "Collision-free Source Seeking Control Methods for Unicycle Robots" is officially accepted in <strong><em>IEEE Transactions on Automatic Control (TAC)</em></strong>. This is a key part of my PhD thesis and proposes three control barrier function (CBF) designs for solving the mixed relative degree problem in unicycle robot control. Many thanks to my advisor Prof. Bayu Jayawardhana for the insightful discussions and unwavering support! 😊
     </p>
   </div>
 
@@ -156,7 +156,7 @@ nav_order: 5
 
   <div class="news-item">
     <h4>January</h4>
-    <p>🎓 I am excited to announce that I have defended my <strong>Ph.D. thesis</strong> <a href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots">"Motion control for nonholonomic unicycle robots"</a>. This work addresses source-seeking, collision avoidance, and flocking cohesion, both from theoretical and experimental perspectives.</p>
+    <p>🎓 I am excited to announce that I have defended my <strong><em>Ph.D. thesis</em></strong> <a href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots">"Motion control for nonholonomic unicycle robots"</a>. This work addresses source-seeking, collision avoidance, and flocking cohesion, both from theoretical and experimental perspectives.</p>
   </div>
 
   <div class="news-year">2023</div>
@@ -183,7 +183,7 @@ nav_order: 5
 
   <div class="news-item">
     <h4>March</h4>
-    <p>Attended the 42nd Benelux Meeting on Systems and Control in Elspeet, Netherlands. Presented our paper <em>"Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation"</em> and received my DISC certificates!</p>
+    <p>Attended the 42nd Benelux Meeting on Systems and Control in Elspeet, Netherlands. Presented our paper <strong>"Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation"</strong> and received my DISC certificates!</p>
     <div class="news-gallery">
       <img src="/assets/img/news/disc_2023_1.jpg" alt="DISC 1">
       <img src="/assets/img/news/disc_2023_2.jpg" alt="DISC 2">
@@ -199,12 +199,12 @@ nav_order: 5
   <div class="news-year">2021</div>
   <div class="news-item">
     <h4>October</h4>
-    <p>Presented our source-seeking work at IROS 2021 (virtual), as an invited <strong>T-RO</strong> paper.</p>
+    <p>Presented our source-seeking work at IROS 2021 (virtual), as an invited <strong>IEEE T-RO</strong> paper.</p>
   </div>
 
   <div class="news-item">
     <h4>July</h4>
-    <p>Presented <em>"Source-Seeking Control of Unicycle Robots With 3D-Printed Flexible Sensors"</em> at the 10th Benelux Meeting in Rotterdam.</p>
+    <p>Presented <strong>"Source-Seeking Control of Unicycle Robots With 3D-Printed Flexible Sensors"</strong> at the 10th <em>Benelux Meeting</em> in Rotterdam.</p>
   </div>
 
   <div class="news-item">
@@ -214,7 +214,7 @@ nav_order: 5
 
   <div class="news-item">
     <h4>April</h4>
-    <p>Our paper <a href="https://ieeexplore.ieee.org/document/9458274"><em>"Source Seeking Control of Unicycle Robots with 3D-printed Flexible Piezoresistive Sensors"</em></a> was accepted by <strong>IEEE Transactions on Robotics (TRO)</strong>! Huge thanks to Prof. Bayu Jayawardhana, Prof. Ajay Giri Prakash Kottapalli, and Dr. Amar Kamat for the fruitful collaboration!</p>
+    <p>Our paper <a href="https://ieeexplore.ieee.org/document/9458274"><strong>"Source Seeking Control of Unicycle Robots with 3D-printed Flexible Piezoresistive Sensors"</strong></a> was accepted by <strong><em>IEEE Transactions on Robotics (TRO)</em></strong>! Huge thanks to Prof. Bayu Jayawardhana, Prof. Ajay Giri Prakash Kottapalli, and Dr. Amar Kamat for the fruitful collaboration!</p>
   </div>
 
 </div>
