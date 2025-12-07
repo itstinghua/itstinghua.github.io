@@ -96,6 +96,13 @@ nav_order: 5
 
    <div class="news-year">2025</div>
    <div class="news-item">
+    <h4>December</h4>
+    <p>
+     I am pleased to share that our paper "Collision-free Source Seeking and Flocking Control of Multi-agents
+    with Connectivity Preservation" has been offically accepted for publication as full paper in IEEE TAC. It is expected to appear in June, 2026. Stay Tuned!
+    </p>
+   </div>
+   <div class="news-item">
     <h4>August</h4>
     <p>
      I am super happy to visit the Hong Kong University of Science and Technology (Guangzhou) and give a presentation in Robotics and Autonomous Systems, System Hub.
@@ -117,7 +124,7 @@ nav_order: 5
   <div class="news-item">
     <h4>March</h4>
     <p>
-     Our paper <a href="https://ieeexplore.ieee.org/document/10735338">"Collision-free Source Seeking Control Methods for Unicycle Robots"</a> is now online at IEEE TAC, please feel free to check out the details :)
+     Our paper <a href="https://ieeexplore.ieee.org/document/10735338">"Collision-free Source Seeking Control Methods for Unicycle Robots"</a> is now online in IEEE TAC, please feel free to check out the details :)
     </p>
   </div>
   
