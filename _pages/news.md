@@ -99,7 +99,7 @@ nav_order: 5
     <h4>December</h4>
     <p>
      I am pleased to share that our paper <strong>"Collision-free Source Seeking and Flocking Control of Multi-agents
-    with Connectivity Preservation"</strong> has been offically accepted for publication as full paper in <strong><em>IEEE TAC</em></strong>. It is expected to appear in June, 2026. Stay Tuned!
+    with Connectivity Preservation"</strong> has been offically accepted for publication as full paper in <strong><em>IEEE Transactions on Automatic Control (TAC)</em></strong>. It is expected to appear in June, 2026. Stay Tuned!
     </p>
    </div>
    <div class="news-item">
@@ -124,7 +124,7 @@ nav_order: 5
   <div class="news-item">
     <h4>March</h4>
     <p>
-     Our paper <strong><a href="https://ieeexplore.ieee.org/document/10735338">"Collision-free Source Seeking Control Methods for Unicycle Robots"</a></strong> is now online in <strong><em>IEEE TAC</em></strong>, please feel free to check out the details :)
+     Our paper <strong><a href="https://ieeexplore.ieee.org/document/10735338">"Collision-free Source Seeking Control Methods for Unicycle Robots"</a></strong> is now online in <strong><em>IEEE Transactions on Automatic Control (TAC)</em></strong>, please feel free to check out the details :)
     </p>
   </div>
   
@@ -199,7 +199,7 @@ nav_order: 5
   <div class="news-year">2021</div>
   <div class="news-item">
     <h4>October</h4>
-    <p>Presented our source-seeking work at IROS 2021 (virtual), as an invited <strong>IEEE T-RO</strong> paper.</p>
+    <p>Presented our source-seeking work at IROS 2021 (virtual), as an invited <strong>IEEE Transactions on Robotics (TRO)</strong> paper.</p>
   </div>
 
   <div class="news-item">
