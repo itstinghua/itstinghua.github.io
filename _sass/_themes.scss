@@ -56,14 +56,19 @@
 html[data-theme="dark"] {
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color};
+
+  /* 关键：把文字提亮 */
+  --global-text-color: #e6edf3;        /* 主文字更亮（接近白但不刺眼） */
+  --global-text-color-light: #c9d1d9;  /* 次要文字也更亮 */
+  --global-hover-text-color: #ffffff;  /* 强调文字保持白色 */
+
   --global-theme-color: #{$cyan-color};
   --global-hover-color: #{$cyan-color};
-  --global-hover-text-color: #{$white-color};
+
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
+
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
   --global-card-bg-color: #{$grey-900};
