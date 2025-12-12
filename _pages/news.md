@@ -54,7 +54,7 @@ nav_order: 5
     <li><span class="news-date">2023.06</span> — Visited Prof. Karl Henrik Johansson’s group at KTH, Sweden.</li>
     <li>
       <span class="news-date">2023.03</span> — Attended the 42nd Benelux Meeting on Systems and Control in Elspeet, Netherlands.
-      <div class="news-gallery"><img src="/assets/img/news/disc_2023_1.jpg"><img src="/assets/img/news/disc_2023_2.jpg"></div>
+      <!-- <div class="news-gallery"><img src="/assets/img/news/disc_2023_1.jpg"><img src="/assets/img/news/disc_2023_2.jpg"></div> -->
     </li>
   </ul>
 </div>
