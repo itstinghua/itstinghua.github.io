@@ -155,10 +155,10 @@ nav_order: 5
   <div class="news-item">
     <h4>June</h4>
     <p>Honored to be a keynote speaker at the 6th AI QianTang Forum, School of Automation (School of AI), Hangzhou Dianzi University, China. Thanks to Prof. Jiming Chen and Prof. Jiuwen Cao for the warm invitation and welcome!</p>
-    <div class="news-gallery">
+    <!-- <div class="news-gallery">
       <img src="/assets/img/news/hangzhou_1.jpg" alt="Hangzhou Talk 1">
       <img src="/assets/img/news/hangzhou_2.jpg" alt="Hangzhou Talk 2">
-    </div>
+    </div> -->
   </div>
 
   <div class="news-item">
