@@ -82,7 +82,9 @@ nav_order: 6
   line-height: 1.8;
   font-size: 1rem;
 
-  background-color: var(--global-card-bg-color);
+  background-color: rgba(0, 83, 156, 0.08); /* 适配浅色背景 */
+
+  /*background-color: var(--global-card-bg-color);*/
   border: 1px solid var(--global-divider-color);
   border-radius: 1rem;
 
