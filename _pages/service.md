@@ -79,10 +79,17 @@ a:hover {
 <div class="fade-in-section service-section">
   <h4>Conference Reviewer</h4>
   <ul>
+    <li>IEEE Conference on Decision and Control (CDC 2025)</li>
     <li>European Control Conference (ECC 2023, 2024, 2026)</li>
     <li>American Control Conference (ACC 2021)</li>
     <li>Third IFAC Conference on Modelling, Identification and Control of Nonlinear Systems (MICNON 2021)</li>
-    <li>IEEE Conference on Decision and Control (CDC 2025)</li>
+  </ul>
+</div>
+
+<div class="fade-in-section service-section">
+  <h4>Guest Lecturer</h4>
+  <ul>
+    <li>Master course: Nonlinear Control (Delft University of Technology, Faculty of Aerospace Engineering, Spring 2025)</li>
   </ul>
 </div>
 
@@ -94,7 +101,7 @@ a:hover {
 </div>
 
 <div class="fade-in-section service-section">
-  <h4>Professional Memberships</h4>
+  <h4>Memberships</h4>
   <ul>
     <li>Dutch Institute of Systems and Control (DISC)</li>
     <li>Jan C. Willems Center for Systems and Control</li>
