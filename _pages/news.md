@@ -107,10 +107,10 @@ nav_order: 5
     <p>
      I am super happy to visit the Hong Kong University of Science and Technology (Guangzhou) and give a presentation in Robotics and Autonomous Systems, System Hub.
     </p>
-     <div class="news-gallery">
+    <!--  <div class="news-gallery">
       <img src="/assets/img/news/hkust_3.JPG" >
       <img src="/assets/img/news/hkust_1.JPG" >
-    </div>
+    </div> -->
   </div>
     <div class="news-item">
     <h4>June</h4>
