@@ -6,7 +6,6 @@ description:
 nav: true
 nav_order: 5
 ---
-
 <style>
 /* 主体样式 */
 .news-section {
@@ -19,9 +18,9 @@ nav_order: 5
   font-size: 2rem;
   font-weight: 600;
   margin: 3rem 0 1.5rem;
-  border-bottom: 2px solid #e2e8f0;
+  border-bottom: 2px solid var(--global-divider-color);
   padding-bottom: 0.5rem;
-  color: #00539C;
+  color: var(--global-theme-color);
 }
 
 /* 单条新闻卡片 */
@@ -41,7 +40,7 @@ nav_order: 5
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
-  color: #111;
+  color: var(--global-text-color);
 }
 
 /* 新闻正文 */
@@ -49,7 +48,17 @@ nav_order: 5
   margin-bottom: 0.5rem;
   line-height: 1.7;
   font-size: 1rem;
-  color: #111;
+  color: var(--global-text-color);
+}
+
+/* 链接保持主题色（不要跟正文同色） */
+.news-item a {
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
+.news-item a:hover {
+  color: var(--global-hover-color);
+  text-decoration: underline;
 }
 
 /* 图片展示区域 */
@@ -87,10 +96,8 @@ nav_order: 5
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   object-fit: cover;
 }
-
-/* Global font settings */
-
 </style>
+
 
 <div class="news-section">
 

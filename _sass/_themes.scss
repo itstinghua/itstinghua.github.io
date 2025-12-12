@@ -66,10 +66,10 @@ html[data-theme="dark"] {
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
 
-  /* 深色模式：更清晰的文本层级 */
-  --global-text-color: #e6edf3;       /* 主文字 */
-  --global-text-color-light: #c9d1d9; /* 次要文字 */
-  --global-hover-text-color: #ffffff; /* 强调文字 */
+  /* ✅ 深色模式：主/次文字都再亮一点，灰字更清晰 */
+  --global-text-color: #e6edf3;        /* 主文字 */
+  --global-text-color-light: #b6c2cf;  /* 次要文字（比之前更清晰、更不发灰） */
+  --global-hover-text-color: #ffffff;
 
   --global-theme-color: #{$cyan-color};
   --global-hover-color: #{$cyan-color};
@@ -79,7 +79,7 @@ html[data-theme="dark"] {
   --global-footer-text-color: #e6edf3;
   --global-footer-link-color: #e6edf3;
 
-  --global-distill-app-color: #c9d1d9;
+  --global-distill-app-color: #b6c2cf;
   --global-divider-color: #424246;
 
   --global-card-bg-color: #{$grey-900};
@@ -101,16 +101,11 @@ html[data-theme="dark"] {
   --global-danger-block-title: #c00;
 
   /* Repo images (light/dark) */
-  .repo-img-light {
-    display: none;
-  }
-  .repo-img-dark {
-    display: block;
-  }
+  .repo-img-light { display: none; }
+  .repo-img-dark  { display: block; }
 
   /* --------------------------------------------
-     Fix common “white blocks” + “black text”
-     (Bootstrap defaults / tables / forms)
+     Fix common “white blocks” + “black/gray text”
      -------------------------------------------- */
 
   body,
@@ -165,14 +160,24 @@ html[data-theme="dark"] {
     border-color: var(--global-divider-color) !important;
   }
 
+  /* ✅ 关键：把 Bootstrap 常见“灰字类”全部映射到你的变量 */
+  .text-muted,
+  .text-secondary,
+  .text-body-secondary,
+  .text-body-tertiary,
+  .text-reset,
+  small,
+  .small,
+  figcaption,
+  .caption {
+    color: var(--global-text-color-light) !important;
+  }
+
+  /* 深色模式下常见“深色字体类” */
   .text-dark,
   .text-body,
   .text-black {
     color: var(--global-text-color) !important;
-  }
-
-  .text-muted {
-    color: var(--global-text-color-light) !important;
   }
 
   pre,
@@ -186,9 +191,7 @@ html[data-theme="dark"] {
    Theme setting icons (manual)
    ---------------------------- */
 html[data-theme-setting="dark"] {
-  #light-toggle-system {
-    display: none;
-  }
+  #light-toggle-system { display: none; }
 
   #light-toggle-dark {
     padding-left: 10px;
@@ -196,19 +199,12 @@ html[data-theme-setting="dark"] {
     display: block;
   }
 
-  #light-toggle-light {
-    display: none;
-  }
+  #light-toggle-light { display: none; }
 }
 
 html[data-theme-setting="light"] {
-  #light-toggle-system {
-    display: none;
-  }
-
-  #light-toggle-dark {
-    display: none;
-  }
+  #light-toggle-system { display: none; }
+  #light-toggle-dark { display: none; }
 
   #light-toggle-light {
     padding-left: 10px;

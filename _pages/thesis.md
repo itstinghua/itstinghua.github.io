@@ -8,6 +8,9 @@ nav_order: 6
 ---
 
 <style>
+/* ---------------------------
+   Thesis Header
+   --------------------------- */
 .thesis-header {
   display: flex;
   gap: 40px;
@@ -34,6 +37,7 @@ nav_order: 6
   flex: 2;
   min-width: 0;
   text-align: left;
+  color: var(--global-text-color);
 }
 
 .thesis-title {
@@ -41,13 +45,14 @@ nav_order: 6
   font-weight: bold;
   margin-bottom: 1rem;
   line-height: 1.4;
+  color: var(--global-text-color);
 }
 
 .thesis-text h5 {
   margin-top: 1.2rem;
   font-size: 1.1rem;
   font-weight: 600;
-/*  color: #00539C;*/
+  color: var(--global-text-color);
 }
 
 .thesis-text ul {
@@ -68,8 +73,120 @@ nav_order: 6
   }
 }
 
-/* Global font settings */
+/* ---------------------------
+   Acknowledgments (Card)
+   --------------------------- */
+.acknowledgment-section {
+  margin-top: 3rem;
+  padding: 2rem 1.5rem;
+  line-height: 1.8;
+  font-size: 1rem;
 
+  background-color: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 1rem;
+
+  /* 轻微阴影：深浅模式都可用 */
+  box-shadow: 0 0.5rem 1.2rem rgba(0, 0, 0, 0.05);
+
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+
+  color: var(--global-text-color);
+}
+
+.acknowledgment-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.acknowledgment-section h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: var(--global-text-color);
+}
+
+.acknowledgment-section p {
+  margin-bottom: 1rem;
+  color: var(--global-text-color);
+}
+
+.acknowledgment-section strong {
+  font-weight: 600;
+}
+
+.acknowledgment-section a {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--global-theme-color);
+  text-decoration: underline;
+}
+
+.acknowledgment-section a:hover {
+  color: var(--global-hover-color);
+}
+
+/* 深色模式下阴影略弱一点（避免发灰） */
+html[data-theme="dark"] .acknowledgment-section {
+  box-shadow: 0 0.5rem 1.2rem rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 768px) {
+  .acknowledgment-section {
+    padding: 1.5rem 1rem;
+  }
+}
+
+/* ---------------------------
+   Gallery
+   --------------------------- */
+.gallery-section {
+  margin-top: 3rem;
+  color: var(--global-text-color);
+}
+
+.gallery-section h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: var(--global-text-color);
+}
+
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.gallery-row img {
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.gallery-col {
+  flex: 1 1 30%;
+  max-width: 320px;
+}
+
+.gallery-video {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.gallery-video video {
+  max-width: 1000px;
+  width: 100%;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
 </style>
 
 <!-- Thesis Summary Section -->
@@ -105,81 +222,9 @@ nav_order: 6
   </div>
 </div>
 
-
 <hr>
 
-<style>
-.acknowledgment-section {
-  margin-top: 3rem;
-  line-height: 1.8;
-  font-size: 1rem;
-}
-.acknowledgment-section h2 {
-  font-size: 1.75rem;
-  font-weight: 600;
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-.acknowledgment-section p {
-  margin-bottom: 1rem;
-}
-.acknowledgment-section strong {
-  font-weight: 600;
-}
-.acknowledgment-section a {
-  color: #00539C;
-  text-decoration: underline;
-}
-</style>
-
 <!-- Acknowledgments Section -->
-<style>
-.acknowledgment-section {
-  margin-top: 3rem;
-  padding: 2rem 1.5rem;
-  background-color: #f9f9f9;
-  border-radius: 1rem;
-  box-shadow: 0 0.5rem 1.2rem rgba(0, 0, 0, 0.05);
-  opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-}
-
-.acknowledgment-section.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.acknowledgment-section h2 {
-  font-size: 1.75rem;
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-
-.acknowledgment-section p {
-  font-size: 1rem;
-  line-height: 1.7;
-  margin-bottom: 1rem;
-}
-
-.acknowledgment-section strong {
-  font-weight: 600;
-}
-
-.acknowledgment-section a {
-  display: inline-block;
-  margin-top: 1rem;
-  color: #4b5563;
-  text-decoration: underline;
-}
-
-@media (max-width: 768px) {
-  .acknowledgment-section {
-    padding: 1.5rem 1rem;
-  }
-}
-</style>
-
 <div class="acknowledgment-section" id="acknowledgments">
   <h2>Acknowledgments</h2>
   <p>I would like to sincerely thank my dearest supervisors <strong>Prof. Bayu Jayawardhana</strong> and <strong>Prof. Ming Cao</strong> for their constant support and guidance throughout my Ph.D. journey.</p>
@@ -188,7 +233,7 @@ nav_order: 6
 
   <p>Heartfelt appreciation to the defense committee members for their insightful discussions and valuable feedback: <strong>Prof. Claudio De Persis, Prof. Dimos Dimarogonas, Prof. Tamas Keviczky, Prof. Raffaella Carloni, Prof. Maryam Ghandchi Tehrani, Prof. Sami Haddadin, Dr. Bahar Haghighat, and Dr. Ashish Cherukuri</strong>.</p>
 
-  <a href="/assets/pdf/acknowledge.pdf" target="_blank" style="color:#00539C;">Read the full acknowledgment here →</a>
+  <a href="/assets/pdf/acknowledge.pdf" target="_blank">Read the full acknowledgment here →</a>
 </div>
 
 <!-- Intersection Observer Script for Scroll Animation -->
@@ -209,54 +254,7 @@ nav_order: 6
   });
 </script>
 
-
-
 <hr>
-
-<style>
-.gallery-section {
-  margin-top: 3rem;
-}
-
-.gallery-section h2 {
-  font-size: 1.75rem;
-  font-weight: 600;
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-
-.gallery-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  justify-content: center;
-}
-
-.gallery-row img {
-  border-radius: 0.75rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-}
-
-.gallery-col {
-  flex: 1 1 30%;
-  max-width: 320px;
-}
-
-.gallery-video {
-  margin-top: 2rem;
-  text-align: center;
-}
-
-.gallery-video video {
-  max-width: 1000px;
-  width: 100%;
-  border-radius: 0.75rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-}
-</style>
 
 <!-- Defense Gallery Section -->
 <div class="gallery-section">
