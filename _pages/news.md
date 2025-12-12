@@ -6,50 +6,76 @@ description:
 nav: true
 nav_order: 5
 ---
+
 <style>
-.news-section{margin:2rem 0;padding:0 1rem}
-.news-year{font-size:2rem;font-weight:600;margin:3rem 0 1.5rem;border-bottom:2px solid var(--global-divider-color);padding-bottom:.5rem;color:var(--global-theme-color)}
-.news-item{margin-bottom:2.5rem;opacity:0;transform:translateY(30px);transition:opacity .7s ease-out,transform .7s ease-out}
-.news-item.visible{opacity:1;transform:translateY(0)}
-.news-item h4{font-size:1.25rem;font-weight:600;margin-bottom:.5rem;color:var(--global-text-color)}
-.news-item p{margin-bottom:.5rem;line-height:1.7;font-size:1rem;color:var(--global-text-color)}
-.news-item a{color:var(--global-theme-color);text-decoration:none}
-.news-item a:hover{color:var(--global-hover-color);text-decoration:underline}
-.news-gallery,.large-img{display:flex;flex-wrap:wrap;justify-content:center;gap:.75rem;margin-top:1rem}
+.fade-in-section{opacity:0;transform:translateY(30px);transition:opacity .8s ease-out,transform .8s ease-out}
+.fade-in-section.visible{opacity:1;transform:translateY(0)}
+.service-section{margin-bottom:3rem}
+.service-section h4{margin-bottom:.8rem;font-size:1.25rem;border-left:4px solid;padding-left:.6rem;font-weight:600;color:#00539C}
+.service-section ul{margin-top:0;padding-left:1.2rem}
+.service-section li{margin-bottom:.75rem;line-height:1.7}
+.news-month{font-weight:600}
+.news-gallery,.large-img{display:flex;flex-wrap:wrap;justify-content:center;gap:.75rem;margin-top:.75rem}
 .news-gallery img{width:100%;max-width:400px;height:auto;border-radius:.5rem;box-shadow:0 2px 6px rgba(0,0,0,.1);object-fit:cover}
 .large-img img{width:100%;max-width:500px;height:auto;border-radius:.5rem;box-shadow:0 2px 6px rgba(0,0,0,.1);object-fit:cover}
+.service-section a{color:var(--global-theme-color);text-decoration:none}
+.service-section a:hover{color:var(--global-hover-color);text-decoration:underline}
 </style>
 
-<div class="news-section">
-<div class="news-year">2025</div>
-<div class="news-item"><h4>December</h4><p>I am pleased to share that our paper <strong>"Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation"</strong> has been offically accepted for publication as full paper in <strong><em>IEEE Transactions on Automatic Control (TAC)</em></strong>. It is expected to appear in June, 2026. Stay Tuned!</p></div>
-<div class="news-item"><h4>August</h4><p>I am super happy to visit the Hong Kong University of Science and Technology (Guangzhou) and give a presentation in Robotics and Autonomous Systems, System Hub.</p></div>
-<div class="news-item"><h4>June</h4><p>I had the pleasure of delivering my first guest lecture in the Master’s course “Nonlinear Control” at the Faculty of Aerospace Engineering, TU Delft.</p><div class="large-img"><img src="/assets/img/news/guest_lecture_TUD.png"></div></div>
-<div class="news-item"><h4>March</h4><p>Our paper <strong><a href="https://ieeexplore.ieee.org/document/10735338">"Collision-free Source Seeking Control Methods for Unicycle Robots"</a></strong> is now online in <strong><em>IEEE Transactions on Automatic Control (TAC)</em></strong>, please feel free to check out the details :)</p></div>
-<div class="news-item"><h4>February</h4><p>I have started my postdoc journey at Control and Simulation (C&amp;S), Delft University of Technology (TU Delft). Excited to explore the challenges from ground mobile robots to aerospace!</p></div>
+<div class="fade-in-section service-section">
+  <h4>2025</h4>
+  <ul>
+    <li><span class="news-month">December:</span> I am pleased to share that our paper <strong>"Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation"</strong> has been offically accepted for publication as full paper in <strong><em>IEEE Transactions on Automatic Control (TAC)</em></strong>. It is expected to appear in June, 2026. Stay Tuned!</li>
+    <li><span class="news-month">August:</span> I am super happy to visit the Hong Kong University of Science and Technology (Guangzhou) and give a presentation in Robotics and Autonomous Systems, System Hub.</li>
+    <li>
+      <span class="news-month">June:</span> I had the pleasure of delivering my first guest lecture in the Master’s course “Nonlinear Control” at the Faculty of Aerospace Engineering, TU Delft.
+      <div class="large-img"><img src="/assets/img/news/guest_lecture_TUD.png"></div>
+    </li>
+    <li><span class="news-month">March:</span> Our paper <strong><a href="https://ieeexplore.ieee.org/document/10735338">"Collision-free Source Seeking Control Methods for Unicycle Robots"</a></strong> is now online in <strong><em>IEEE Transactions on Automatic Control (TAC)</em></strong>, please feel free to check out the details :)</li>
+    <li><span class="news-month">February:</span> I have started my postdoc journey at Control and Simulation (C&amp;S), Delft University of Technology (TU Delft). Excited to explore the challenges from ground mobile robots to aerospace!</li>
+  </ul>
+</div>
 
-<div class="news-year">2024</div>
-<div class="news-item"><h4>October</h4><p>Our work <strong>"Collision-free Source Seeking Control Methods for Unicycle Robots"</strong> is officially accepted in <strong><em>IEEE Transactions on Automatic Control (TAC)</em></strong>. This is a key part of my PhD thesis and proposes three control barrier function (CBF) designs for solving the mixed relative degree problem in unicycle robot control. Many thanks to my advisor Prof. Bayu Jayawardhana for the insightful discussions and unwavering support! 😊</p></div>
-<div class="news-item"><h4>June</h4><p>Honored to be a keynote speaker at the 6th AI QianTang Forum, School of Automation (School of AI), Hangzhou Dianzi University, China. Thanks to Prof. Jiming Chen and Prof. Jiuwen Cao for the warm invitation and welcome!</p></div>
-<div class="news-item"><h4>January</h4><p>🎓 I am excited to announce that I have defended my <strong><em>Ph.D. thesis</em> <a href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots">"Motion control for nonholonomic unicycle robots".</a></strong> This work addresses source-seeking, collision avoidance, and flocking cohesion, both from theoretical and experimental perspectives.</p></div>
+<div class="fade-in-section service-section">
+  <h4>2024</h4>
+  <ul>
+    <li><span class="news-month">October:</span> Our work <strong>"Collision-free Source Seeking Control Methods for Unicycle Robots"</strong> is officially accepted in <strong><em>IEEE Transactions on Automatic Control (TAC)</em></strong>. This is a key part of my PhD thesis and proposes three control barrier function (CBF) designs for solving the mixed relative degree problem in unicycle robot control. Many thanks to my advisor Prof. Bayu Jayawardhana for the insightful discussions and unwavering support! 😊</li>
+    <li><span class="news-month">June:</span> Honored to be a keynote speaker at the 6th AI QianTang Forum, School of Automation (School of AI), Hangzhou Dianzi University, China. Thanks to Prof. Jiming Chen and Prof. Jiuwen Cao for the warm invitation and welcome!</li>
+    <li><span class="news-month">January:</span> 🎓 I am excited to announce that I have defended my <strong><em>Ph.D. thesis</em> <a href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots">"Motion control for nonholonomic unicycle robots".</a></strong> This work addresses source-seeking, collision avoidance, and flocking cohesion, both from theoretical and experimental perspectives.</li>
+  </ul>
+</div>
 
-<div class="news-year">2023</div>
-<div class="news-item"><h4>November</h4><p>Visited Prof. Qinghua Yang's group at Shanghai University and shared my PhD work. Great to be back on campus!</p></div>
-<div class="news-item"><h4>October</h4><p>Visited Prof. Wenan Zhang's group at Zhejiang University of Technology. Thanks for the kind invitation!</p></div>
-<div class="news-item"><h4>September</h4><p>Participated in the "Five Decades of Systems and Control Theory in Groningen" to celebrate the 50th anniversary of the Systems &amp; Control group at the University of Groningen.</p></div>
-<div class="news-item"><h4>June</h4><p>Visited Prof. Karl Henrik Johansson’s group at KTH, Sweden, to present my work on motion control of nonholonomic robots. Many thanks for the invitation and engaging discussions.</p></div>
-<div class="news-item"><h4>March</h4><p>Attended the 42nd Benelux Meeting on Systems and Control in Elspeet, Netherlands. Presented our paper <strong>"Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation"</strong> and received my DISC certificates!</p><div class="news-gallery"><img src="/assets/img/news/disc_2023_1.jpg"><img src="/assets/img/news/disc_2023_2.jpg"></div></div>
+<div class="fade-in-section service-section">
+  <h4>2023</h4>
+  <ul>
+    <li><span class="news-month">November:</span> Visited Prof. Qinghua Yang's group at Shanghai University and shared my PhD work. Great to be back on campus!</li>
+    <li><span class="news-month">October:</span> Visited Prof. Wenan Zhang's group at Zhejiang University of Technology. Thanks for the kind invitation!</li>
+    <li><span class="news-month">September:</span> Participated in the "Five Decades of Systems and Control Theory in Groningen" to celebrate the 50th anniversary of the Systems &amp; Control group at the University of Groningen.</li>
+    <li><span class="news-month">June:</span> Visited Prof. Karl Henrik Johansson’s group at KTH, Sweden, to present my work on motion control of nonholonomic robots. Many thanks for the invitation and engaging discussions.</li>
+    <li>
+      <span class="news-month">March:</span> Attended the 42nd Benelux Meeting on Systems and Control in Elspeet, Netherlands. Presented our paper <strong>"Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation"</strong> and received my DISC certificates!
+      <div class="news-gallery"><img src="/assets/img/news/disc_2023_1.jpg" alt="DISC 1"><img src="/assets/img/news/disc_2023_2.jpg" alt="DISC 2"></div>
+    </li>
+  </ul>
+</div>
 
-<div class="news-year">2022</div>
-<div class="news-item"><h4>March</h4><p>Joined the DISC Winter Course on Data Learning &amp; Dynamics at the Intersection of Neuroscience and Control.</p></div>
+<div class="fade-in-section service-section">
+  <h4>2022</h4>
+  <ul>
+    <li><span class="news-month">March:</span> Joined the DISC Winter Course on Data Learning &amp; Dynamics at the Intersection of Neuroscience and Control.</li>
+  </ul>
+</div>
 
-<div class="news-year">2021</div>
-<div class="news-item"><h4>October</h4><p>Presented our source-seeking work at IROS 2021 (virtual), as an invited <strong>IEEE Transactions on Robotics (TRO)</strong> paper.</p></div>
-<div class="news-item"><h4>July</h4><p>Presented <strong>"Source-Seeking Control of Unicycle Robots With 3D-Printed Flexible Sensors"</strong> at the 10th <em>Benelux Meeting</em> in Rotterdam.</p></div>
-<div class="news-item"><h4>June</h4><p>Joined the DISC Summer School 2021: Planning, Learning and Control for Multi-Robot and Multi-Agent Systems (Rotterdam).</p></div>
-<div class="news-item"><h4>April</h4><p>Our paper <strong><a href="https://ieeexplore.ieee.org/document/9458274">"Source Seeking Control of Unicycle Robots with 3D-printed Flexible Piezoresistive Sensors"</a></strong> was accepted by <strong><em>IEEE Transactions on Robotics (TRO)</em></strong>! Huge thanks to Prof. Bayu Jayawardhana, Prof. Ajay Giri Prakash Kottapalli, and Dr. Amar Kamat for the fruitful collaboration!</p></div>
+<div class="fade-in-section service-section">
+  <h4>2021</h4>
+  <ul>
+    <li><span class="news-month">October:</span> Presented our source-seeking work at IROS 2021 (virtual), as an invited <strong>IEEE Transactions on Robotics (TRO)</strong> paper.</li>
+    <li><span class="news-month">July:</span> Presented <strong>"Source-Seeking Control of Unicycle Robots With 3D-Printed Flexible Sensors"</strong> at the 10th <em>Benelux Meeting</em> in Rotterdam.</li>
+    <li><span class="news-month">June:</span> Joined the DISC Summer School 2021: Planning, Learning and Control for Multi-Robot and Multi-Agent Systems (Rotterdam).</li>
+    <li><span class="news-month">April:</span> Our paper <strong><a href="https://ieeexplore.ieee.org/document/9458274">"Source Seeking Control of Unicycle Robots with 3D-printed Flexible Piezoresistive Sensors"</a></strong> was accepted by <strong><em>IEEE Transactions on Robotics (TRO)</em></strong>! Huge thanks to Prof. Bayu Jayawardhana, Prof. Ajay Giri Prakash Kottapalli, and Dr. Amar Kamat for the fruitful collaboration!</li>
+  </ul>
 </div>
 
 <script>
-document.addEventListener("DOMContentLoaded",function(){const o=new IntersectionObserver(e=>{e.forEach(t=>{t.isIntersecting&&t.target.classList.add("visible")})},{threshold:.15});document.querySelectorAll(".news-item").forEach(e=>{o.observe(e)})});
+document.addEventListener("DOMContentLoaded",function(){const o=new IntersectionObserver(e=>{e.forEach(t=>{t.isIntersecting&&t.target.classList.add("visible")})},{threshold:.15});document.querySelectorAll(".fade-in-section").forEach(e=>{o.observe(e)})});
 </script>
