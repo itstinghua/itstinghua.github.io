@@ -1,0 +1,14 @@
+/* Force backgrounds to follow al-folio theme variables */
+html, body {
+  background-color: var(--global-bg-color) !important;
+  color: var(--global-text-color) !important;
+}
+
+.page-content, main, .container, .content {
+  background-color: var(--global-bg-color) !important;
+}
+
+.card, .list-group-item, .publication, .news {
+  background-color: var(--global-card-bg-color) !important;
+  border-color: var(--global-divider-color) !important;
+}
