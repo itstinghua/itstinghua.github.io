@@ -29,7 +29,7 @@ nav_order: 5
     <li><span class="news-date">2025.08</span> — I am super happy to visit the Hong Kong University of Science and Technology (Guangzhou) and give a presentation in Robotics and Autonomous Systems, System Hub.</li>
     <li>
       <span class="news-date">2025.06</span> — I had the pleasure of delivering my first guest lecture in the Master’s course “Nonlinear Control” at the Faculty of Aerospace Engineering, TU Delft.
-      <div class="large-img"><img src="/assets/img/news/guest_lecture_TUD.png"></div>
+      <!-- <div class="large-img"><img src="/assets/img/news/guest_lecture_TUD.png"></div> -->
     </li>
     <li><span class="news-date">2025.03</span> — Our paper <strong><a href="https://ieeexplore.ieee.org/document/10735338">"Collision-free Source Seeking Control Methods for Unicycle Robots"</a></strong> is now online in <strong><em>IEEE Transactions on Automatic Control (TAC)</em></strong>, please feel free to check out the details :)</li>
     <li><span class="news-date">2025.02</span> — I have started my postdoc journey at Control and Simulation (C&amp;S), Delft University of Technology (TU Delft). Excited to explore the challenges from ground mobile robots to aerospace!</li>
