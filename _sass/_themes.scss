@@ -66,15 +66,15 @@ html[data-theme="dark"] {
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
 
-  /* 关键：深色模式文字更亮、更清楚 */
-  --global-text-color: #e6edf3;
-  --global-text-color-light: #c9d1d9;
-  --global-hover-text-color: #ffffff;
+  /* 深色模式：更清晰的文本层级 */
+  --global-text-color: #e6edf3;       /* 主文字 */
+  --global-text-color-light: #c9d1d9; /* 次要文字 */
+  --global-hover-text-color: #ffffff; /* 强调文字 */
 
   --global-theme-color: #{$cyan-color};
   --global-hover-color: #{$cyan-color};
 
-  /* Footer: 建议改成“深色 footer 背景 + 浅色文字”，否则会反差很怪 */
+  /* Footer：深色底 + 浅色字 */
   --global-footer-bg-color: #{$grey-900};
   --global-footer-text-color: #e6edf3;
   --global-footer-link-color: #e6edf3;
@@ -83,7 +83,6 @@ html[data-theme="dark"] {
   --global-divider-color: #424246;
 
   --global-card-bg-color: #{$grey-900};
-  /* 如果你希望 highlight 在暗色里更亮，可以保留原来的 red-dark 或换成更亮的色 */
   --global-highlight-color: #{$red-color-dark};
 
   --global-tip-block: #42b983;
@@ -109,13 +108,11 @@ html[data-theme="dark"] {
     display: block;
   }
 
-  /* =========================================================
-     IMPORTANT: Fix “white blocks” in dark mode
-     - 很多白块来自 bootstrap 默认类/容器背景写死 white
-     - 这里统一让背景跟随变量
-     ========================================================= */
+  /* --------------------------------------------
+     Fix common “white blocks” + “black text”
+     (Bootstrap defaults / tables / forms)
+     -------------------------------------------- */
 
-  /* Page background + common layout containers */
   body,
   main,
   .page-content,
@@ -125,10 +122,9 @@ html[data-theme="dark"] {
   section,
   header {
     background-color: var(--global-bg-color) !important;
-    color: var(--global-text-color);
+    color: var(--global-text-color) !important;
   }
 
-  /* Cards / list items */
   .card,
   .list-group-item,
   .modal-content,
@@ -140,7 +136,6 @@ html[data-theme="dark"] {
     border-color: var(--global-divider-color) !important;
   }
 
-  /* Tables often render white backgrounds */
   table,
   .table,
   .table td,
@@ -152,7 +147,6 @@ html[data-theme="dark"] {
     color: var(--global-text-color) !important;
   }
 
-  /* Force-remove common white background utility classes */
   .bg-white,
   .bg-light,
   .bg-body,
@@ -161,7 +155,6 @@ html[data-theme="dark"] {
     background-color: var(--global-bg-color) !important;
   }
 
-  /* Forms sometimes stay white */
   input,
   textarea,
   select,
@@ -172,7 +165,6 @@ html[data-theme="dark"] {
     border-color: var(--global-divider-color) !important;
   }
 
-  /* Some bootstrap “dark text” helpers */
   .text-dark,
   .text-body,
   .text-black {
@@ -183,7 +175,6 @@ html[data-theme="dark"] {
     color: var(--global-text-color-light) !important;
   }
 
-  /* Code blocks */
   pre,
   code {
     background-color: var(--global-code-bg-color) !important;
