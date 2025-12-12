@@ -11,9 +11,9 @@ social: true
 <meta charset="UTF-8">
 <style>
 :root {
-  --primary-color:#00539C;
-  --light-bg: #f8f9fa;
-  --border-color: #e0e0e0;
+  --primary-color: var(--global-theme-color);
+  --light-bg: var(--global-card-bg-color);   /* ✅ 不再固定浅色 */
+  --border-color: var(--global-divider-color);
 }
 
 /* Profile header */
@@ -21,21 +21,18 @@ social: true
   display: flex;
   align-items: center;
   gap: 1.5rem;
-  flex-wrap: wrap; /* 保证移动端换行 */
+  flex-wrap: wrap;
   margin-bottom: 2rem;
 }
 
 .profile-photo {
   width: 200px;
-/*  height: 150px;*/
   object-fit: cover;
-  border: none; /* 移除边框 */
-  flex-shrink: 0; /* 防止图片被压缩 */
+  border: none;
+  flex-shrink: 0;
 }
 
-.profile-info {
-  flex: 1;
-}
+.profile-info { flex: 1; }
 
 .name-heading {
   font-size: 1.8rem;
@@ -43,33 +40,24 @@ social: true
   font-weight: bold;
 }
 
-/*.chinese-name {
-  font-family: 'KaiTi', 'STKaiti', '楷体', serif;
-  font-size: 1.4rem;
-  margin-left: 10px;
-  color: #444;
-}*/
-
 .profile-section p {
   margin: 0;
   line-height: 1.6;
+  color: var(--global-text-color); /* ✅ */
 }
 
 .profile-section a {
-  color: #0056b3;
+  color: var(--primary-color);
   text-decoration: none;
 }
 
-.profile-section a:hover {
-  text-decoration: underline;
-}
-
+.profile-section a:hover { text-decoration: underline; }
 
 .contact-badges span {
   display: inline-block;
   margin-top: 6px;
   font-size: 0.95rem;
-  color: #555;
+  color: var(--global-text-color-light); /* ✅ */
 }
 
 /* 手机端优化 */
@@ -79,21 +67,12 @@ social: true
     align-items: center;
     text-align: center;
   }
-
-  .profile-photo {
-    width: 140px;
-  }
-
-  .profile-info {
-    align-items: center;
-  }
+  .profile-photo { width: 140px; }
+  .profile-info { align-items: center; }
 }
-
 
 /* Compact sections */
-.compact-section {
-  margin-bottom: 2.5rem;
-}
+.compact-section { margin-bottom: 2.5rem; }
 .compact-section h2 {
   border-bottom: 2px solid var(--primary-color);
   padding-bottom: 0.3rem;
@@ -111,7 +90,7 @@ social: true
 .research-group h3 {
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
-  color: #333;
+  color: var(--global-text-color); /* ✅ 原来 #333 */
 }
 
 .research-group ul {
@@ -123,13 +102,12 @@ social: true
 .research-group li {
   margin-bottom: 0.3rem;
   font-size: 0.95rem;
+  color: var(--global-text-color); /* ✅ */
 }
 
-/* Responsive for smaller screens */
+/* Responsive */
 @media (max-width: 768px) {
-  .research-grid {
-    grid-template-columns: 1fr;
-  }
+  .research-grid { grid-template-columns: 1fr; }
 }
 
 /* Skills table */
@@ -138,17 +116,22 @@ social: true
   border-collapse: collapse;
   margin: 1rem 0;
 }
+
 .skills-table th {
   text-align: left;
   padding: 0.8rem 1rem;
-  background-color: var(--light-bg);
+  background-color: var(--light-bg);      /* ✅ 跟随 dark */
   color: var(--primary-color);
   width: 25%;
+  border-bottom: 1px solid var(--border-color);
 }
+
 .skills-table td {
   padding: 0.8rem 1rem;
   border-bottom: 1px solid var(--border-color);
+  color: var(--global-text-color);        /* ✅ */
 }
+
 .skills-list {
   margin: 0;
   padding-left: 0;
@@ -158,6 +141,7 @@ social: true
   margin-bottom: 0.5rem;
   position: relative;
   padding-left: 1.2rem;
+  color: var(--global-text-color);        /* ✅ */
 }
 .skills-list li:before {
   content: "•";
@@ -167,43 +151,28 @@ social: true
 }
 
 /* Publications */
-.publication-item {
-  margin-bottom: 1.5rem;
-}
+.publication-item { margin-bottom: 1.5rem; }
 .publication-title {
   font-weight: 600;
   margin-bottom: 0.3rem;
+  color: var(--global-text-color);        /* ✅ */
 }
 .publication-authors {
   font-style: italic;
   margin-bottom: 0.3rem;
+  color: var(--global-text-color);        /* ✅ */
 }
 .publication-venue {
-  color: #555;
+  color: var(--global-text-color-light);  /* ✅ 原来 #555 */
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .profile-header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-  }
-  .research-grid {
-    grid-template-columns: 1fr;
-  }
-  .skills-table th {
-    width: 30%;
-  }
-}
-
-/* Global font settings */
+/* Global font settings (✅ 不要写死白底黑字) */
 body {
   font-family: "Inter", "Helvetica Neue", "Segoe UI", "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  color: #222;
-  background-color: #fff;
+  color: var(--global-text-color);
+  background-color: var(--global-bg-color);
   margin: 0;
   padding: 0;
 }
@@ -211,9 +180,7 @@ body {
 h1, h2, h3, h4 {
   font-family: "Inter", "Helvetica Neue", sans-serif;
   font-weight: 600;
-  color: #111;
-/*  margin-top: 1.2rem;*/
-gap: 1.5rem;
+  color: var(--global-text-color); /* ✅ 原来 #111 */
   margin-bottom: 0.6rem;
   font-size: 23px;
 }
@@ -222,24 +189,16 @@ a {
   color: var(--primary-color);
   text-decoration: none;
 }
+a:hover { text-decoration: underline; }
 
-a:hover {
-  text-decoration: underline;
-}
-
-/*.chinese-name {
-  font-family: 'KaiTi', 'STKaiti', '楷体', serif;
-  margin-left: 8px;
-  font-size: 1.1em;
-}*/
 .chinese-name {
   font-family: 'KaiTi', 'STKaiti', '楷体', serif;
   font-size: 1.4rem;
   margin-left: 10px;
-  color: #444;
+  color: var(--global-text-color); /* ✅ 原来 #444 */
 }
-
 </style>
+
 
 <!-- Profile Header with Photo -->
 <div class="profile-header"> <img src="/assets/img/Tinghua_li.jpg" class="profile-photo">
@@ -256,7 +215,6 @@ a:hover {
       </p>
     </div>
     <br>
-
     <div class="profile-section">
       <p>
         <strong>PhD in Robotics & Control Engineering (2024)</strong><br>
@@ -292,7 +250,7 @@ a:hover {
         <li>Source seeking</li>
         <li>Flexible Flocking</li>
         <li>Collision/Obstacle Avoidance</li>
-        <li>Sensor Integration</li>
+        <li>Safe Flight Control</li>
       </ul>
     </div>
     <div class="research-group">
@@ -306,8 +264,27 @@ a:hover {
 </section>
 
 
-<!-- Technical Skills -->
+<!-- Selected Publications -->
 <section class="compact-section">
+  <h2>Selected Publications</h2>
+  <div class="publication-item">
+    <div class="publication-title"><a href="https://ieeexplore.ieee.org/document/10735338">Collision-free Source Seeking Control Methods for Unicycle Robots</a></div>
+    <div class="publication-authors"><strong>Tinghua Li*</strong>, Bayu Jayawardhana</div>
+    <div class="publication-venue">IEEE Transactions on Automatic Control (TAC), 2025 </div>
+  <!-- vol. 70, no. 3, pp. 2020-2027, March 2025, doi: 10.1109/TAC.2024.3486654. </div> -->
+  </div>
+  <div class="publication-item">
+    <div class="publication-title"><a href="https://ieeexplore.ieee.org/document/9458274">Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors</a> </div>
+    <div class="publication-authors"><strong>Tinghua Li*</strong>, Bayu Jayawardhana, Amar M. Kamat, Ajay Giri Prakash Kottapalli</div>
+    <div class="publication-venue">IEEE Transactions on Robotics (TRO), 2022</div>
+    <!-- vol. 38, no. 1, pp. 448-462, Feb. 2022, doi: 10.1109/TRO.2021.3076964.</div> -->
+  </div>
+</section>
+
+
+
+<!-- Technical Skills -->
+<!-- <section class="compact-section">
   <h2>Technical Skills</h2>
   <table class="skills-table">
     <tr>
@@ -331,24 +308,7 @@ a:hover {
       </td>
     </tr>
   </table>
-</section>
-
-<!-- Selected Publications -->
-<section class="compact-section">
-  <h2>Selected Publications</h2>
-  <div class="publication-item">
-    <div class="publication-title"><a href="https://ieeexplore.ieee.org/document/10735338">Collision-free Source Seeking Control Methods for Unicycle Robots</a></div>
-    <div class="publication-authors"><strong>Tinghua Li*</strong>, Bayu Jayawardhana</div>
-    <div class="publication-venue">IEEE Transactions on Automatic Control (TAC), 2025 </div>
-  <!-- vol. 70, no. 3, pp. 2020-2027, March 2025, doi: 10.1109/TAC.2024.3486654. </div> -->
-  </div>
-  <div class="publication-item">
-    <div class="publication-title"><a href="https://ieeexplore.ieee.org/document/9458274">Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors</a> </div>
-    <div class="publication-authors"><strong>Tinghua Li*</strong>, Bayu Jayawardhana, Amar M. Kamat, Ajay Giri Prakash Kottapalli</div>
-    <div class="publication-venue">IEEE Transactions on Robotics (TRO), 2022</div>
-    <!-- vol. 38, no. 1, pp. 448-462, Feb. 2022, doi: 10.1109/TRO.2021.3076964.</div> -->
-  </div>
-</section>
+</section> -->
 
 <!-- Contact -->
 <section class="compact-section">
