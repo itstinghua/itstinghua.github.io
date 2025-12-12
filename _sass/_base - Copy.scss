@@ -4,23 +4,18 @@
 
 // Typography
 
-body {
-  color: var(--global-text-color);
-}
-
 p,
-li,
-em,
-strong {
-  color: inherit;
-}
-
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+em,
+div,
+li,
+span,
+strong {
   color: var(--global-text-color);
 }
 
@@ -157,7 +152,6 @@ ul.task-list input[type="checkbox"] {
   margin-top: 0.75rem;
   margin-bottom: 1.5rem;
   text-align: center;
-  color: var(--global-text-color);
 }
 
 // Card
@@ -176,7 +170,6 @@ ul.task-list input[type="checkbox"] {
 
   .card-body {
     padding: 1.25rem 1.25rem 0 1.25rem;
-    color: var(--global-text-color);
   }
 }
 
@@ -200,7 +193,6 @@ ul.task-list input[type="checkbox"] {
     p {
       display: inline-block;
       margin: 0;
-      color: var(--global-text-color);
     }
   }
 }
@@ -228,7 +220,6 @@ ul.task-list input[type="checkbox"] {
 .post-description {
   margin-bottom: 2rem;
   font-size: 0.875rem;
-  color: var(--global-text-color);
 
   a {
     color: inherit;
@@ -399,7 +390,6 @@ ul.task-list input[type="checkbox"] {
 
   .contact-note {
     font-size: 0.8rem;
-    color: var(--global-text-color);
   }
 }
 
@@ -478,10 +468,9 @@ footer.sticky-bottom {
     .list-group-item {
       background-color: inherit;
       border-color: var(--global-divider-color);
-      color: var(--global-text-color);
 
       .badge {
-        color: var(--global-hover-text-color) !important;
+        color: var(--global-card-bg-color) !important;
         background-color: var(--global-theme-color) !important;
       }
     }
@@ -586,12 +575,12 @@ footer.sticky-bottom {
       color: var(--global-text-color);
 
       &:hover {
-        color: var(--global-text-color);
+        color: $black-color;
       }
     }
 
     &.active .page-link {
-      color: var(--global-hover-text-color);
+      color: $white-color;
       background-color: var(--global-theme-color);
 
       &:hover {
@@ -694,7 +683,7 @@ footer.sticky-bottom {
           margin-bottom: 0.5rem;
 
           a {
-            color: var(--global-hover-text-color);
+            color: white;
 
             &:hover {
               text-decoration: none;
@@ -710,7 +699,6 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
-        color: var(--global-text-color);
       }
 
       .author {
@@ -764,7 +752,7 @@ footer.sticky-bottom {
         padding-bottom: 0.5rem;
         span {
           display: inline-block;
-          color: var(--global-text-color);
+          color: $black-color;
           height: 100%;
           padding-right: 0.5rem;
           vertical-align: middle;
@@ -830,7 +818,7 @@ figure.highlight {
 }
 
 pre {
-  color: var(--global-text-color);
+  color: var(--global-theme-color);
   background-color: var(--global-code-bg-color);
   border-radius: 6px;
   padding: 6px 12px;
@@ -845,7 +833,7 @@ pre {
 }
 
 code {
-  color: var(--global-text-color);
+  color: var(--global-theme-color);
   background-color: var(--global-code-bg-color);
   border-radius: 3px;
   padding: 3px 3px;
@@ -1120,11 +1108,4 @@ swiper-container {
   .ps-algorithm.with-caption > .ps-line:first-child {
     border-bottom: 2px solid var(--global-text-color);
   }
-}
-
-/* Extra: common “hard-coded dark text” bootstrap classes */
-.text-dark,
-.text-body,
-.text-black {
-  color: var(--global-text-color) !important;
 }
