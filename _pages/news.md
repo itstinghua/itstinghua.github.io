@@ -16,7 +16,7 @@ nav_order: 5
 
 /* 每条新闻：左日期 + 右正文（实现换行对齐到“I”） */
 .news-row{display:flex;align-items:flex-start;gap:.5rem;margin-bottom:.75rem;line-height:1.7}
-.news-date{flex:0 0 6.2rem;font-weight:600;white-space:nowrap} /* 可微调宽度：5.8rem~7.0rem */
+.news-date{flex:0 0 5.0rem;font-weight:600;white-space:nowrap} /* 可微调宽度：5.8rem~7.0rem */
 .news-text{flex:1;min-width:0}
 
 /* 图片 */
