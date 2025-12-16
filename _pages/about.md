@@ -316,7 +316,7 @@ a:hover { text-decoration: underline; }
 </section> -->
 
 <!-- Contact -->
-<section class="compact-section">
+<!-- <section class="compact-section">
   <h2>Contact</h2>
   <p>Open to collaborations and discussions. Please reach out via email or social media links :)</p>
-</section>
+</section> -->
