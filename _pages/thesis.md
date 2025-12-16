@@ -226,6 +226,32 @@ html[data-theme="dark"] .acknowledgment-section {
 
 <hr>
 
+
+<!-- Defense Gallery Section -->
+<div class="gallery-section">
+  <h2>Defense Gallery</h2>
+
+  <div class="gallery-row">
+    <div class="gallery-col">
+      <img src="/assets/img/news/phd_1.jpg" alt="Defense Photo 1">
+    </div>
+    <div class="gallery-col">
+      <img src="/assets/img/news/phd.jpg" alt="Defense Photo 2">
+    </div>
+    <div class="gallery-col">
+      <img src="/assets/img/news/phd_3.jpg" alt="Defense Photo 3">
+    </div>
+  </div>
+
+  <div class="gallery-video">
+    <video controls>
+      <source src="/assets/video/defence.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+
+
 <!-- Acknowledgments Section -->
 <div class="acknowledgment-section" id="acknowledgments">
   <h2>Acknowledgments</h2>
@@ -257,27 +283,3 @@ html[data-theme="dark"] .acknowledgment-section {
 </script>
 
 <hr>
-
-<!-- Defense Gallery Section -->
-<div class="gallery-section">
-  <h2>Defense Gallery</h2>
-
-  <div class="gallery-row">
-    <div class="gallery-col">
-      <img src="/assets/img/news/phd_1.jpg" alt="Defense Photo 1">
-    </div>
-    <div class="gallery-col">
-      <img src="/assets/img/news/phd.jpg" alt="Defense Photo 2">
-    </div>
-    <div class="gallery-col">
-      <img src="/assets/img/news/phd_3.jpg" alt="Defense Photo 3">
-    </div>
-  </div>
-
-  <div class="gallery-video">
-    <video controls>
-      <source src="/assets/video/defence.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-</div>
