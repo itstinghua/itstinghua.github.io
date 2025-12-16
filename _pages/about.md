@@ -12,7 +12,7 @@ social: true
 <style>
 :root {
   --primary-color: var(--global-theme-color);
-  --light-bg: var(--global-card-bg-color);   /* ✅ 不再固定浅色 */
+  --light-bg: var(--global-card-bg-color);  
   --border-color: var(--global-divider-color);
 }
 
@@ -57,7 +57,7 @@ social: true
   display: inline-block;
   margin-top: 6px;
   font-size: 0.95rem;
-  color: var(--global-text-color-light); /* ✅ */
+  color: var(--global-text-color-light); 
 }
 
 /* 手机端优化 */
@@ -90,7 +90,7 @@ social: true
 .research-group h3 {
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
-  color: var(--global-text-color); /* ✅ 原来 #333 */
+  color: var(--global-text-color); 
 }
 
 .research-group ul {
@@ -102,7 +102,7 @@ social: true
 .research-group li {
   margin-bottom: 0.3rem;
   font-size: 0.95rem;
-  color: var(--global-text-color); /* ✅ */
+  color: var(--global-text-color); 
 }
 
 /* Responsive */
@@ -120,7 +120,7 @@ social: true
 .skills-table th {
   text-align: left;
   padding: 0.8rem 1rem;
-  background-color: var(--light-bg);      /* ✅ 跟随 dark */
+  background-color: var(--light-bg);      
   color: var(--primary-color);
   width: 25%;
   border-bottom: 1px solid var(--border-color);
@@ -129,7 +129,7 @@ social: true
 .skills-table td {
   padding: 0.8rem 1rem;
   border-bottom: 1px solid var(--border-color);
-  color: var(--global-text-color);        /* ✅ */
+  color: var(--global-text-color);        
 }
 
 .skills-list {
@@ -141,7 +141,7 @@ social: true
   margin-bottom: 0.5rem;
   position: relative;
   padding-left: 1.2rem;
-  color: var(--global-text-color);        /* ✅ */
+  color: var(--global-text-color);        
 }
 .skills-list li:before {
   content: "•";
@@ -155,18 +155,18 @@ social: true
 .publication-title {
   font-weight: 600;
   margin-bottom: 0.3rem;
-  color: var(--global-text-color);        /* ✅ */
+  color: var(--global-text-color);        
 }
 .publication-authors {
   font-style: italic;
   margin-bottom: 0.3rem;
-  color: var(--global-text-color);        /* ✅ */
+  color: var(--global-text-color);        
 }
 .publication-venue {
-  color: var(--global-text-color-light);  /* ✅ 原来 #555 */
+  color: var(--global-text-color-light);  
 }
 
-/* Global font settings (✅ 不要写死白底黑字) */
+/* Global font settings */
 body {
   font-family: "Inter", "Helvetica Neue", "Segoe UI", "Roboto", sans-serif;
   font-size: 16px;
@@ -180,7 +180,7 @@ body {
 h1, h2, h3, h4 {
   font-family: "Inter", "Helvetica Neue", sans-serif;
   font-weight: 600;
-  color: var(--global-text-color); /* ✅ 原来 #111 */
+  color: var(--global-text-color); 
   margin-bottom: 0.6rem;
   font-size: 23px;
 }
@@ -195,7 +195,7 @@ a:hover { text-decoration: underline; }
   font-family: 'KaiTi', 'STKaiti', '楷体', serif;
   font-size: 1.4rem;
   margin-left: 10px;
-  color: var(--global-text-color); /* ✅ 原来 #444 */
+  color: var(--global-text-color); 
 }
 </style>
 
@@ -205,7 +205,7 @@ a:hover { text-decoration: underline; }
 
   <div class="profile-info">
      <h2>
-      <span class="chinese-name">厉庭华 (/ˈtɪŋ-hwɑː li:/ or /ting-hwa Lee/)</span>
+      <span class="chinese-name">厉庭华 (/ˈtɪŋ-hwɑː li:/)</span>
     </h2>
     <div class="profile-section">
       <p>
