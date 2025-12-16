@@ -241,7 +241,7 @@ a:hover { text-decoration: underline; }
         <li>Nonholonomic Systems</li>
         <li>Multi-agent Systems</li>
         <li>Wheeled Mobile Robots</li>
-        <li>Quadcopters</li>
+        <li>Aerial Robots</li>
       </ul>
     </div>
     <div class="research-group">
@@ -253,13 +253,14 @@ a:hover { text-decoration: underline; }
         <li>Safe Flight Control</li>
       </ul>
     </div>
-    <div class="research-group">
+  <!--   <div class="research-group">
       <h3>Applications</h3>
       <ul>
         <li>3D-Printed Flexible Sensors</li>
         <li>Navigation in Cluttered Environments</li>
+         <li>Aerial Robots</li>
       </ul>
-    </div>
+    </div> -->
   </div>
 </section>
 
