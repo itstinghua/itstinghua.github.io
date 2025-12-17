@@ -36,12 +36,6 @@ nav_order: 5
       <span class="news-date">2025.12 -</span>
       <span class="news-text">I am pleased to share that our paper <strong>"Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation"</strong> has been offically accepted for publication as full paper in <strong><em>IEEE Transactions on Automatic Control (TAC)</em></strong>. It is expected to appear in June, 2026. Stay Tuned!</span>
     </li>
-
-    <!-- <li class="news-row">
-      <span class="news-date">2025.08 -</span>
-      <span class="news-text">I am super happy to visit the Hong Kong University of Science and Technology (Guangzhou) and give a presentation in Robotics and Autonomous Systems, System Hub.</span>
-    </li> -->
-
     <li class="news-row">
       <span class="news-date">2025.06 -</span>
       <span class="news-text">
@@ -49,12 +43,10 @@ nav_order: 5
         <!-- <div class="large-img"><img src="/assets/img/news/guest_lecture_TUD.png"></div> -->
       </span>
     </li>
-
     <li class="news-row">
       <span class="news-date">2025.03 -</span>
       <span class="news-text">Our paper <strong><a href="https://ieeexplore.ieee.org/document/10735338">"Collision-free Source Seeking Control Methods for Unicycle Robots"</a></strong> is now online in <strong><em>IEEE Transactions on Automatic Control (TAC)</em></strong>, please feel free to check out the details :)</span>
     </li>
-
     <li class="news-row">
       <span class="news-date">2025.02 -</span>
       <span class="news-text">I have started my postdoc journey at Control and Simulation (C&amp;S), Delft University of Technology (TU Delft). Excited to explore the challenges from ground mobile robots to aerospace!</span>
@@ -69,12 +61,10 @@ nav_order: 5
       <span class="news-date">2024.10 -</span>
       <span class="news-text">Our work <strong>"Collision-free Source Seeking Control Methods for Unicycle Robots"</strong> is officially accepted in <strong><em>IEEE Transactions on Automatic Control (TAC)</em></strong>. This is a key part of my PhD thesis and proposes three control barrier function (CBF) designs for solving the mixed relative degree problem in unicycle robot control.</span>
     </li>
-
     <li class="news-row">
       <span class="news-date">2024.06 -</span>
       <span class="news-text">Honored to be a keynote speaker at the 6th AI QianTang Forum, School of Automation (School of AI), Hangzhou Dianzi University, China.</span>
     </li>
-
     <li class="news-row">
       <span class="news-date">2024.01 -</span>
       <span class="news-text">🎓 I am excited to announce that I have defended my <strong><em>Ph.D. thesis</em> <a href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots">"Motion control for nonholonomic unicycle robots".</a></strong></span>
@@ -85,45 +75,19 @@ nav_order: 5
 <div class="fade-in-section service-section">
   <h4>2023</h4>
   <ul>
-    <!-- <li class="news-row">
-      <span class="news-date">2023.11 -</span>
-      <span class="news-text">Visited Prof. Qinghua Yang's group at Shanghai University and shared my PhD work.</span>
-    </li> -->
-
-    <!-- <li class="news-row">
-      <span class="news-date">2023.10 -</span>
-      <span class="news-text">Visited Prof. Wenan Zhang's group at Zhejiang University of Technology.</span>
-    < -->/li>
-
-    <li<!--  class="news-row">
-      <span class="news-date">2023.09 -</span>
-      <span class="news-text">Participated in the "Five Decades of Systems and Control Theory in Groningen".</span>
-    </li -->>
-
     <li class="news-row">
       <span class="news-date">2023.06 -</span>
       <span class="news-text">Visited Prof. Karl Henrik Johansson’s group at KTH, Sweden.</span>
     </li>
-
     <li class="news-row">
       <span class="news-date">2023.03 -</span>
       <span class="news-text">
         Attended the 42nd Benelux Meeting on Systems and Control in Elspeet, Netherlands.
-        <!-- <div class="news-gallery"><img src="/assets/img/news/disc_2023_1.jpg"><img src="/assets/img/news/disc_2023_2.jpg"></div> -->
       </span>
     </li>
   </ul>
 </div>
 
-<!-- <div class="fade-in-section service-section">
-  <h4>2022</h4>
-  <ul>
-    <li class="news-row">
-      <span class="news-date">2022.03 -</span>
-      <span class="news-text">Joined the DISC Winter Course on Data Learning &amp; Dynamics at the Intersection of Neuroscience and Control.</span>
-    </li>
-  </ul>
-</div> -->
 
 <div class="fade-in-section service-section">
   <h4>2021</h4>
@@ -132,17 +96,14 @@ nav_order: 5
       <span class="news-date">2021.10 -</span>
       <span class="news-text">Presented our source-seeking work at IROS 2021.</span>
     </li>
-
     <li class="news-row">
       <span class="news-date">2021.07 -</span>
       <span class="news-text">Presented "Source-Seeking Control of Unicycle Robots With 3D-Printed Flexible Sensors" at the 10th Benelux Meeting.</span>
     </li>
-
     <li class="news-row">
       <span class="news-date">2021.06 -</span>
       <span class="news-text">Joined the DISC Summer School 2021.</span>
     </li>
-
     <li class="news-row">
       <span class="news-date">2021.04 -</span>
       <span class="news-text">Our paper on source-seeking control was accepted by <strong><em>IEEE Transactions on Robotics (TRO)</em></strong>.</span>
