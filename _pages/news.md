@@ -37,10 +37,10 @@ nav_order: 5
       <span class="news-text">I am pleased to share that our paper <strong>"Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation"</strong> has been offically accepted for publication as full paper in <strong><em>IEEE Transactions on Automatic Control (TAC)</em></strong>. It is expected to appear in June, 2026. Stay Tuned!</span>
     </li>
 
-    <li class="news-row">
+    <!-- <li class="news-row">
       <span class="news-date">2025.08 -</span>
       <span class="news-text">I am super happy to visit the Hong Kong University of Science and Technology (Guangzhou) and give a presentation in Robotics and Autonomous Systems, System Hub.</span>
-    </li>
+    </li> -->
 
     <li class="news-row">
       <span class="news-date">2025.06 -</span>
@@ -85,20 +85,20 @@ nav_order: 5
 <div class="fade-in-section service-section">
   <h4>2023</h4>
   <ul>
-    <li class="news-row">
+    <!-- <li class="news-row">
       <span class="news-date">2023.11 -</span>
       <span class="news-text">Visited Prof. Qinghua Yang's group at Shanghai University and shared my PhD work.</span>
-    </li>
+    </li> -->
 
-    <li class="news-row">
+    <!-- <li class="news-row">
       <span class="news-date">2023.10 -</span>
       <span class="news-text">Visited Prof. Wenan Zhang's group at Zhejiang University of Technology.</span>
-    </li>
+    < -->/li>
 
-    <li class="news-row">
+    <li<!--  class="news-row">
       <span class="news-date">2023.09 -</span>
       <span class="news-text">Participated in the "Five Decades of Systems and Control Theory in Groningen".</span>
-    </li>
+    </li -->>
 
     <li class="news-row">
       <span class="news-date">2023.06 -</span>
@@ -115,7 +115,7 @@ nav_order: 5
   </ul>
 </div>
 
-<div class="fade-in-section service-section">
+<!-- <div class="fade-in-section service-section">
   <h4>2022</h4>
   <ul>
     <li class="news-row">
@@ -123,14 +123,14 @@ nav_order: 5
       <span class="news-text">Joined the DISC Winter Course on Data Learning &amp; Dynamics at the Intersection of Neuroscience and Control.</span>
     </li>
   </ul>
-</div>
+</div> -->
 
 <div class="fade-in-section service-section">
   <h4>2021</h4>
   <ul>
     <li class="news-row">
       <span class="news-date">2021.10 -</span>
-      <span class="news-text">Presented our source-seeking work at IROS 2021 (virtual).</span>
+      <span class="news-text">Presented our source-seeking work at IROS 2021.</span>
     </li>
 
     <li class="news-row">
