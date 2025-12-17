@@ -127,7 +127,7 @@ html[data-theme="dark"] .paper-cite {
   </div>
   <div class="project-text">
     <h3>
-      <a href="https://ieeexplore.ieee.org/document/10735338">Collision-free Source-seeking</a>
+      <a href="https://ieeexplore.ieee.org/document/10735338">Collision-free Source-seeking Robot</a>
     </h3>
     <p>
       Collision-free source-seeking framework integrating control barrier functions (CBFs) in quadratic programming. Includes analysis of three CBF designs with experimental validation.
