@@ -59,7 +59,7 @@ nav_order: 5
   <ul>
     <li class="news-row">
       <span class="news-date">2024.10 -</span>
-      <span class="news-text">Our work <strong>"Collision-free Source Seeking Control Methods for Unicycle Robots"</strong> is officially accepted in <strong><em>IEEE Transactions on Automatic Control (TAC)</em></strong>. This is a key part of my PhD thesis and proposes three control barrier function (CBF) designs for solving the mixed relative degree problem in unicycle robot control.</span>
+      <span class="news-text">Our work <strong>"Collision-free Source Seeking Control Methods for Unicycle Robots"</strong> is officially accepted in <strong><em>IEEE Transactions on Automatic Control (TAC)</em></strong>. This is a key part of my PhD thesis and it proposes three control barrier function (CBF) designs for solving the mixed relative degree problem in unicycle robot control.</span>
     </li>
     <li class="news-row">
       <span class="news-date">2024.06 -</span>
@@ -106,7 +106,8 @@ nav_order: 5
     </li>
     <li class="news-row">
       <span class="news-date">2021.04 -</span>
-      <span class="news-text">Our paper on source-seeking control was accepted by <strong><em>IEEE Transactions on Robotics (TRO)</em></strong>.</span>
+      <span class="news-text">Our paper <strong><a href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots">"Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors"</a></strong>was accepted by <strong><em>IEEE Transactions on Robotics (TRO)</em></strong>. 
+      </span>
     </li>
   </ul>
 </div>
@@ -114,3 +115,6 @@ nav_order: 5
 <script>
 document.addEventListener("DOMContentLoaded",function(){const o=new IntersectionObserver(e=>{e.forEach(t=>{t.isIntersecting&&t.target.classList.add("visible")})},{threshold:.15});document.querySelectorAll(".fade-in-section").forEach(e=>{o.observe(e)})});
 </script>
+
+
+
