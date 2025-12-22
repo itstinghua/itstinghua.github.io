@@ -106,7 +106,7 @@ nav_order: 5
     </li>
     <li class="news-row">
       <span class="news-date">2021.04 -</span>
-      <span class="news-text">Our paper <strong><a href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots">"Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors"</a></strong>was accepted by <strong><em>IEEE Transactions on Robotics (TRO)</em></strong>. 
+      <span class="news-text">Our paper <strong><a href="https://ieeexplore.ieee.org/document/9458274">"Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors"</a></strong>was accepted by <strong><em>IEEE Transactions on Robotics (TRO)</em></strong>. 
       </span>
     </li>
   </ul>
