@@ -145,7 +145,7 @@ html[data-theme="dark"] .paper-cite {
     {% include video.liquid path="/assets/video/connectivity.mp4" class="img-fluid rounded z-depth-1" controls=true %}
   </div>
   <div class="project-text">
-    <h3><a href="https://arxiv.org/pdf/2301.04576.pdf">Flocking Control with Connectivity Preservation</a></h3>
+    <h3><a href = "https://ieeexplore.ieee.org/document/11311473">Flocking Control with Connectivity Preservation</a></h3>
     <p>
       Distributed control method for networked multi-agent systems with non-holonomic constraints. Maintains flocking cohesion while ensuring connectivity preservation and collision avoidance.
     </p>
