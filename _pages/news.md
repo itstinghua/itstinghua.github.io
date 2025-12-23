@@ -34,7 +34,7 @@ nav_order: 5
   <ul>
     <li class="news-row">
       <span class="news-date">2025.12 -</span>
-      <span class="news-text">I am pleased to share that our paper <strong><a href = "https://ieeexplore.ieee.org/document/11311473">"Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation"</strong> has been offically accepted for publication as full paper in <strong><em>IEEE Transactions on Automatic Control (TAC)</em></strong>. Check out the early access!</span>
+      <span class="news-text">I am pleased to share that our paper <strong><a href = "https://ieeexplore.ieee.org/document/11311473">"Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation"</a></strong> has been offically accepted for publication as full paper in <strong><em>IEEE Transactions on Automatic Control (TAC)</em></strong>. Check out the early access!</span>
     </li>
     <li class="news-row">
       <span class="news-date">2025.06 -</span>

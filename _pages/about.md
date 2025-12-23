@@ -269,7 +269,7 @@ a:hover { text-decoration: underline; }
 <section class="compact-section">
   <h2>Selected Publications</h2>
    <div class="publication-item">
-    <div class="publication-title"><a href = "https://ieeexplore.ieee.org/document/11311473">Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation</div>
+    <div class="publication-title"><a href = "https://ieeexplore.ieee.org/document/11311473">Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation</a></div>
     <div class="publication-authors"><strong>Tinghua Li*</strong>, Bayu Jayawardhana</div>
     <div class="publication-venue">IEEE Transactions on Automatic Control (TAC), To appear in June, 2026</div>
   </div>
