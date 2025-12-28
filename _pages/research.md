@@ -114,9 +114,9 @@ html[data-theme="dark"] .paper-cite {
       Experimental validation of source seeking control for unicycle robots with 3D-printed graphene-based airflow sensors. The algorithm ensures convergence to the source even with partial sensor failure.
     </p>
     <p class="paper-cite">
-      • <strong>T. Li</strong>, B. Jayawardhana, A. M. Kamat and A. G. P. Kottapalli, “Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors”, in
+      • <strong>T. Li*</strong>, B. Jayawardhana, A. M. Kamat and A. G. P. Kottapalli, “Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors”, in
       <strong>IEEE Transactions on Robotics (TRO)</strong>, vol. 38, no. 1, pp. 448–462, Feb. 2022,
-      doi: 10.1109/TRO.2021.3076964.
+      doi: 10.1109/TRO.2021.3076964
     </p>
   </div>
 </div>
@@ -133,9 +133,9 @@ html[data-theme="dark"] .paper-cite {
       Collision-free source-seeking framework integrating control barrier functions (CBFs) in quadratic programming. Includes analysis of three CBF designs with experimental validation.
     </p>
     <p class="paper-cite">
-      •  <strong>T. Li</strong> and B. Jayawardhana, “Collision-free Source Seeking Control Methods for Unicycle Robots”, in
+      •  <strong>T. Li*</strong> and B. Jayawardhana, “Collision-free Source Seeking Control Methods for Unicycle Robots”, in
       <strong>IEEE Transactions on Automatic Control (TAC)</strong>, vol. 70, no. 3, pp. 2020–2027, March 2025,
-      doi: 10.1109/TAC.2024.3486654.
+      doi: 10.1109/TAC.2024.3486654
     </p>
   </div>
 </div>
@@ -150,7 +150,7 @@ html[data-theme="dark"] .paper-cite {
       Distributed control method for networked multi-agent systems with non-holonomic constraints. Maintains flocking cohesion while ensuring connectivity preservation and collision avoidance.
     </p>
    <p class="paper-cite">
-      •  <strong>T. Li</strong> and B. Jayawardhana, “Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation". (<strong>To appear in IEEE Transactions on Automatic Control (T-AC)</strong>)
+      •  <strong>T. Li*</strong> and B. Jayawardhana, “Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation", in (<strong>IEEE Transactions on Automatic Control (T-AC)</strong>), doi: 10.1109/TAC.2025.3647313
     </p>
   </div>
 </div>
