@@ -57,7 +57,7 @@
         {% assign author_array_limit = site.max_author_limit %}
       {% endif %}
 
-      {%- for author in entry.author_array limit: author_array_limit -%}
+           {%- for author in entry.author_array limit: author_array_limit -%}
         {% assign author_is_self = false %}
         {%- assign author_last_name = author.last | remove: '¶' | remove: '&' | remove: '*' | remove: '†' | remove: '^' -%}
         {% if site.scholar.last_name contains author_last_name %}
@@ -66,12 +66,28 @@
           {% endif %}
         {%- endif -%}
 
+        {%- comment -%}
+        特判 Tinghua Li / Li*：
+        {%- endcomment -%}
         {% assign is_Tinghua_Li = false %}
-        {% if author.first == "Tinghua" and author.last == "Li*" %}     
+        {% if author.first == "Tinghua" and author.last == "Li*" %}
           {% assign is_Tinghua_Li = true %}
         {% endif %}
-        {% if author.first == "Tinghua" and author.last == "Li" %}     
+        {% if author.first == "Tinghua" and author.last == "Li" %}
           {% assign is_Tinghua_Li = true %}
+        {% endif %}
+
+        {%- comment -%}
+        第一作者判断
+        {%- endcomment -%}
+        {% assign is_first_author = forloop.first %}
+
+        {%- comment -%}
+        是否需要粗体+下划线：第一作者 或 Tinghua Li
+        {%- endcomment -%}
+        {% assign highlight_author = false %}
+        {% if is_first_author or is_Tinghua_Li %}
+          {% assign highlight_author = true %}
         {% endif %}
 
         {% assign coauthor_url = null %}
@@ -84,6 +100,40 @@
             {% endif %}
           {% endfor %}
         {%- endif -%}
+
+        {%- if forloop.length > 1 -%}
+          {% if forloop.first == false %},&nbsp;{% endif %}
+          {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif -%}
+        {% endif %}
+
+        {%- comment -%}
+        输出作者姓名：
+        1. 如果是第一作者或 Tinghua Li → 粗体+下划线（如果有链接就连同一起）
+        2. 否则如果是本人 → 斜体
+        3. 再否则 → 普通（或带链接）
+        {%- endcomment -%}
+        {% if highlight_author %}
+          {% if coauthor_url %}
+            <a href="{{coauthor_url}}">
+              <strong><u>{{- author.first }} {{ author.last -}}</u></strong>
+            </a>
+          {% else %}
+            <strong><u>{{- author.first }} {{ author.last -}}</u></strong>
+          {% endif %}
+        {% elsif author_is_self %}
+          <em>
+            {{- author.first }} {{ author.last -}}
+          </em>
+        {% else %}
+          {% if coauthor_url %}
+            <a href="{{coauthor_url}}">
+              {{- author.first }} {{ author.last -}}
+            </a>
+          {% else %}
+            {{- author.first }} {{ author.last -}}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
 
         {%- if forloop.length > 1 -%}
           {% if forloop.first == false %},&nbsp;{% endif %}
