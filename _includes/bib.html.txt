@@ -10,10 +10,8 @@
     {% assign last = name_parts[0] | strip %}
     {% assign first = name_parts[1] | strip %}
 
-    {%- comment -%}
-    重新组合为 "Tinghua Li"
-    {%- endcomment -%}
-    {% assign formatted_name = first | append: " " | append: last %}
+    {% assign formatted_name = first | append: "&nbsp;" | append: last %}
+
 
     {%- comment -%}
     加粗逻辑：第一作者 OR 本人名字
