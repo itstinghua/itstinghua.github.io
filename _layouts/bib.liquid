@@ -48,6 +48,7 @@
   <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
+
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
@@ -57,7 +58,8 @@
         {% assign author_array_limit = site.max_author_limit %}
       {% endif %}
 
-           {%- for author in entry.author_array limit: author_array_limit -%}
+      {%- for author in entry.author_array limit: author_array_limit -%}
+        {%- comment -%} 判断是否是自己 {%- endcomment -%}
         {% assign author_is_self = false %}
         {%- assign author_last_name = author.last | remove: '¶' | remove: '&' | remove: '*' | remove: '†' | remove: '^' -%}
         {% if site.scholar.last_name contains author_last_name %}
@@ -66,9 +68,7 @@
           {% endif %}
         {%- endif -%}
 
-        {%- comment -%}
-        特判 Tinghua Li / Li*：
-        {%- endcomment -%}
+        {%- comment -%} 特判 Tinghua Li / Li* {%- endcomment -%}
         {% assign is_Tinghua_Li = false %}
         {% if author.first == "Tinghua" and author.last == "Li*" %}
           {% assign is_Tinghua_Li = true %}
@@ -77,14 +77,10 @@
           {% assign is_Tinghua_Li = true %}
         {% endif %}
 
-        {%- comment -%}
-        第一作者判断
-        {%- endcomment -%}
+        {%- comment -%} 第一作者判断 {%- endcomment -%}
         {% assign is_first_author = forloop.first %}
 
-        {%- comment -%}
-        是否需要粗体+下划线：第一作者 或 Tinghua Li
-        {%- endcomment -%}
+        {%- comment -%} 第一作者 或 Tinghua Li 要高亮 {%- endcomment -%}
         {% assign highlight_author = false %}
         {% if is_first_author or is_Tinghua_Li %}
           {% assign highlight_author = true %}
@@ -108,9 +104,9 @@
 
         {%- comment -%}
         输出作者姓名：
-        1. 如果是第一作者或 Tinghua Li → 粗体+下划线（如果有链接就连同一起）
+        1. 第一作者 或 Tinghua Li → 粗体 + 下划线
         2. 否则如果是本人 → 斜体
-        3. 再否则 → 普通（或带链接）
+        3. 否则 → 普通 / 带链接
         {%- endcomment -%}
         {% if highlight_author %}
           {% if coauthor_url %}
@@ -135,31 +131,7 @@
         {% endif %}
       {% endfor %}
 
-        {%- if forloop.length > 1 -%}
-          {% if forloop.first == false %},&nbsp;{% endif %}
-          {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif -%}
-        {% endif %}
-        {%- if author_is_self -%}
-          <em>
-            {{- author.first }}
-            {{ author.last -}}
-          </em>
-           {%- elsif is_Tinghua_Li -%} 
-           <strong>{{- author.first }}{{ author.last -}}</strong>
-        {%- else -%}
-          {%- if coauthor_url -%}
-            <a href="{{coauthor_url}}">
-              {{- author.first }}
-              {{ author.last -}}
-            </a>
-          {%- else -%}
-            {{- author.first }}
-            {{ author.last -}}
-          {% endif %}
-        {%- endif -%}
-      {% endfor %}
       {%- assign more_authors = author_array_size | minus: author_array_limit -%}
-
       {%- assign more_authors_hide = more_authors | append: ' more author' -%}
       {% if more_authors > 0 %}
         {%- if more_authors > 1 -%}
@@ -297,8 +269,9 @@
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
     </div>
+
     {% if site.enable_publication_badges %}
-      {% assign entry_has_altmetric_badge = entry.altmetric or entry.doi or  entry.eprint or entry.pmid or entry.isbn %}
+      {% assign entry_has_altmetric_badge = entry.altmetric or entry.doi or entry.eprint or entry.pmid or entry.isbn %}
       {% assign entry_has_dimensions_badge = entry.dimensions or entry.doi or entry.pmid %}
       {% assign entry_has_google_scholar_badge = entry.google_scholar_id %}
       {% if entry_has_altmetric_badge or entry_has_dimensions_badge or entry_has_google_scholar_badge %}
@@ -328,7 +301,7 @@
               class="__dimensions_badge_embed__"
               {% if entry.doi %}
                 data-doi="{{ entry.doi }}"
-              {% else %}
+              {% elsif entry.pmid %}
                 data-pmid="{{ entry.pmid }}"
               {% else %}
                 data-id="{{ entry.dimensions }}"
@@ -381,7 +354,9 @@
     {% if entry.video and site.enable_video_embedding %}
       <!-- Hidden video block -->
       <div class="abstract hidden">
-        <div style="text-align: center;">{% include video.liquid path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
+        <div style="text-align: center;">
+          {% include video.liquid path=entry.video class="img-fluid rounded z-depth-1" controls=true %}
+        </div>
       </div>
     {% endif %}
   </div>
