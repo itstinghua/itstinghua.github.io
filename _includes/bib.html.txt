@@ -5,7 +5,7 @@
     {% assign is_li = author contains "Li, Tinghua" or author contains "厉庭华" %}
     
     {% if is_first_author or is_li %}
-      <strong>{{ author }}</strong>
+      <strong><u>{{ author }}</u></strong>
     {% else %}
       {{ author }}
     {% endif %}
