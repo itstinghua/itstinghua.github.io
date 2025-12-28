@@ -2,15 +2,31 @@
   {% assign authors = entry.author | split: " and " %}
   {% for author in authors %}
     {% assign author = author | strip %}
+
+    {%- comment -%}
+    把 "Li, Tinghua" 拆成 ["Li", "Tinghua"]
+    {%- endcomment -%}
+    {% assign name_parts = author | split: "," %}
+    {% assign last = name_parts[0] | strip %}
+    {% assign first = name_parts[1] | strip %}
+
+    {%- comment -%}
+    重新组合为 "Tinghua Li"
+    {%- endcomment -%}
+    {% assign formatted_name = first | append: " " | append: last %}
+
+    {%- comment -%}
+    加粗逻辑：第一作者 OR 本人名字
+    {%- endcomment -%}
     {% assign is_first_author = forloop.first %}
-    {% assign is_li = author contains "Li*, Tinghua" or author contains "厉庭华" %}
-    
+    {% assign is_li = formatted_name contains "Tinghua Li" or formatted_name contains "厉庭华" %}
+
     {% if is_first_author or is_li %}
-      <strong>{{ author }}</strong>
+      <strong>{{ formatted_name }}</strong>
     {% else %}
-      {{ author }}
+      {{ formatted_name }}
     {% endif %}
-    
+
     {% unless forloop.last %} and {% endunless %}
   {% endfor %}
 {% endif %}
