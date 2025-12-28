@@ -194,7 +194,6 @@
         <a class="bibtex btn btn-sm z-depth-0">Bib</a>
       {% endif %}
 
-      {# ---- 修复 HTML 链接 ---- #}
       {% if entry.html %}
         {% if entry.html contains '://' %}
           <a class="btn btn-sm z-depth-0" href="{{ entry.html }}">HTML</a>
@@ -203,7 +202,6 @@
         {% endif %}
       {% endif %}
 
-      {# ---- 修复 PDF 链接 ---- #}
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
           <a class="btn btn-sm z-depth-0" href="{{ entry.pdf }}">PDF</a>
@@ -212,7 +210,6 @@
         {% endif %}
       {% endif %}
 
-      {# ---- 修复 Supp ---- #}
       {% if entry.supp %}
         {% if entry.supp contains '://' %}
           <a class="btn btn-sm z-depth-0" href="{{ entry.supp }}">Supp</a>
@@ -221,29 +218,12 @@
         {% endif %}
       {% endif %}
 
-      {# ---- 修复 Poster ---- #}
-      {% if entry.poster %}
-        {% if entry.poster contains '://' %}
-          <a class="btn btn-sm z-depth-0" href="{{ entry.poster }}">Poster</a>
+      {% if entry.video %}
+        {% if entry.video contains '://' %}
+          <a class="btn btn-sm z-depth-0" href="{{ entry.video }}">Video</a>
         {% else %}
-          <a class="btn btn-sm z-depth-0" href="{{ '/assets/pdf/' | append: entry.poster | relative_url }}">Poster</a>
+          <a class="btn btn-sm z-depth-0" href="{{ '/assets/video/' | append: entry.video | relative_url }}">Video</a>
         {% endif %}
-      {% endif %}
-
-      {# ---- 修复 Slides ---- #}
-      {% if entry.slides %}
-        {% if entry.slides contains '://' %}
-          <a class="btn btn-sm z-depth-0" href="{{ entry.slides }}">Slides</a>
-        {% else %}
-          <a class="btn btn-sm z-depth-0" href="{{ '/assets/pdf/' | append: entry.slides | relative_url }}">Slides</a>
-        {% endif %}
-      {% endif %}
-
-      {# ---- 恢复 Video 链接/按钮 ---- #}
-      {% if entry.video and site.enable_video_embedding %}
-        <a class="abstract btn btn-sm z-depth-0">Video</a>
-      {% elsif entry.video %}
-        <a class="btn btn-sm z-depth-0" href="{{ entry.video }}">Video</a>
       {% endif %}
 
       {% if entry.blog %}
@@ -251,6 +231,20 @@
       {% endif %}
       {% if entry.code %}
         <a class="btn btn-sm z-depth-0" href="{{ entry.code }}">Code</a>
+      {% endif %}
+      {% if entry.poster %}
+        {% if entry.poster contains '://' %}
+          <a class="btn btn-sm z-depth-0" href="{{ entry.poster }}">Poster</a>
+        {% else %}
+          <a class="btn btn-sm z-depth-0" href="{{ '/assets/pdf/' | append: entry.poster | relative_url }}">Poster</a>
+        {% endif %}
+      {% endif %}
+      {% if entry.slides %}
+        {% if entry.slides contains '://' %}
+          <a class="btn btn-sm z-depth-0" href="{{ entry.slides }}">Slides</a>
+        {% else %}
+          <a class="btn btn-sm z-depth-0" href="{{ '/assets/pdf/' | append: entry.slides | relative_url }}">Slides</a>
+        {% endif %}
       {% endif %}
       {% if entry.website %}
         <a class="btn btn-sm z-depth-0" href="{{ entry.website }}">Website</a>
@@ -330,13 +324,6 @@
       </div>
     {% endif %}
 
-    {# ---- 恢复嵌入式视频内容 ---- #}
-    {% if entry.video and site.enable_video_embedding %}
-      <div class="abstract hidden">
-        <div style="text-align:center;">
-          {% include video.liquid path=entry.video class="img-fluid rounded z-depth-1" controls=true %}
-        </div>
-      </div>
-    {% endif %}
+    {# 注意：已去掉原来的嵌入式 video 区块，让 Video 只做跳转 #}
   </div>
 </div>
