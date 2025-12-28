@@ -2,7 +2,7 @@
   {% assign authors = entry.author | split: " and " %}
   {% for author in authors %}
     {% assign is_first_author = forloop.first %}
-    {% assign is_li = author contains "Li, Tinghua" or author contains "厉庭华" %}
+    {% assign is_li = author contains "Li*, Tinghua" or author contains "厉庭华" %}
     
     {% if is_first_author or is_Li* %}
       <strong>{{ author }}</strong>
