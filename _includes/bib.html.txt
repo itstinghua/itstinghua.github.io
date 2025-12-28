@@ -17,12 +17,12 @@
 
     {%- comment -%}
     第一作者 → 下划线
-    本人名字（任意位置）→ 加粗
+    本人名字 → 加粗
     {%- endcomment -%}
     {% assign is_first_author = forloop.first %}
-    {% assign is_li* = formatted_name contains "Tinghua Li*" or formatted_name contains "厉庭华" %}
+    {% assign is_li_star = formatted_name contains "Tinghua Li*" or formatted_name contains "厉庭华" %}
 
-    {% if is_li* %}
+    {% if is_li_star %}
       <strong>{{ formatted_name }}</strong>
     {% elsif is_first_author %}
       <u>{{ formatted_name }}</u>
