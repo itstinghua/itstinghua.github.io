@@ -247,7 +247,7 @@ a:hover { text-decoration: underline; }
     <div class="research-group">
       <h3>Motion Control</h3>
       <ul>
-        <li>Source seeking</li>
+        <li>Source Seeking</li>
         <li>Flexible Flocking</li>
         <li>Collision/Obstacle Avoidance</li>
         <li>Safe Flight Control</li>
