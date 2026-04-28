@@ -30,6 +30,16 @@ nav_order: 5
 </style>
 
 <div class="fade-in-section service-section">
+  <h4>2026</h4>
+  <ul>
+    <li class="news-row">
+      <span class="news-date">2026.04 -</span>
+      <span class="news-text">Glad to organize the workshop on <strong><a href="https://sites.google.com/view/bayujayawardhanainaugural/home?authuser=0">"Opto-Mechatronics and Control of Nonlinear Systems"</a></strong> and celebrate the Inaugural Lecture of Prof. Bayu Jayawardhana. It was great to back to Groningen! </span>
+    </li>
+  </ul>
+</div>
+
+<div class="fade-in-section service-section">
   <h4>2025</h4>
   <ul>
     <li class="news-row">
