@@ -34,7 +34,7 @@ nav_order: 5
   <ul>
     <li class="news-row">
       <span class="news-date">2026.04 -</span>
-      <span class="news-text">Glad to organize the workshop on <strong><a href="https://sites.google.com/view/bayujayawardhanainaugural/home?authuser=0">"Opto-Mechatronics and Control of Nonlinear Systems"</a></strong> and celebrate the Inaugural Lecture of Prof. Bayu Jayawardhana. It was great to back to Groningen! </span>
+      <span class="news-text">Glad to co-organize the workshop on <strong><a href="https://sites.google.com/view/bayujayawardhanainaugural/home?authuser=0">"Opto-Mechatronics and Control of Nonlinear Systems" with our colleagues </a></strong> and celebrate the Inaugural Lecture of Prof. Bayu Jayawardhana in the University of Groningen. It was great to back to Groningen! </span>
     </li>
   </ul>
 </div>
