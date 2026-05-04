@@ -76,7 +76,7 @@ telegram_username: # your Telegram user name
 scholar_userid:  https://scholar.google.com/citations?user=2xz7OucAAAAJ&hl=en&inst=569367360547434339
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: 0000-0002-7634-0744
+# orcid_id: 0000-0002-7634-0744
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
