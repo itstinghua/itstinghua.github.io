@@ -63,7 +63,6 @@ nav_order: 5
 
 
 <div class="gallery-section">
-  <h2>PhD Defence Gallery</h2>
   <div class="gallery-video">
     <video controls>
       <source src="/assets/video/groningen.mp4" type="video/mp4">
