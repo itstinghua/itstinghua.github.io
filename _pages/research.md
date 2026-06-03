@@ -150,7 +150,7 @@ html[data-theme="dark"] .paper-cite {
       Distributed control method for networked multi-agent systems with non-holonomic constraints. Maintains flocking cohesion while ensuring connectivity preservation and collision avoidance.
     </p>
    <p class="paper-cite">
-      •  <strong>T. Li*</strong> and B. Jayawardhana, “Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation", in <strong>IEEE Transactions on Automatic Control (T-AC)</strong>, doi: 10.1109/TAC.2025.3647313
+      •  <strong>T. Li*</strong> and B. Jayawardhana, “Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation", in <strong>IEEE Transactions on Automatic Control (T-AC)</strong>, vol. 71, no. 6, pp. 3696-3711, June 2026, doi: 10.1109/TAC.2025.3647313
     </p>
   </div>
 </div>

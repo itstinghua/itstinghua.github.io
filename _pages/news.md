@@ -32,6 +32,10 @@ nav_order: 5
 <div class="fade-in-section service-section">
   <h4>2026</h4>
   <ul>
+     <li class="news-row">
+      <span class="news-date">2026.06 -</span>
+      <span class="news-text">Our paper<a href = "https://ieeexplore.ieee.org/document/11311473">Collision-Free Source Seeking and Flocking Control of Multiagents With Connectivity Preservation</a> has been officially published in <strong><em>IEEE Transactions on Automatic Control (TAC).</em></strong> </span>
+    </li>
     <li class="news-row">
       <span class="news-date">2026.04 -</span>
       <span class="news-text">Glad to co-organize the workshop on <strong><a href="https://sites.google.com/view/bayujayawardhanainaugural/home?authuser=0">"Opto-Mechatronics and Control of Nonlinear Systems" </a></strong>with our colleagues and celebrate the Inaugural Lecture of Prof. Bayu Jayawardhana in the University of Groningen. It was great to back in Groningen! </span>
