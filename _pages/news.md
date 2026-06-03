@@ -34,7 +34,7 @@ nav_order: 5
   <ul>
      <li class="news-row">
       <span class="news-date">2026.06 -</span>
-      <span class="news-text">Our paper<a href = "https://ieeexplore.ieee.org/document/11311473">Collision-Free Source Seeking and Flocking Control of Multiagents With Connectivity Preservation</a> has been officially published in <strong><em>IEEE Transactions on Automatic Control (TAC).</em></strong> </span>
+      <span class="news-text">Our paper <a href = "https://ieeexplore.ieee.org/document/11311473">Collision-Free Source Seeking and Flocking Control of Multiagents With Connectivity Preservation</a> has been officially published in IEEE Transactions on Automatic Control (TAC). </span>
     </li>
     <li class="news-row">
       <span class="news-date">2026.04 -</span>
