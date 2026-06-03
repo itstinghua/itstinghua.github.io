@@ -27,6 +27,20 @@ nav_order: 5
 /* 链接 */
 .service-section a{color:var(--global-theme-color);text-decoration:none}
 .service-section a:hover{color:var(--global-hover-color);text-decoration:underline}
+
+.gallery-video{
+    display:flex;
+    justify-content:center;
+    margin-top:.75rem;
+}
+
+.gallery-video video{
+    width:100%;
+    max-width:500px;
+    height:auto;
+    border-radius:.5rem;
+    box-shadow:0 2px 6px rgba(0,0,0,.1);
+}
 </style>
 
 <div class="fade-in-section service-section">
@@ -46,7 +60,7 @@ nav_order: 5
     </li>
   </ul>
 </div>
-</div>
+
 
 <div class="gallery-section">
   <h2>PhD Defence Gallery</h2>
