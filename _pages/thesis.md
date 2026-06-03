@@ -207,7 +207,7 @@ html[data-theme="dark"] .acknowledgment-section {
       Motion Control for Nonholonomic Unicycle Robots
     </div>
     <p>This doctoral research focuses on developing algorithms for nonholonomic robots in unknown cluttered environments, relying solely on limited onboard sensory measurements for exploration.</p>
-    <h5>Part I: Safe Source Seeking (Single Unicycle Robot)</h5>
+    <h5>Part I: Safe Source Seeking (for Single Unicycle Robot)</h5>
     <ul>
       <li>Projected gradient-ascent source-seeking control</li>
       <li>Safety guarantees for single robots in obstacle fields</li>

@@ -37,6 +37,10 @@ nav_order: 5
       <span class="news-text">Our paper <a href = "https://ieeexplore.ieee.org/document/11311473">Collision-Free Source Seeking and Flocking Control of Multiagents With Connectivity Preservation</a> has been officially published in IEEE Transactions on Automatic Control (TAC). </span>
     </li>
     <li class="news-row">
+      <span class="news-date">2026.05 -</span>
+      <span class="news-text"> Joined the 2026 CEAS Conference on Guidance, Navigation and Control Conference, Madrid, Spain. I thoroughly enjoyed the workshop "Control Barrier Functions in Aerospace: From Foundations to Real-World Applications" and was highly impressed by the presentation from all speakers working on CBFs. Also, don't forget to check out our paper <strong><a href="https://eurognc.ceas.org/archive/EuroGNC2026/pdf/CEAS-GNC-2026-024.pdf">"Fault Tolerant Control Barrier Functions". </a></strong></span>
+    </li>
+    <li class="news-row">
       <span class="news-date">2026.04 -</span>
       <span class="news-text">Glad to co-organize the workshop on <strong><a href="https://sites.google.com/view/bayujayawardhanainaugural/home?authuser=0">"Opto-Mechatronics and Control of Nonlinear Systems" </a></strong>with our colleagues and celebrate the Inaugural Lecture of Prof. Bayu Jayawardhana in the University of Groningen. It was great to back in Groningen! </span>
     </li>
