@@ -115,7 +115,7 @@ html[data-theme="dark"] .paper-cite {
     </p>
     <p class="paper-cite">
       • <strong>T. Li*</strong>, B. Jayawardhana, A. M. Kamat and A. G. P. Kottapalli, “Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors”, in
-      <strong>IEEE Transactions on Robotics (TRO)</strong>, vol. 38, no. 1, pp. 448–462, Feb. 2022,
+      <strong>IEEE Transactions on Robotics</strong>, vol. 38, no. 1, pp. 448–462, Feb. 2022,
       doi: 10.1109/TRO.2021.3076964
     </p>
   </div>
@@ -134,7 +134,7 @@ html[data-theme="dark"] .paper-cite {
     </p>
     <p class="paper-cite">
       •  <strong>T. Li*</strong> and B. Jayawardhana, “Collision-free Source Seeking Control Methods for Unicycle Robots”, in
-      <strong>IEEE Transactions on Automatic Control (TAC)</strong>, vol. 70, no. 3, pp. 2020–2027, March 2025,
+      <strong>IEEE Transactions on Automatic Control</strong>, vol. 70, no. 3, pp. 2020–2027, March 2025,
       doi: 10.1109/TAC.2024.3486654
     </p>
   </div>
@@ -150,7 +150,7 @@ html[data-theme="dark"] .paper-cite {
       Distributed control method for networked multi-agent systems with non-holonomic constraints. Maintains flocking cohesion while ensuring connectivity preservation and collision avoidance.
     </p>
    <p class="paper-cite">
-      •  <strong>T. Li*</strong> and B. Jayawardhana, “Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation", in <strong>IEEE Transactions on Automatic Control (T-AC)</strong>, vol. 71, no. 6, pp. 3696-3711, June 2026, doi: 10.1109/TAC.2025.3647313
+      •  <strong>T. Li*</strong> and B. Jayawardhana, “Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation", in <strong>IEEE Transactions on Automatic Control</strong>, vol. 71, no. 6, pp. 3696-3711, June 2026, doi: 10.1109/TAC.2025.3647313
     </p>
   </div>
 </div>
