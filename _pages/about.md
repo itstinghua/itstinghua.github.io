@@ -217,7 +217,7 @@ a:hover { text-decoration: underline; }
     <br>
     <div class="profile-section">
       <p>
-        <strong>PhD in Robotics & Control Engineering (2024)</strong><br>
+        <strong>PhD in Control & Robotics Engineering (2024)</strong><br>
         <a href="https://www.rug.nl/research/discrete-technology-production-automation/?lang=en">
           <strong>DTPA Group, University of Groningen</strong>
         </a><br>
