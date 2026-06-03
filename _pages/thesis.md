@@ -195,7 +195,7 @@ html[data-theme="dark"] .acknowledgment-section {
 <div class="thesis-header">
   <div class="thesis-left">
     <div class="thesis-image">
-      <img src="/assets/img/cover.jpg" class="img-fluid rounded" alt="Thesis Cover">
+      <img src="/assets/img/cover-all.png" class="img-fluid rounded" alt="Thesis Cover">
     </div>
     <p style="margin-top: 1rem;">
       <a href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots" class="btn btn-primary">Full Thesis</a>
@@ -207,7 +207,7 @@ html[data-theme="dark"] .acknowledgment-section {
       Motion Control for Nonholonomic Unicycle Robots
     </div>
     <p>This doctoral research focuses on developing algorithms for nonholonomic robots in unknown cluttered environments, relying solely on limited onboard sensory measurements for exploration.</p>
-    <h5>Part I: Perception-Control Integration</h5>
+    <h5>Part I: Safe Source-seeking</h5>
     <ul>
       <li>Projected gradient-ascent source-seeking control</li>
       <li>Safety guarantees for single robots in obstacle fields</li>
