@@ -213,7 +213,7 @@ html[data-theme="dark"] .acknowledgment-section {
       <li>Safety guarantees for single robots in obstacle fields</li>
       <li>CBF design with uniform relative degree</li>
     </ul>
-    <h5>Part II: Multi-Agent Systems</h5>
+    <h5>Part II: Distributed safe motion control (for Multi-Agent System)</h5>
     <ul>
       <li>Distributed CBF-QP framework</li>
       <li>Collision avoidance and connectivity preservation</li>
