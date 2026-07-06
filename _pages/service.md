@@ -89,7 +89,9 @@ a:hover {
 <div class="fade-in-section service-section">
   <h4>Guest Lecturer</h4>
   <ul>
-    <li>Master course: Nonlinear Control (Delft University of Technology, Faculty of Aerospace Engineering, Spring 2025)</li>
+    <li>Master course: Nonlinear Control</li>
+    <li>Delft University of Technology, Faculty of Aerospace Engineering, Spring 2025</li>
+    <li>Working with <a href = "https://www.rug.nl/staff/m.cao/?lang=en">Prof. Coen de Visser</a></li>
   </ul>
 </div>
 
