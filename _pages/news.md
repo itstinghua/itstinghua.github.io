@@ -89,10 +89,11 @@ nav_order: 5
     </li>
     <li class="news-row">
       <span class="news-date">2025.02 -</span>
-      <span class="news-text">I have started my postdoc journey at Control and Simulation (C&amp;S), Delft University of Technology (TU Delft). Excited to explore the challenges from ground mobile robots to aerospace!</span>
+      <span class="news-text">I have started my postdoc journey at <a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">Control and Simulation (C&amp;S), Delft University of Technology (TU Delft).</a> Excited to explore the challenges from ground mobile robots to aerospace!</span>
     </li>
   </ul>
 </div>
+
 
 <div class="fade-in-section service-section">
   <h4>2024</h4>
