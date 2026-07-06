@@ -129,10 +129,12 @@ a:hover {
 <div class="fade-in-section service-section">
   <h4>Memberships</h4>
   <ul>
-    <li>Dutch Institute of Systems and Control (DISC)</li>
-    <li>Jan C. Willems Center for Systems and Control</li>
+    <li><a href="https://disc.tudelft.nl/">Dutch Institute of Systems and Control (DISC) </a></li>
+    <li><a href="https://jcwcenter.web.rug.nl/members/">Jan C. Willems Center for Systems and Control </a></li>
   </ul>
 </div>
+
+
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
