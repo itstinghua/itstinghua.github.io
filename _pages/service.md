@@ -102,7 +102,7 @@ a:hover {
     </li>
     <li class="indent">
       Working with
-      <a href="https://www.rug.nl/staff/m.cao/?lang=en">Prof. Coen de Visser</a>
+      <a href="https://www.tudelft.nl/staff/c.c.devisser/">Prof. Coen de Visser</a>
     </li>
   </ul>
 </div>
