@@ -96,7 +96,11 @@ a:hover {
 <div class="fade-in-section service-section">
   <h4>Teaching Assistance</h4>
   <ul>
-    <li>Master course: Robotics (University of Groningen, Faculty of Science and Engineering, Fall 2020–2022)</li>
+    <li>Master course: Robotics</li>
+    <li><a href = "https://ocasys.rug.nl/2022-2023/catalog/course/WMIE005-05">Course Link</a> </li>
+    <li>University of Groningen, Faculty of Science and Engineering, Fall 2020–2022</li>
+    <li>Working with <a href = "https://www.rug.nl/staff/m.cao/?lang=en">Prof. Ming Cao</a>,<a href = "https://www.rug.nl/staff/bahar.haghighat/?lang=en">Dr. Bahar Haghighat</a>, Dr. Rodolfo Reyes-Báez </li>
+</li>
   </ul>
 </div>
 
