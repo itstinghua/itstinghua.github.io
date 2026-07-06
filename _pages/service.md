@@ -13,29 +13,37 @@ nav_order: 4
   transform: translateY(30px);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
+
 .fade-in-section.visible {
   opacity: 1;
   transform: translateY(0);
 }
+
 .service-section {
   margin-bottom: 3rem;
 }
+
 .service-section h4 {
   margin-bottom: 0.8rem;
   font-size: 1.25rem;
-  border-left: 4px solid;
-  #e9f5ff;
+  border-left: 4px solid #00539C;
   padding-left: 0.6rem;
   font-weight: 600;
   color: #00539C;
 }
+
 .service-section ul {
   margin-top: 0;
   padding-left: 1.2rem;
 }
 
+.service-section li.indent {
+  margin-left: 1.5rem;
+}
+
 /* Global font settings */
-/*body {
+/*
+body {
   font-family: "Inter", "Helvetica Neue", "Segoe UI", "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.6;
@@ -60,16 +68,15 @@ a {
 
 a:hover {
   text-decoration: underline;
-}*/
-
-
+}
+*/
 </style>
 
 <div class="fade-in-section service-section">
   <h4>Journal Reviewer</h4>
   <ul>
     <li>IEEE Transactions on Robotics (T-RO)</li>
-    <li>IEEE Robotics and Automation Letters(RA-L)</li>
+    <li>IEEE Robotics and Automation Letters (RA-L)</li>
     <li>IEEE Robotics & Automation Magazine (RA-M)</li>
     <li>Nonlinear Dynamics</li>
     <li>Journal of the Franklin Institute</li>
@@ -90,8 +97,13 @@ a:hover {
   <h4>Guest Lecturer</h4>
   <ul>
     <li>Master course: Nonlinear Control</li>
-    <li>Delft University of Technology, Faculty of Aerospace Engineering, Spring 2025</li>
-    <li>Working with <a href = "https://www.rug.nl/staff/m.cao/?lang=en">Prof. Coen de Visser</a></li>
+    <li class="indent">
+      Delft University of Technology, Faculty of Aerospace Engineering, Spring 2025
+    </li>
+    <li class="indent">
+      Working with
+      <a href="https://www.rug.nl/staff/m.cao/?lang=en">Prof. Coen de Visser</a>
+    </li>
   </ul>
 </div>
 
@@ -99,10 +111,18 @@ a:hover {
   <h4>Teaching Assistance</h4>
   <ul>
     <li>Master course: Robotics</li>
-    <li><a href = "https://ocasys.rug.nl/2022-2023/catalog/course/WMIE005-05">Course Link</a> </li>
-    <li>University of Groningen, Faculty of Science and Engineering, Fall 2020–2022</li>
-    <li>Working with <a href = "https://www.rug.nl/staff/m.cao/?lang=en">Prof. Ming Cao</a>,<a href = "https://www.rug.nl/staff/bahar.haghighat/?lang=en">Dr. Bahar Haghighat</a>, Dr. Rodolfo Reyes-Báez </li>
-</li>
+    <li class="indent">
+      <a href="https://ocasys.rug.nl/2022-2023/catalog/course/WMIE005-05">Course Link</a>
+    </li>
+    <li class="indent">
+      University of Groningen, Faculty of Science and Engineering, Fall 2020–2022
+    </li>
+    <li class="indent">
+      Working with
+      <a href="https://www.rug.nl/staff/m.cao/?lang=en">Prof. Ming Cao</a>,
+      <a href="https://www.rug.nl/staff/bahar.haghighat/?lang=en">Dr. Bahar Haghighat</a>,
+      Dr. Rodolfo Reyes-Báez
+    </li>
   </ul>
 </div>
 
@@ -115,19 +135,19 @@ a:hover {
 </div>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("visible");
-        }
-      });
-    }, {
-      threshold: 0.15
+document.addEventListener("DOMContentLoaded", function () {
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+      }
     });
-
-    document.querySelectorAll(".fade-in-section").forEach(el => {
-      observer.observe(el);
-    });
+  }, {
+    threshold: 0.15
   });
+
+  document.querySelectorAll(".fade-in-section").forEach(el => {
+    observer.observe(el);
+  });
+});
 </script>
