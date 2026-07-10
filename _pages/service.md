@@ -119,25 +119,29 @@ a:hover {
 </style>
 
 <div class="fade-in-section service-section">
-  <h4>Journal Reviewer</h4>
+  <h4>Invited Talk</h4>
   <ul>
-    <li>IEEE Transactions on Robotics (T-RO)</li>
-    <li>IEEE Robotics and Automation Letters (RA-L)</li>
-    <li>IEEE Robotics & Automation Magazine (RA-M)</li>
-    <li>Nonlinear Dynamics</li>
-    <li>Journal of the Franklin Institute</li>
+    <li class="dated-item">
+      <span class="service-time">June 2024</span>
+      <span class="service-content">
+        <strong>Motion Control for Nonholonomic Wheeled Mobile Robots</strong><br>
+         Keynote Speaker for the 6th AI QianTang Forum, School of Automation and School of AI<br>
+         Hangzhou Dianzi University, China 🇨🇳
+      </span>
+    </li>
+  </ul>
+  <ul>
+    <li class="dated-item">
+      <span class="service-time">June 2023</span>
+      <span class="service-content">
+        <strong>Motion Control for Nonholonomic Multi-agent System</strong><br>
+         Department of Decision and Control Systems<br>
+         KTH Royal Institute of Technology, Swedem 🇸🇪
+      </span>
+    </li>
   </ul>
 </div>
 
-<div class="fade-in-section service-section">
-  <h4>Conference Reviewer</h4>
-  <ul>
-    <li>IEEE Conference on Decision and Control (CDC 2025)</li>
-    <li>European Control Conference (ECC 2023, 2024, 2026)</li>
-    <li>American Control Conference (ACC 2021)</li>
-    <li>Third IFAC Conference on Modelling, Identification and Control of Nonlinear Systems (MICNON 2021)</li>
-  </ul>
-</div>
 
 <div class="fade-in-section service-section">
   <h4>Guest Lecturer</h4>
@@ -179,6 +183,29 @@ a:hover {
     <li><a href="https://jcwcenter.web.rug.nl/members/">Jan C. Willems Center for Systems and Control </a></li>
   </ul>
 </div>
+
+
+<div class="fade-in-section service-section">
+  <h4>Journal Reviewer</h4>
+  <ul>
+    <li>IEEE Transactions on Robotics (T-RO)</li>
+    <li>IEEE Robotics and Automation Letters (RA-L)</li>
+    <li>IEEE Robotics & Automation Magazine (RA-M)</li>
+    <li>Nonlinear Dynamics</li>
+    <li>Journal of the Franklin Institute</li>
+  </ul>
+</div>
+
+<div class="fade-in-section service-section">
+  <h4>Conference Reviewer</h4>
+  <ul>
+    <li>IEEE Conference on Decision and Control (CDC 2025)</li>
+    <li>European Control Conference (ECC 2023, 2024, 2026)</li>
+    <li>American Control Conference (ACC 2021)</li>
+    <li>Third IFAC Conference on Modelling, Identification and Control of Nonlinear Systems (MICNON 2021)</li>
+  </ul>
+</div>
+
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
