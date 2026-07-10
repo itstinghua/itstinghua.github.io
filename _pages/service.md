@@ -86,6 +86,10 @@ nav_order: 4
   white-space: nowrap;
 }
 
+.service-time-line {
+  display: block;
+}
+
 .service-content {
   position: relative;
   padding-left: 1rem;
@@ -142,6 +146,7 @@ nav_order: 4
           <em>Hangzhou Dianzi University,</em> China 🇨🇳
         </span>
       </li>
+
       <li class="dated-item">
         <span class="service-time">Jun. 2023</span>
         <span class="service-content">
@@ -154,7 +159,6 @@ nav_order: 4
     </ul>
   </div>
 
-
   <div class="service-section">
     <h4>Conference Presentations</h4>
     <ul>
@@ -166,6 +170,7 @@ nav_order: 4
           Elspeet, The Netherlands 🇳🇱
         </span>
       </li>
+
       <li class="dated-item">
         <span class="service-time">Jul. 2022</span>
         <span class="service-content">
@@ -174,45 +179,57 @@ nav_order: 4
           Brussels, Belgium 🇧🇪
         </span>
       </li>
+
       <li class="dated-item">
         <span class="service-time">Jun. 2021</span>
         <span class="service-content">
-          <strong>3D-printed Flexible Piezoresistive Sensors-based Source Seeking Control of Unicycle Robots</strong><br> <a href="https://www.beneluxmeeting.nl/2021/"><em>The 40th Benelux Meeting on Systems and Control</em></a><br>
+          <strong>3D-printed Flexible Piezoresistive Sensors-based Source Seeking Control of Unicycle Robots</strong><br>
+          <a href="https://www.beneluxmeeting.nl/2021/"><em>The 40th Benelux Meeting on Systems and Control</em></a><br>
           Rotterdam, The Netherlands 🇳🇱
         </span>
       </li>
-         <li class="dated-item">
+
+      <li class="dated-item">
         <span class="service-time">Oct. 2021</span>
         <span class="service-content">
           <strong>Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors</strong><br>
           <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2021)</em><br>
-           Invited presentation of an T-RO paper<br>
+          Invited presentation of a T-RO paper<br>
           (Virtual presentation due to Covid. Hosted from Prague, Czech Republic 🇨🇿)
         </span>
       </li>
     </ul>
   </div>
- 
 </section>
 
 <!-- 2. Teaching -->
 <section class="fade-in-section service-group">
   <h2>Teaching &amp; Supervision</h2>
+
   <div class="service-section">
     <h4>Supervision</h4>
     <ul>
       <li class="dated-item">
         <span class="service-time">2021</span>
         <span class="service-content">
-          <strong><a href="https://fse.studenttheses.ub.rug.nl/24672/">Mitigating Crosswind Effects on Aerodynamic Drag Reduction in a Platoon Formation through Lateral Offsets</a></strong><br>
-          Co-supervised master’s thesis, <em>University of Groningen</em><br>
+          <strong>
+            <a href="https://fse.studenttheses.ub.rug.nl/24672/">
+              Mitigating Crosswind Effects on Aerodynamic Drag Reduction in a Platoon Formation through Lateral Offsets
+            </a>
+          </strong><br>
+          Co-supervised master’s thesis, <em>University of Groningen</em>
         </span>
       </li>
+
       <li class="dated-item">
         <span class="service-time">2020</span>
         <span class="service-content">
-          <strong><a href="https://fse.studenttheses.ub.rug.nl/21794/">Source Seeking by a Mobile Robot using Airflow Sensor Measurements</a></strong><br>
-          Co-supervised master’s thesis, <em>University of Groningen</em><br>
+          <strong>
+            <a href="https://fse.studenttheses.ub.rug.nl/21794/">
+              Source Seeking by a Mobile Robot using Airflow Sensor Measurements
+            </a>
+          </strong><br>
+          Co-supervised master’s thesis, <em>University of Groningen</em>
         </span>
       </li>
     </ul>
@@ -226,7 +243,8 @@ nav_order: 4
         <span class="service-content">
           <strong>Nonlinear Control (Master's Course)</strong><br>
           Faculty of Aerospace Engineering, <em>Delft University of Technology</em><br>
-          In collaboration with <a href="https://www.tudelft.nl/staff/c.c.devisser/">Prof. Coen de Visser</a>
+          In collaboration with
+          <a href="https://www.tudelft.nl/staff/c.c.devisser/">Prof. Coen de Visser</a>
         </span>
       </li>
     </ul>
@@ -236,12 +254,16 @@ nav_order: 4
     <h4>Teaching Assistant</h4>
     <ul>
       <li class="dated-item teaching-assistant-item">
-        <span class="service-time">Fall 2020–2022</span>
+        <span class="service-time">
+          <span class="service-time-line">Fall</span>
+          <span class="service-time-line">2020–2022</span>
+        </span>
+
         <span class="service-content">
           <strong>Robotics (Master's Course)</strong><br>
           <a href="https://ocasys.rug.nl/2022-2023/catalog/course/WMIE005-05">Course Link</a><br>
           Faculty of Science and Engineering, <em>University of Groningen</em><br>
-          In collaboration with 
+          In collaboration with
           <a href="https://www.rug.nl/staff/m.cao/?lang=en">Prof. Ming Cao</a>,
           <a href="https://www.rug.nl/staff/bahar.haghighat/?lang=en">Dr. Bahar Haghighat</a>,
           and Dr. Rodolfo Reyes-Báez
@@ -249,7 +271,6 @@ nav_order: 4
       </li>
     </ul>
   </div>
-
 </section>
 
 <!-- 3. Academic Service -->
@@ -259,11 +280,14 @@ nav_order: 4
   <div class="service-section">
     <h4>Memberships</h4>
     <ul>
-      <li><a href="https://disc.tudelft.nl/">Dutch Institute of Systems and Control (DISC)</a></li>
-      <li><a href="https://jcwcenter.web.rug.nl/members/">Jan C. Willems Center for Systems and Control</a></li>
+      <li>
+        <a href="https://disc.tudelft.nl/">Dutch Institute of Systems and Control (DISC)</a>
+      </li>
+      <li>
+        <a href="https://jcwcenter.web.rug.nl/members/">Jan C. Willems Center for Systems and Control</a>
+      </li>
     </ul>
   </div>
-  
 
   <div class="service-section">
     <h4>Journal Reviewer</h4>
@@ -296,30 +320,31 @@ nav_order: 4
         <span class="service-content">
           <strong>Workshop on Opto-Mechatronics and Control of Nonlinear Systems</strong><br>
           <a href="https://sites.google.com/view/bayujayawardhanainaugural/home">Workshop Website</a><br>
-          <em>University of Groningen</em><br>
+          <em>University of Groningen</em>
         </span>
-        </li>
+      </li>
     </ul>
   </div>
-
 </section>
-
-
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("visible");
-      }
-    });
-  }, {
-    threshold: 0.15
-  });
+  const observer = new IntersectionObserver(
+    entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        }
+      });
+    },
+    {
+      threshold: 0.15
+    }
+  );
 
   document.querySelectorAll(".fade-in-section").forEach(el => {
     observer.observe(el);
   });
 });
 </script>
+```
