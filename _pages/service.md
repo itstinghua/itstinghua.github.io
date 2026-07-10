@@ -127,7 +127,7 @@ nav_order: 4
         <span class="service-time">June 2024</span>
         <span class="service-content">
           <strong>Motion Control for Nonholonomic Wheeled Mobile Robots</strong><br>
-          Keynote Speaker for the 6th AI QianTang Forum<br>
+          <em>Keynote Speaker for the 6th AI QianTang Forum</em> <br>
           Hangzhou Dianzi University, China 🇨🇳
         </span>
       </li>
@@ -137,15 +137,15 @@ nav_order: 4
           <strong>Motion Control for Nonholonomic Multi-agent Systems</strong><br>
           <a href="https://people.kth.se/~kallej/group.html">Research group of Prof. Karl Henrik Johansson</a><br>
           <a href="https://www.kth.se/dcs/department-of-decision-and-control-systems-1.788078">Department of Decision and Control Systems</a><br>
-          KTH Royal Institute of Technology, Sweden 🇸🇪
+          <em>KTH Royal Institute of Technology, Sweden 🇸🇪</em> 
         </span>
       </li>
       <li class="dated-item">
         <span class="service-time">October 2021</span>
         <span class="service-content">
           <strong>Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors</strong><br>
-          IEEE/RSJ International Conference on Intelligent Robots and Systems(IROS 2021)<br>
-          Invited presentation of an T-RO paper<br>
+          IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2021)<br>
+          <em>Invited presentation of an T-RO paper</em> <br>
           (Hosted in Prague, Czech Republic 🇨🇿)<br>
           (Virtual presentation due to Covid)
         </span>
@@ -161,7 +161,7 @@ nav_order: 4
         <span class="service-time">March 2023</span>
         <span class="service-content">
           <strong>Multi-agents Source Seeking and Flocking Control with Connectivity Preservation and Collision Avoidance</strong><br>
-          The 42nd Benelux Meeting on Systems and Control<br>
+          <em>The 42nd Benelux Meeting on Systems and Control</em> <br>
           Elspeet, The Netherlands 🇳🇱
         </span>
       </li>
@@ -169,14 +169,14 @@ nav_order: 4
         <span class="service-time">July 2022</span>
         <span class="service-content">
           <strong>Collision-free source seeking control of unicycle robot under uncertain environment</strong><br>
-          The 41st Benelux Meeting on Systems and Control<br>
+          <em>The 41st Benelux Meeting on Systems and Control</em> <br>
           Brussels, Belgium 🇧🇪
         </span>
       </li>
       <li class="dated-item">
         <span class="service-time">June 2021</span>
         <span class="service-content">
-          <strong>3D-printed Flexible Piezoresistive Sensors-based Source Seeking Control of Unicycle Robots</strong><br>The 40th Benelux Meeting on Systems and Control<br>
+          <strong>3D-printed Flexible Piezoresistive Sensors-based Source Seeking Control of Unicycle Robots</strong><br><em>The 40th Benelux Meeting on Systems and Control</em><br>
           Rotterdam, The Netherlands 🇳🇱
         </span>
       </li>
@@ -196,7 +196,7 @@ nav_order: 4
         <span class="service-time">Spring 2025</span>
         <span class="service-content">
           <strong>Nonlinear Control (Master's Course)</strong><br>
-          Faculty of Aerospace Engineering, Delft University of Technology<br>
+          Faculty of Aerospace Engineering, <em>Delft University of Technology</em><br>
           In collaboration with <a href="https://www.tudelft.nl/staff/c.c.devisser/">Prof. Coen de Visser</a>
         </span>
       </li>
@@ -211,7 +211,7 @@ nav_order: 4
         <span class="service-content">
           <strong>Robotics (Master's Course)</strong><br>
           <a href="https://ocasys.rug.nl/2022-2023/catalog/course/WMIE005-05">Course Link</a><br>
-          Faculty of Science and Engineering, University of Groningen<br>
+          Faculty of Science and Engineering, <em>University of Groningen</em><br>
           In collaboration with 
           <a href="https://www.rug.nl/staff/m.cao/?lang=en">Prof. Ming Cao</a>,
           <a href="https://www.rug.nl/staff/bahar.haghighat/?lang=en">Dr. Bahar Haghighat</a>,
