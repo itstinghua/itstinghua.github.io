@@ -168,7 +168,7 @@ nav_order: 4
         <span class="service-time">July 2022</span>
         <span class="service-content">
           <strong>Collision-free source seeking control of unicycle robot under uncertain environment</strong><br>
-          <a href="https://www.beneluxmeeting.nl/2022/"><em>The41st Benelux Meeting on Systems and Control</em></a><br>
+          <a href="https://www.beneluxmeeting.nl/2022/"><em>The 41st Benelux Meeting on Systems and Control</em></a><br>
           Brussels, Belgium 🇧🇪
         </span>
       </li>
