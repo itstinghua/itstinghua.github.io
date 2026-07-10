@@ -108,7 +108,7 @@ nav_order: 5
     </li>
     <li class="news-row">
       <span class="news-date">2024.01 -</span>
-      <span class="news-text">🎓 I am excited to announce that I have defended my <strong>Ph.D. thesis<a href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots">"Motion control for nonholonomic unicycle robots".</a></strong></span>
+      <span class="news-text">🎓 I am excited to announce that I have defended my <strong>Ph.D. thesis <a href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots"> "Motion control for nonholonomic unicycle robots".</a></strong></span>
     </li>
   </ul>
 </div>
