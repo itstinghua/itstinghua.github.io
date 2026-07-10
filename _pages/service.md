@@ -2,7 +2,7 @@
 layout: page
 permalink: /service/
 title: Service
-description: 
+description:
 nav: true
 nav_order: 4
 ---
@@ -19,8 +19,21 @@ nav_order: 4
   transform: translateY(0);
 }
 
+.service-group {
+  margin-bottom: 4rem;
+}
+
+.service-group > h2 {
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.45rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #222;
+  border-bottom: 2px solid #00539C;
+}
+
 .service-section {
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
 }
 
 .service-section h4 {
@@ -87,126 +100,150 @@ nav_order: 4
   background-color: #00539C;
 }
 
-/* Global font settings */
-/*
-body {
-  font-family: "Inter", "Helvetica Neue", "Segoe UI", "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #222;
-  background-color: #fff;
-  margin: 0;
-  padding: 0;
-}
+@media (max-width: 600px) {
+  .service-section li.dated-item {
+    grid-template-columns: 1fr;
+    row-gap: 0.25rem;
+  }
 
-h1, h2, h3, h4 {
-  font-family: "Inter", "Helvetica Neue", sans-serif;
-  font-weight: 600;
-  color: #111;
-  margin-top: 1.2rem;
-  margin-bottom: 0.6rem;
-}
+  .service-content {
+    padding-left: 0;
+  }
 
-a {
-  color: var(--primary-color);
-  text-decoration: none;
+  .service-content::before {
+    display: none;
+  }
 }
-
-a:hover {
-  text-decoration: underline;
-}
-*/
 </style>
 
-<div class="fade-in-section service-section">
-  <h4>Invited Talk</h4>
-  <ul>
-    <li class="dated-item">
-      <span class="service-time">June 2024</span>
-      <span class="service-content">
-        <strong>Motion Control for Nonholonomic Wheeled Mobile Robots</strong><br>
-         Keynote Speaker for the 6th AI QianTang Forum<br>
-         Hangzhou Dianzi University, China 🇨🇳
-      </span>
-    </li>
-  </ul>
-  <ul>
-    <li class="dated-item">
-      <span class="service-time">June 2023</span>
-      <span class="service-content">
-        <strong>Motion Control for Nonholonomic Multi-agent System</strong><br>
+<!-- 1. Talk & Presentations -->
+<section class="fade-in-section service-group">
+  <h2>Talk &amp; Presentations</h2>
+
+  <div class="service-section">
+    <h4>Invited Talks</h4>
+    <ul>
+      <li class="dated-item">
+        <span class="service-time">June 2024</span>
+        <span class="service-content">
+          <strong>Motion Control for Nonholonomic Wheeled Mobile Robots</strong><br>
+          Keynote Speaker for the 6th AI QianTang Forum<br>
+          Hangzhou Dianzi University, China 🇨🇳
+        </span>
+      </li>
+      <li class="dated-item">
+        <span class="service-time">June 2023</span>
+        <span class="service-content">
+          <strong>Motion Control for Nonholonomic Multi-agent Systems</strong><br>
           <a href="https://people.kth.se/~kallej/group.html">Research group of Prof. Karl Henrik Johansson</a><br>
-         <a href="https://www.kth.se/dcs/department-of-decision-and-control-systems-1.788078">Department of Decision and Control Systems</a><br>
-         KTH Royal Institute of Technology, Swedem 🇸🇪
-      </span>
-    </li>
-  </ul>
-</div>
+          <a href="https://www.kth.se/dcs/department-of-decision-and-control-systems-1.788078">Department of Decision and Control Systems</a><br>
+          KTH Royal Institute of Technology, Sweden 🇸🇪
+        </span>
+      </li>
+    </ul>
+  </div>
 
+  <div class="service-section">
+    <h4>Conference Presentations</h4>
+    <ul>
+      <li class="dated-item">
+        <span class="service-time">March, 2023</span>
+        <span class="service-content">
+          <strong>Multi-agents Source Seeking and Flocking Control with Connectivity Preservation and Collision Avoidance</strong><br>
+          Elspeet, The Netherlands 🇳🇱
+        </span>
+      </li>
+      <li class="dated-item">
+        <span class="service-time">July, 2022</span>
+        <span class="service-content">
+          <strong>Collision-free source seeking control of unicycle robot under uncertain environment</strong><br>
+          Brussels, Belgium 🇧🇪
+        </span>
+      </li>
+      <li class="dated-item">
+        <span class="service-time">June, 2021</span>
+        <span class="service-content">
+          <strong>3D-printed Flexible Piezoresistive Sensors-based Source Seeking Control of Unicycle Robots</strong><br>
+          Rotterdam, The Netherlands 🇳🇱
+        </span>
+      </li>
+    </ul>
+  </div>
+ 
+</section>
 
-<div class="fade-in-section service-section">
-  <h4>Guest Lecturer</h4>
-  <ul>
-    <li class="dated-item">
-      <span class="service-time">Spring 2025</span>
-      <span class="service-content">
-        <strong>Nonlinear Control (Master course)</strong><br>
-        Delft University of Technology, Faculty of Aerospace Engineering<br>
-        Working with
-        <a href="https://www.tudelft.nl/staff/c.c.devisser/">Prof. Coen de Visser</a>
-      </span>
-    </li>
-  </ul>
-</div>
+<!-- 2. Academic Service -->
+<section class="fade-in-section service-group">
+  <h2>Academic Service</h2>
 
-<div class="fade-in-section service-section">
-  <h4>Teaching Assistance</h4>
-  <ul>
-    <li class="dated-item">
-      <span class="service-time">Fall 2020, 2021, 2022</span>
-      <span class="service-content">
-        <strong>Robotics(Master course)</strong><br>
-        <a href="https://ocasys.rug.nl/2022-2023/catalog/course/WMIE005-05">Course Link</a><br>
-        University of Groningen, Faculty of Science and Engineering<br>
-        Working with
-        <a href="https://www.rug.nl/staff/m.cao/?lang=en">Prof. Ming Cao</a>,
-        <a href="https://www.rug.nl/staff/bahar.haghighat/?lang=en">Dr. Bahar Haghighat</a>,
-        Dr. Rodolfo Reyes-Báez
-      </span>
-    </li>
-  </ul>
-</div>
+  <div class="service-section">
+    <h4>Journal Reviewer</h4>
+    <ul>
+      <li>IEEE Transactions on Robotics (T-RO)</li>
+      <li>IEEE Robotics and Automation Letters (RA-L)</li>
+      <li>IEEE Robotics &amp; Automation Magazine (RA-M)</li>
+      <!--
+      <li>Nonlinear Dynamics</li>
+      <li>Journal of the Franklin Institute</li>
+      -->
+    </ul>
+  </div>
 
-<div class="fade-in-section service-section">
-  <h4>Memberships</h4>
-  <ul>
-    <li><a href="https://disc.tudelft.nl/">Dutch Institute of Systems and Control (DISC) </a></li>
-    <li><a href="https://jcwcenter.web.rug.nl/members/">Jan C. Willems Center for Systems and Control </a></li>
-  </ul>
-</div>
+  <div class="service-section">
+    <h4>Conference Reviewer</h4>
+    <ul>
+      <li>IEEE Conference on Decision and Control (CDC 2025)</li>
+      <li>European Control Conference (ECC 2023, 2024, 2026)</li>
+      <li>American Control Conference (ACC 2021)</li>
+      <li>Third IFAC Conference on Modelling, Identification and Control of Nonlinear Systems (MICNON 2021)</li>
+    </ul>
+  </div>
 
+  <div class="service-section">
+    <h4>Memberships</h4>
+    <ul>
+      <li><a href="https://disc.tudelft.nl/">Dutch Institute of Systems and Control (DISC)</a></li>
+      <li><a href="https://jcwcenter.web.rug.nl/members/">Jan C. Willems Center for Systems and Control</a></li>
+    </ul>
+  </div>
+</section>
 
-<div class="fade-in-section service-section">
-  <h4>Journal Reviewer</h4>
-  <ul>
-    <li>IEEE Transactions on Robotics (T-RO)</li>
-    <li>IEEE Robotics and Automation Letters (RA-L)</li>
-    <li>IEEE Robotics & Automation Magazine (RA-M)</li>
-   <!--  <li>Nonlinear Dynamics</li>
-    <li>Journal of the Franklin Institute</li> -->
-  </ul>
-</div>
+<!-- 3. Teaching -->
+<section class="fade-in-section service-group">
+  <h2>Teaching</h2>
 
-<div class="fade-in-section service-section">
-  <h4>Conference Reviewer</h4>
-  <ul>
-    <li>IEEE Conference on Decision and Control (CDC 2025)</li>
-    <li>European Control Conference (ECC 2023, 2024, 2026)</li>
-    <li>American Control Conference (ACC 2021)</li>
-    <li>Third IFAC Conference on Modelling, Identification and Control of Nonlinear Systems (MICNON 2021)</li>
-  </ul>
-</div>
+  <div class="service-section">
+    <h4>Guest Lecturer</h4>
+    <ul>
+      <li class="dated-item">
+        <span class="service-time">Spring 2025</span>
+        <span class="service-content">
+          <strong>Nonlinear Control (Master's course)</strong><br>
+          Delft University of Technology, Faculty of Aerospace Engineering<br>
+          Working with <a href="https://www.tudelft.nl/staff/c.c.devisser/">Prof. Coen de Visser</a>
+        </span>
+      </li>
+    </ul>
+  </div>
 
+  <div class="service-section">
+    <h4>Teaching Assistant</h4>
+    <ul>
+      <li class="dated-item">
+        <span class="service-time">Fall 2020, 2021, 2022</span>
+        <span class="service-content">
+          <strong>Robotics (Master's course)</strong><br>
+          <a href="https://ocasys.rug.nl/2022-2023/catalog/course/WMIE005-05">Course Link</a><br>
+          University of Groningen, Faculty of Science and Engineering<br>
+          Working with
+          <a href="https://www.rug.nl/staff/m.cao/?lang=en">Prof. Ming Cao</a>,
+          <a href="https://www.rug.nl/staff/bahar.haghighat/?lang=en">Dr. Bahar Haghighat</a>,
+          and Dr. Rodolfo Reyes-Báez
+        </span>
+      </li>
+    </ul>
+  </div>
+</section>
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
