@@ -150,6 +150,7 @@ nav_order: 4
         <span class="service-time">March, 2023</span>
         <span class="service-content">
           <strong>Multi-agents Source Seeking and Flocking Control with Connectivity Preservation and Collision Avoidance</strong><br>
+          The 42nd Benelux Meeting on Systems and Control<br>
           Elspeet, The Netherlands 🇳🇱
         </span>
       </li>
@@ -157,13 +158,14 @@ nav_order: 4
         <span class="service-time">July, 2022</span>
         <span class="service-content">
           <strong>Collision-free source seeking control of unicycle robot under uncertain environment</strong><br>
+          The 41st Benelux Meeting on Systems and Control<br>
           Brussels, Belgium 🇧🇪
         </span>
       </li>
       <li class="dated-item">
         <span class="service-time">June, 2021</span>
         <span class="service-content">
-          <strong>3D-printed Flexible Piezoresistive Sensors-based Source Seeking Control of Unicycle Robots</strong><br>
+          <strong>3D-printed Flexible Piezoresistive Sensors-based Source Seeking Control of Unicycle Robots</strong><br>The 40th Benelux Meeting on Systems and Control<br>
           Rotterdam, The Netherlands 🇳🇱
         </span>
       </li>
