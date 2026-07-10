@@ -174,7 +174,7 @@ html[data-theme="dark"] .paper-cite {
   <div class="project-container">
     <div class="project-media">
       <img
-        src="/assets/img/echo.jpg"
+        src="/assets/img/echo/tulip.jpeg"
         alt="Description of the image"
         loading="lazy">
     </div>
@@ -184,7 +184,7 @@ html[data-theme="dark"] .paper-cite {
         Tulip Trip
       </p>
       <p class="paper-cite">
-        The Netherlands.
+        Lelystad, the Netherlands.
       </p>
     </div>
 
