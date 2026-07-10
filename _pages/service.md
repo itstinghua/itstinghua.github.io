@@ -41,7 +41,7 @@ nav_order: 4
 .service-section li {
   position: relative;
   padding-left: 1rem;
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.45rem;
 }
 
 .service-section li::before {
@@ -54,8 +54,37 @@ nav_order: 4
   background-color: #00539C;
 }
 
-.service-section li.indent {
-  margin-left: 1.5rem;
+.service-section li.dated-item {
+  display: grid;
+  grid-template-columns: 8.5rem 1fr;
+  column-gap: 1rem;
+  padding-left: 0;
+  margin-bottom: 0.8rem;
+}
+
+.service-section li.dated-item::before {
+  display: none;
+}
+
+.service-time {
+  color: #555;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.service-content {
+  position: relative;
+  padding-left: 1rem;
+}
+
+.service-content::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.7em;
+  width: 0.4rem;
+  height: 2px;
+  background-color: #00539C;
 }
 
 /* Global font settings */
@@ -113,13 +142,14 @@ a:hover {
 <div class="fade-in-section service-section">
   <h4>Guest Lecturer</h4>
   <ul>
-    <li><strong>Master course: Nonlinear Control</strong></li>
-    <li class="indent">
-      Delft University of Technology, Faculty of Aerospace Engineering, Spring 2025
-    </li>
-    <li class="indent">
-      Working with
-      <a href="https://www.tudelft.nl/staff/c.c.devisser/">Prof. Coen de Visser</a>
+    <li class="dated-item">
+      <span class="service-time">Spring 2025</span>
+      <span class="service-content">
+        <strong>Master course: Nonlinear Control</strong><br>
+        Delft University of Technology, Faculty of Aerospace Engineering<br>
+        Working with
+        <a href="https://www.tudelft.nl/staff/c.c.devisser/">Prof. Coen de Visser</a>
+      </span>
     </li>
   </ul>
 </div>
@@ -127,18 +157,17 @@ a:hover {
 <div class="fade-in-section service-section">
   <h4>Teaching Assistance</h4>
   <ul>
-    <li><strong>Master course: Robotics</strong></li>
-    <li class="indent">
-      <a href="https://ocasys.rug.nl/2022-2023/catalog/course/WMIE005-05">Course Link</a>
-    </li>
-    <li class="indent">
-      University of Groningen, Faculty of Science and Engineering, Fall 2020–2022
-    </li>
-    <li class="indent">
-      Working with
-      <a href="https://www.rug.nl/staff/m.cao/?lang=en">Prof. Ming Cao</a>,
-      <a href="https://www.rug.nl/staff/bahar.haghighat/?lang=en">Dr. Bahar Haghighat</a>,
-      Dr. Rodolfo Reyes-Báez
+    <li class="dated-item">
+      <span class="service-time">Fall 2020–2022</span>
+      <span class="service-content">
+        <strong>Master course: Robotics</strong><br>
+        <a href="https://ocasys.rug.nl/2022-2023/catalog/course/WMIE005-05">Course Link</a><br>
+        University of Groningen, Faculty of Science and Engineering<br>
+        Working with
+        <a href="https://www.rug.nl/staff/m.cao/?lang=en">Prof. Ming Cao</a>,
+        <a href="https://www.rug.nl/staff/bahar.haghighat/?lang=en">Dr. Bahar Haghighat</a>,
+        Dr. Rodolfo Reyes-Báez
+      </span>
     </li>
   </ul>
 </div>
