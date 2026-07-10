@@ -135,7 +135,8 @@ a:hover {
       <span class="service-time">June 2023</span>
       <span class="service-content">
         <strong>Motion Control for Nonholonomic Multi-agent System</strong><br>
-         Department of Decision and Control Systems<br>
+          <a href="https://people.kth.se/~kallej/group.html">Research group of Prof. Karl Henrik Johansson</a><br>
+         <a href="https://www.kth.se/dcs/department-of-decision-and-control-systems-1.788078">Department of Decision and Control Systems</a><br>
          KTH Royal Institute of Technology, Swedem 🇸🇪
       </span>
     </li>
