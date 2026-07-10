@@ -14,7 +14,7 @@ nav_order: 7
     color: var(--global-text-color);
     margin: 1.5rem auto 2rem auto;
 ">
-  “This ain't a song for the broken-hearted”
+  “This is not a song for the broken-hearted”
   <div style="
       margin-top: 0.5rem;
       font-size: 0.95rem;
