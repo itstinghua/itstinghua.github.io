@@ -247,6 +247,14 @@ nav_order: 4
   <h2>Academic Service</h2>
 
   <div class="service-section">
+    <h4>Memberships</h4>
+    <ul>
+      <li><a href="https://disc.tudelft.nl/">Dutch Institute of Systems and Control (DISC)</a></li>
+      <li><a href="https://jcwcenter.web.rug.nl/members/">Jan C. Willems Center for Systems and Control</a></li>
+    </ul>
+  </div>
+  
+  <div class="service-section">
     <h4>Workshop Organization</h4>
     <ul>
       <li class="dated-item">
@@ -283,13 +291,6 @@ nav_order: 4
     </ul>
   </div>
 
-  <div class="service-section">
-    <h4>Memberships</h4>
-    <ul>
-      <li><a href="https://disc.tudelft.nl/">Dutch Institute of Systems and Control (DISC)</a></li>
-      <li><a href="https://jcwcenter.web.rug.nl/members/">Jan C. Willems Center for Systems and Control</a></li>
-    </ul>
-  </div>
 </section>
 
 
