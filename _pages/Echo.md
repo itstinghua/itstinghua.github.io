@@ -161,7 +161,7 @@ html[data-theme="dark"] .paper-cite {
         This is for the ones who stood their ground<br>
         It's for Tommy and Gina who never backed down<br>
         Tomorrow's getting harder, make no mistake<br>
-        Luck ain't enough, you've got to make your own breaks<br>
+        Luck ain't enough, you've got to make your own breaks
       </p>
     </div>
 
@@ -176,12 +176,11 @@ html[data-theme="dark"] .paper-cite {
         loading="lazy">
     </div>
     <div class="project-text">
-      <h3>Tulip Trip, 2021</h3>
-      <p>
-        Tulip Trip
-      </p>
+      <h3>Spring in the Netherlands</h3>
       <p class="paper-cite">
-        Lelystad, the Netherlands.
+        Tulip Trip, 2021<br>
+        Lelystad, the Netherlands<br>
+        “人生荒芜，所以春天周而复始”
       </p>
     </div>
 
