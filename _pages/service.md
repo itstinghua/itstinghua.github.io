@@ -151,15 +151,6 @@ nav_order: 4
           <em>KTH Royal Institute of Technology,</em> Sweden 🇸🇪
         </span>
       </li>
-      <li class="dated-item">
-        <span class="service-time">Oct. 2021</span>
-        <span class="service-content">
-          <strong>Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors</strong><br>
-          Invited presentation of an T-RO paper<br>
-          <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2021)</em><br>
-          (Virtual presentation due to Covid. Hosted from Prague, Czech Republic 🇨🇿)
-        </span>
-      </li>
     </ul>
   </div>
 
@@ -188,6 +179,15 @@ nav_order: 4
         <span class="service-content">
           <strong>3D-printed Flexible Piezoresistive Sensors-based Source Seeking Control of Unicycle Robots</strong><br> <a href="https://www.beneluxmeeting.nl/2021/"><em>The 40th Benelux Meeting on Systems and Control</em></a><br>
           Rotterdam, The Netherlands 🇳🇱
+        </span>
+      </li>
+         <li class="dated-item">
+        <span class="service-time">Oct. 2021</span>
+        <span class="service-content">
+          <strong>Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors</strong><br>
+          <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2021)</em><br>
+           Invited presentation of an T-RO paper<br>
+          (Virtual presentation due to Covid. Hosted from Prague, Czech Republic 🇨🇿)
         </span>
       </li>
     </ul>
