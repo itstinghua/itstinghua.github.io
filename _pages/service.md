@@ -127,8 +127,8 @@ nav_order: 4
         <span class="service-time">June 2024</span>
         <span class="service-content">
           <strong>Motion Control for Nonholonomic Wheeled Mobile Robots</strong><br>
-          <em>Keynote Speaker for the 6th AI QianTang Forum</em> <br>
-          Hangzhou Dianzi University, China 🇨🇳
+          Keynote Speaker for the 6th AI QianTang Forum<br>
+          <em>Hangzhou Dianzi University, China 🇨🇳</em>
         </span>
       </li>
       <li class="dated-item">
@@ -144,8 +144,8 @@ nav_order: 4
         <span class="service-time">October 2021</span>
         <span class="service-content">
           <strong>Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors</strong><br>
-          IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2021)<br>
-          <em>Invited presentation of an T-RO paper</em><br>
+          <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2021)</em><br>
+          Invited presentation of an T-RO paper<br>
           (Virtual presentation due to Covid. Hosted from Prague, Czech Republic 🇨🇿)
         </span>
       </li>
