@@ -110,7 +110,7 @@ a:hover {
     <div class="talk-date">June 2024</div>
     <div class="talk-content">
       <ul>
-        <li class="talk-title">Motion Control For Nonholonomic Wheeled Mobile Robots</li>
+        <li class="talk-title"><strong>Motion Control For Nonholonomic Wheeled Mobile Robots</strong></li>
         <li class="indent">
           Keynote speaker for the 6th AI QianTang Forum, School of Automation and School of AI
         </li>
@@ -125,7 +125,7 @@ a:hover {
     <div class="talk-date">June 2023</div>
     <div class="talk-content">
       <ul>
-        <li class="talk-title">Motion Control For Nonholonomic Multi-agent System</li>
+        <li class="talk-title"><strong>Motion Control For Nonholonomic Multi-agent System</strong></li>
         <li class="indent">
           <a href="https://www.kth.se/dcs">Department of Decision and Control Systems</a>
         </li>
