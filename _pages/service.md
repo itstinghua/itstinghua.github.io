@@ -275,6 +275,19 @@ nav_order: 4
 <!-- 3. Academic Service -->
 <section class="fade-in-section service-group">
   <h2>Academic Service</h2>
+    <div class="service-section">
+    <h4>Workshop Organization</h4>
+    <ul>
+      <li class="dated-item">
+        <span class="service-time">May 2026</span>
+        <span class="service-content">
+          <strong>Workshop on Opto-Mechatronics and Control of Nonlinear Systems</strong><br>
+          <a href="https://sites.google.com/view/bayujayawardhanainaugural/home">Workshop Website</a><br>
+          <em>University of Groningen</em>
+        </span>
+      </li>
+    </ul>
+  </div>
 
   <div class="service-section">
     <h4>Memberships</h4>
@@ -311,19 +324,6 @@ nav_order: 4
     </ul>
   </div>
 
-  <div class="service-section">
-    <h4>Workshop Organization</h4>
-    <ul>
-      <li class="dated-item">
-        <span class="service-time">May 2026</span>
-        <span class="service-content">
-          <strong>Workshop on Opto-Mechatronics and Control of Nonlinear Systems</strong><br>
-          <a href="https://sites.google.com/view/bayujayawardhanainaugural/home">Workshop Website</a><br>
-          <em>University of Groningen</em>
-        </span>
-      </li>
-    </ul>
-  </div>
 </section>
 
 <script>
