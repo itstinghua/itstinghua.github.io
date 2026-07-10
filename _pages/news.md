@@ -77,6 +77,10 @@ nav_order: 5
       <span class="news-text">I am pleased to share that our paper <strong><a href = "https://ieeexplore.ieee.org/document/11311473">"Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation"</a></strong> has been offically accepted for publication as full paper in <strong><em>IEEE Transactions on Automatic Control (TAC)</em></strong>, it is now available in early access.</span>
     </li>
     <li class="news-row">
+      <span class="news-date">2025.08 -</span>
+      <span class="news-text">Happy to visit the Robotics and Autonomous Systems, Hong Kong University of Science and Technology (Guangzhou). </span>
+    </li>
+    <li class="news-row">
       <span class="news-date">2025.06 -</span>
       <span class="news-text">
         I had the pleasure of delivering my first guest lecture in the Master’s course “Nonlinear Control” at the Faculty of Aerospace Engineering, TU Delft.
