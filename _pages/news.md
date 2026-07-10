@@ -48,7 +48,7 @@ nav_order: 5
   <ul>
      <li class="news-row">
       <span class="news-date">2026.06 -</span>
-      <span class="news-text">Our paper <strong><a href = "https://ieeexplore.ieee.org/document/11311473">Collision-Free Source Seeking and Flocking Control of Multiagents With Connectivity Preservation</a></strong> has been officially published in IEEE Transactions on Automatic Control (TAC). </span>
+      <span class="news-text">Our paper <strong><a href = "https://ieeexplore.ieee.org/document/11311473">"Collision-Free Source Seeking and Flocking Control of Multiagents With Connectivity Preservation"</a></strong> has been officially published in IEEE Transactions on Automatic Control (TAC). </span>
     </li>
     <li class="news-row">
       <span class="news-date">2026.05 -</span>
@@ -78,7 +78,7 @@ nav_order: 5
     </li>
     <li class="news-row">
       <span class="news-date">2025.08 -</span>
-      <span class="news-text">Happy to visit the <a href = "https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/">Robotics and Autonomous Systems, Hong Kong University of Science and Technology (Guangzhou)</a>. </span>
+      <span class="news-text">Happy to visit the <strong><a href = "https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/">Robotics and Autonomous Systems, Hong Kong University of Science and Technology (Guangzhou)</a></strong>. </span>
     </li>
     <li class="news-row">
       <span class="news-date">2025.06 -</span>
@@ -104,7 +104,7 @@ nav_order: 5
   <ul>
     <li class="news-row">
       <span class="news-date">2024.10 -</span>
-      <span class="news-text">Our work <strong>"Collision-free Source Seeking Control Methods for Unicycle Robots"</strong> is officially accepted in <strong><em>IEEE Transactions on Automatic Control (TAC)</em></strong>. This is a key part of my PhD thesis and it proposes three control barrier function (CBF) designs for solving the mixed relative degree problem in unicycle robot control.</span>
+      <span class="news-text">Our work <strong>"Collision-free Source Seeking Control Methods for Unicycle Robots"</strong> has been officially accepted in <strong><em>IEEE Transactions on Automatic Control (TAC)</em></strong>. This is a key part of my PhD thesis and it proposes three control barrier function (CBF) designs for solving the mixed relative degree problem in unicycle robot control.</span>
     </li>
     <li class="news-row">
       <span class="news-date">2024.06 -</span>
@@ -127,7 +127,7 @@ nav_order: 5
     <li class="news-row">
       <span class="news-date">2023.03 -</span>
       <span class="news-text">
-        Present work "Multi-agents Source Seeking and Flocking Control with Connectivity Preservation and Collision Avoidance" at the <em><a href="https://beneluxmeeting.nl/2023/">42nd Benelux Meeting on Systems and Control</a></em> in Elspeet, The Netherlands. 
+        Present our work "Multi-agents Source Seeking and Flocking Control with Connectivity Preservation and Collision Avoidance" at the <em><a href="https://beneluxmeeting.nl/2023/">42nd Benelux Meeting on Systems and Control</a></em> in Elspeet, The Netherlands. 
      </span>
     </li>
   </ul>
@@ -139,7 +139,7 @@ nav_order: 5
     <li class="news-row">
       <span class="news-date">2022.07 -</span>
       <span class="news-text">
-        Present work "Collision-free Source Seeking Control of Unicycle Robot under Uncertain Environment" at the <em><a href="https://www.beneluxmeeting.nl/2022/">41st Benelux Meeting on Systems and Control</a></em> in Brussels, Belgium.
+        Present our work "Collision-free Source Seeking Control of Unicycle Robot under Uncertain Environment" at the <em><a href="https://www.beneluxmeeting.nl/2022/">41st Benelux Meeting on Systems and Control</a></em> in Brussels, Belgium.
       </span>
     </li>
   </ul>
@@ -152,19 +152,19 @@ nav_order: 5
   <ul>
     <li class="news-row">
       <span class="news-date">2021.10 -</span>
-      <span class="news-text">Presented our source-seeking work at <strong><em>IROS 2021</em></strong>.</span>
+      <span class="news-text">Present our source-seeking work at <strong><em>IROS 2021</em></strong>.</span>
     </li>
     <li class="news-row">
       <span class="news-date">2021.07 -</span>
-      <span class="news-text">Presented "Source-Seeking Control of Unicycle Robots With 3D-Printed Flexible Sensors" at the <em><a href="https://beneluxmeeting.nl/2021/">40th Benelux Meeting on Systems and Control</a></em> in Rotterdam, The Netherlands.</span>
+      <span class="news-text">Presented our latest work "Source-Seeking Control of Unicycle Robots With 3D-Printed Flexible Sensors" at the <em><a href="https://beneluxmeeting.nl/2021/">40th Benelux Meeting on Systems and Control</a></em> in Rotterdam, The Netherlands.</span>
     </li>
     <li class="news-row">
       <span class="news-date">2021.06 -</span>
-      <span class="news-text">Joined the <strong>DISC Summer School "Planning, Learning and Control for Multi-Robot and Multi-Agent Systems"</strong>.</span>
+      <span class="news-text">Happy to join the <strong>DISC Summer School "Planning, Learning and Control for Multi-Robot and Multi-Agent Systems" in Rotterdam, the Netherlands!</strong>.</span>
     </li>
     <li class="news-row">
       <span class="news-date">2021.04 -</span>
-      <span class="news-text">Our paper <strong><a href="https://ieeexplore.ieee.org/document/9458274">"Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors"</a></strong> was accepted by <strong><em>IEEE Transactions on Robotics (TRO)</em></strong>. 
+      <span class="news-text">I am glad to share that my first PhD project<strong><a href="https://ieeexplore.ieee.org/document/9458274">"Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors"</a></strong> was accepted by <strong><em>IEEE Transactions on Robotics (TRO)</em></strong>. 
       </span>
     </li>
   </ul>
