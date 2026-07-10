@@ -256,6 +256,7 @@ nav_order: 4
           <a href="https://sites.google.com/view/bayujayawardhanainaugural/home">Workshop Website</a><br>
           <em>University of Groningen</em><br>
         </span>
+        </li>
     </ul>
   </div>
 
