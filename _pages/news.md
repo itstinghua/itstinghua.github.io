@@ -48,11 +48,11 @@ nav_order: 5
   <ul>
      <li class="news-row">
       <span class="news-date">2026.06 -</span>
-      <span class="news-text">Our paper <a href = "https://ieeexplore.ieee.org/document/11311473">Collision-Free Source Seeking and Flocking Control of Multiagents With Connectivity Preservation</a> has been officially published in IEEE Transactions on Automatic Control (TAC). </span>
+      <span class="news-text">Our paper <strong><a href = "https://ieeexplore.ieee.org/document/11311473">Collision-Free Source Seeking and Flocking Control of Multiagents With Connectivity Preservation</a></strong> has been officially published in IEEE Transactions on Automatic Control (TAC). </span>
     </li>
     <li class="news-row">
       <span class="news-date">2026.05 -</span>
-      <span class="news-text"> Happy to attend the <a href="https://eurognc.ceas.org/">2026 CEAS Conference on Guidance, Navigation and Control Conference (EuroGNC)</a> in Madrid, Spain. I thoroughly enjoyed the workshop <a href = "https://safeflighteurognc.github.io/">Control Barrier Functions in Aerospace: From Foundations to Real-World Applications</a> and was highly impressed by the presentation from all speakers working on CBFs. Also, don't forget to check out our paper <a href="https://eurognc.ceas.org/archive/EuroGNC2026/pdf/CEAS-GNC-2026-024.pdf">"Fault Tolerant Control Barrier Functions". </a></span>
+      <span class="news-text"> Happy to attend the <strong><a href="https://eurognc.ceas.org/">2026 CEAS Conference on Guidance, Navigation and Control Conference (EuroGNC)</a></strong> in Madrid, Spain. I thoroughly enjoyed the workshop <strong><a href = "https://safeflighteurognc.github.io/">Control Barrier Functions in Aerospace: From Foundations to Real-World Applications</a></strong> and was highly impressed by the presentation from all speakers working on CBFs. Also, don't forget to check out our paper <strong><a href="https://eurognc.ceas.org/archive/EuroGNC2026/pdf/CEAS-GNC-2026-024.pdf">"Fault Tolerant Control Barrier Functions". </a></strong></span>
     </li>
     <li class="news-row">
       <span class="news-date">2026.04 -</span>
@@ -89,7 +89,7 @@ nav_order: 5
     </li>
     <li class="news-row">
       <span class="news-date">2025.02 -</span>
-      <span class="news-text">I have started my postdoc journey at <a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">Control and Simulation (C&amp;S), Delft University of Technology (TU Delft).</a> Excited to explore the challenges from ground mobile robots to aerospace!</span>
+      <span class="news-text">I have started my postdoc journey at <strong><a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">Control and Simulation (C&amp;S), Delft University of Technology (TU Delft).</a></strong> Excited to explore the challenges from ground mobile robots to aerospace!</span>
     </li>
   </ul>
 </div>
@@ -108,7 +108,7 @@ nav_order: 5
     </li>
     <li class="news-row">
       <span class="news-date">2024.01 -</span>
-      <span class="news-text">🎓 I am excited to announce that I have defended my <strong><em>Ph.D. thesis</em> <a href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots">"Motion control for nonholonomic unicycle robots".</a></strong></span>
+      <span class="news-text">🎓 I am excited to announce that I have defended my <strong>Ph.D. thesis<a href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots">"Motion control for nonholonomic unicycle robots".</a></strong></span>
     </li>
   </ul>
 </div>
