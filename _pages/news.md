@@ -78,7 +78,7 @@ nav_order: 5
     </li>
     <li class="news-row">
       <span class="news-date">2025.08 -</span>
-      <span class="news-text">Happy to visit the Robotics and Autonomous Systems, Hong Kong University of Science and Technology (Guangzhou). </span>
+      <span class="news-text">Happy to visit the <a href = "https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/">Robotics and Autonomous Systems, Hong Kong University of Science and Technology (Guangzhou)</a>. </span>
     </li>
     <li class="news-row">
       <span class="news-date">2025.06 -</span>
