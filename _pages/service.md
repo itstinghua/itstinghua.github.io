@@ -100,6 +100,12 @@ nav_order: 4
   background-color: #00539C;
 }
 
+/* Only adjust the spacing of the Teaching Assistant entry */
+.service-section li.teaching-assistant-item {
+  grid-template-columns: 9rem minmax(0, 1fr);
+  column-gap: 2rem;
+}
+
 @media (max-width: 700px) {
   .service-section li.dated-item {
     grid-template-columns: 1fr;
@@ -205,8 +211,8 @@ nav_order: 4
   <div class="service-section">
     <h4>Teaching Assistant</h4>
     <ul>
-      <li class="dated-item">
-        <span class="service-time">Fall 2020~2022</span>
+      <li class="dated-item teaching-assistant-item">
+        <span class="service-time">Fall 2020–2022</span>
         <span class="service-content">
           <strong>Robotics (Master's Course)</strong><br>
           <a href="https://ocasys.rug.nl/2022-2023/catalog/course/WMIE005-05">Course Link</a><br>
