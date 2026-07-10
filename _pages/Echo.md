@@ -178,9 +178,9 @@ html[data-theme="dark"] .paper-cite {
     <div class="project-text">
       <h3>Spring in the Netherlands</h3>
       <p class="paper-cite">
-        Tulip Trip, 2021<br>
-        Lelystad, the Netherlands<br>
-        “人生荒芜，所以春天周而复始”
+        Tulip Trip in Lelystad, 2021<br>
+        “人生荒芜，所以春天周而复始”<br>
+        (Life may be barren, but spring always finds its way back)
       </p>
     </div>
 
