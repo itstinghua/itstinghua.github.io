@@ -184,9 +184,9 @@ nav_order: 4
       <li class="dated-item">
         <span class="service-time">Spring 2025</span>
         <span class="service-content">
-          <strong>Nonlinear Control (Master's course)</strong><br>
+          <strong>Nonlinear Control (Master's Course)</strong><br>
           Delft University of Technology, Faculty of Aerospace Engineering<br>
-          Working with <a href="https://www.tudelft.nl/staff/c.c.devisser/">Prof. Coen de Visser</a>
+          In collaboration with <a href="https://www.tudelft.nl/staff/c.c.devisser/">Prof. Coen de Visser</a>
         </span>
       </li>
     </ul>
@@ -198,10 +198,10 @@ nav_order: 4
       <li class="dated-item">
         <span class="service-time">Fall 2020,2021 &amp; 2022</span>
         <span class="service-content">
-          <strong>Robotics (Master's course)</strong><br>
+          <strong>Robotics (Master's Course)</strong><br>
           <a href="https://ocasys.rug.nl/2022-2023/catalog/course/WMIE005-05">Course Link</a><br>
           University of Groningen, Faculty of Science and Engineering<br>
-          Working with
+          In collaboration with 
           <a href="https://www.rug.nl/staff/m.cao/?lang=en">Prof. Ming Cao</a>,
           <a href="https://www.rug.nl/staff/bahar.haghighat/?lang=en">Dr. Bahar Haghighat</a>,
           and Dr. Rodolfo Reyes-Báez
