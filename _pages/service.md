@@ -40,36 +40,6 @@ nav_order: 4
 .service-section li.indent {
   margin-left: 1.5rem;
 }
-
-/* Global font settings */
-/*
-body {
-  font-family: "Inter", "Helvetica Neue", "Segoe UI", "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #222;
-  background-color: #fff;
-  margin: 0;
-  padding: 0;
-}
-
-h1, h2, h3, h4 {
-  font-family: "Inter", "Helvetica Neue", sans-serif;
-  font-weight: 600;
-  color: #111;
-  margin-top: 1.2rem;
-  margin-bottom: 0.6rem;
-}
-
-a {
-  color: var(--primary-color);
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-*/
 </style>
 
 <div class="fade-in-section service-section">
@@ -96,7 +66,7 @@ a:hover {
 <div class="fade-in-section service-section">
   <h4>Guest Lecturer</h4>
   <ul>
-    <li>Master course: Nonlinear Control</li>
+    <li><strong>Master course: Nonlinear Control</strong></li>
     <li class="indent">
       Delft University of Technology, Faculty of Aerospace Engineering, Spring 2025
     </li>
@@ -110,7 +80,7 @@ a:hover {
 <div class="fade-in-section service-section">
   <h4>Teaching Assistance</h4>
   <ul>
-    <li>Master course: Robotics</li>
+    <li><strong>Master course: Robotics</strong></li>
     <li class="indent">
       <a href="https://ocasys.rug.nl/2022-2023/catalog/course/WMIE005-05">Course Link</a>
     </li>
@@ -129,12 +99,10 @@ a:hover {
 <div class="fade-in-section service-section">
   <h4>Memberships</h4>
   <ul>
-    <li><a href="https://disc.tudelft.nl/">Dutch Institute of Systems and Control (DISC) </a></li>
-    <li><a href="https://jcwcenter.web.rug.nl/members/">Jan C. Willems Center for Systems and Control </a></li>
+    <li><a href="https://disc.tudelft.nl/">Dutch Institute of Systems and Control (DISC)</a></li>
+    <li><a href="https://jcwcenter.web.rug.nl/members/">Jan C. Willems Center for Systems and Control</a></li>
   </ul>
 </div>
-
-
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
