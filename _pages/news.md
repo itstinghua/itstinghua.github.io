@@ -156,7 +156,7 @@ nav_order: 5
     </li>
     <li class="news-row">
       <span class="news-date">2021.06 -</span>
-      <span class="news-text">Joined the <trong>DISC Summer School "Planning, Learning and Control for Multi-Robot and Multi-Agent Systems"</strong>.</span>
+      <span class="news-text">Joined the <strong>DISC Summer School "Planning, Learning and Control for Multi-Robot and Multi-Agent Systems"</strong>.</span>
     </li>
     <li class="news-row">
       <span class="news-date">2021.04 -</span>
