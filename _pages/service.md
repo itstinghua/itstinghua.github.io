@@ -108,7 +108,7 @@ nav_order: 4
 /* Only adjust the spacing of the Teaching Assistant entry */
 .service-section li.teaching-assistant-item {
   grid-template-columns: 5rem minmax(0, 1fr);
-  column-gap: 2rem;
+  column-gap: 1rem;
 }
 
 @media (max-width: 700px) {
