@@ -185,7 +185,7 @@ nav_order: 4
         <span class="service-time">Spring 2025</span>
         <span class="service-content">
           <strong>Nonlinear Control (Master's Course)</strong><br>
-          Delft University of Technology, Faculty of Aerospace Engineering<br>
+          Faculty of Aerospace Engineering, Delft University of Technology<br>
           In collaboration with <a href="https://www.tudelft.nl/staff/c.c.devisser/">Prof. Coen de Visser</a>
         </span>
       </li>
@@ -200,7 +200,7 @@ nav_order: 4
         <span class="service-content">
           <strong>Robotics (Master's Course)</strong><br>
           <a href="https://ocasys.rug.nl/2022-2023/catalog/course/WMIE005-05">Course Link</a><br>
-          University of Groningen, Faculty of Science and Engineering<br>
+          Faculty of Science and Engineering, University of Groningen<br>
           In collaboration with 
           <a href="https://www.rug.nl/staff/m.cao/?lang=en">Prof. Ming Cao</a>,
           <a href="https://www.rug.nl/staff/bahar.haghighat/?lang=en">Dr. Bahar Haghighat</a>,
