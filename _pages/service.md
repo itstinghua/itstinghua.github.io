@@ -198,6 +198,25 @@ nav_order: 4
 <!-- 2. Teaching -->
 <section class="fade-in-section service-group">
   <h2>Teaching &amp; Supervision</h2>
+  <div class="service-section">
+    <h4>Supervision</h4>
+    <ul>
+      <li class="dated-item">
+        <span class="service-time">2021</span>
+        <span class="service-content">
+          <strong><a href="https://fse.studenttheses.ub.rug.nl/24672/">Mitigating Crosswind Effects on Aerodynamic Drag Reduction in a Platoon Formation through Lateral Offsets</a></strong><br>
+          Co-supervised master’s thesis, <em>University of Groningen</em><br>
+        </span>
+      </li>
+      <li class="dated-item">
+        <span class="service-time">2020</span>
+        <span class="service-content">
+          <strong><a href="https://fse.studenttheses.ub.rug.nl/21794/">Source Seeking by a Mobile Robot using Airflow Sensor Measurements</a></strong><br>
+          Co-supervised master’s thesis, <em>University of Groningen</em><br>
+        </span>
+      </li>
+    </ul>
+  </div>
 
   <div class="service-section">
     <h4>Guest Lecturer</h4>
@@ -226,26 +245,6 @@ nav_order: 4
           <a href="https://www.rug.nl/staff/m.cao/?lang=en">Prof. Ming Cao</a>,
           <a href="https://www.rug.nl/staff/bahar.haghighat/?lang=en">Dr. Bahar Haghighat</a>,
           and Dr. Rodolfo Reyes-Báez
-        </span>
-      </li>
-    </ul>
-  </div>
-
-  <div class="service-section">
-    <h4>Supervision</h4>
-    <ul>
-      <li class="dated-item">
-        <span class="service-time">2021</span>
-        <span class="service-content">
-          <strong><a href="https://fse.studenttheses.ub.rug.nl/24672/">Mitigating Crosswind Effects on Aerodynamic Drag Reduction in a Platoon Formation through Lateral Offsets</a></strong><br>
-          Co-supervised master’s thesis, <em>University of Groningen</em><br>
-        </span>
-      </li>
-      <li class="dated-item">
-        <span class="service-time">2020</span>
-        <span class="service-content">
-          <strong><a href="https://fse.studenttheses.ub.rug.nl/21794/">Source Seeking by a Mobile Robot using Airflow Sensor Measurements</a></strong><br>
-          Co-supervised master’s thesis, <em>University of Groningen</em><br>
         </span>
       </li>
     </ul>
