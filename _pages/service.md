@@ -149,7 +149,7 @@ a:hover {
     <li class="dated-item">
       <span class="service-time">Spring 2025</span>
       <span class="service-content">
-        <strong>Master course: Nonlinear Control</strong><br>
+        <strong>Nonlinear Control (Master course)</strong><br>
         Delft University of Technology, Faculty of Aerospace Engineering<br>
         Working with
         <a href="https://www.tudelft.nl/staff/c.c.devisser/">Prof. Coen de Visser</a>
@@ -164,7 +164,7 @@ a:hover {
     <li class="dated-item">
       <span class="service-time">Fall 2020–2022</span>
       <span class="service-content">
-        <strong>Master course: Robotics</strong><br>
+        <strong>Robotics(Master course)</strong><br>
         <a href="https://ocasys.rug.nl/2022-2023/catalog/course/WMIE005-05">Course Link</a><br>
         University of Groningen, Faculty of Science and Engineering<br>
         Working with
