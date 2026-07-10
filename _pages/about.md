@@ -1,324 +1,480 @@
----
-layout: about
-title: About Me
-permalink: /
-profile:
-  align: right
-  # image: Tinghua_li.jpg
-  # image_circular: false
-social: true
----
-<meta charset="UTF-8">
-<style>
-:root {
-  --primary-color: var(--global-theme-color);
-  --light-bg: var(--global-card-bg-color);  
-  --border-color: var(--global-divider-color);
-}
+# -----------------------------------------------------------------------------
+# al-folio configuration for Tinghua Li
+# Unused empty options and long example comments have been removed.
+# Section headings and short explanations are retained for readability.
+# -----------------------------------------------------------------------------
 
-/* Profile header */
-.profile-header {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-  flex-wrap: wrap;
-  margin-bottom: 2rem;
-}
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
 
-.profile-photo {
-  width: 200px;
-  object-fit: cover;
-  border: none;
-  flex-shrink: 0;
-}
+title: Tinghua Li # Website title
+first_name: Tinghua
+middle_name: ''
+last_name: Li
+lang: en
+icon: 🌷 # Favicon emoji
+url: https://itstinghua.github.io # Base hostname
+baseurl: ''
+last_updated: false
 
-.profile-info { flex: 1; }
+# -----------------------------------------------------------------------------
+# Theme
+# -----------------------------------------------------------------------------
 
-.name-heading {
-  font-size: 1.8rem;
-  margin-bottom: 0.5rem;
-  font-weight: bold;
-}
+repo_theme_light: default
+repo_theme_dark: dark
+repo_trophies:
+  enabled: true
+  theme_light: flat
+  theme_dark: gitdimmed
 
-.profile-section p {
-  margin: 0;
-  line-height: 1.6;
-  color: var(--global-text-color); 
-}
+# -----------------------------------------------------------------------------
+# RSS Feed
+# -----------------------------------------------------------------------------
 
-.profile-section a {
-  color: var(--primary-color);
-  text-decoration: none;
-}
+rss_icon: false
 
-.profile-section a:hover { text-decoration: underline; }
+# -----------------------------------------------------------------------------
+# Layout
+# -----------------------------------------------------------------------------
 
-.contact-badges span {
-  display: inline-block;
-  margin-top: 6px;
-  font-size: 0.95rem;
-  color: var(--global-text-color-light); 
-}
+navbar_fixed: true
+footer_fixed: true
+max_width: 1000px # Main content width
 
-/* 手机端优化 */
-@media (max-width: 600px) {
-  .profile-header {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .profile-photo { width: 140px; }
-  .profile-info { align-items: center; }
-}
+# -----------------------------------------------------------------------------
+# Open Graph & Schema.org
+# -----------------------------------------------------------------------------
 
-/* Compact sections */
-.compact-section { margin-bottom: 2.5rem; }
-.compact-section h2 {
-  border-bottom: 2px solid var(--primary-color);
-  padding-bottom: 0.3rem;
-  margin-bottom: 1.2rem;
-}
+serve_og_meta: false
+serve_schema_org: false
 
-/* Research grid */
-.research-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-  margin-top: 1.2rem;
-}
+# -----------------------------------------------------------------------------
+# Social integration
+# -----------------------------------------------------------------------------
 
-.research-group h3 {
-  margin-bottom: 0.5rem;
-  font-size: 1.1rem;
-  color: var(--global-text-color); 
-}
+twitter_username: Tinghua_Li
+linkedin_username: tinghua-li-165797276
+scholar_userid: 2xz7OucAAAAJ # Google Scholar user ID
+contact_note: Last updated on May 8th, 2025
 
-.research-group ul {
-  list-style-type: disc;
-  padding-left: 1.2rem;
-  margin: 0;
-}
+# -----------------------------------------------------------------------------
+# Blog
+# -----------------------------------------------------------------------------
 
-.research-group li {
-  margin-bottom: 0.3rem;
-  font-size: 0.95rem;
-  color: var(--global-text-color); 
-}
+permalink: /blog/:year/:title/
+pagination:
+  enabled: true
 
-/* Responsive */
-@media (max-width: 768px) {
-  .research-grid { grid-template-columns: 1fr; }
-}
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
 
-/* Skills table */
-.skills-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1rem 0;
-}
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
+  projects:
+    output: true
+    permalink: /research/:path/
 
-.skills-table th {
-  text-align: left;
-  padding: 0.8rem 1rem;
-  background-color: var(--light-bg);      
-  color: var(--primary-color);
-  width: 25%;
-  border-bottom: 1px solid var(--border-color);
-}
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
 
-.skills-table td {
-  padding: 0.8rem 1rem;
-  border-bottom: 1px solid var(--border-color);
-  color: var(--global-text-color);        
-}
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
+include:
+- _pages
+exclude:
+- bin/
+- CONTRIBUTING.md
+- CUSTOMIZE.md
+- Dockerfile
+- docker-compose.yml
+- docker-compose-slim.yml
+- FAQ.md
+- Gemfile
+- Gemfile.lock
+- INSTALL.md
+- LICENSE
+- lighthouse_results/
+- package.json
+- package-lock.json
+- _pages/about_einstein.md
+- purgecss.config.js
+- README.md
+- readme_preview/
+- vendor
+keep_files:
+- CNAME
+- .nojekyll
+plugins:
+- jekyll-archives
+- jekyll-email-protect
+- jekyll-feed
+- jekyll-get-json
+- jekyll-imagemagick
+- jekyll-jupyter-notebook
+- jekyll-link-attributes
+- jekyll-minifier
+- jekyll-paginate-v2
+- jekyll/scholar
+- jekyll-sitemap
+- jekyll-tabs
+- jekyll-toc
+- jekyll-twitter-plugin
+- jemoji
+defaults:
+- scope:
+    path: assets
+  values:
+    sitemap: false
 
-.skills-list {
-  margin: 0;
-  padding-left: 0;
-  list-style: none;
-}
-.skills-list li {
-  margin-bottom: 0.5rem;
-  position: relative;
-  padding-left: 1.2rem;
-  color: var(--global-text-color);        
-}
-.skills-list li:before {
-  content: "•";
-  color: var(--primary-color);
-  position: absolute;
-  left: 0;
-}
+# -----------------------------------------------------------------------------
+# Jekyll Minifier
+# -----------------------------------------------------------------------------
 
-/* Publications */
-.publication-item { margin-bottom: 1.5rem; }
-.publication-title {
-  font-weight: 600;
-  margin-bottom: 0.3rem;
-  color: var(--global-text-color);        
-}
-.publication-authors {
-  font-style: italic;
-  margin-bottom: 0.3rem;
-  color: var(--global-text-color);        
-}
-.publication-venue {
-  color: var(--global-text-color-light);  
-}
+jekyll-minifier:
+  exclude:
+  - robots.txt
+  uglifier_args:
+    harmony: true
 
-/* Global font settings */
-body {
-  font-family: "Inter", "Helvetica Neue", "Segoe UI", "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  color: var(--global-text-color);
-  background-color: var(--global-bg-color);
-  margin: 0;
-  padding: 0;
-}
+# -----------------------------------------------------------------------------
+# Jekyll Archives
+# -----------------------------------------------------------------------------
 
-h1, h2, h3, h4 {
-  font-family: "Inter", "Helvetica Neue", sans-serif;
-  font-weight: 600;
-  color: var(--global-text-color); 
-  margin-bottom: 0.6rem;
-  font-size: 23px;
-}
+jekyll-archives:
+  enabled:
+  - year
+  - tags
+  - categories
+  layouts:
+    year: archive-year
+    tag: archive-tag
+    category: archive-category
+  permalinks:
+    year: /blog/:year/
+    tag: /blog/tag/:name/
+    category: /blog/category/:name/
+display_tags:
+- formatting
+- images
+- links
+- math
+- code
+display_categories:
+- blockquotes
 
-a {
-  color: var(--primary-color);
-  text-decoration: none;
-}
-a:hover { text-decoration: underline; }
+# -----------------------------------------------------------------------------
+# Jekyll Scholar
+# -----------------------------------------------------------------------------
 
-.chinese-name {
-  font-family: 'KaiTi', 'STKaiti', '楷体', serif;
-  font-size: 1.4rem;
-  margin-left: 10px;
-  color: var(--global-text-color); 
-}
-</style>
+scholar:
+  last_name:
+  - Li
+  first_name:
+  - Tinghua
+  - T.
+  style: apa
+  locale: en
+  allow_html: true
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  bibtex_filters:
+  - latex
+  - smallcaps
+  - superscript
+  replace_strings: true
+  join_strings: true
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+  query: '@*'
+  group_by: year
+  group_order: descending
+enable_publication_badges:
+  altmetric: true
+  dimensions: true
+  google_scholar: true
+filtered_bibtex_keywords:
+- abbr
+- abstract
+- additional_info
+- altmetric
+- arxiv
+- award
+- award_name
+- bibtex_show
+- blog
+- code
+- html
+- pdf
+- poster
+- preview
+- selected
+- slides
+- supp
+- video
+- website
+max_author_limit: 4
+more_authors_animation_delay: 10
+enable_publication_thumbnails: true
 
+# -----------------------------------------------------------------------------
+# Jekyll Link Attributes
+# -----------------------------------------------------------------------------
 
-<!-- Profile Header with Photo -->
-<div class="profile-header"> <img src="/assets/img/Tinghua_li.jpg" class="profile-photo">
+external_links:
+  enabled: true
+  rel: external nofollow noopener
+  target: _blank
 
-  <div class="profile-info">
-     <h2>
-      <span class="chinese-name">厉庭华 (/ˈtɪŋ-hwɑː li:/)</span>
-    </h2>
-    <div class="profile-section">
-      <p>
-        <strong>Postdoctoral Researcher (2025–)</strong><br>
-        <a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation"><strong>Control & Simulation, Delft University of Technology </strong></a><br>
-        <span>📍🇳🇱 Delft, The Netherlands</span><br>
-      </p>
-    </div>
-    <br>
-    <div class="profile-section">
-      <p>
-        <strong>PhD in Control & Robotics Engineering (2024)</strong><br>
-        <a href="https://www.rug.nl/research/discrete-technology-production-automation/?lang=en">
-          <strong>DTPA Group, University of Groningen</strong>
-        </a><br>
-        Advisors:
-        <a href="https://www.rug.nl/staff/b.jayawardhana">Prof. Bayu Jayawardhana, </a> 
-        <a href="https://www.rug.nl/staff/m.cao/">Prof. Ming Cao</a><br>
-        <span>📍🇳🇱 Groningen, The Netherlands</span>  
-      </p>
-    </div>
-  </div>
-</div>
+# -----------------------------------------------------------------------------
+# Responsive WebP Images
+# -----------------------------------------------------------------------------
 
+imagemagick:
+  enabled: true
+  widths:
+  - 480
+  - 800
+  - 1400
+  input_directories:
+  - assets/img/
+  input_formats:
+  - .jpg
+  - .jpeg
+  - .png
+  - .tiff
+  - .gif
+lazy_loading_images: false
 
-<!-- Research Interests -->
-<section class="compact-section">
-  <h2>Research Interests</h2>
-  <div class="research-grid">
-    <div class="research-group">
-      <h3>Robotics</h3>
-      <ul>
-        <li>Nonholonomic Systems</li>
-        <li>Multi-agent Systems</li>
-        <li>Wheeled Mobile Robots</li>
-        <li>Aerial Robots</li>
-      </ul>
-    </div>
-    <div class="research-group">
-      <h3>Motion Control</h3>
-      <ul>
-        <li>Source Seeking</li>
-        <li>Flexible Flocking</li>
-        <li>Collision/Obstacle Avoidance</li>
-        <li>Safe Flight Control</li>
-      </ul>
-    </div>
-  <!--   <div class="research-group">
-      <h3>Applications</h3>
-      <ul>
-        <li>3D-Printed Flexible Sensors</li>
-        <li>Navigation in Cluttered Environments</li>
-         <li>Aerial Robots</li>
-      </ul>
-    </div> -->
-  </div>
-</section>
+# -----------------------------------------------------------------------------
+# Optional Features
+# -----------------------------------------------------------------------------
 
+enable_google_analytics: false
+enable_cronitor_analytics: false
+enable_google_verification: false
+enable_bing_verification: false
+enable_masonry: true
+enable_math: true
+enable_tooltips: false
+enable_darkmode: true # Show light/dark mode switch
+enable_navbar_social: false
+enable_project_categories: true
+enable_medium_zoom: true
+enable_progressbar: true
+enable_video_embedding: false
 
-<!-- Selected Publications -->
-<section class="compact-section">
-  <h2>Selected Publications</h2>
-   <div class="publication-item">
-    <div class="publication-title"><a href = "https://ieeexplore.ieee.org/document/11311473">Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation</a></div>
-    <div class="publication-authors"><strong>Tinghua Li*</strong>, Bayu Jayawardhana</div>
-    <div class="publication-venue">IEEE Transactions on Automatic Control (TAC), 2026</div>
-  </div>
-  <div class="publication-item">
-    <div class="publication-title"><a href="https://ieeexplore.ieee.org/document/10735338">Collision-free Source Seeking Control Methods for Unicycle Robots</a></div>
-    <div class="publication-authors"><strong>Tinghua Li*</strong>, Bayu Jayawardhana</div>
-    <div class="publication-venue">IEEE Transactions on Automatic Control (TAC), 2025 </div>
-  <!-- vol. 70, no. 3, pp. 2020-2027, March 2025, doi: 10.1109/TAC.2024.3486654. </div> -->
-  </div>
-  <div class="publication-item">
-    <div class="publication-title"><a href="https://ieeexplore.ieee.org/document/9458274">Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors</a> </div>
-    <div class="publication-authors"><strong>Tinghua Li*</strong>, Bayu Jayawardhana, Amar M. Kamat, Ajay Giri Prakash Kottapalli</div>
-    <div class="publication-venue">IEEE Transactions on Robotics (TRO), 2022</div>
-    <!-- vol. 38, no. 1, pp. 448-462, Feb. 2022, doi: 10.1109/TRO.2021.3076964.</div> -->
-  </div>
-</section>
+# -----------------------------------------------------------------------------
+# Custom fonts
+# -----------------------------------------------------------------------------
 
+head_scripts: "<style>\n  body {\n    font-family: 'Lora', sans-serif;\n    line-height: 1.6;\n  }\n  h1, h2, h3 {\n    font-family:\
+  \ 'Roboto', serif;\n  }\n</style>\n"
 
+# -----------------------------------------------------------------------------
+# Library versions
+# -----------------------------------------------------------------------------
 
-<!-- Technical Skills -->
-<!-- <section class="compact-section">
-  <h2>Technical Skills</h2>
-  <table class="skills-table">
-    <tr>
-      <th>Software</th>
-      <td>
-        <ul class="skills-list">
-          <li>C/C++/Python/MATLAB</li>
-          <li>ROS/Gazebo/OpenCV</li>
-          <li>SLAM</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <th>Hardware</th>
-      <td>
-        <ul class="skills-list">
-          <li>STM32/Arduino</li>
-          <li>LiDAR/RealSense Integration</li>
-          <li>Mecanum-wheel Platforms</li>
-        </ul>
-      </td>
-    </tr>
-  </table>
-</section> -->
+# Keep this section: the theme loads these libraries when related features are used.
 
-<!-- Contact -->
-<!-- <section class="compact-section">
-  <h2>Contact</h2>
-  <p>Open to collaborations and discussions. Please reach out via email or social media links :)</p>
-</section> -->
+third_party_libraries:
+  download: false
+  bootstrap-table:
+    integrity:
+      css: sha256-uRX+PiRTR4ysKFRCykT8HLuRCub26LgXJZym3Yeom1c=
+      js: sha256-4rppopQE9POKfukn2kEvhJ9Um25Cf6+IDVkARD0xh78=
+    url:
+      css: https://cdn.jsdelivr.net/npm/bootstrap-table@{{version}}/dist/bootstrap-table.min.css
+      js: https://cdn.jsdelivr.net/npm/bootstrap-table@{{version}}/dist/bootstrap-table.min.js
+    version: 1.22.4
+  chartjs:
+    url:
+      js: https://cdn.jsdelivr.net/npm/chart.js@{{version}}/dist/chart.umd.min.js
+    version: 4.4.1
+  d3:
+    integrity:
+      js: sha256-1rA678n2xEx7x4cTZ5x4wpUCj6kUMZEZ5cxLSVSFWxw=
+    url:
+      js: https://cdn.jsdelivr.net/npm/d3@{{version}}/dist/d3.min.js
+    version: 7.8.5
+  diff2html:
+    integrity:
+      css: sha256-IMBK4VNZp0ivwefSn51bswdsrhk0HoMTLc2GqFHFBXg=
+      js: sha256-eU2TVHX633T1o/bTQp6iIJByYJEtZThhF9bKz/DcbbY=
+    url:
+      css: https://cdn.jsdelivr.net/npm/diff2html@{{version}}/bundles/css/diff2html.min.css
+      js: https://cdn.jsdelivr.net/npm/diff2html@{{version}}/bundles/js/diff2html-ui.min.js
+    version: 3.4.47
+  echarts:
+    integrity:
+      js:
+        library: sha256-QvgynZibb2U53SsVu98NggJXYqwRL7tg3FeyfXvPOUY=
+        dark_theme: sha256-sm6Ui9w41++ZCWmIWDLC18a6ki72FQpWDiYTDxEPXwU=
+    url:
+      js:
+        library: https://cdn.jsdelivr.net/npm/echarts@{{version}}/dist/echarts.min.js
+        dark_theme: https://cdn.jsdelivr.net/npm/echarts@{{version}}/theme/dark-fresh-cut.js
+    version: 5.5.0
+  google_fonts:
+    url:
+      fonts: https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap
+  highlightjs:
+    integrity:
+      css:
+        light: sha256-Oppd74ucMR5a5Dq96FxjEzGF7tTw2fZ/6ksAqDCM8GY=
+        dark: sha256-nyCNAiECsdDHrr/s2OQsp5l9XeY2ZJ0rMepjCT2AkBk=
+    url:
+      css:
+        light: https://cdn.jsdelivr.net/npm/highlight.js@{{version}}/styles/github.min.css
+        dark: https://cdn.jsdelivr.net/npm/highlight.js@{{version}}/styles/github-dark.min.css
+    version: 11.9.0
+  imagesloaded:
+    integrity:
+      js: sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=
+    url:
+      js: https://cdn.jsdelivr.net/npm/imagesloaded@{{version}}/imagesloaded.pkgd.min.js
+    version: 5.0.0
+  img-comparison-slider:
+    url:
+      css: https://cdn.jsdelivr.net/npm/img-comparison-slider@{{version}}/dist/styles.min.css
+      js: https://cdn.jsdelivr.net/npm/img-comparison-slider@{{version}}/dist/index.min.js
+    version: 8.0.6
+  jquery:
+    integrity:
+      js: sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=
+    url:
+      js: https://cdn.jsdelivr.net/npm/jquery@{{version}}/dist/jquery.min.js
+    version: 3.6.0
+  leaflet:
+    integrity:
+      css: sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=
+      js: sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=
+      js_map: sha256-YAoQ3FzREN4GmVENMir8vgHHypC0xfSK3CAxTHCqx1M=
+    url:
+      css: https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.css
+      js: https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.js
+      js_map: https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.js.map
+    version: 1.9.4
+  mathjax:
+    local:
+      fonts: output/chtml/fonts/woff-v2/
+    url:
+      fonts: https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/output/chtml/fonts/woff-v2/
+      js: https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/tex-mml-chtml.min.js
+    version: 3.2.0
+  masonry:
+    integrity:
+      js: sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=
+    url:
+      js: https://cdn.jsdelivr.net/npm/masonry-layout@{{version}}/dist/masonry.pkgd.min.js
+    version: 4.2.2
+  mdb:
+    integrity:
+      css: sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=
+      css_map: sha256-iYYMNfsJdVZjvsebJulg09miBXM4/GMTJgv1u5EZFFM=
+      js: sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=
+      js_map: sha256-UPgyn4YNsT0khkBK5553QwhnlbTlU0aa+igyc6qP1bE=
+    url:
+      css: https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/css/mdb.min.css
+      css_map: https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/css/mdb.min.css.map
+      js: https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/js/mdb.min.js
+      js_map: https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/js/mdb.min.js.map
+    version: 4.20.0
+  medium_zoom:
+    integrity:
+      js: sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=
+    url:
+      js: https://cdn.jsdelivr.net/npm/medium-zoom@{{version}}/dist/medium-zoom.min.js
+    version: 1.1.0
+  mermaid:
+    integrity:
+      js: sha256-TtLOdUA8mstPoO6sGvHIGx2ceXrrX4KgIItO06XOn8A=
+    url:
+      js: https://cdn.jsdelivr.net/npm/mermaid@{{version}}/dist/mermaid.min.js
+    version: 10.7.0
+  polyfill:
+    url:
+      js: https://cdnjs.cloudflare.com/polyfill/v{{version}}/polyfill.min.js?features=es6
+    version: '3'
+  pseudocode:
+    url:
+      css: https://cdn.jsdelivr.net/npm/pseudocode@{{version}}/build/pseudocode.min.css
+      js: https://cdn.jsdelivr.net/npm/pseudocode@{{version}}/build/pseudocode.min.js
+    version: 2.4.1
+  swiper:
+    integrity:
+      css: sha256-yUoNxsvX+Vo8Trj3lZ/Y5ZBf8HlBFsB6Xwm7rH75/9E=
+      js: sha256-BPrwikijIybg9OQC5SYFFqhBjERYOn97tCureFgYH1E=
+    url:
+      css: https://cdn.jsdelivr.net/npm/swiper@{{version}}/swiper-bundle.min.css
+      js: https://cdn.jsdelivr.net/npm/swiper@{{version}}/swiper-element-bundle.min.js
+    version: 11.0.5
+  swiper-map:
+    integrity:
+      js: sha256-hlZaH8ySXX97bZaetnrtYlKuhx3oEXFz/s2IXchu6vk=
+    url:
+      js: https://cdn.jsdelivr.net/npm/swiper@11.1.0/swiper-element-bundle.min.js.map
+    version: 11.0.5
+  vega:
+    integrity:
+      js: sha256-Yot/cfgMMMpFwkp/5azR20Tfkt24PFqQ6IQS+80HIZs=
+      js_map: sha256-z0x9ICA65dPkZ0JVa9wTImfF6n7AJsKc6WlFE96/wNA=
+    url:
+      js: https://cdn.jsdelivr.net/npm/vega@{{version}}/build/vega.min.js
+      js_map: https://cdn.jsdelivr.net/npm/vega@{{version}}/build/vega.min.js.map
+    version: 5.27.0
+  vega-embed:
+    integrity:
+      js: sha256-FPCJ9JYCC9AZSpvC/t/wHBX7ybueZhIqOMjpWqfl3DU=
+      js_map: sha256-VBbfSEFYSMdX/rTdGrONEHNP6BprCB7H/LpMMNt/cPA=
+    url:
+      js: https://cdn.jsdelivr.net/npm/vega-embed@{{version}}/build/vega-embed.min.js
+      js_map: https://cdn.jsdelivr.net/npm/vega-embed@{{version}}/build/vega-embed.min.js.map
+    version: 6.24.0
+  vega-lite:
+    integrity:
+      js: sha256-TvBvIS5jUN4BSy009usRjNzjI1qRrHPYv7xVLJyjUyw=
+      js_map: sha256-l2I4D5JC23Ulsu6e3sKVe5AJ+r+DFkzkKnZS8nUGz28=
+    url:
+      js: https://cdn.jsdelivr.net/npm/vega-lite@{{version}}/build/vega-lite.min.js
+      js_map: https://cdn.jsdelivr.net/npm/vega-lite@{{version}}/build/vega-lite.min.js.map
+    version: 5.16.3
 
+# -----------------------------------------------------------------------------
+# Get external JSON data
+# -----------------------------------------------------------------------------
+
+jekyll_get_json:
+- data: resume
+  json: assets/json/resume.json
+jsonresume:
+- basics
+- work
+- education
+- publications
+- projects
+- volunteer
+- awards
+- certificates
+- skills
+- languages
+- interests
+- references

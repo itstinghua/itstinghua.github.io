@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Research
-permalink: /research/
+title: Echo
+permalink: /Echo/
 description:
 nav: true
-nav_order: 2
+nav_order: 7
 ---
 
 <style>
@@ -12,7 +12,6 @@ nav_order: 2
   max-width: 1000px;
   margin: 0 auto;
 }
-
 
 .project-container {
   display: flex;
@@ -45,6 +44,7 @@ nav_order: 2
   border-radius: 8px;
 }
 
+
 .project-text {
   flex: 1;
   min-width: 0;
@@ -67,6 +67,7 @@ nav_order: 2
   text-decoration: underline;
   color: var(--global-hover-color);
 }
+
 
 .paper-cite {
   margin-top: 0.5rem;
@@ -104,10 +105,10 @@ html[data-theme="dark"] .paper-cite {
   </div>
   <div class="project-text">
     <h3>
-      <a href="https://ieeexplore.ieee.org/abstract/document/9458274">Source-Seeking Robot</a>
+      <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9458274&tag=1">Source-Seeking Robot</a>
     </h3>
     <p>
-      In this work, we present the design and experimental validation of source-seeking control algorithms for a unicycle mobile robot that is equipped with novel 3-D-printed flexible graphene-based piezoresistive airflow sensors. Based solely on a local gradient measurement from the airflow sensors, we propose and analyze a projected gradient ascent algorithm to solve the source-seeking problem. In the case of partial sensor failure, we propose a combination of extremum-seeking control with our projected gradient ascent algorithm. For both control laws, we prove the asymptotic convergence of the robot to the source. Numerical simulations were performed to validate the algorithms, and experimental validations are presented to demonstrate the efficacy of the proposed methods.
+      Experimental validation of source seeking control for unicycle robots with 3D-printed graphene-based airflow sensors. The algorithm ensures convergence to the source even with partial sensor failure.
     </p>
     <p class="paper-cite">
       • <strong>T. Li*</strong>, B. Jayawardhana, A. M. Kamat and A. G. P. Kottapalli, “Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors”, in
@@ -126,7 +127,7 @@ html[data-theme="dark"] .paper-cite {
       <a href="https://ieeexplore.ieee.org/document/10735338">Collision-Free Source-Seeking Robot</a>
     </h3>
     <p>
-      In this work, we propose a collision-free source-seeking control framework for a unicycle robot traversing an unknown cluttered environment. In this framework, obstacle avoidance is guided by the control barrier functions (CBF) embedded in quadratic programming, and the source-seeking control relies solely on the use of onboard sensors that measure the signal strength of the source. To tackle the mixed relative degree and avoid the undesired position offset for the nonholonomic unicycle model, we propose a novel construction of a CBF that can directly be integrated with our recent gradient-ascent source-seeking control law. We present a rigorous analysis of the approach. The efficacy of the proposed approach is evaluated via Monte-Carlo simulations, as well as, using a realistic dynamic environment with moving obstacles in Gazebo/ROS.
+      Collision-free source-seeking framework integrating control barrier functions (CBFs) in quadratic programming. Includes analysis of three CBF designs with experimental validation.
     </p>
     <p class="paper-cite">
       •  <strong>T. Li*</strong> and B. Jayawardhana, “Collision-free Source Seeking Control Methods for Unicycle Robots”, in
@@ -143,7 +144,7 @@ html[data-theme="dark"] .paper-cite {
   <div class="project-text">
     <h3><a href = "https://ieeexplore.ieee.org/document/11311473">Flocking Control with Connectivity Preservation</a></h3>
     <p>
-      In this work, we present a distributed source-seeking and flocking-control method for networked multiagent systems with nonholonomic constraints. Based solely on identical on-board sensor systems, which measure the source local field, the group objective is attained by appointing a leader agent to seek the source while the remaining follower agents safely form a cohesive flocking with their neighbors using a distributed flocking control law in a connectivity-preserved undirected network. To guarantee safe separation and group motion for all agents and to solve the conflicts with the “cohesion” flocking rule of Reynolds, the distributed control algorithm is solved individually through a feasible control barrier function-based optimization problem with complex constraints, which guarantees the interagent collision avoidance and connectivity preservation. Stability analysis of the closed-loop system is presented, and the efficacy of the methods is shown in simulation results.
+      Distributed control method for networked multi-agent systems with non-holonomic constraints. Maintains flocking cohesion while ensuring connectivity preservation and collision avoidance.
     </p>
    <p class="paper-cite">
       •  <strong>T. Li*</strong> and B. Jayawardhana, “Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation", in <strong>IEEE Transactions on Automatic Control</strong>, vol. 71, no. 6, pp. 3696-3711, June 2026, doi: 10.1109/TAC.2025.3647313
