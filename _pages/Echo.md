@@ -158,10 +158,10 @@ html[data-theme="dark"] .paper-cite {
         convergence to the source even with partial sensor failure.
       </p> -->
       <p class="paper-cite">
-        This is for the ones who stood their ground<br>
-        It's for Tommy and Gina who never backed down<br>
-        Tomorrow's getting harder, make no mistake<br>
-        Luck ain't enough, you've got to make your own breaks
+        <em>This is for the ones who stood their ground</em><br>
+        <em>It's for Tommy and Gina who never backed down</em><br>
+        <em>Tomorrow's getting harder, make no mistake</em><br>
+        <em>Luck ain't enough, you've got to make your own breaks</em>
       </p>
     </div>
 
@@ -171,7 +171,7 @@ html[data-theme="dark"] .paper-cite {
   <div class="project-container">
     <div class="project-media">
       <img
-        src="/assets/img/echo/tulip.jpeg"
+        src="/assets/img/echo/tulip.JPEG"
         alt="Description of the image"
         loading="lazy">
     </div>
