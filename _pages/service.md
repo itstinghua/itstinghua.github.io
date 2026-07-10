@@ -143,11 +143,12 @@ nav_order: 4
     </ul>
   </div>
 
+
   <div class="service-section">
     <h4>Conference Presentations</h4>
     <ul>
       <li class="dated-item">
-        <span class="service-time">March, 2023</span>
+        <span class="service-time">March 2023</span>
         <span class="service-content">
           <strong>Multi-agents Source Seeking and Flocking Control with Connectivity Preservation and Collision Avoidance</strong><br>
           The 42nd Benelux Meeting on Systems and Control<br>
@@ -155,7 +156,7 @@ nav_order: 4
         </span>
       </li>
       <li class="dated-item">
-        <span class="service-time">July, 2022</span>
+        <span class="service-time">July 2022</span>
         <span class="service-content">
           <strong>Collision-free source seeking control of unicycle robot under uncertain environment</strong><br>
           The 41st Benelux Meeting on Systems and Control<br>
@@ -163,7 +164,15 @@ nav_order: 4
         </span>
       </li>
       <li class="dated-item">
-        <span class="service-time">June, 2021</span>
+        <span class="service-time">October 2021</span>
+        <span class="service-content">
+          <strong>Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors</strong><br>
+          IEEE/RSJ International Conference on Intelligent Robots and Systems(IROS 2021)<br>
+          Virtual presentation due to Covid Time
+        </span>
+      </li>
+      <li class="dated-item">
+        <span class="service-time">June 2021</span>
         <span class="service-content">
           <strong>3D-printed Flexible Piezoresistive Sensors-based Source Seeking Control of Unicycle Robots</strong><br>The 40th Benelux Meeting on Systems and Control<br>
           Rotterdam, The Netherlands 🇳🇱
