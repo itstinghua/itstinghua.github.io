@@ -172,43 +172,7 @@ nav_order: 4
  
 </section>
 
-<!-- 2. Academic Service -->
-<section class="fade-in-section service-group">
-  <h2>Academic Service</h2>
-
-  <div class="service-section">
-    <h4>Journal Reviewer</h4>
-    <ul>
-      <li>IEEE Transactions on Robotics (T-RO)</li>
-      <li>IEEE Robotics and Automation Letters (RA-L)</li>
-      <li>IEEE Robotics &amp; Automation Magazine (RA-M)</li>
-      <!--
-      <li>Nonlinear Dynamics</li>
-      <li>Journal of the Franklin Institute</li>
-      -->
-    </ul>
-  </div>
-
-  <div class="service-section">
-    <h4>Conference Reviewer</h4>
-    <ul>
-      <li>IEEE Conference on Decision and Control (CDC 2025)</li>
-      <li>European Control Conference (ECC 2023, 2024, 2026)</li>
-      <li>American Control Conference (ACC 2021)</li>
-      <li>Third IFAC Conference on Modelling, Identification and Control of Nonlinear Systems (MICNON 2021)</li>
-    </ul>
-  </div>
-
-  <div class="service-section">
-    <h4>Memberships</h4>
-    <ul>
-      <li><a href="https://disc.tudelft.nl/">Dutch Institute of Systems and Control (DISC)</a></li>
-      <li><a href="https://jcwcenter.web.rug.nl/members/">Jan C. Willems Center for Systems and Control</a></li>
-    </ul>
-  </div>
-</section>
-
-<!-- 3. Teaching -->
+<!-- 2. Teaching -->
 <section class="fade-in-section service-group">
   <h2>Teaching</h2>
 
@@ -244,6 +208,44 @@ nav_order: 4
     </ul>
   </div>
 </section>
+
+<!-- 3. Academic Service -->
+<section class="fade-in-section service-group">
+  <h2>Academic Service</h2>
+
+  <div class="service-section">
+    <h4>Journal Reviewer</h4>
+    <ul>
+      <li>IEEE Transactions on Robotics (T-RO)</li>
+      <li>IEEE Robotics and Automation Letters (RA-L)</li>
+      <li>IEEE Robotics &amp; Automation Magazine (RA-M)</li>
+      <!--
+      <li>Nonlinear Dynamics</li>
+      <li>Journal of the Franklin Institute</li>
+      -->
+    </ul>
+  </div>
+
+  <div class="service-section">
+    <h4>Conference Reviewer</h4>
+    <ul>
+      <li>IEEE Conference on Decision and Control (CDC 2025)</li>
+      <li>European Control Conference (ECC 2023, 2024, 2026)</li>
+      <li>American Control Conference (ACC 2021)</li>
+      <li>Third IFAC Conference on Modelling, Identification and Control of Nonlinear Systems (MICNON 2021)</li>
+    </ul>
+  </div>
+
+  <div class="service-section">
+    <h4>Memberships</h4>
+    <ul>
+      <li><a href="https://disc.tudelft.nl/">Dutch Institute of Systems and Control (DISC)</a></li>
+      <li><a href="https://jcwcenter.web.rug.nl/members/">Jan C. Willems Center for Systems and Control</a></li>
+    </ul>
+  </div>
+</section>
+
+
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
