@@ -148,23 +148,20 @@ html[data-theme="dark"] .paper-cite {
     </div>
     <div class="project-text">
       <h3>
-        <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9458274&tag=1">
-          Source-Seeking Robot
+        <a href="https://www.youtube.com/embed/VUxIwnf_wZk">
+         Bon Jovi - It's My Life
         </a>
       </h3>
-      <p>
+    <!--   <p>
         Experimental validation of source-seeking control for unicycle robots
         with 3D-printed graphene-based airflow sensors. The algorithm ensures
         convergence to the source even with partial sensor failure.
-      </p>
+      </p> -->
       <p class="paper-cite">
-        • <strong>T. Li*</strong>, B. Jayawardhana, A. M. Kamat and
-        A. G. P. Kottapalli,
-        “Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible
-        Piezoresistive Sensors,”
-        <strong>IEEE Transactions on Robotics</strong>,
-        vol. 38, no. 1, pp. 448–462, Feb. 2022.
-        DOI: 10.1109/TRO.2021.3076964
+        This is for the ones who stood their ground<br>
+        It's for Tommy and Gina who never backed down<br>
+        Tomorrow's getting harder, make no mistake<br>
+        Luck ain't enough, you've got to make your own breaks<br>
       </p>
     </div>
 
