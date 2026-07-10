@@ -34,6 +34,7 @@ nav_order: 4
 
 .service-section {
   margin-bottom: 2.5rem;
+  padding-left: 2rem;
 }
 
 .service-section h4 {
@@ -107,13 +108,17 @@ nav_order: 4
 }
 
 @media (max-width: 700px) {
+  .service-section {
+    padding-left: 0.75rem;
+  }
+
   .service-section li.dated-item {
     grid-template-columns: 1fr;
     row-gap: 0.25rem;
   }
 
   .service-content {
-    padding-left: 0;
+    padding-left: 1rem;
   }
 
   .service-content::before {
