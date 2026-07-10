@@ -140,7 +140,7 @@ a:hover {
 <div class="fade-in-section service-section">
   <h4>Guest Lecturer</h4>
   <ul>
-    <li><strong>Master course: Nonlinear Control</strong></li>
+    <li><strong>Nonlinear and Adaptive Flight Control(Master course)</strong></li>
     <li class="indent">
       Delft University of Technology, Faculty of Aerospace Engineering, Spring 2025
     </li>
@@ -154,7 +154,7 @@ a:hover {
 <div class="fade-in-section service-section">
   <h4>Teaching Assistance</h4>
   <ul>
-    <li><strong>Master course: Robotics</strong></li>
+    <li><strong>Robotics(Master course)</strong></li>
     <li class="indent">
       <a href="https://ocasys.rug.nl/2022-2023/catalog/course/WMIE005-05">Course Link</a>
     </li>
