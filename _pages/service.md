@@ -69,7 +69,7 @@ nav_order: 4
 
 .service-section li.dated-item {
   display: grid;
-  grid-template-columns: 8.5rem 1fr;
+  grid-template-columns: 10rem 1fr;
   column-gap: 1rem;
   padding-left: 0;
   margin-bottom: 0.8rem;
