@@ -226,6 +226,19 @@ nav_order: 4
   <h2>Academic Service</h2>
 
   <div class="service-section">
+    <h4>Workshop Organization</h4>
+    <ul>
+      <li class="dated-item">
+        <span class="service-time">May 2026</span>
+        <span class="service-content">
+          <strong>Workshop on Opto-Mechatronics and Control of Nonlinear Systems</strong><br>
+          <a href="https://sites.google.com/view/bayujayawardhanainaugural/home">Workshop Website</a><br>
+          <em>University of Groningen</em><br>
+        </span>
+    </ul>
+  </div>
+
+  <div class="service-section">
     <h4>Journal Reviewer</h4>
     <ul>
       <li>IEEE Transactions on Robotics (T-RO)</li>
