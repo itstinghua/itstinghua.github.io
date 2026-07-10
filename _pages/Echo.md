@@ -179,15 +179,12 @@ html[data-theme="dark"] .paper-cite {
         loading="lazy">
     </div>
     <div class="project-text">
-      <h3>Image Project</h3>
+      <h3>Tulip Trip, 2021</h3>
       <p>
-        Add your description here. You can introduce the content of the image,
-        explain the background of the project, or describe why this image is
-        meaningful.
+        Tulip Trip
       </p>
       <p class="paper-cite">
-        Add supplementary information here, such as the date, location,
-        project name, collaborators, publication details, or related links.
+        The Netherlands.
       </p>
     </div>
 
