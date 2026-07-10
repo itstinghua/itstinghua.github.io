@@ -34,21 +34,59 @@ nav_order: 4
 
 .service-section ul {
   margin-top: 0;
-  padding-left: 1.2rem;
+  padding-left: 0;
+  list-style: none;
 }
 
 .service-section li {
+  position: relative;
+  padding-left: 1rem;
   margin-bottom: 0.35rem;
 }
 
-.service-section li::marker {
-  color: #00539C;
-  font-size: 0.85em;
+.service-section li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.7em;
+  width: 0.4rem;
+  height: 2px;
+  background-color: #00539C;
 }
 
 .service-section li.indent {
   margin-left: 1.5rem;
 }
+
+/* Global font settings */
+/*
+body {
+  font-family: "Inter", "Helvetica Neue", "Segoe UI", "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #222;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Inter", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  color: #111;
+  margin-top: 1.2rem;
+  margin-bottom: 0.6rem;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+*/
 </style>
 
 <div class="fade-in-section service-section">
@@ -75,7 +113,7 @@ nav_order: 4
 <div class="fade-in-section service-section">
   <h4>Guest Lecturer</h4>
   <ul>
-    <li><strong>Nonlinear and Adaptive Flight Control (Master course)</strong></li>
+    <li><strong>Master course: Nonlinear Control</strong></li>
     <li class="indent">
       Delft University of Technology, Faculty of Aerospace Engineering, Spring 2025
     </li>
@@ -89,7 +127,7 @@ nav_order: 4
 <div class="fade-in-section service-section">
   <h4>Teaching Assistance</h4>
   <ul>
-    <li><strong>Robotics (Master course)</strong></li>
+    <li><strong>Master course: Robotics</strong></li>
     <li class="indent">
       <a href="https://ocasys.rug.nl/2022-2023/catalog/course/WMIE005-05">Course Link</a>
     </li>
@@ -108,8 +146,8 @@ nav_order: 4
 <div class="fade-in-section service-section">
   <h4>Memberships</h4>
   <ul>
-    <li><a href="https://disc.tudelft.nl/">Dutch Institute of Systems and Control (DISC)</a></li>
-    <li><a href="https://jcwcenter.web.rug.nl/members/">Jan C. Willems Center for Systems and Control</a></li>
+    <li><a href="https://disc.tudelft.nl/">Dutch Institute of Systems and Control (DISC) </a></li>
+    <li><a href="https://jcwcenter.web.rug.nl/members/">Jan C. Willems Center for Systems and Control </a></li>
   </ul>
 </div>
 
