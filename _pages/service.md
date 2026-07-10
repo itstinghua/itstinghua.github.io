@@ -100,7 +100,7 @@ nav_order: 4
   background-color: #00539C;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .service-section li.dated-item {
     grid-template-columns: 1fr;
     row-gap: 0.25rem;
@@ -145,9 +145,9 @@ nav_order: 4
         <span class="service-content">
           <strong>Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors</strong><br>
           IEEE/RSJ International Conference on Intelligent Robots and Systems(IROS 2021)<br>
-          Invited presentation as TRO Paper
-          (Host from Prague, Czech Republic 🇨🇿)
-          (Virtual presentation due to Covid Time)
+          Invited presentation of an T-RO paper<br>
+          (Hosted in Prague, Czech Republic 🇨🇿)<br>
+          (Virtual presentation due to Covid)
         </span>
       </li>
     </ul>
