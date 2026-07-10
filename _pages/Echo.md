@@ -20,7 +20,7 @@ nav_order: 7
       font-size: 0.95rem;
       opacity: 0.75;
   ">
-    — Bon Jovi, <em>It's My Life</em>
+    — Bon Jovi, <em>"It's My Life"</em>
   </div>
 </div>
 
