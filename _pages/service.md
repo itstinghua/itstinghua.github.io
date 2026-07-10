@@ -196,7 +196,7 @@ nav_order: 4
     <h4>Teaching Assistant</h4>
     <ul>
       <li class="dated-item">
-        <span class="service-time">Fall 2020, 2021, 2022</span>
+        <span class="service-time">Fall 2020,2021 &amp; 2022</span>
         <span class="service-content">
           <strong>Robotics (Master's course)</strong><br>
           <a href="https://ocasys.rug.nl/2022-2023/catalog/course/WMIE005-05">Course Link</a><br>
