@@ -108,7 +108,7 @@ html[data-theme="dark"] .paper-cite {
   </div>
   <div class="project-text">
     <h3>
-      <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9458274&tag=1">Source-seeking Robot</a>
+      <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9458274&tag=1">Source-Seeking Robot</a>
     </h3>
     <p>
       Experimental validation of source seeking control for unicycle robots with 3D-printed graphene-based airflow sensors. The algorithm ensures convergence to the source even with partial sensor failure.
@@ -127,7 +127,7 @@ html[data-theme="dark"] .paper-cite {
   </div>
   <div class="project-text">
     <h3>
-      <a href="https://ieeexplore.ieee.org/document/10735338">Collision-free Source-seeking Robot</a>
+      <a href="https://ieeexplore.ieee.org/document/10735338">Collision-Free Source-Seeking Robot</a>
     </h3>
     <p>
       Collision-free source-seeking framework integrating control barrier functions (CBFs) in quadratic programming. Includes analysis of three CBF designs with experimental validation.

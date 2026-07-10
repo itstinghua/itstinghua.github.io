@@ -74,7 +74,7 @@ nav_order: 5
   <ul>
     <li class="news-row">
       <span class="news-date">2025.12 -</span>
-      <span class="news-text">I am pleased to share that our paper <strong><a href = "https://ieeexplore.ieee.org/document/11311473">"Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation"</a></strong> has been offically accepted for publication as full paper in <strong><em>IEEE Transactions on Automatic Control (TAC)</em></strong>, and it is now available in early access. Check out if you are interested.</span>
+      <span class="news-text">I am pleased to share that our paper <strong><a href = "https://ieeexplore.ieee.org/document/11311473">"Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation"</a></strong> has been offically accepted for publication as full paper in <strong><em>IEEE Transactions on Automatic Control (TAC)</em></strong>, it is now available in early access.</span>
     </li>
     <li class="news-row">
       <span class="news-date">2025.06 -</span>
@@ -85,7 +85,7 @@ nav_order: 5
     </li>
     <li class="news-row">
       <span class="news-date">2025.03 -</span>
-      <span class="news-text">Our paper <strong><a href="https://ieeexplore.ieee.org/document/10735338">"Collision-free Source Seeking Control Methods for Unicycle Robots"</a></strong> is now online in <strong><em>IEEE Transactions on Automatic Control (TAC)</em></strong>, please feel free to check out the details :)</span>
+      <span class="news-text">Our paper <strong><a href="https://ieeexplore.ieee.org/document/10735338">"Collision-free Source Seeking Control Methods for Unicycle Robots"</a></strong> is now online in <strong><em>IEEE Transactions on Automatic Control (TAC).</em></strong></span>
     </li>
     <li class="news-row">
       <span class="news-date">2025.02 -</span>
