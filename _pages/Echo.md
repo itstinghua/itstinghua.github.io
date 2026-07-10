@@ -7,6 +7,19 @@ nav: true
 nav_order: 7
 ---
 
+<div style="
+    text-align:center;
+    font-style:italic;
+    font-size:1.2rem;
+    color:var(--global-text-color);
+    margin:1.5rem auto 2rem auto;
+">
+  “This ain't a song for the broken-hearted”
+  <div style="margin-top:0.5rem;font-size:0.95rem;opacity:0.75;">
+    — Bon Jovi, <em>It's My Life</em>
+  </div>
+</div>
+
 <style>
 .research-container {
   max-width: 1000px;
