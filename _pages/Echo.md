@@ -131,38 +131,5 @@ html[data-theme="dark"] .paper-cite {
   </div>
 </div>
 
-<div class="project-container">
-  <div class="project-video">
-    {% include video.liquid path="/assets/video/CO.mp4" class="img-fluid rounded z-depth-1" controls=true %}
-  </div>
-  <div class="project-text">
-    <h3>
-      <a href="https://ieeexplore.ieee.org/document/10735338">Collision-Free Source-Seeking Robot</a>
-    </h3>
-    <p>
-      Collision-free source-seeking framework integrating control barrier functions (CBFs) in quadratic programming. Includes analysis of three CBF designs with experimental validation.
-    </p>
-    <p class="paper-cite">
-      •  <strong>T. Li*</strong> and B. Jayawardhana, “Collision-free Source Seeking Control Methods for Unicycle Robots”, in
-      <strong>IEEE Transactions on Automatic Control</strong>, vol. 70, no. 3, pp. 2020–2027, March 2025,
-      doi: 10.1109/TAC.2024.3486654
-    </p>
-  </div>
-</div>
-
-<div class="project-container">
-  <div class="project-video">
-    {% include video.liquid path="/assets/video/connectivity.mp4" class="img-fluid rounded z-depth-1" controls=true %}
-  </div>
-  <div class="project-text">
-    <h3><a href = "https://ieeexplore.ieee.org/document/11311473">Flocking Control with Connectivity Preservation</a></h3>
-    <p>
-      Distributed control method for networked multi-agent systems with non-holonomic constraints. Maintains flocking cohesion while ensuring connectivity preservation and collision avoidance.
-    </p>
-   <p class="paper-cite">
-      •  <strong>T. Li*</strong> and B. Jayawardhana, “Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation", in <strong>IEEE Transactions on Automatic Control</strong>, vol. 71, no. 6, pp. 3696-3711, June 2026, doi: 10.1109/TAC.2025.3647313
-    </p>
-  </div>
-</div>
 
 </div>
