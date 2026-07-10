@@ -43,7 +43,7 @@ social: true
 .profile-section p {
   margin: 0;
   line-height: 1.6;
-  color: var(--global-text-color); /* ✅ */
+  color: var(--global-text-color); 
 }
 
 .profile-section a {
