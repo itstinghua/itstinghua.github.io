@@ -125,7 +125,7 @@ a:hover {
       <span class="service-time">June 2024</span>
       <span class="service-content">
         <strong>Motion Control for Nonholonomic Wheeled Mobile Robots</strong><br>
-         Keynote Speaker for the 6th AI QianTang Forum, School of Automation and School of AI<br>
+         Keynote Speaker for the 6th AI QianTang Forum<br>
          Hangzhou Dianzi University, China 🇨🇳
       </span>
     </li>
@@ -162,7 +162,7 @@ a:hover {
   <h4>Teaching Assistance</h4>
   <ul>
     <li class="dated-item">
-      <span class="service-time">Fall 2020–2022</span>
+      <span class="service-time">Fall 2020, 2021, 2022</span>
       <span class="service-content">
         <strong>Robotics(Master course)</strong><br>
         <a href="https://ocasys.rug.nl/2022-2023/catalog/course/WMIE005-05">Course Link</a><br>
