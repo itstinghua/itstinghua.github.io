@@ -191,8 +191,8 @@ a:hover {
     <li>IEEE Transactions on Robotics (T-RO)</li>
     <li>IEEE Robotics and Automation Letters (RA-L)</li>
     <li>IEEE Robotics & Automation Magazine (RA-M)</li>
-    <li>Nonlinear Dynamics</li>
-    <li>Journal of the Franklin Institute</li>
+   <!--  <li>Nonlinear Dynamics</li>
+    <li>Journal of the Franklin Institute</li> -->
   </ul>
 </div>
 
