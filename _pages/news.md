@@ -148,7 +148,7 @@ nav_order: 5
   <ul>
     <li class="news-row">
       <span class="news-date">2021.10 -</span>
-      <span class="news-text">Presented our source-seeking work at <strong>IROS 2021</strong>.</span>
+      <span class="news-text">Presented our source-seeking work at <strong><em>IROS 2021</em></strong>.</span>
     </li>
     <li class="news-row">
       <span class="news-date">2021.07 -</span>
