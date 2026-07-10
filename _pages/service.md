@@ -128,7 +128,7 @@ nav_order: 4
         <span class="service-content">
           <strong>Motion Control for Nonholonomic Wheeled Mobile Robots</strong><br>
           Keynote Speaker for the 6th AI QianTang Forum<br>
-          <em>Hangzhou Dianzi University, China</em> 🇨🇳
+          <em>Hangzhou Dianzi University,</em> China 🇨🇳
         </span>
       </li>
       <li class="dated-item">
@@ -137,7 +137,7 @@ nav_order: 4
           <strong>Motion Control for Nonholonomic Multi-agent Systems</strong><br>
           <a href="https://people.kth.se/~kallej/group.html">Research group of Prof. Karl Henrik Johansson</a><br>
           <a href="https://www.kth.se/dcs/department-of-decision-and-control-systems-1.788078">Department of Decision and Control Systems</a><br>
-          <em>KTH Royal Institute of Technology, Sweden</em> 🇸🇪
+          <em>KTH Royal Institute of Technology,</em> Sweden 🇸🇪
         </span>
       </li>
       <li class="dated-item">
