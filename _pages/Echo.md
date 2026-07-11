@@ -11,15 +11,16 @@ nav_order: 7
   <blockquote>
     “This is not a song for the broken-hearted”
   </blockquote>
+
   <p>
     — Bon Jovi, <em>It's My Life</em>
   </p>
 </div>
 
 <style>
-/* ================================
-   Page layout
-================================ */
+/* ========================================
+   Main container
+======================================== */
 
 .echo-container {
   width: 100%;
@@ -28,9 +29,9 @@ nav_order: 7
 }
 
 
-/* ================================
-   Hero quote
-================================ */
+/* ========================================
+   Top quote
+======================================== */
 
 .echo-hero {
   max-width: 760px;
@@ -38,12 +39,11 @@ nav_order: 7
   padding: 1.75rem 2rem;
   text-align: center;
 
-  background:
-    linear-gradient(
-      135deg,
-      rgba(0, 83, 156, 0.08),
-      rgba(0, 83, 156, 0.02)
-    );
+  background: linear-gradient(
+    135deg,
+    rgba(0, 83, 156, 0.08),
+    rgba(0, 83, 156, 0.02)
+  );
 
   border: 1px solid var(--global-divider-color);
   border-radius: 16px;
@@ -68,9 +68,9 @@ nav_order: 7
 }
 
 
-/* ================================
+/* ========================================
    Project cards
-================================ */
+======================================== */
 
 .project-card {
   display: grid;
@@ -101,9 +101,9 @@ nav_order: 7
 }
 
 
-/* ================================
-   Media
-================================ */
+/* ========================================
+   Media area
+======================================== */
 
 .project-media {
   width: 100%;
@@ -127,29 +127,24 @@ nav_order: 7
 }
 
 .project-media video {
+  width: 100%;
   height: auto;
-  max-height: 420px;
+  max-height: 440px;
   object-fit: contain;
+  background: #000;
 }
 
 .project-media img {
+  width: 100%;
   height: auto;
-  max-height: 420px;
+  max-height: 440px;
   object-fit: cover;
 }
 
 
-/* Make included local videos fit their containers */
-.project-media .img-fluid {
-  width: 100%;
-  height: auto;
-  margin: 0;
-}
-
-
-/* ================================
-   Text
-================================ */
+/* ========================================
+   Text area
+======================================== */
 
 .project-content {
   min-width: 0;
@@ -179,9 +174,9 @@ nav_order: 7
 }
 
 
-/* ================================
-   Quote boxes
-================================ */
+/* ========================================
+   Quote box
+======================================== */
 
 .echo-quote {
   position: relative;
@@ -202,13 +197,17 @@ nav_order: 7
   opacity: 0.92;
 }
 
+
+/* ========================================
+   Dark mode
+======================================== */
+
 html[data-theme="dark"] .echo-hero {
-  background:
-    linear-gradient(
-      135deg,
-      rgba(230, 237, 243, 0.07),
-      rgba(230, 237, 243, 0.02)
-    );
+  background: linear-gradient(
+    135deg,
+    rgba(230, 237, 243, 0.07),
+    rgba(230, 237, 243, 0.02)
+  );
 }
 
 html[data-theme="dark"] .echo-quote {
@@ -216,9 +215,9 @@ html[data-theme="dark"] .echo-quote {
 }
 
 
-/* ================================
-   Alternate card alignment
-================================ */
+/* ========================================
+   Alternating layout
+======================================== */
 
 .project-card:nth-child(even) .project-media {
   order: 2;
@@ -229,9 +228,9 @@ html[data-theme="dark"] .echo-quote {
 }
 
 
-/* ================================
-   Responsive layout
-================================ */
+/* ========================================
+   Mobile layout
+======================================== */
 
 @media (max-width: 768px) {
   .echo-hero {
@@ -273,10 +272,15 @@ html[data-theme="dark"] .echo-quote {
 }
 </style>
 
+
 <div class="echo-container">
 
-  <!-- Bon Jovi -->
+  <!-- ======================================
+       Bon Jovi
+  ======================================= -->
+
   <article class="project-card">
+
     <div class="project-media">
       <iframe
         src="https://www.youtube.com/embed/VUxIwnf_wZk"
@@ -287,6 +291,7 @@ html[data-theme="dark"] .echo-quote {
         allowfullscreen>
       </iframe>
     </div>
+
     <div class="project-content">
       <h2>
         <a
@@ -296,6 +301,7 @@ html[data-theme="dark"] .echo-quote {
           Bon Jovi — It's My Life
         </a>
       </h2>
+
       <p class="echo-quote">
         <em>This is for the ones who stood their ground</em><br>
         <em>It's for Tommy and Gina who never backed down</em><br>
@@ -303,11 +309,16 @@ html[data-theme="dark"] .echo-quote {
         <em>Luck ain't enough, you've got to make your own breaks</em>
       </p>
     </div>
+
   </article>
 
 
-  <!-- Alicia Keys -->
+  <!-- ======================================
+       Alicia Keys
+  ======================================= -->
+
   <article class="project-card">
+
     <div class="project-media">
       <iframe
         src="https://www.youtube.com/embed/izyZLKIWGiA"
@@ -318,6 +329,7 @@ html[data-theme="dark"] .echo-quote {
         allowfullscreen>
       </iframe>
     </div>
+
     <div class="project-content">
       <h2>
         <a
@@ -327,10 +339,12 @@ html[data-theme="dark"] .echo-quote {
           Alicia Keys — Underdog
         </a>
       </h2>
+
       <p>
         For those who have been underestimated, yet continue to follow
         their own dreams.
       </p>
+
       <p class="echo-quote">
         <em>One conversation, a single moment</em><br>
         <em>The things that change us if we notice</em><br>
@@ -340,49 +354,77 @@ html[data-theme="dark"] .echo-quote {
         <em>The only dream that I've been chasing is my own</em>
       </p>
     </div>
+
   </article>
 
 
-  <!-- Forever Young 1 -->
+  <!-- ======================================
+       Local video 1
+  ======================================= -->
+
   <article class="project-card">
+
     <div class="project-media">
-      {% include video.liquid
-        path="/assets/video/echo/Forever Young.mp4"
-        class="img-fluid"
-        controls=true
-      %}
+      <video
+        controls
+        preload="metadata"
+        playsinline>
+
+        <source
+          src="{{ '/assets/video/echo/Forever Young.mp4' | relative_url }}"
+          type="video/mp4">
+
+        Your browser does not support HTML5 video.
+      </video>
     </div>
+
     <div class="project-content">
       <h2>Forever Young, 2018</h2>
+
       <p>
         <em>May you remember how precious you are.</em>
       </p>
+
       <p class="echo-quote">
         <em>愿你在被打击时，记起你的珍贵，抵抗恶意。</em><br>
         <em>愿你在迷茫时，坚信你的珍贵。</em><br>
         <em>爱你所爱，行你所行，听从你心，无问西东。</em>
       </p>
     </div>
+
   </article>
 
 
-  <!-- Forever Young 2 -->
+  <!-- ======================================
+       Local video 2
+  ======================================= -->
+
   <article class="project-card">
+
     <div class="project-media">
-      {% include video.liquid
-        path="/assets/video/echo/Forever Young-1.mp4"
-        class="img-fluid"
-        controls=true
-      %}
+      <video
+        controls
+        preload="metadata"
+        playsinline>
+
+        <source
+          src="{{ '/assets/video/echo/Forever Young-1.mp4' | relative_url }}"
+          type="video/mp4">
+
+        Your browser does not support HTML5 video.
+      </video>
     </div>
+
     <div class="project-content">
       <h2>Forever Young, 2018</h2>
+
       <p class="echo-quote">
         <em>
           什么是真实：你看到什么，听到什么，做什么，和谁在一起，
           要有一种从心灵深处漫溢出的、不懊悔也不羞耻的平和与喜悦。
         </em>
       </p>
+
       <p>
         <em>
           人把自己置身于忙碌当中，有一种麻木的踏实，但丧失了真实。
@@ -390,23 +432,63 @@ html[data-theme="dark"] .echo-quote {
         </em>
       </p>
     </div>
+
+  </article>
+
+  <!-- ======================================
+       Local video 3
+  ======================================= -->
+
+  <article class="project-card">
+
+    <div class="project-media">
+      <video
+        controls
+        preload="metadata"
+        playsinline>
+
+        <source
+          src="{{ '/assets/video/echo/groningen-1.mp4' | relative_url }}"
+          type="video/mp4">
+
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
+
+    <div class="project-content">
+      <h2>Back in Groningen, Spring 2026</h2>
+
+      <p class="echo-quote">
+        <em>
+          Friends ：)
+        </em>
+      </p>
+    </div>
+
   </article>
 
 
-  <!-- Groningen -->
+  <!-- ======================================
+       Image card
+  ======================================= -->
+
   <article class="project-card">
+
     <div class="project-media">
       <img
-        src="/assets/img/echo/rock.jpg"
-        alt="A rock associated with memories of Groningen"
+        src="{{ '/assets/img/echo/rock.jpg' | relative_url }}"
+        alt="A memory from Groningen"
         loading="lazy">
     </div>
+
     <div class="project-content">
       <h2>Home, Sweet Home at Groningen, 2023</h2>
+
       <p class="echo-quote">
         <strong>You Rock!</strong>
       </p>
     </div>
+
   </article>
 
 </div>
