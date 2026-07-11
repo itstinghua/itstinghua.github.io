@@ -164,6 +164,50 @@ html[data-theme="dark"] .paper-cite {
         <em>Luck ain't enough, you've got to make your own breaks</em>
       </p>
     </div>
+     <div class="project-container">
+    <div class="project-media">
+      <iframe
+        src="https://youtu.be/izyZLKIWGiA"
+        title="Alicia Keys - Underdog"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+    </div>
+    <div class="project-text">
+      <h3>
+        <a href="https://youtu.be/izyZLKIWGiA">
+         Alicia Keys - Underdog
+        </a>
+      </h3>
+      <p class="paper-cite">
+        <em>One conversation, a single moment</em><br>
+        <em>The things that change us if we notice</em><br>
+        <em>When we look up, sometimes</em><br>
+        <em>They said I would never make it</em><br>
+        <em>But I was built to break the mold</em><br>
+        <em>The only dream that I've been chasing is my own</em><br>
+      </p>
+    </div>
+    <div class="project-container">
+  <div class="project-video">
+    {% include video.liquid path="/assets/video/echo/Forever Young.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+  </div>
+  <div class="project-text">
+    <h3>
+      <a href="https://ieeexplore.ieee.org/abstract/document/9458274">Forever Young</a>
+    </h3>
+    <p>
+      <em>May you remember how precious you are.</em><br>
+    </p>
+    <p class="paper-cite">
+      <em>愿你在被打击时，记起你的珍贵，抵抗恶意</em><br>
+      <em>愿你在迷茫时，坚信你的珍贵</em><br>
+      <em>爱你所爱，行你所行，听从你心，无问西东</em><br>
+    </p>
+  </div>
+</div>
+
 
   </div>
 
