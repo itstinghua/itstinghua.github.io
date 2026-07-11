@@ -432,7 +432,7 @@ html[data-theme="dark"] .echo-quote {
         playsinline>
 
         <source
-          src="{{ '/assets/video/echo/groningen-1.mp4' | relative_url }}"
+          src="{{ '/assets/video/echo/groningen.mp4' | relative_url }}"
           type="video/mp4">
 
         Your browser does not support HTML5 video.
