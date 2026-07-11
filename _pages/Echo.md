@@ -171,18 +171,18 @@ html[data-theme="dark"] .paper-cite {
   <div class="project-container">
     <div class="project-media">
       <img
-        src="/assets/img/echo/Tulip.jpeg"
+        src="/assets/img/echo/rock.jpg"
         alt="Description of the image"
         loading="lazy">
     </div>
     <div class="project-text">
-      <h3>Spring in the Netherlands</h3>
+      <h3>echo</h3>
       <p class="paper-cite">
-        Tulip Trip in Lelystad, 2021<br>
-        “人生荒芜，所以春天周而复始”<br>
-        (Life may be barren, but spring always finds its way back)
+        rocker<br>
       </p>
-    </div>
+    </div> -
+
+
 
   </div>
 
