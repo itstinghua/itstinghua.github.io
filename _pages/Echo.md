@@ -171,7 +171,7 @@ html[data-theme="dark"] .paper-cite {
   <div class="project-container">
     <div class="project-media">
       <img
-        src="/assets/img/echo/tulip.JPEG"
+        src="/assets/img/echo/Tulip.JPEG"
         alt="Description of the image"
         loading="lazy">
     </div>
