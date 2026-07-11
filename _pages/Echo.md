@@ -1,3 +1,4 @@
+```html
 ---
 layout: page
 title: Echo
@@ -30,23 +31,19 @@ nav_order: 7
 
 
 /* ========================================
-   Top quote
+   Top quote — no card, no border
 ======================================== */
 
 .echo-hero {
   max-width: 760px;
-  margin: 1.5rem auto 3rem;
-  padding: 1.75rem 2rem;
+  margin: 1rem auto 3rem;
+  padding: 0;
   text-align: center;
 
-  background: linear-gradient(
-    135deg,
-    rgba(0, 83, 156, 0.08),
-    rgba(0, 83, 156, 0.02)
-  );
-
-  border: 1px solid var(--global-divider-color);
-  border-radius: 16px;
+  background: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .echo-hero blockquote {
@@ -54,17 +51,17 @@ nav_order: 7
   padding: 0;
   border: none;
 
-  font-size: clamp(1.2rem, 2.5vw, 1.65rem);
+  font-size: clamp(1.35rem, 2.5vw, 1.7rem);
   font-style: italic;
   line-height: 1.6;
   color: var(--global-text-color);
 }
 
 .echo-hero p {
-  margin: 0.75rem 0 0;
+  margin: 0.6rem 0 0;
   font-size: 0.95rem;
   color: var(--global-text-color);
-  opacity: 0.72;
+  opacity: 0.7;
 }
 
 
@@ -75,16 +72,16 @@ nav_order: 7
 .project-card {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  gap: 1.75rem;
+  gap: 2rem;
   align-items: center;
 
   width: 100%;
   margin-bottom: 2rem;
-  padding: 1.4rem;
+  padding: 1.8rem;
 
   background: var(--global-card-bg-color);
   border: 1px solid var(--global-divider-color);
-  border-radius: 16px;
+  border-radius: 20px;
 
   overflow: hidden;
 
@@ -95,14 +92,14 @@ nav_order: 7
 }
 
 .project-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-3px);
   border-color: var(--global-theme-color);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
 }
 
 
 /* ========================================
-   Media area
+   Media area — always on the left
 ======================================== */
 
 .project-media {
@@ -175,7 +172,7 @@ nav_order: 7
 
 
 /* ========================================
-   Quote box
+   Quote box inside cards
 ======================================== */
 
 .echo-quote {
@@ -202,29 +199,8 @@ nav_order: 7
    Dark mode
 ======================================== */
 
-html[data-theme="dark"] .echo-hero {
-  background: linear-gradient(
-    135deg,
-    rgba(230, 237, 243, 0.07),
-    rgba(230, 237, 243, 0.02)
-  );
-}
-
 html[data-theme="dark"] .echo-quote {
   background: rgba(230, 237, 243, 0.05);
-}
-
-
-/* ========================================
-   Alternating layout
-======================================== */
-
-.project-card:nth-child(even) .project-media {
-  order: 2;
-}
-
-.project-card:nth-child(even) .project-content {
-  order: 1;
 }
 
 
@@ -235,18 +211,21 @@ html[data-theme="dark"] .echo-quote {
 @media (max-width: 768px) {
   .echo-hero {
     margin-bottom: 2rem;
-    padding: 1.4rem 1.2rem;
   }
 
   .project-card {
     grid-template-columns: 1fr;
     gap: 1.25rem;
     padding: 1rem;
+    border-radius: 16px;
   }
 
-  .project-card:nth-child(even) .project-media,
-  .project-card:nth-child(even) .project-content {
-    order: initial;
+  .project-media {
+    order: 1;
+  }
+
+  .project-content {
+    order: 2;
   }
 
   .project-content h2 {
@@ -255,6 +234,10 @@ html[data-theme="dark"] .echo-quote {
 }
 
 @media (max-width: 480px) {
+  .echo-hero blockquote {
+    font-size: 1.25rem;
+  }
+
   .project-card {
     border-radius: 12px;
   }
@@ -295,7 +278,7 @@ html[data-theme="dark"] .echo-quote {
     <div class="project-content">
       <h2>
         <a
-          href="https://www.youtube.com/watch?v=VUxIwnf_wZk"
+          href="https://www.bilibili.com/video/BV1Q3411k7Be?t=4.0"
           target="_blank"
           rel="noopener noreferrer">
           Bon Jovi — It's My Life
@@ -333,7 +316,7 @@ html[data-theme="dark"] .echo-quote {
     <div class="project-content">
       <h2>
         <a
-          href="https://www.youtube.com/watch?v=izyZLKIWGiA"
+          href="https://www.bilibili.com/video/BV1XJ411n7VC?t=2.2"
           target="_blank"
           rel="noopener noreferrer">
           Alicia Keys — Underdog
@@ -435,6 +418,7 @@ html[data-theme="dark"] .echo-quote {
 
   </article>
 
+
   <!-- ======================================
        Local video 3
   ======================================= -->
@@ -459,9 +443,7 @@ html[data-theme="dark"] .echo-quote {
       <h2>Back in Groningen, Spring 2026</h2>
 
       <p class="echo-quote">
-        <em>
-          Friends ：)
-        </em>
+        <em>Friends :)</em>
       </p>
     </div>
 
@@ -469,7 +451,7 @@ html[data-theme="dark"] .echo-quote {
 
 
   <!-- ======================================
-       Image card
+       Groningen image
   ======================================= -->
 
   <article class="project-card">
@@ -491,8 +473,9 @@ html[data-theme="dark"] .echo-quote {
 
   </article>
 
-    <!-- ======================================
-       Image card
+
+  <!-- ======================================
+       Dutch spring image
   ======================================= -->
 
   <article class="project-card">
@@ -500,7 +483,7 @@ html[data-theme="dark"] .echo-quote {
     <div class="project-media">
       <img
         src="{{ '/assets/img/echo/tulip.jpeg' | relative_url }}"
-        alt="Lelystad, 2021"
+        alt="Tulips in Lelystad, the Netherlands"
         loading="lazy">
     </div>
 
@@ -508,10 +491,11 @@ html[data-theme="dark"] .echo-quote {
       <h2>Dutch Spring Vibes</h2>
 
       <p class="echo-quote">
-        <strong>人生荒芜，所以春天周而复始</strong>
+        <strong>人生荒芜，所以春天周而复始。</strong>
       </p>
     </div>
 
   </article>
 
 </div>
+```
