@@ -324,8 +324,8 @@ html[data-theme="dark"] .echo-quote {
       </h2>
 
       <p>
-        For those who have been underestimated, yet continue to follow
-        their own dreams.
+        <strong>For those who have been underestimated, yet continue to follow
+        their own dreams.</strong>
       </p>
 
       <p class="echo-quote">
