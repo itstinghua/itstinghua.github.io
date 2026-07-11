@@ -313,7 +313,6 @@ scholar:
   query: "@*"
   group_by: year
   group_order: descending
-
 # Display different badges withs stats for your publications
 enable_publication_badges:
   altmetric: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
@@ -362,7 +361,6 @@ external_links:
   rel: external nofollow noopener
   target: _blank
   exclude:
-
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
 # -----------------------------------------------------------------------------
