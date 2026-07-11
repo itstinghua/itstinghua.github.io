@@ -176,11 +176,11 @@ html[data-theme="dark"] .paper-cite {
         loading="lazy">
     </div>
     <div class="project-text">
-      <h3>echo</h3>
+      <h3>Home, Sweet Home at Groningen, 2023</h3>
       <p class="paper-cite">
-        rocker<br>
+        You Rock!!!<br>
       </p>
-    </div> -
+    </div> 
 
 
 
