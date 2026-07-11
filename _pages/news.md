@@ -59,14 +59,14 @@ nav_order: 5
       <span class="news-text">Glad to co-organize the workshop on <strong><a href="https://sites.google.com/view/bayujayawardhanainaugural/home?authuser=0">"Opto-Mechatronics and Control of Nonlinear Systems"</a></strong> with our colleagues and celebrate the <strong>Inaugural Lecture of Prof. Bayu Jayawardhana</strong> in the University of Groningen. Fijn om weer terug te zijn in Groningen! </span>
     </li>
   </ul>
-<div class="gallery-section">
+<!-- <div class="gallery-section">
   <div class="gallery-video">
     <video controls>
       <source src="/assets/video/groningen.mp4" type="video/mp4">
     </video>
   </div>
 </div>
-</div>
+</div> -->
 
 
 <div class="fade-in-section service-section">
