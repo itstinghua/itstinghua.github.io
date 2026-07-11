@@ -1,3 +1,4 @@
+
 ---
 layout: page
 title: Echo
@@ -442,7 +443,7 @@ html[data-theme="dark"] .echo-quote {
       <h2>Back in Groningen, Spring 2026</h2>
 
       <p class="echo-quote">
-        <em>Friends :)</em>
+        <strong><em>Friends :)</em></strong>
       </p>
     </div>
 
@@ -487,7 +488,7 @@ html[data-theme="dark"] .echo-quote {
     </div>
 
     <div class="project-content">
-      <h2>Dutch Spring Vibes</h2>
+      <h2>Dutch Spring Vibes, 2021</h2>
 
       <p class="echo-quote">
         <strong>人生荒芜，所以春天周而复始。</strong>
