@@ -1,4 +1,3 @@
-
 ---
 layout: page
 title: Echo
@@ -362,7 +361,7 @@ html[data-theme="dark"] .echo-quote {
     </div>
 
     <div class="project-content">
-      <h2>Forever Young, 2018</h2>
+      <h2>Forever Young</h2>
 
       <p>
         <em>May you remember how precious you are.</em>
@@ -399,7 +398,7 @@ html[data-theme="dark"] .echo-quote {
     </div>
 
     <div class="project-content">
-      <h2>Forever Young, 2018</h2>
+      <h2>Forever Young</h2>
 
       <p class="echo-quote">
         <em>
@@ -459,7 +458,7 @@ html[data-theme="dark"] .echo-quote {
     <div class="project-media">
       <img
         src="{{ '/assets/img/echo/rock.jpg' | relative_url }}"
-        alt="A memory from Groningen"
+        alt=" "
         loading="lazy">
     </div>
 
@@ -482,7 +481,7 @@ html[data-theme="dark"] .echo-quote {
 
     <div class="project-media">
       <img
-        src="{{ '/assets/img/echo/tulip.jpeg' | relative_url }}"
+        src="{{ '/assets/img/echo/spring.jpeg' | relative_url }}"
         alt="Tulips in Lelystad, the Netherlands"
         loading="lazy">
     </div>
