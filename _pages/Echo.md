@@ -1,4 +1,3 @@
-```html
 ---
 layout: page
 title: Echo
