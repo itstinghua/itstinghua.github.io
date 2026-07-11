@@ -13,35 +13,40 @@ nav_order: 2
   margin: 0 auto;
 }
 
+.research-intro {
+  margin: 1.5rem 0 2.5rem;
+  max-width: 850px;
+  line-height: 1.7;
+  color: var(--global-text-color);
+}
 
 .project-container {
   display: flex;
-  gap: 20px;              
-  align-items: center;
+  gap: 24px;
+  align-items: flex-start;
   margin-bottom: 2rem;
+  padding: 24px;
+  width: 100%;
 
   background: var(--global-card-bg-color);
   border: 1px solid var(--global-divider-color);
-  border-radius: 12px;
+  border-radius: 8px;
 
-  padding: 20px;
-  width: 100%;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .project-container:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
-
 
 .project-video {
-  flex: 1;
+  flex: 0 0 46%;
   min-width: 0;
-  max-width: 50%;
 }
+
 .project-video video {
-  width: 95%;
+  width: 100%;
   border-radius: 8px;
 }
 
@@ -53,102 +58,191 @@ nav_order: 2
 
 .project-text h3 {
   margin-top: 0;
+  margin-bottom: 0.65rem;
   font-size: 1.25rem;
   font-weight: 600;
-  color: var(--global-theme-color);
+  line-height: 1.35;
 }
-
 
 .project-text h3 a {
   color: var(--global-theme-color);
   text-decoration: none;
 }
+
 .project-text h3 a:hover {
-  text-decoration: underline;
   color: var(--global-hover-color);
+  text-decoration: underline;
+}
+
+.project-summary {
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+  font-size: 0.98rem;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0.8rem 0 1rem;
+}
+
+.project-tags span {
+  display: inline-block;
+  padding: 4px 9px;
+  font-size: 0.78rem;
+  line-height: 1.3;
+  border-radius: 999px;
+  border: 1px solid var(--global-divider-color);
+  color: var(--global-text-color);
+  background-color: rgba(0, 83, 156, 0.06);
 }
 
 .paper-cite {
-  margin-top: 0.5rem;
-  padding: 10px;
-  border-radius: 10px;
+  margin-top: 0.9rem;
+  padding: 12px 14px;
+  border-radius: 8px;
   border: 1px solid var(--global-divider-color);
   background-color: rgba(0, 83, 156, 0.08);
   color: var(--global-text-color);
+  font-size: 0.9rem;
+  line-height: 1.55;
 }
 
+.paper-cite em {
+  font-style: italic;
+}
+
+html[data-theme="dark"] .project-tags span {
+  background-color: rgba(230, 237, 243, 0.05);
+}
 
 html[data-theme="dark"] .paper-cite {
   background-color: rgba(230, 237, 243, 0.06);
 }
 
-
 @media (max-width: 768px) {
+  .research-intro {
+    margin-top: 1rem;
+  }
+
   .project-container {
     flex-direction: column;
-    gap: 20px;
+    gap: 18px;
+    padding: 18px;
   }
+
   .project-video {
-    max-width: 100%;
+    flex: none;
+    width: 100%;
+  }
+
+  .project-text h3 {
+    font-size: 1.15rem;
   }
 }
 </style>
 
-<div class="container">
+<div class="research-container">
 
-<br>
+  <p class="research-intro">
+    My research focuses on source-seeking control, safety-critical control, and multi-agent robotic systems. I am particularly interested in enabling robots to navigate uncertain and cluttered environments using local sensing, optimization-based control, and control barrier functions.
+  </p>
 
-<div class="project-container">
-  <div class="project-video">
-    {% include video.liquid path="/assets/video/SS.mp4" class="img-fluid rounded z-depth-1" controls=true %}
-  </div>
-  <div class="project-text">
-    <h3>
-      <a href="https://ieeexplore.ieee.org/abstract/document/9458274">Source-Seeking Robot</a>
-    </h3>
-    <p>
-      In this work, we present the design and experimental validation of source-seeking control algorithms for a unicycle mobile robot that is equipped with novel 3-D-printed flexible graphene-based piezoresistive airflow sensors. Based solely on a local gradient measurement from the airflow sensors, we propose and analyze a projected gradient ascent algorithm to solve the source-seeking problem. In the case of partial sensor failure, we propose a combination of extremum-seeking control with our projected gradient ascent algorithm. For both control laws, we prove the asymptotic convergence of the robot to the source. Numerical simulations were performed to validate the algorithms, and experimental validations are presented to demonstrate the efficacy of the proposed methods.
-    </p>
-    <p class="paper-cite">
-      • <strong>T. Li*</strong>, B. Jayawardhana, A. M. Kamat and A. G. P. Kottapalli, “Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors”, in
-      <strong>IEEE Transactions on Robotics</strong>, vol. 38, no. 1, pp. 448–462, Feb. 2022,
-      doi: 10.1109/TRO.2021.3076964
-    </p>
-  </div>
-</div>
+  <div class="project-container">
+    <div class="project-video">
+      {% include video.liquid path="/assets/video/SS.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    </div>
 
-<div class="project-container">
-  <div class="project-video">
-    {% include video.liquid path="/assets/video/CO.mp4" class="img-fluid rounded z-depth-1" controls=true %}
-  </div>
-  <div class="project-text">
-    <h3>
-      <a href="https://ieeexplore.ieee.org/document/10735338">Collision-Free Source-Seeking Robot</a>
-    </h3>
-    <p>
-      In this work, we propose a collision-free source-seeking control framework for a unicycle robot traversing an unknown cluttered environment. In this framework, obstacle avoidance is guided by the control barrier functions (CBF) embedded in quadratic programming, and the source-seeking control relies solely on the use of onboard sensors that measure the signal strength of the source. To tackle the mixed relative degree and avoid the undesired position offset for the nonholonomic unicycle model, we propose a novel construction of a CBF that can directly be integrated with our recent gradient-ascent source-seeking control law. We present a rigorous analysis of the approach. The efficacy of the proposed approach is evaluated via Monte-Carlo simulations, as well as, using a realistic dynamic environment with moving obstacles in Gazebo/ROS.
-    </p>
-    <p class="paper-cite">
-      •  <strong>T. Li*</strong> and B. Jayawardhana, “Collision-free Source Seeking Control Methods for Unicycle Robots”, in
-      <strong>IEEE Transactions on Automatic Control</strong>, vol. 70, no. 3, pp. 2020–2027, March 2025,
-      doi: 10.1109/TAC.2024.3486654
-    </p>
-  </div>
-</div>
+    <div class="project-text">
+      <h3>
+        <a href="https://ieeexplore.ieee.org/abstract/document/9458274">
+          Source-Seeking Robot
+        </a>
+      </h3>
 
-<div class="project-container">
-  <div class="project-video">
-    {% include video.liquid path="/assets/video/connectivity.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+      <p class="project-summary">
+        A unicycle robot uses flexible airflow sensors and gradient-based control to locate an unknown source using only local measurements.
+      </p>
+
+      <div class="project-tags">
+        <span>Source seeking</span>
+        <span>Mobile robots</span>
+        <span>Flexible sensors</span>
+        <span>Gradient-based control</span>
+      </div>
+
+      <p class="paper-cite">
+        <strong>T. Li*</strong>, B. Jayawardhana, A. M. Kamat, and A. G. P. Kottapalli,
+        “Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors,”
+        <em>IEEE Transactions on Robotics</em>, vol. 38, no. 1, pp. 448–462, Feb. 2022,
+        doi: 10.1109/TRO.2021.3076964.
+      </p>
+    </div>
   </div>
-  <div class="project-text">
-    <h3><a href = "https://ieeexplore.ieee.org/document/11311473">Flocking Control with Connectivity Preservation</a></h3>
-    <p>
-      In this work, we present a distributed source-seeking and flocking-control method for networked multiagent systems with nonholonomic constraints. Based solely on identical on-board sensor systems, which measure the source local field, the group objective is attained by appointing a leader agent to seek the source while the remaining follower agents safely form a cohesive flocking with their neighbors using a distributed flocking control law in a connectivity-preserved undirected network. To guarantee safe separation and group motion for all agents and to solve the conflicts with the “cohesion” flocking rule of Reynolds, the distributed control algorithm is solved individually through a feasible control barrier function-based optimization problem with complex constraints, which guarantees the interagent collision avoidance and connectivity preservation. Stability analysis of the closed-loop system is presented, and the efficacy of the methods is shown in simulation results.
-    </p>
-   <p class="paper-cite">
-      •  <strong>T. Li*</strong> and B. Jayawardhana, “Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation", in <strong>IEEE Transactions on Automatic Control</strong>, vol. 71, no. 6, pp. 3696-3711, June 2026, doi: 10.1109/TAC.2025.3647313
-    </p>
+
+  <div class="project-container">
+    <div class="project-video">
+      {% include video.liquid path="/assets/video/CO.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    </div>
+
+    <div class="project-text">
+      <h3>
+        <a href="https://ieeexplore.ieee.org/document/10735338">
+          Collision-Free Source-Seeking Robot
+        </a>
+      </h3>
+
+      <p class="project-summary">
+        A safety-critical source-seeking framework that allows a unicycle robot to search for a signal source while avoiding obstacles in unknown cluttered environments.
+      </p>
+
+      <div class="project-tags">
+        <span>Control barrier functions</span>
+        <span>Obstacle avoidance</span>
+        <span>Safety-critical control</span>
+        <span>Unicycle robots</span>
+      </div>
+
+      <p class="paper-cite">
+        <strong>T. Li*</strong> and B. Jayawardhana,
+        “Collision-free Source Seeking Control Methods for Unicycle Robots,”
+        <em>IEEE Transactions on Automatic Control</em>, vol. 70, no. 3, pp. 2020–2027, March 2025,
+        doi: 10.1109/TAC.2024.3486654.
+      </p>
+    </div>
   </div>
-</div>
+
+  <div class="project-container">
+    <div class="project-video">
+      {% include video.liquid path="/assets/video/connectivity.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    </div>
+
+    <div class="project-text">
+      <h3>
+        <a href="https://ieeexplore.ieee.org/document/11311473">
+          Flocking Control with Connectivity Preservation
+        </a>
+      </h3>
+
+      <p class="project-summary">
+        A distributed source-seeking and flocking-control method for networked multi-agent systems, where agents maintain safety, connectivity, and coordinated motion using onboard sensing.
+      </p>
+
+      <div class="project-tags">
+        <span>Multi-agent systems</span>
+        <span>Flocking control</span>
+        <span>Connectivity preservation</span>
+        <span>Distributed control</span>
+      </div>
+
+      <p class="paper-cite">
+        <strong>T. Li*</strong> and B. Jayawardhana,
+        “Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation,”
+        <em>IEEE Transactions on Automatic Control</em>, vol. 71, no. 6, pp. 3696–3711, June 2026,
+        doi: 10.1109/TAC.2025.3647313.
+      </p>
+    </div>
+  </div>
 
 </div>
