@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------------
 
 title: Tinghua Li # the website title (if blank, full name will be used instead)
-firts_name: Tinghua
+first_name: Tinghua
 middle_name:
 last_name: Li 
 # email: tinghua.li@outlook.com 
@@ -19,7 +19,7 @@ icon: 🌷  # the emoji used as the favicon (alternatively, provide image name i
 
 url: https://itstinghua.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -67,13 +67,13 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: itstinghua # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: Tinghua_Li
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: tinghua-li-165797276/
+linkedin_username: tinghua-li-165797276
 telegram_username: # your Telegram user name
-scholar_userid:  https://scholar.google.com/citations?user=2xz7OucAAAAJ&hl=en&inst=569367360547434339
+scholar_userid: 2xz7OucAAAAJ
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 # orcid_id: 0000-0002-7634-0744
@@ -103,7 +103,7 @@ discord_id: # your discord id (18-digit unique numerical identifier)
 zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
-contact_note: Last updated on May 8th, 2025
+contact_note: Last updated on July 11, 2026
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -287,8 +287,8 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Li]
+  first_name: [Tinghua, T.]
 
   style: apa
   locale: en
