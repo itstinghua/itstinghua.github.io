@@ -491,4 +491,27 @@ html[data-theme="dark"] .echo-quote {
 
   </article>
 
+    <!-- ======================================
+       Image card
+  ======================================= -->
+
+  <article class="project-card">
+
+    <div class="project-media">
+      <img
+        src="{{ '/assets/img/echo/tulip.jpeg' | relative_url }}"
+        alt="Lelystad, 2021"
+        loading="lazy">
+    </div>
+
+    <div class="project-content">
+      <h2>Dutch Spring Vibes</h2>
+
+      <p class="echo-quote">
+        <strong>人生荒芜，所以春天周而复始</strong>
+      </p>
+    </div>
+
+  </article>
+
 </div>
