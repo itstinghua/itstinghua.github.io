@@ -377,9 +377,9 @@ html[data-theme="dark"] .echo-quote {
       </p>
 
       <p class="echo-quote">
-        <em><span class="zh-kaiti"><strong>愿你在被打击时，记起你的珍贵，抵抗恶意。</strong></span></em><br>
-        <em><span class="zh-kaiti"><strong>愿你在迷茫时，坚信你的珍贵。</strong></span></em><br>
-        <em><span class="zh-kaiti"><strong>爱你所爱，行你所行，听从你心，无问西东。</strong></span></em>
+        <span class="zh-kaiti"><strong>愿你在被打击时，记起你的珍贵，抵抗恶意。</strong></span><br>
+        <span class="zh-kaiti"><strong>愿你在迷茫时，坚信你的珍贵。</strong></span><br>
+        <span class="zh-kaiti"><strong>爱你所爱，行你所行，听从你心，无问西东。</strong></span>
       </p>
     </div>
 
@@ -409,18 +409,16 @@ html[data-theme="dark"] .echo-quote {
     <div class="project-content">
       <h2>Forever Young</h2>
 
-      <p class="echo-quote">
-        <em>
-          <span class="zh-kaiti"><strong>什么是真实：你看到什么，听到什么，做什么，和谁在一起，
-          要有一种从心灵深处漫溢出的、不懊悔也不羞耻的平和与喜悦。</strong></span>
-        </em>
-      </p>
-
       <p>
         <em>
           <span class="zh-kaiti"><strong>人把自己置身于忙碌当中，有一种麻木的踏实，但丧失了真实。
           你的青春也不过只有这些日子。</strong></span>
         </em>
+      </p>
+      
+      <p class="echo-quote">
+          <span class="zh-kaiti"><strong>什么是真实：你看到什么，听到什么，做什么，和谁在一起，
+          要有一种从心灵深处漫溢出的、不懊悔也不羞耻的平和与喜悦。</strong></span>
       </p>
     </div>
 
