@@ -453,7 +453,7 @@ html[data-theme="dark"] .echo-quote {
        Groningen image
   ======================================= -->
 
-  <article class="project-card">
+ <!--  <article class="project-card">
 
     <div class="project-media">
       <img
@@ -470,14 +470,14 @@ html[data-theme="dark"] .echo-quote {
       </p>
     </div>
 
-  </article>
+  </article> -->
 
 
   <!-- ======================================
        Dutch spring image
   ======================================= -->
 
-  <article class="project-card">
+  <!-- <article class="project-card">
 
     <div class="project-media">
       <img
@@ -494,7 +494,7 @@ html[data-theme="dark"] .echo-quote {
       </p>
     </div>
 
-  </article>
+  </article> -->
 
 </div>
 ```
