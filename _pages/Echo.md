@@ -373,7 +373,7 @@ html[data-theme="dark"] .echo-quote {
       <h2>Forever Young</h2>
 
       <p>
-        <em>May you remember how precious you are.</em>
+        <strong><em>May you remember how precious you are.</em></strong>
       </p>
 
       <p class="echo-quote">
@@ -505,7 +505,7 @@ html[data-theme="dark"] .echo-quote {
       <h2>Green Day in Groningen, 2022</h2>
 
       <p>
-        <em>Wake Me Up When September Ends</em><br>
+        <strong><em>Wake Me Up When September Ends</em></strong><br>
       </p>
 
       <p class="echo-quote">
