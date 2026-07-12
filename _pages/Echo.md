@@ -445,7 +445,7 @@ html[data-theme="dark"] .echo-quote {
     </div>
 
     <div class="project-content">
-      <h2>Don't let this spring pass you by.</h2>
+      <h2>Don't let this Spring pass by.</h2>
       
       <p class="echo-quote">
           <strong>Cherry blossoms in Delft, 2026 </strong>
@@ -537,7 +537,7 @@ html[data-theme="dark"] .echo-quote {
 
       <p class="echo-quote">
         <strong>Ring out the bells again</strong><br>
-        <strong>Like we did when spring began</strong><br>
+        <strong>Like we did when Spring began</strong><br>
         <strong>Wake me up when September ends</strong>
       </p>
     </div>
