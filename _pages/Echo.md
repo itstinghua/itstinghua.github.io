@@ -439,10 +439,10 @@ html[data-theme="dark"] .echo-quote {
     </div>
 
     <div class="project-content">
-      <h2>Back in Groningen, Spring 2026</h2>
+      <h2>Groningen Vibe, Spring 2026</h2>
 
       <p class="echo-quote">
-        <strong><em>Friends :)</em></strong>
+        <strong><em>Home, Sweet Home</em></strong>
       </p>
     </div>
 
