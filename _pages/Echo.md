@@ -373,7 +373,7 @@ html[data-theme="dark"] .echo-quote {
       <h2>Forever Young</h2>
 
       <p>
-        <strong><em>May you remember how precious you are.</em></strong>
+        <strong>May you remember how precious you are.</strong>
       </p>
 
       <p class="echo-quote">
