@@ -521,7 +521,7 @@ html[data-theme="dark"] .echo-quote {
       <h2>Defence Day, 2021</h2>
 
       <p class="echo-quote">
-        <strong><span class="zh-kaiti">Friends</span></strong>
+        <strong>Friends</strong>
       </p>
     </div>
 
