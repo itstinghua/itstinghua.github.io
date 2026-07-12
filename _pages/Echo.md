@@ -449,7 +449,7 @@ html[data-theme="dark"] .echo-quote {
       <h2>Groningen Vibe, Spring 2026</h2>
 
       <p class="echo-quote">
-        <strong><em>Home. Sweet Home.</em></strong>
+        <strong>Home. Sweet Home.</strong>
       </p>
     </div>
 
