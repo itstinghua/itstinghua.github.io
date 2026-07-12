@@ -445,10 +445,10 @@ html[data-theme="dark"] .echo-quote {
     </div>
 
     <div class="project-content">
-      <h2>Cherry blossoms in Delft, 2026</h2>
+      <h2>Don't let this spring pass you by.</h2>
       
       <p class="echo-quote">
-          <strong>Don't let this spring pass you by. </strong>
+          <strong>Cherry blossoms in Delft, 2026 </strong>
       </p>
     </div>
 
@@ -476,10 +476,10 @@ html[data-theme="dark"] .echo-quote {
     </div>
 
     <div class="project-content">
-      <h2>Groningen Vibe, Spring 2026</h2>
+      <h2>Home. Sweet Home.</h2>
 
       <p class="echo-quote">
-        <strong>Home. Sweet Home.</strong>
+        <strong>Groningen Vibe, Spring 2026</strong>
       </p>
     </div>
 
@@ -499,10 +499,10 @@ html[data-theme="dark"] .echo-quote {
     </div>
 
     <div class="project-content">
-      <h2>Defence Day, 2024</h2>
+      <h2>Friends</h2>
 
       <p class="echo-quote">
-        <strong>Friends</strong>
+        <strong>Defence Day, 2024</strong>
       </p>
     </div>
 
@@ -529,10 +529,10 @@ html[data-theme="dark"] .echo-quote {
     </div>
 
     <div class="project-content">
-      <h2>Green Day in Groningen, 2022</h2>
+      <h2>Green Day - Wake Me Up When September Ends</h2>
 
       <p>
-        <strong><em>Wake Me Up When September Ends</em></strong><br>
+        <strong>Green Day in Groningen, 2022</strong><br>
       </p>
 
       <p class="echo-quote">
