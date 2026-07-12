@@ -444,10 +444,8 @@ html[data-theme="dark"] .echo-quote {
       <h2>Forever Young</h2>
 
       <p>
-        <em>
           <span class="zh-kaiti"><strong>人把自己置身于忙碌当中，有一种麻木的踏实，但丧失了真实。
           你的青春也不过只有这些日子。</strong></span>
-        </em>
       </p>
       
       <p class="echo-quote">
