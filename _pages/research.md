@@ -146,7 +146,7 @@ html[data-theme="dark"] .paper-cite {
 <div class="research-container">
 
   <p class="research-intro">
-    My research focuses on source-seeking control, safety-critical control, and multi-agent robotic systems. I am particularly interested in enabling robots to navigate uncertain and cluttered environments using local sensing, optimization-based control, and control barrier functions.
+     My research focuses on safe and intelligent autonomous robotic systems operating in unknown and cluttered environments. My PhD research investigated safety-critical motion control for wheeled mobile robots, while my current postdoctoral work extends this line of research to aerial robotics by developing safety-critical control methods for autonomous and safe flight.
   </p>
 
   <div class="project-container">
@@ -166,10 +166,9 @@ html[data-theme="dark"] .paper-cite {
       </p>
 
       <div class="project-tags">
-        <span>Source seeking</span>
-        <span>Mobile robots</span>
-        <span>Flexible sensors</span>
-        <span>Gradient-based control</span>
+        <span>Source Seeking</span>
+        <span>Unicycle Robots</span>
+        <span>Flexible Piezoresistive Sensors</span>
       </div>
 
       <p class="paper-cite">
@@ -198,10 +197,10 @@ html[data-theme="dark"] .paper-cite {
       </p>
 
       <div class="project-tags">
-        <span>Control barrier functions</span>
-        <span>Obstacle avoidance</span>
-        <span>Safety-critical control</span>
-        <span>Unicycle robots</span>
+        <span>Control Barrier Functions</span>
+        <span>Obstacle Avoidance</span>
+        <span>Safety-critical Control</span>
+        <span>Unicycle Robots</span>
       </div>
 
       <p class="paper-cite">
@@ -231,9 +230,10 @@ html[data-theme="dark"] .paper-cite {
 
       <div class="project-tags">
         <span>Multi-agent systems</span>
-        <span>Flocking control</span>
-        <span>Connectivity preservation</span>
-        <span>Distributed control</span>
+        <span>Flocking Cohesion</span>
+        <span>Obstacle/Collision Avoidance</span>
+        <span>Connectivity Preservation</span>
+        <span>Distributed CBFs</span>
       </div>
 
       <p class="paper-cite">
