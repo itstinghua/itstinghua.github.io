@@ -529,7 +529,7 @@ html[data-theme="dark"] .echo-quote {
     </div>
 
     <div class="project-content">
-      <h2>Green Day - Wake Me Up When September Ends</h2>
+      <h2>Wake Me Up When September Ends</h2>
 
       <p>
         <strong>Green Day in Groningen, 2022</strong><br>
