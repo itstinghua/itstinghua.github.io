@@ -348,7 +348,41 @@ html[data-theme="dark"] .echo-quote {
 
   </article>
 
+ <!--======================================
+       Green Day
+  ======================================= -->
+   <article class="project-card">
 
+    <div class="project-media">
+      <video
+        controls
+        preload="metadata"
+        playsinline>
+
+        <source
+          src="{{ '/assets/video/echo/greenday.mp4' | relative_url }}"
+          type="video/mp4">
+
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
+
+    <div class="project-content">
+      <h2>Wake Me Up When September Ends</h2>
+
+      <p>
+        <strong>Green Day in Groningen, 2022</strong><br>
+      </p>
+
+      <p class="echo-quote">
+        <strong>Ring out the bells again</strong><br>
+        <strong>Like we did when Spring began</strong><br>
+        <strong>Wake me up when September ends</strong>
+      </p>
+    </div>
+
+  </article>
+  
   <!-- ======================================
        Forever Young
   ======================================= -->
@@ -508,41 +542,6 @@ html[data-theme="dark"] .echo-quote {
 
   </article> 
 
-
-   <!--======================================
-       Green Day
-  ======================================= -->
-   <article class="project-card">
-
-    <div class="project-media">
-      <video
-        controls
-        preload="metadata"
-        playsinline>
-
-        <source
-          src="{{ '/assets/video/echo/greenday.mp4' | relative_url }}"
-          type="video/mp4">
-
-        Your browser does not support HTML5 video.
-      </video>
-    </div>
-
-    <div class="project-content">
-      <h2>Wake Me Up When September Ends</h2>
-
-      <p>
-        <strong>Green Day in Groningen, 2022</strong><br>
-      </p>
-
-      <p class="echo-quote">
-        <strong>Ring out the bells again</strong><br>
-        <strong>Like we did when Spring began</strong><br>
-        <strong>Wake me up when September ends</strong>
-      </p>
-    </div>
-
-  </article>
 
 
   <!-- ======================================
