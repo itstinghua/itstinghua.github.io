@@ -505,5 +505,29 @@ html[data-theme="dark"] .echo-quote {
 
   </article> -->
 
+
+  ======================================
+       Dutch spring image
+  ======================================= 
+
+  <article class="project-card">
+
+    <div class="project-media">
+      <img
+        src="{{ '/assets/img/echo/defence.jpeg' | relative_url }}"
+        alt="Tulips in Lelystad, the Netherlands"
+        loading="lazy">
+    </div>
+
+    <div class="project-content">
+      <h2>Defence Day, 2021</h2>
+
+      <p class="echo-quote">
+        <strong><span class="zh-kaiti">Friends</span></strong>
+      </p>
+    </div>
+
+  </article> 
+
 </div>
 ```
