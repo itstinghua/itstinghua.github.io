@@ -1,8 +1,9 @@
+```html
 ---
 layout: page
 title: Ph.D. Thesis
 permalink: /Ph.D.-thesis/
-description: 
+description:
 nav: true
 nav_order: 6
 ---
@@ -27,10 +28,12 @@ nav_order: 6
 }
 
 .thesis-image img {
+  display: block;
   width: 100%;
   max-width: 300px;
   height: auto;
   border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
 }
 
 .thesis-text {
@@ -41,9 +44,9 @@ nav_order: 6
 }
 
 .thesis-title {
+  margin-bottom: 1rem;
   font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 1rem;
   line-height: 1.4;
   color: var(--global-text-color);
 }
@@ -56,44 +59,217 @@ nav_order: 6
 }
 
 .thesis-text ul {
-  padding-left: 1.25rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  padding-left: 1.25rem;
 }
 
 @media (max-width: 768px) {
   .thesis-header {
     flex-direction: column;
   }
-  .thesis-left, .thesis-text {
+
+  .thesis-left,
+  .thesis-text {
     width: 100%;
   }
+
   .thesis-text {
     padding-top: 1rem;
   }
 }
 
+
 /* ---------------------------
-   Acknowledgments (Card)
+   Shared Section Divider
+   --------------------------- */
+.section-divider {
+  margin: 3rem 0;
+  border: 0;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+
+/* ---------------------------
+   Gallery
+   --------------------------- */
+.gallery-section {
+  margin-top: 3rem;
+  color: var(--global-text-color);
+}
+
+.gallery-section h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+  font-weight: 600;
+  text-align: center;
+  color: var(--global-text-color);
+}
+
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.gallery-col {
+  flex: 1 1 30%;
+  max-width: 320px;
+  overflow: hidden;
+  border-radius: 0.75rem;
+}
+
+.gallery-row img {
+  display: block;
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.gallery-row img:hover {
+  transform: scale(1.025);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+}
+
+.gallery-video {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.gallery-video video {
+  display: block;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .gallery-col {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .gallery-row img {
+    height: auto;
+    aspect-ratio: 4 / 3;
+  }
+}
+
+
+/* ---------------------------
+   Vincent van Gogh Image
+   --------------------------- */
+.artwork-section {
+  margin-top: 3rem;
+  color: var(--global-text-color);
+}
+
+.artwork-section h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 1.4;
+  text-align: center;
+  color: var(--global-text-color);
+}
+
+.artwork-card {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+
+  background-color: rgba(0, 83, 156, 0.05);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1.2rem rgba(0, 0, 0, 0.08);
+
+  opacity: 0;
+  transform: translateY(30px);
+  transition:
+    opacity 0.8s ease-out,
+    transform 0.8s ease-out,
+    box-shadow 0.3s ease;
+}
+
+.artwork-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.artwork-card:hover {
+  box-shadow: 0 0.8rem 1.8rem rgba(0, 0, 0, 0.14);
+}
+
+.artwork-card figure {
+  margin: 0;
+}
+
+.artwork-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
+}
+
+.artwork-caption {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  padding: 0 0.5rem 0.25rem;
+
+  font-size: 0.95rem;
+  line-height: 1.7;
+  text-align: center;
+  color: var(--global-text-color-light);
+}
+
+.artwork-caption strong {
+  color: var(--global-text-color);
+}
+
+html[data-theme="dark"] .artwork-card {
+  background-color: rgba(255, 255, 255, 0.04);
+  box-shadow: 0 0.5rem 1.2rem rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 768px) {
+  .artwork-card {
+    padding: 0.75rem;
+  }
+
+  .artwork-section h2 {
+    font-size: 1.5rem;
+  }
+}
+
+
+/* ---------------------------
+   Acknowledgments Card
    --------------------------- */
 .acknowledgment-section {
   margin-top: 3rem;
   padding: 2rem 1.5rem;
-  line-height: 1.8;
+
   font-size: 1rem;
+  line-height: 1.8;
 
-  background-color: rgba(0, 83, 156, 0.08); /* 适配浅色背景 */
-
-  /*background-color: var(--global-card-bg-color);*/
+  background-color: rgba(0, 83, 156, 0.08);
   border: 1px solid var(--global-divider-color);
   border-radius: 1rem;
-
-  /* 轻微阴影：深浅模式都可用 */
   box-shadow: 0 0.5rem 1.2rem rgba(0, 0, 0, 0.05);
 
   opacity: 0;
   transform: translateY(30px);
-  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  transition:
+    opacity 0.8s ease-out,
+    transform 0.8s ease-out;
 
   color: var(--global-text-color);
 }
@@ -104,9 +280,9 @@ nav_order: 6
 }
 
 .acknowledgment-section h2 {
+  margin-bottom: 1.5rem;
   font-size: 1.75rem;
   font-weight: 600;
-  margin-bottom: 1.5rem;
   text-align: center;
   color: var(--global-text-color);
 }
@@ -131,8 +307,8 @@ nav_order: 6
   color: var(--global-hover-color);
 }
 
-/* 深色模式下阴影略弱一点（避免发灰） */
 html[data-theme="dark"] .acknowledgment-section {
+  background-color: rgba(255, 255, 255, 0.05);
   box-shadow: 0 0.5rem 1.2rem rgba(0, 0, 0, 0.25);
 }
 
@@ -142,63 +318,47 @@ html[data-theme="dark"] .acknowledgment-section {
   }
 }
 
+
 /* ---------------------------
-   Gallery
+   Reduced Motion
    --------------------------- */
-.gallery-section {
-  margin-top: 3rem;
-  color: var(--global-text-color);
-}
+@media (prefers-reduced-motion: reduce) {
+  .gallery-row img,
+  .artwork-card,
+  .acknowledgment-section {
+    transition: none;
+  }
 
-.gallery-section h2 {
-  font-size: 1.75rem;
-  font-weight: 600;
-  margin-bottom: 1.5rem;
-  text-align: center;
-  color: var(--global-text-color);
-}
-
-.gallery-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  justify-content: center;
-}
-
-.gallery-row img {
-  border-radius: 0.75rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-}
-
-.gallery-col {
-  flex: 1 1 30%;
-  max-width: 320px;
-}
-
-.gallery-video {
-  margin-top: 2rem;
-  text-align: center;
-}
-
-.gallery-video video {
-  max-width: 1000px;
-  width: 100%;
-  border-radius: 0.75rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  .artwork-card,
+  .acknowledgment-section {
+    opacity: 1;
+    transform: none;
+  }
 }
 </style>
 
+
 <!-- Thesis Summary Section -->
 <div class="thesis-header">
+
   <div class="thesis-left">
     <div class="thesis-image">
-      <img src="/assets/img/thesis/cover.jpg" class="img-fluid rounded" alt="Thesis Cover">
+      <img
+        src="/assets/img/thesis/cover.jpg"
+        class="img-fluid rounded"
+        alt="Cover of the thesis Motion Control for Nonholonomic Unicycle Robots"
+      >
     </div>
+
     <p style="margin-top: 1rem;">
-      <a href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots" class="btn btn-primary">Full Thesis</a>
+      <a
+        href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots"
+        class="btn btn-primary"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Full Thesis
+      </a>
     </p>
   </div>
 
@@ -206,78 +366,202 @@ html[data-theme="dark"] .acknowledgment-section {
     <div class="thesis-title">
       Motion Control for Nonholonomic Unicycle Robots
     </div>
-    <p>This doctoral research focuses on developing algorithms for nonholonomic robots in unknown cluttered environments, relying solely on limited onboard sensory measurements for exploration.</p>
-    <h5>Part I: Safe Source Seeking (for Single Unicycle Robot)</h5>
+
+    <p>
+      This doctoral research focuses on developing algorithms for
+      nonholonomic robots in unknown cluttered environments, relying solely
+      on limited onboard sensory measurements for exploration.
+    </p>
+
+    <h5>
+      Part I: Safe Source Seeking (for Single Unicycle Robot)
+    </h5>
+
     <ul>
       <li>Projected gradient-ascent source-seeking control</li>
       <li>Safety guarantees for single robots in obstacle fields</li>
       <li>CBF design with uniform relative degree</li>
     </ul>
-    <h5>Part II: Distributed Safe Motion Control (for Multi-Agent System)</h5>
+
+    <h5>
+      Part II: Distributed Safe Motion Control (for Multi-Agent System)
+    </h5>
+
     <ul>
       <li>Distributed CBF-QP framework</li>
       <li>Collision avoidance and connectivity preservation</li>
       <li>Adaptive spacing policy for flexible coordination</li>
     </ul>
   </div>
+
 </div>
 
-<hr>
+
+<hr class="section-divider">
 
 
 <!-- Defense Gallery Section -->
 <div class="gallery-section">
+
   <h2>PhD Defence Gallery</h2>
 
   <div class="gallery-row">
+
     <div class="gallery-col">
-      <img src="/assets/img/news/phd_1.jpg" alt="Defense Photo 1">
+      <img
+        src="/assets/img/news/phd_1.jpg"
+        alt="PhD defence photo 1"
+        loading="lazy"
+      >
     </div>
+
     <div class="gallery-col">
-      <img src="/assets/img/news/phd.jpg" alt="Defense Photo 2">
+      <img
+        src="/assets/img/news/phd.jpg"
+        alt="PhD defence photo 2"
+        loading="lazy"
+      >
     </div>
+
     <div class="gallery-col">
-      <img src="/assets/img/news/phd_3.jpg" alt="Defense Photo 3">
+      <img
+        src="/assets/img/news/phd_3.jpg"
+        alt="PhD defence photo 3"
+        loading="lazy"
+      >
     </div>
+
   </div>
 
   <div class="gallery-video">
-    <video controls>
-      <source src="/assets/video/defence.mp4" type="video/mp4">
+    <video controls preload="metadata" playsinline>
+      <source
+        src="/assets/video/defence.mp4"
+        type="video/mp4"
+      >
       Your browser does not support the video tag.
     </video>
   </div>
+
 </div>
+
+
+<hr class="section-divider">
+
+
+<!-- Vincent van Gogh Image Section -->
+<section
+  class="artwork-section"
+  aria-labelledby="starry-nights-title"
+>
+  <h2 id="starry-nights-title">
+    Vincent van Gogh - Starry Nights.
+  </h2>
+
+  <div class="artwork-card" id="starry-nights-artwork">
+    <figure>
+
+      <img
+        src="/assets/img/thesis/starrynights.jpeg"
+        alt="Vincent van Gogh - The Starry Nights"
+        loading="lazy"
+      >
+
+      <figcaption class="artwork-caption">
+        <strong>Vincent van Gogh</strong> — Starry Nights.
+      </figcaption>
+
+    </figure>
+  </div>
+</section>
+
+
+<hr class="section-divider">
 
 
 <!-- Acknowledgments Section -->
-<div class="acknowledgment-section" id="acknowledgments">
+<div
+  class="acknowledgment-section"
+  id="acknowledgments"
+>
   <h2>Acknowledgments</h2>
-  <p>I would like to sincerely thank my dearest supervisors <strong>Prof. Bayu Jayawardhana</strong> and <strong>Prof. Ming Cao</strong> for their constant support and guidance throughout my Ph.D. journey.</p>
 
-  <p>I’m deeply grateful to my paranymphs <strong>Simon Busman</strong> and <strong>Wouter Baar</strong> for their invaluable help and friendship. Thanks to all my lovely colleagues and friends in the <strong>DTPA group</strong> for making this journey memorable.</p>
+  <p>
+    I would like to sincerely thank my dearest supervisors
+    <strong>Prof. Bayu Jayawardhana</strong> and
+    <strong>Prof. Ming Cao</strong> for their constant support and guidance
+    throughout my Ph.D. journey.
+  </p>
 
-  <p>Heartfelt appreciation to the defense committee members for their insightful discussions and valuable feedback: <strong>Prof. Claudio De Persis, Prof. Dimos Dimarogonas, Prof. Tamas Keviczky, Prof. Raffaella Carloni, Prof. Maryam Ghandchi Tehrani, Prof. Sami Haddadin, Dr. Bahar Haghighat, and Dr. Ashish Cherukuri</strong>.</p>
+  <p>
+    I’m deeply grateful to my paranymphs
+    <strong>Simon Busman</strong> and
+    <strong>Wouter Baar</strong> for their invaluable help and friendship.
+    Thanks to all my lovely colleagues and friends in the
+    <strong>DTPA group</strong> for making this journey memorable.
+  </p>
 
-  <a href="/assets/pdf/acknowledge.pdf" target="_blank">Read the full acknowledgment here →</a>
+  <p>
+    Heartfelt appreciation to the defense committee members for their
+    insightful discussions and valuable feedback:
+    <strong>
+      Prof. Claudio De Persis, Prof. Dimos Dimarogonas,
+      Prof. Tamas Keviczky, Prof. Raffaella Carloni,
+      Prof. Maryam Ghandchi Tehrani, Prof. Sami Haddadin,
+      Dr. Bahar Haghighat, and Dr. Ashish Cherukuri
+    </strong>.
+  </p>
+
+  <a
+    href="/assets/pdf/acknowledge.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Read the full acknowledgment here →
+  </a>
 </div>
+
 
 <!-- Intersection Observer Script for Scroll Animation -->
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("visible");
-        }
-      });
-    }, {
-      threshold: 0.2
-    });
+    const animatedSections = [
+      document.getElementById("starry-nights-artwork"),
+      document.getElementById("acknowledgments")
+    ].filter(Boolean);
 
-    const section = document.getElementById("acknowledgments");
-    if (section) observer.observe(section);
+    const prefersReducedMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)"
+    ).matches;
+
+    if (
+      prefersReducedMotion ||
+      !("IntersectionObserver" in window)
+    ) {
+      animatedSections.forEach(function (section) {
+        section.classList.add("visible");
+      });
+
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      function (entries, currentObserver) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            currentObserver.unobserve(entry.target);
+          }
+        });
+      },
+      {
+        threshold: 0.2
+      }
+    );
+
+    animatedSections.forEach(function (section) {
+      observer.observe(section);
+    });
   });
 </script>
-
-<hr>
+```
