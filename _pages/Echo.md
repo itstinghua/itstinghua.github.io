@@ -350,7 +350,7 @@ html[data-theme="dark"] .echo-quote {
 
 
   <!-- ======================================
-       Local video 1
+       Forever Young
   ======================================= -->
 
   <article class="project-card">
@@ -387,7 +387,7 @@ html[data-theme="dark"] .echo-quote {
 
 
   <!-- ======================================
-       Local video 2
+       Forever Young-1
   ======================================= -->
 
   <article class="project-card">
@@ -424,9 +424,39 @@ html[data-theme="dark"] .echo-quote {
 
   </article>
 
+ <!-- ======================================
+       Delft-Cherry blossoms
+  ======================================= -->
+
+  <article class="project-card">
+
+    <div class="project-media">
+      <video
+        controls
+        preload="metadata"
+        playsinline>
+
+        <source
+          src="{{ '/assets/video/echo/delft.mp4' | relative_url }}"
+          type="video/mp4">
+
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
+
+    <div class="project-content">
+      <h2>Cherry blossoms in Delft, 2026</h2>
+      
+      <p class="echo-quote">
+          <strong>Don't let this spring pass you by. </strong>
+      </p>
+    </div>
+
+  </article>
+
 
   <!-- ======================================
-       Local video 3
+       Back in Groningen
   ======================================= -->
 
   <article class="project-card">
@@ -475,7 +505,7 @@ html[data-theme="dark"] .echo-quote {
       <h2>Green Day in Groningen, 2022</h2>
 
       <p>
-        <strong>Wake Me Up When September Ends</strong><br>
+        <em>Wake Me Up When September Ends</em><br>
       </p>
 
       <p class="echo-quote">
