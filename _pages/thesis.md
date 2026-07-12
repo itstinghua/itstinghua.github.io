@@ -195,7 +195,7 @@ html[data-theme="dark"] .acknowledgment-section {
 <div class="thesis-header">
   <div class="thesis-left">
     <div class="thesis-image">
-      <img src="/assets/img/cover.jpg" class="img-fluid rounded" alt="Thesis Cover">
+      <img src="/assets/img/thesis/cover.jpg" class="img-fluid rounded" alt="Thesis Cover">
     </div>
     <p style="margin-top: 1rem;">
       <a href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots" class="btn btn-primary">Full Thesis</a>
