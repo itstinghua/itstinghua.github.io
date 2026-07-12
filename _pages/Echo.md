@@ -375,9 +375,9 @@ html[data-theme="dark"] .echo-quote {
       </p>
 
       <p class="echo-quote">
-        <strong>Ring out the bells again</strong><br>
-        <strong>Like we did when Spring began</strong><br>
-        <strong>Wake me up when September ends</strong>
+        <em>Ring out the bells again</em><br>
+        <em>Like we did when Spring began</em><br>
+        <em>Wake me up when September ends</em>
       </p>
     </div>
 
