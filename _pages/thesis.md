@@ -2,7 +2,7 @@
 layout: page
 title: Ph.D. Thesis
 permalink: /Ph.D.-thesis/
-description:
+description: 
 nav: true
 nav_order: 6
 ---
@@ -501,20 +501,20 @@ html[data-theme="dark"] .acknowledgment-section {
   aria-labelledby="starry-nights-title"
 >
   <h2 id="starry-nights-title">
-    Vincent van Gogh - Starry Nights.
+    Vincent van Gogh - The Starry Nights.
   </h2>
 
   <div class="artwork-card" id="starry-nights-artwork">
     <figure>
 
       <img
-        src="/assets/img/thesis/starrynights.jpeg"
+        src="/assets/img/thesis/starrynights.jpg"
         alt="Vincent van Gogh - The Starry Nights"
         loading="lazy"
       >
 
       <figcaption class="artwork-caption">
-        <strong>Vincent van Gogh</strong> — Starry Nights.
+        <strong>Vincent van Gogh</strong> — The Starry Nights.
       </figcaption>
 
     </figure>

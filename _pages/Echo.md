@@ -371,8 +371,8 @@ html[data-theme="dark"] .echo-quote {
       <h2>Wake Me Up When September Ends</h2>
 
       <p>
-        <strong>This is how Rock heals life</strong><br>
         <strong>Green Day in Groningen, 2022</strong>
+        <em><strong>This is how Rock heals life</article>em></strong><br>
       </p>
 
       <p class="echo-quote">
