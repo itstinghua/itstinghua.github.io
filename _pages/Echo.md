@@ -372,7 +372,7 @@ html[data-theme="dark"] .echo-quote {
 
       <p>
         <strong>Green Day in Groningen, 2022</strong><br>
-        <em><strong>This is how Rock heals life</em></strong>
+        <em><strong>This is how Rock heals life</strong></em>
       </p>
 
       <p class="echo-quote">
