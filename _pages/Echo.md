@@ -527,7 +527,7 @@ html[data-theme="dark"] .echo-quote {
     <div class="project-media">
       <img
         src="{{ '/assets/img/echo/defence.jpeg' | relative_url }}"
-        alt="Tulips in Lelystad, the Netherlands"
+        alt="the Netherlands"
         loading="lazy">
     </div>
 
@@ -536,6 +536,31 @@ html[data-theme="dark"] .echo-quote {
 
       <p class="echo-quote">
         <strong>Defence Day, Groningen, 2024</strong>
+      </p>
+    </div>
+
+  </article> 
+
+  <!--======================================
+      The  Starry Nights
+  ======================================= -->
+
+  <article class="project-card">
+
+    <div class="project-media">
+      <img
+        src="{{ '/assets/img/echo/starrynights.jpg' | relative_url }}"
+        alt="Vincent van Gogh - The Starry Nights"
+        loading="lazy">
+    </div>
+
+    <div class="project-content">
+      <h2><a href="https://en.wikipedia.org/wiki/The_Starry_Night">Vincent van Gogh - The Starry Nights</a></h2>
+
+      <p class="echo-quote">
+        <strong>I want to touch people with my art.</strong><br> 
+        <strong>I want them to say </strong><br>
+        <strong>'he feels deeply, he feels tenderly</strong>
       </p>
     </div>
 
