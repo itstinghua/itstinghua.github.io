@@ -558,8 +558,8 @@ html[data-theme="dark"] .echo-quote {
       <h2><a href="https://en.wikipedia.org/wiki/The_Starry_Night">Vincent van Gogh - The Starry Nights</a></h2>
 
       <p class="echo-quote">
-        <strong>I want to touch people with my art.</strong><br> 
-        <strong>I want them to say </strong><br>
+        <strong><em>I want to touch people with my art</em></strong><br> 
+        <strong><em>I want them to say </em></strong><br>
         <strong><em>"he feels deeply, he feels tenderly"</em></strong>
       </p>
     </div>
