@@ -560,7 +560,7 @@ html[data-theme="dark"] .echo-quote {
       <p class="echo-quote">
         <strong>I want to touch people with my art.</strong><br> 
         <strong>I want them to say </strong><br>
-        <strong>'he feels deeply, he feels tenderly</strong>
+        <strong><em>"he feels deeply, he feels tenderly"</em></strong>
       </p>
     </div>
 
