@@ -481,7 +481,7 @@ html[data-theme="dark"] .echo-quote {
       <h2>Don't Let This Spring Pass By.</h2>
       
       <p class="echo-quote">
-          <strong>Cherry blossoms in Spring Delft, 2026 </strong>
+          <strong>Cherry Blossoms in Spring Delft, 2026 </strong>
       </p>
     </div>
 
