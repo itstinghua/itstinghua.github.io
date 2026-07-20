@@ -256,9 +256,9 @@ nav_order: 4
       <li class="dated-item teaching-assistant-item">
         <span class="service-time">
           <span class="service-time-line">Fall</span>
-          <span class="service-time-line">2020</span>
-          <span class="service-time-line">2021</span>
           <span class="service-time-line">2022</span>
+          <span class="service-time-line">2021</span>
+          <span class="service-time-line">2020</span>
         </span>
         <span class="service-content">
           <strong>Robotics (Master's Course)</strong><br>
