@@ -309,7 +309,7 @@ html[data-theme="dark"] .echo-quote {
        Alicia Keys
   ======================================= -->
 
-  <article class="project-card">
+<!--   <article class="project-card">
 
     <div class="project-media">
       <iframe
@@ -347,12 +347,12 @@ html[data-theme="dark"] .echo-quote {
       </p>
     </div>
 
-  </article>
+  </article> -->
 
  <!--======================================
        Green Day
   ======================================= -->
-   <article class="project-card">
+<!--    <article class="project-card">
 
     <div class="project-media">
       <video
@@ -383,7 +383,7 @@ html[data-theme="dark"] .echo-quote {
       </p>
     </div>
 
-  </article>
+  </article> -->
   
   <!-- ======================================
        Forever Young
@@ -489,35 +489,6 @@ html[data-theme="dark"] .echo-quote {
   </article>
 
 
-  <!-- ======================================
-       Back in Groningen
-  ======================================= -->
-
-  <article class="project-card">
-
-    <div class="project-media">
-      <video
-        controls
-        preload="metadata"
-        playsinline>
-
-        <source
-          src="{{ '/assets/video/echo/groningen.mp4' | relative_url }}"
-          type="video/mp4">
-
-        Your browser does not support HTML5 video.
-      </video>
-    </div>
-
-    <div class="project-content">
-      <h2>Home. Sweet Home.</h2>
-
-      <p class="echo-quote">
-        <strong>Groningen Vibe, Spring 2026</strong>
-      </p>
-    </div>
-
-  </article>
 
 
  <!--======================================
