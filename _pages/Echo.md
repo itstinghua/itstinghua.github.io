@@ -505,7 +505,7 @@ html[data-theme="dark"] .echo-quote {
     </div>
 
     <div class="project-content">
-      <h2>Friends</h2>
+      <h2>Home. Sweet Home.</h2>
 
       <p class="echo-quote">
         <strong>Defence Day, Groningen, 2024</strong>
