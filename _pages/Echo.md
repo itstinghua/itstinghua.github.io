@@ -388,7 +388,7 @@ html[data-theme="dark"] .echo-quote {
   <!-- ======================================
        Forever Young
   ======================================= -->
-
+<!-- 
   <article class="project-card">
 
     <div class="project-media">
@@ -420,13 +420,13 @@ html[data-theme="dark"] .echo-quote {
     </div>
 
   </article>
-
+ -->
 
   <!-- ======================================
        Forever Young-1
   ======================================= -->
 
-  <article class="project-card">
+ <!--  <article class="project-card">
 
     <div class="project-media">
       <video
@@ -456,7 +456,7 @@ html[data-theme="dark"] .echo-quote {
       </p>
     </div>
 
-  </article>
+  </article> -->
 
  <!-- ======================================
        Delft-Cherry blossoms
@@ -533,7 +533,7 @@ html[data-theme="dark"] .echo-quote {
       <p class="echo-quote">
         <em>I want to touch people with my art</em><br> 
         <em>I want them to say </em><br>
-        <em>"he feels deeply, he feels tenderly"</em>
+        <em>"He feels deeply, He feels tenderly"</em>
       </p>
     </div>
 
