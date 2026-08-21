@@ -52,7 +52,7 @@ nav_order: 5
     </li>
     <li class="news-row">
       <span class="news-date">2026.05 -</span>
-      <span class="news-text"> Happy to attend the <strong><a href="https://eurognc.ceas.org/">2026 CEAS Conference on Guidance, Navigation and Control Conference (EuroGNC)</a></strong> in Madrid, Spain. I thoroughly enjoyed the workshop <strong><a href = "https://safeflighteurognc.github.io/">Control Barrier Functions in Aerospace: From Foundations to Real-World Applications</a></strong> and was highly impressed by the presentation from all speakers working on CBFs. Also, don't forget to check out our paper <strong><a href="https://eurognc.ceas.org/archive/EuroGNC2026/pdf/CEAS-GNC-2026-024.pdf">"Fault Tolerant Control Barrier Functions". </a></strong></span>
+      <span class="news-text"> Happy to attend the <strong><a href="https://eurognc.ceas.org/">2026 CEAS Conference on Guidance, Navigation and Control Conference (EuroGNC)</a></strong> in Madrid, Spain. I enjoyed the workshop <strong><a href = "https://safeflighteurognc.github.io/">Control Barrier Functions in Aerospace: From Foundations to Real-World Applications</a></strong> and was highly impressed by the presentation from all speakers working on CBFs.
     </li>
     <li class="news-row">
       <span class="news-date">2026.04 -</span>
