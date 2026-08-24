@@ -48,7 +48,7 @@ nav_order: 5
   <ul>
      <li class="news-row">
       <span class="news-date">2026.06 -</span>
-      <span class="news-text">Our paper <a href = "https://ieeexplore.ieee.org/document/11311473">"Collision-Free Source Seeking and Flocking Control of Multiagents With Connectivity Preservation"</a> has been officially published in IEEE Transactions on Automatic Control (TAC). </span>
+      <span class="news-text">Our paper "Collision-Free Source Seeking and Flocking Control of Multiagents With Connectivity Preservation" has been officially published in IEEE Transactions on Automatic Control (TAC). </span>
     </li>
     <li class="news-row">
       <span class="news-date">2026.05 -</span>
@@ -56,17 +56,11 @@ nav_order: 5
     </li>
     <li class="news-row">
       <span class="news-date">2026.04 -</span>
-      <span class="news-text">Glad to co-organize the workshop on <a href="https://sites.google.com/view/bayujayawardhanainaugural/home?authuser=0">"Opto-Mechatronics and Control of Nonlinear Systems"</a> with our colleagues and celebrate the <strong>Inaugural Lecture of Prof. Bayu Jayawardhana</strong> in the University of Groningen. Fijn om weer terug te zijn in Groningen! </span>
+      <span class="news-text">Glad to co-organize the workshop on <a href="https://sites.google.com/view/bayujayawardhanainaugural/home?authuser=0">"Opto-Mechatronics and Control of Nonlinear Systems"</a> with our colleagues and celebrate the Inaugural Lecture of Prof. Bayu Jayawardhana in the University of Groningen. Fijn om weer terug te zijn in Groningen! </span>
     </li>
   </ul>
-<!-- <div class="gallery-section">
-  <div class="gallery-video">
-    <video controls>
-      <source src="/assets/video/groningen.mp4" type="video/mp4">
-    </video>
   </div>
-</div>
-</div> -->
+
 
 
 <div class="fade-in-section service-section">
@@ -74,26 +68,25 @@ nav_order: 5
   <ul>
     <li class="news-row">
       <span class="news-date">2025.12 -</span>
-      <span class="news-text">I am pleased to share that our paper <a href = "https://ieeexplore.ieee.org/document/11311473">"Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation"</a> has been offically accepted for publication as full paper in <em>IEEE Transactions on Automatic Control (TAC)</em>, it is now available in early access.</span>
+      <span class="news-text">I am pleased to share that our paper "Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation" has been offically accepted for publication as full paper in <em>IEEE Transactions on Automatic Control (TAC)</em>, it is now available in early access.</span>
     </li>
     <li class="news-row">
       <span class="news-date">2025.08 -</span>
-      <span class="news-text">Happy to visit the <a href = "https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/">Robotics and Autonomous Systems, Hong Kong University of Science and Technology (Guangzhou)</a>. </span>
+      <span class="news-text">Happy to visit the Robotics and Autonomous Systems, Hong Kong University of Science and Technology (Guangzhou). </span>
     </li>
     <li class="news-row">
       <span class="news-date">2025.06 -</span>
       <span class="news-text">
         I had the pleasure of delivering my first guest lecture in the Master’s course “Nonlinear Control” at the Faculty of Aerospace Engineering, TU Delft.
-        <!-- <div class="large-img"><img src="/assets/img/news/guest_lecture_TUD.png"></div> -->
       </span>
     </li>
     <li class="news-row">
       <span class="news-date">2025.03 -</span>
-      <span class="news-text">Our paper <a href="https://ieeexplore.ieee.org/document/10735338">"Collision-free Source Seeking Control Methods for Unicycle Robots"</a> is now online in <em>IEEE Transactions on Automatic Control (TAC).</em></span>
+      <span class="news-text">Our paper "Collision-free Source Seeking Control Methods for Unicycle Robots" is now online in <em>IEEE Transactions on Automatic Control (TAC).</em></span>
     </li>
     <li class="news-row">
       <span class="news-date">2025.02 -</span>
-      <span class="news-text">I have started my postdoc journey at <a href="https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/control-and-simulation">Control and Simulation (C&amp;S), Delft University of Technology (TU Delft).</a> Excited to explore the challenges from ground mobile robots to aerospace!</span>
+      <span class="news-text">I have started my postdoc journey at Control and Simulation (C&amp;S), Delft University of Technology (TU Delft). Excited to explore the challenges from ground mobile robots to aerospace!</span>
     </li>
   </ul>
 </div>
@@ -104,7 +97,7 @@ nav_order: 5
   <ul>
     <li class="news-row">
       <span class="news-date">2024.10 -</span>
-      <span class="news-text">Our work <em>"Collision-free Source Seeking Control Methods for Unicycle Robots"</em> has been officially accepted in <em>IEEE Transactions on Automatic Control (TAC)</em>. This is a key part of my PhD thesis and it proposes three control barrier function (CBF) designs for solving the mixed relative degree problem in unicycle robot control.</span>
+      <span class="news-text">Our work "Collision-free Source Seeking Control Methods for Unicycle Robots" has been officially accepted in <em>IEEE Transactions on Automatic Control (TAC)</em>. This is a key part of my PhD thesis and it proposes three control barrier function (CBF) designs for solving the mixed relative degree problem in unicycle robot control.</span>
     </li>
     <li class="news-row">
       <span class="news-date">2024.06 -</span>
@@ -112,7 +105,7 @@ nav_order: 5
     </li>
     <li class="news-row">
       <span class="news-date">2024.01 -</span>
-      <span class="news-text">🎓 I am excited to announce that I have defended my Ph.D. thesis <a href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots"> "Motion control for nonholonomic unicycle robots".</a></span>
+      <span class="news-text">🎓 I am excited to announce that I have defended my Ph.D. thesis <em>"Motion control for nonholonomic unicycle robots".</em></span>
     </li>
   </ul>
 </div>
@@ -156,15 +149,15 @@ nav_order: 5
     </li>
     <li class="news-row">
       <span class="news-date">2021.07 -</span>
-      <span class="news-text">Presented our latest work "Source-Seeking Control of Unicycle Robots With 3D-Printed Flexible Sensors" at the <em><a href="https://beneluxmeeting.nl/2021/">40th Benelux Meeting on Systems and Control</a></em> in Rotterdam, The Netherlands.</span>
+      <span class="news-text">Presented our latest work "Source-Seeking Control of Unicycle Robots With 3D-Printed Flexible Sensors" at the <em>40th Benelux Meeting on Systems and Control</em> in Rotterdam, The Netherlands.</span>
     </li>
     <li class="news-row">
       <span class="news-date">2021.06 -</span>
-      <span class="news-text">Happy to join the <em>DISC Summer School "Planning, Learning and Control for Multi-Robot and Multi-Agent Systems" in Rotterdam, the Netherlands!</em>.</span>
+      <span class="news-text">Happy to join the DISC Summer School "Planning, Learning and Control for Multi-Robot and Multi-Agent Systems" in Rotterdam, the Netherlands!.</span>
     </li>
     <li class="news-row">
       <span class="news-date">2021.04 -</span>
-      <span class="news-text">I am glad to share that my first PhD project<em><a href="https://ieeexplore.ieee.org/document/9458274">"Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors"</a></em> was accepted by <em>IEEE Transactions on Robotics (TRO)</em>. 
+      <span class="news-text">I am glad to share that my first PhD project "Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors"was accepted by <em>IEEE Transactions on Robotics (TRO)</em>. 
       </span>
     </li>
   </ul>
