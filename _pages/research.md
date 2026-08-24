@@ -231,7 +231,7 @@ html[data-theme="dark"] .paper-cite {
       <div class="project-tags">
         <span>Multi-agent systems</span>
         <span>Flocking Cohesion</span>
-        <span>Obstacle/Collision Avoidance</span>
+        <span>Collision Avoidance</span>
         <span>Connectivity Preservation</span>
         <span>Distributed CBFs</span>
       </div>
