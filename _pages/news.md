@@ -120,7 +120,7 @@ nav_order: 5
     <li class="news-row">
       <span class="news-date">2023.03 -</span>
       <span class="news-text">
-        Present our work "Multi-agents Source Seeking and Flocking Control with Connectivity Preservation and Collision Avoidance" at the <em><a href="https://beneluxmeeting.nl/2023/">42nd Benelux Meeting on Systems and Control</a></em> in Elspeet, The Netherlands. 
+        Present our work "Multi-agents Source Seeking and Flocking Control with Connectivity Preservation and Collision Avoidance" at the <em>42nd Benelux Meeting on Systems and Control</em> in Elspeet, The Netherlands. 
      </span>
     </li>
   </ul>
@@ -132,7 +132,7 @@ nav_order: 5
     <li class="news-row">
       <span class="news-date">2022.07 -</span>
       <span class="news-text">
-        Present our work "Collision-free Source Seeking Control of Unicycle Robot under Uncertain Environment" at the <em><a href="https://www.beneluxmeeting.nl/2022/">41st Benelux Meeting on Systems and Control</a></em> in Brussels, Belgium.
+        Present our work "Collision-free Source Seeking Control of Unicycle Robot under Uncertain Environment" at the <em>41st Benelux Meeting on Systems and Control</em> in Brussels, Belgium.
       </span>
     </li>
   </ul>
