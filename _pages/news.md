@@ -120,7 +120,7 @@ nav_order: 5
     <li class="news-row">
       <span class="news-date">2023.03 -</span>
       <span class="news-text">
-        Present our work "Multi-agents Source Seeking and Flocking Control with Connectivity Preservation and Collision Avoidance" at the <em>42nd Benelux Meeting on Systems and Control</em> in Elspeet, The Netherlands. 
+        Present our work "Multi-agents Source Seeking and Flocking Control with Connectivity Preservation and Collision Avoidance" at the <em>42nd Benelux Meeting on Systems and Control</em>, Elspeet, The Netherlands. 
      </span>
     </li>
   </ul>
@@ -132,7 +132,7 @@ nav_order: 5
     <li class="news-row">
       <span class="news-date">2022.07 -</span>
       <span class="news-text">
-        Present our work "Collision-free Source Seeking Control of Unicycle Robot under Uncertain Environment" at the <em>41st Benelux Meeting on Systems and Control</em> in Brussels, Belgium.
+        Present our work "Collision-free Source Seeking Control of Unicycle Robot under Uncertain Environment" at the <em>41st Benelux Meeting on Systems and Control</em>, Brussels, Belgium.
       </span>
     </li>
   </ul>
@@ -149,7 +149,7 @@ nav_order: 5
     </li>
     <li class="news-row">
       <span class="news-date">2021.07 -</span>
-      <span class="news-text">Presented our latest work "Source-Seeking Control of Unicycle Robots With 3D-Printed Flexible Sensors" at the <em>40th Benelux Meeting on Systems and Control</em> in Rotterdam, The Netherlands.</span>
+      <span class="news-text">Presented our latest work "Source-Seeking Control of Unicycle Robots With 3D-Printed Flexible Sensors" at the <em>40th Benelux Meeting on Systems and Control</em>,  Rotterdam, The Netherlands.</span>
     </li>
     <li class="news-row">
       <span class="news-date">2021.06 -</span>
