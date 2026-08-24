@@ -239,17 +239,17 @@ a:hover { text-decoration: underline; }
       <h3>Robotics</h3>
       <ul>
         <li>Nonholonomic Systems</li>
-        <li>Multi-agent Systems</li>
         <li>Wheeled Mobile Robots</li>
         <li>Aerial Robots</li>
+        <li>Multi-agent Systems</li>
       </ul>
     </div>
     <div class="research-group">
       <h3>Motion Control</h3>
       <ul>
         <li>Source Seeking</li>
-        <li>Flexible Flocking</li>
-        <li>Collision/Obstacle Avoidance</li>
+        <li>Flexible Flocking Cohesion</li>
+        <li>Collision Avoidance</li>
         <li>Safe Flight Control</li>
       </ul>
     </div>
