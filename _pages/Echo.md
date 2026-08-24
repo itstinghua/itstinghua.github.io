@@ -305,6 +305,31 @@ html[data-theme="dark"] .echo-quote {
   </article>
 
 
+
+   <!--======================================
+       Defence Day
+  ======================================= -->
+
+  <article class="project-card">
+
+    <div class="project-media">
+      <img
+        src="{{ '/assets/img/echo/defence.jpeg' | relative_url }}"
+        alt="the Netherlands"
+        loading="lazy">
+    </div>
+
+    <div class="project-content">
+      <h2>Friends</h2>
+
+      <p class="echo-quote">
+        <strong>Defence Day, Groningen, 2024</strong>
+      </p>
+    </div>
+
+  </article> 
+
+
   <!-- ======================================
        Alicia Keys
   ======================================= -->
@@ -491,28 +516,7 @@ html[data-theme="dark"] .echo-quote {
 
 
 
- <!--======================================
-       Defence Day
-  ======================================= -->
 
-  <article class="project-card">
-
-    <div class="project-media">
-      <img
-        src="{{ '/assets/img/echo/defence.jpeg' | relative_url }}"
-        alt="the Netherlands"
-        loading="lazy">
-    </div>
-
-    <div class="project-content">
-      <h2>Friends</h2>
-
-      <p class="echo-quote">
-        <strong>Defence Day, Groningen, 2024</strong>
-      </p>
-    </div>
-
-  </article> 
   
   <!--======================================
       The  Starry Nights
