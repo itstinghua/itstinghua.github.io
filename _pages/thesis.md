@@ -8,6 +8,7 @@ nav_order: 6
 ---
 
 <style>
+
 /* ========================================
    Thesis Header
 ======================================== */
@@ -16,7 +17,6 @@ nav_order: 6
   display: flex;
   gap: 40px;
   align-items: flex-start;
-
   margin-bottom: 2.5rem;
 }
 
@@ -37,7 +37,6 @@ nav_order: 6
   height: auto;
 
   border-radius: 0.5rem;
-
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
 }
 
@@ -46,7 +45,6 @@ nav_order: 6
   min-width: 0;
 
   text-align: left;
-
   color: var(--global-text-color);
 }
 
@@ -64,7 +62,6 @@ nav_order: 6
   margin-bottom: 1rem;
 
   line-height: 1.75;
-
   color: var(--global-text-color);
 }
 
@@ -82,13 +79,11 @@ nav_order: 6
 .thesis-text ul {
   margin-top: 0.4rem;
   margin-bottom: 0.8rem;
-
   padding-left: 1.25rem;
 }
 
 .thesis-text li {
   margin-bottom: 0.3rem;
-
   line-height: 1.65;
 }
 
@@ -116,7 +111,6 @@ nav_order: 6
 
   font-size: 0.9rem;
   font-weight: 500;
-
   text-decoration: none;
 
   transition:
@@ -126,11 +120,9 @@ nav_order: 6
 
 .thesis-link a:hover {
   opacity: 0.9;
-
   transform: translateY(-1px);
 
   color: #fff;
-
   text-decoration: none;
 }
 
@@ -141,7 +133,7 @@ nav_order: 6
 
 .thesis-summary-figure {
   width: 100%;
-  max-width: 900px;
+  max-width: 1000px;
 
   margin: 2.8rem auto 0;
 
@@ -157,7 +149,6 @@ nav_order: 6
   margin: 0 auto;
 
   border-radius: 0.65rem;
-
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10);
 }
 
@@ -175,12 +166,11 @@ nav_order: 6
 
 
 /* ========================================
-   Defence Gallery
+   Ph.D. Defence Gallery
 ======================================== */
 
 .gallery-section {
   width: 100%;
-  max-width: 760px;
 
   margin: 0 auto;
 
@@ -188,63 +178,88 @@ nav_order: 6
 }
 
 .gallery-section h2 {
-  margin-bottom: 1.8rem;
+  margin: 0 0 1.8rem;
 
   font-size: 1.75rem;
   font-weight: 600;
-
+  line-height: 1.4;
   text-align: center;
 
   color: var(--global-text-color);
 }
 
 
-/* Gallery Row */
+/* Gallery grid */
 
 .gallery-row {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
 
-  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 
-  justify-content: center;
+  gap: 16px;
+
+  width: 100%;
+  max-width: 1000px;
+
+  margin: 0 auto;
 }
 
 
-/* Gallery Item */
+/* Gallery item */
 
 .gallery-col {
-  flex: 0 1 230px;
-
-  width: 230px;
-  max-width: 230px;
+  min-width: 0;
 
   overflow: hidden;
 
-  border-radius: 0.65rem;
+  border-radius: 0.6rem;
 }
+
+
+/* Equal-sized images */
 
 .gallery-row img {
   display: block;
 
   width: 100%;
-  height: 180px;
+  aspect-ratio: 4 / 3;
 
   object-fit: cover;
+  object-position: center center;
 
-  border-radius: 0.65rem;
+  border-radius: 0.6rem;
 
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.12);
 
   transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
 .gallery-row img:hover {
-  transform: scale(1.025);
+  transform: scale(1.015);
 
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.16);
+}
+
+
+/* ----------------------------------------
+   Individual crop adjustment
+
+   如果某一张人物被裁掉，可以只修改这里，
+   不会影响三张图片尺寸。
+---------------------------------------- */
+
+.gallery-col:nth-child(1) img {
+  object-position: center center;
+}
+
+.gallery-col:nth-child(2) img {
+  object-position: center center;
+}
+
+.gallery-col:nth-child(3) img {
+  object-position: center center;
 }
 
 
@@ -254,9 +269,9 @@ nav_order: 6
 
 .gallery-video {
   width: 100%;
-  max-width: 640px;
+  max-width: 1000px;
 
-  margin: 2rem auto 0;
+  margin: 2.5rem auto 0;
 
   text-align: center;
 }
@@ -267,17 +282,11 @@ nav_order: 6
   width: 100%;
   height: auto;
 
-  max-height: 420px;
-
   margin: 0 auto;
 
-  object-fit: contain;
+  border-radius: 0.6rem;
 
-  border-radius: 0.65rem;
-
-  background: #000;
-
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.12);
 }
 
 
@@ -290,13 +299,11 @@ nav_order: 6
   max-width: 760px;
 
   margin: 0 auto 2rem;
-
   padding: 0 1rem;
 
   color: var(--global-text-color);
 
   opacity: 0;
-
   transform: translateY(20px);
 
   transition:
@@ -306,7 +313,6 @@ nav_order: 6
 
 .acknowledgment-section.visible {
   opacity: 1;
-
   transform: translateY(0);
 }
 
@@ -316,7 +322,6 @@ nav_order: 6
   font-size: 1.75rem;
   font-weight: 600;
   line-height: 1.4;
-
   text-align: center;
 
   color: var(--global-text-color);
@@ -327,7 +332,6 @@ nav_order: 6
 
   font-size: 1rem;
   line-height: 1.85;
-
   text-align: left;
 
   color: var(--global-text-color);
@@ -352,7 +356,6 @@ nav_order: 6
   color: var(--global-theme-color);
 
   font-size: 0.95rem;
-
   text-decoration: none;
 }
 
@@ -411,45 +414,27 @@ html[data-theme="dark"] .gallery-video video {
 
   /* Gallery */
 
-  .gallery-section {
-    max-width: 100%;
-  }
-
-  .gallery-row {
-    gap: 0.8rem;
-  }
-
-  .gallery-col {
-    flex: 1 1 calc(50% - 0.8rem);
-
-    width: auto;
-
-    max-width: calc(50% - 0.4rem);
-  }
-
-  .gallery-row img {
-    width: 100%;
-    height: auto;
-
-    aspect-ratio: 4 / 3;
-
-    object-fit: cover;
-  }
-
-
-  /* Video */
-
-  .gallery-video {
-    max-width: 100%;
-  }
-
-
-  /* Text */
-
   .gallery-section h2,
   .acknowledgment-section h2 {
     font-size: 1.5rem;
   }
+
+  .gallery-row {
+    grid-template-columns: 1fr;
+
+    gap: 14px;
+  }
+
+  .gallery-row img {
+    aspect-ratio: 4 / 3;
+  }
+
+  .gallery-video {
+    margin-top: 2rem;
+  }
+
+
+  /* Acknowledgements */
 
   .acknowledgment-section {
     padding: 0 0.5rem;
@@ -457,7 +442,6 @@ html[data-theme="dark"] .gallery-video video {
 
   .acknowledgment-section p {
     font-size: 0.96rem;
-
     line-height: 1.8;
   }
 
@@ -485,41 +469,15 @@ html[data-theme="dark"] .gallery-video video {
     font-size: 1rem;
   }
 
-
-  /* Gallery */
-
-  .gallery-col {
-    flex: 1 1 100%;
-
-    max-width: 100%;
-  }
-
-  .gallery-row {
-    gap: 1rem;
-  }
-
-  .gallery-row img {
-    aspect-ratio: 4 / 3;
-  }
-
-
-  /* Video */
-
-  .gallery-video {
-    margin-top: 1.5rem;
-  }
-
-
-  /* Rounded corners */
-
   .thesis-summary-figure img,
   .gallery-row img,
   .gallery-video video {
     border-radius: 0.5rem;
   }
 
-
-  /* Acknowledgements */
+  .gallery-row {
+    gap: 12px;
+  }
 
   .acknowledgment-section h2 {
     margin-bottom: 1.5rem;
@@ -540,10 +498,10 @@ html[data-theme="dark"] .gallery-video video {
 
   .acknowledgment-section {
     opacity: 1;
-
     transform: none;
   }
 }
+
 </style>
 
 
@@ -563,6 +521,7 @@ html[data-theme="dark"] .gallery-video video {
       >
 
     </div>
+
 
     <p class="thesis-link">
 
@@ -584,6 +543,7 @@ html[data-theme="dark"] .gallery-video video {
     <div class="thesis-title">
       Motion Control for Nonholonomic Unicycle Robots
     </div>
+
 
     <p>
       This doctoral research focuses on developing algorithms for
@@ -681,6 +641,8 @@ html[data-theme="dark"] .gallery-video video {
 
   </div>
 
+
+  <!-- Defence Video -->
 
   <div class="gallery-video">
 

@@ -1,8 +1,27 @@
+---
+layout: page
+title: Echo
+permalink: /Echo/
+description: Songs, memories, and moments that echo through life.
+nav: true
+nav_order: 7
+---
+
+<style>
+/* ========================================
+   Container
+======================================== */
+
 .echo-container {
   width: 100%;
   max-width: 680px;
   margin: 0 auto;
 }
+
+
+/* ========================================
+   Hero
+======================================== */
 
 .echo-hero {
   max-width: 620px;
@@ -34,7 +53,7 @@
 
 
 /* ========================================
-   Item
+   Echo item
 ======================================== */
 
 .echo-item {
@@ -64,14 +83,20 @@
   display: block;
 
   width: 100%;
-  border: 0;
 
+  border: 0;
   border-radius: 8px;
 }
+
+
+/* YouTube */
 
 .echo-media iframe {
   aspect-ratio: 16 / 9;
 }
+
+
+/* Local video */
 
 .echo-media video {
   height: auto;
@@ -81,6 +106,9 @@
 
   background: #000;
 }
+
+
+/* Image */
 
 .echo-media img {
   height: auto;
@@ -129,6 +157,7 @@
   max-width: 560px;
 
   margin-top: 0.5rem;
+  margin-bottom: 0;
 
   font-size: 0.92rem;
   line-height: 1.7;
@@ -155,6 +184,20 @@
 
 
 /* ========================================
+   Chinese
+======================================== */
+
+.zh-kaiti {
+  font-family:
+    "KaiTi",
+    "STKaiti",
+    "Kaiti SC",
+    "DFKai-SB",
+    serif;
+}
+
+
+/* ========================================
    Dark mode
 ======================================== */
 
@@ -164,7 +207,7 @@ html[data-theme="dark"] .echo-media {
 
 
 /* ========================================
-   Mobile
+   Tablet / Mobile
 ======================================== */
 
 @media (max-width: 768px) {
@@ -186,6 +229,11 @@ html[data-theme="dark"] .echo-media {
     margin: 2.5rem auto;
   }
 }
+
+
+/* ========================================
+   Small mobile
+======================================== */
 
 @media (max-width: 480px) {
 
@@ -213,3 +261,161 @@ html[data-theme="dark"] .echo-media {
     font-size: 0.68rem;
   }
 }
+</style>
+
+
+<!-- ======================================
+     Hero
+======================================= -->
+
+<div class="echo-hero">
+
+  <blockquote>
+    “This is not a song for the broken-hearted”
+  </blockquote>
+
+  <p>
+    — Bon Jovi, <em>It's My Life</em>
+  </p>
+
+</div>
+
+
+<!-- ======================================
+     Echo
+======================================= -->
+
+<div class="echo-container">
+
+
+  <!-- ====================================
+       1. Bon Jovi
+  ===================================== -->
+
+  <article class="echo-item">
+
+    <div class="echo-media">
+
+      <iframe
+        src="https://www.youtube.com/embed/VUxIwnf_wZk"
+        title="Bon Jovi - It's My Life"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+
+    </div>
+
+
+    <div class="echo-content">
+
+      <div class="echo-meta">
+        Music · Bon Jovi
+      </div>
+
+      <h2 class="echo-title">
+
+        <a
+          href="https://www.bilibili.com/video/BV1Q3411k7Be?t=4.0"
+          target="_blank"
+          rel="noopener noreferrer">
+          It's My Life
+        </a>
+
+      </h2>
+
+      <p class="echo-note">
+        A song that has stayed with me through different stages of life.
+      </p>
+
+    </div>
+
+  </article>
+
+
+  <div class="echo-divider"></div>
+
+
+  <!-- ====================================
+       2. Defence Day
+  ===================================== -->
+
+  <article class="echo-item">
+
+    <div class="echo-media">
+
+      <img
+        src="{{ '/assets/img/echo/defence.jpeg' | relative_url }}"
+        alt="Friends on Defence Day in Groningen"
+        loading="lazy">
+
+    </div>
+
+
+    <div class="echo-content">
+
+      <div class="echo-meta">
+        Groningen · 2024
+      </div>
+
+      <h2 class="echo-title">
+        Defence Day
+      </h2>
+
+      <p class="echo-note">
+        Friends, memories, and the closing of an unforgettable chapter in Groningen.
+      </p>
+
+    </div>
+
+  </article>
+
+
+  <div class="echo-divider"></div>
+
+
+  <!-- ====================================
+       3. Delft
+  ===================================== -->
+
+  <article class="echo-item">
+
+    <div class="echo-media">
+
+      <video
+        controls
+        preload="metadata"
+        playsinline>
+
+        <source
+          src="{{ '/assets/video/echo/delft.mp4' | relative_url }}"
+          type="video/mp4">
+
+        Your browser does not support HTML5 video.
+
+      </video>
+
+    </div>
+
+
+    <div class="echo-content">
+
+      <div class="echo-meta">
+        Delft · Spring 2026
+      </div>
+
+      <h2 class="echo-title">
+        Don’t Let This Spring Pass By
+      </h2>
+
+      <p class="echo-note">
+        Cherry blossoms in Delft.
+      </p>
+
+    </div>
+
+  </article>
+
+
+</div>
