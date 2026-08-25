@@ -8,162 +8,421 @@ nav_order: 5
 ---
 
 <style>
-.fade-in-section{opacity:0;transform:translateY(30px);transition:opacity .8s ease-out,transform .8s ease-out}
-.fade-in-section.visible{opacity:1;transform:translateY(0)}
-.service-section{margin-bottom:3rem}
-.service-section h4{margin-bottom:.8rem;font-size:1.25rem;border-left:4px solid;padding-left:.6rem;font-weight:600;color:#00539C}
-.service-section ul{margin-top:0;padding-left:1.2rem}
-
-
-.news-row{display:flex;align-items:flex-start;gap:.5rem;margin-bottom:.75rem;line-height:1.7}
-.news-date{flex:0 0 5.0rem;font-weight:600;white-space:nowrap} /* 可微调宽度：5.8rem~7.0rem */
-.news-text{flex:1;min-width:0}
-
-/* 图片 */
-.news-gallery,.large-img{display:flex;flex-wrap:wrap;justify-content:center;gap:.75rem;margin-top:.75rem}
-.news-gallery img{width:100%;max-width:400px;height:auto;border-radius:.5rem;box-shadow:0 2px 6px rgba(0,0,0,.1);object-fit:cover}
-.large-img img{width:100%;max-width:500px;height:auto;border-radius:.5rem;box-shadow:0 2px 6px rgba(0,0,0,.1);object-fit:cover}
-
-/* 链接 */
-.service-section a{color:var(--global-theme-color);text-decoration:none}
-.service-section a:hover{color:var(--global-hover-color);text-decoration:underline}
-
-.gallery-video{
-    display:flex;
-    justify-content:center;
-    margin-top:.75rem;
+/* =========================
+   Fade-in animation
+   ========================= */
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity .8s ease-out, transform .8s ease-out;
 }
 
-.gallery-video video{
-    width:100%;
-    max-width:500px;
-    height:auto;
-    border-radius:.5rem;
-    box-shadow:0 2px 6px rgba(0,0,0,.1);
+.fade-in-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+/* =========================
+   News sections
+   ========================= */
+.news-section {
+  margin-bottom: 3rem;
+}
+
+.news-section h4 {
+  margin-bottom: .8rem;
+  font-size: 1.25rem;
+  border-left: 4px solid;
+  padding-left: .6rem;
+  font-weight: 600;
+  color: #00539C;
+}
+
+.news-section ul {
+  margin-top: 0;
+  padding-left: 1.2rem;
+}
+
+
+/* =========================
+   News rows
+   ========================= */
+.news-row {
+  display: flex;
+  align-items: flex-start;
+  gap: .5rem;
+  margin-bottom: .75rem;
+  line-height: 1.7;
+}
+
+.news-date {
+  flex: 0 0 5.4rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.news-text {
+  flex: 1;
+  min-width: 0;
+}
+
+
+/* =========================
+   Images
+   ========================= */
+.news-gallery,
+.large-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .75rem;
+  margin-top: .75rem;
+}
+
+.news-gallery img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: .5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+  object-fit: cover;
+}
+
+.large-img img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: .5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+  object-fit: cover;
+}
+
+
+/* =========================
+   Videos
+   ========================= */
+.gallery-video {
+  display: flex;
+  justify-content: center;
+  margin-top: .75rem;
+}
+
+.gallery-video video {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: .5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+}
+
+
+/* =========================
+   Links
+   ========================= */
+.news-section a {
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
+
+.news-section a:hover {
+  color: var(--global-hover-color);
+  text-decoration: underline;
+}
+
+
+/* =========================
+   Mobile
+   ========================= */
+@media (max-width: 576px) {
+  .news-row {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .news-date {
+    display: block;
+    margin-bottom: .1rem;
+  }
+
+  .news-text {
+    display: block;
+  }
 }
 </style>
 
-<div class="fade-in-section service-section">
+
+<!-- =========================================================
+     2026
+     ========================================================= -->
+
+<div class="fade-in-section news-section">
   <h4>2026</h4>
+
   <ul>
-     <li class="news-row">
-      <span class="news-date">2026.06 -</span>
-      <span class="news-text">Our paper "Collision-Free Source Seeking and Flocking Control of Multiagents With Connectivity Preservation" has been officially published in IEEE Transactions on Automatic Control (TAC). </span>
+
+    <li class="news-row">
+      <span class="news-date">2026.06 —</span>
+      <span class="news-text">
+        Our paper, “Collision-Free Source Seeking and Flocking Control of Multiagents With Connectivity Preservation,”
+        was published in <em>IEEE Transactions on Automatic Control (TAC)</em>.
+      </span>
     </li>
+
     <li class="news-row">
-      <span class="news-date">2026.05 -</span>
-      <span class="news-text"> Happy to attend the <a href="https://eurognc.ceas.org/">2026 CEAS Conference on Guidance, Navigation and Control Conference (EuroGNC)</a> and join the workshop <a href = "https://safeflighteurognc.github.io/">Control Barrier Functions in Aerospace: From Foundations to Real-World Applications</a> in Madrid, Spain. 
-    </span>
+      <span class="news-date">2026.05 —</span>
+      <span class="news-text">
+        Attended the
+        <a href="https://eurognc.ceas.org/" target="_blank" rel="noopener noreferrer">
+          2026 CEAS Conference on Guidance, Navigation and Control (EuroGNC)
+        </a>
+        and participated in the workshop
+        <a href="https://safeflighteurognc.github.io/" target="_blank" rel="noopener noreferrer">
+          “Control Barrier Functions in Aerospace: From Foundations to Real-World Applications”
+        </a>
+        in Madrid, Spain.
+      </span>
+    </li>
+
     <li class="news-row">
-      <span class="news-date">2026.04 -</span>
-      <span class="news-text">Glad to co-organize the workshop on <a href="https://sites.google.com/view/bayujayawardhanainaugural/home?authuser=0">"Opto-Mechatronics and Control of Nonlinear Systems"</a> with our colleagues and celebrate the Inaugural Lecture of Prof. Bayu Jayawardhana in the University of Groningen. Fijn om weer terug te zijn in Groningen! </span>
-  </div>
+      <span class="news-date">2026.04 —</span>
+      <span class="news-text">
+        Co-organized the workshop
+        <a href="https://sites.google.com/view/bayujayawardhanainaugural/home?authuser=0"
+           target="_blank"
+           rel="noopener noreferrer">
+          “Opto-Mechatronics and Control of Nonlinear Systems”
+        </a>
+        with colleagues at the University of Groningen, celebrating the inaugural lecture of
+        Prof. Bayu Jayawardhana. Fijn om weer terug te zijn in Groningen!
+      </span>
+    </li>
+
+  </ul>
+</div>
 
 
+<!-- =========================================================
+     2025
+     ========================================================= -->
 
-<div class="fade-in-section service-section">
+<div class="fade-in-section news-section">
   <h4>2025</h4>
+
   <ul>
+
     <li class="news-row">
-      <span class="news-date">2025.12 -</span>
-      <span class="news-text">I am pleased to share that our paper "Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation" has been offically accepted for publication as full paper in <em>IEEE Transactions on Automatic Control (TAC)</em>, it is now available in early access.</span>
-    </li>
-    <li class="news-row">
-      <span class="news-date">2025.08 -</span>
-      <span class="news-text">Happy to visit the Robotics and Autonomous Systems, Hong Kong University of Science and Technology (Guangzhou). </span>
-    </li>
-    <li class="news-row">
-      <span class="news-date">2025.06 -</span>
+      <span class="news-date">2025.12 —</span>
       <span class="news-text">
-        I had the pleasure of delivering my first guest lecture in the Master’s course “Nonlinear Control” at the Faculty of Aerospace Engineering, TU Delft.
+        Our paper, “Collision-Free Source Seeking and Flocking Control of Multiagents With Connectivity Preservation,”
+        was accepted for publication as a full paper in
+        <em>IEEE Transactions on Automatic Control (TAC)</em>.
       </span>
     </li>
+
     <li class="news-row">
-      <span class="news-date">2025.03 -</span>
-      <span class="news-text">Our paper "Collision-free Source Seeking Control Methods for Unicycle Robots" is now online in <em>IEEE Transactions on Automatic Control (TAC).</em></span>
+      <span class="news-date">2025.08 —</span>
+      <span class="news-text">
+        Visited the Robotics and Autonomous Systems group at the
+        Hong Kong University of Science and Technology (Guangzhou).
+      </span>
     </li>
+
     <li class="news-row">
-      <span class="news-date">2025.02 -</span>
-      <span class="news-text">I have started my postdoc journey at Control and Simulation (C&amp;S), Delft University of Technology (TU Delft). Excited to explore the challenges from ground mobile robots to aerospace!</span>
+      <span class="news-date">2025.06 —</span>
+      <span class="news-text">
+        Delivered my first guest lecture for the Master’s course
+        “Nonlinear Control” at the Faculty of Aerospace Engineering, TU Delft.
+      </span>
     </li>
+
+    <li class="news-row">
+      <span class="news-date">2025.03 —</span>
+      <span class="news-text">
+        Our paper, “Collision-Free Source Seeking Control Methods for Unicycle Robots,”
+        was published online in
+        <em>IEEE Transactions on Automatic Control (TAC)</em>.
+      </span>
+    </li>
+
+    <li class="news-row">
+      <span class="news-date">2025.02 —</span>
+      <span class="news-text">
+        Started my postdoctoral journey at Delft University of Technology (TU Delft),
+        expanding my research from ground mobile robotics to aerospace.
+      </span>
+    </li>
+
   </ul>
 </div>
 
 
-<div class="fade-in-section service-section">
+<!-- =========================================================
+     2024
+     ========================================================= -->
+
+<div class="fade-in-section news-section">
   <h4>2024</h4>
+
   <ul>
+
     <li class="news-row">
-      <span class="news-date">2024.10 -</span>
-      <span class="news-text">Our work "Collision-free Source Seeking Control Methods for Unicycle Robots" has been officially accepted in <em>IEEE Transactions on Automatic Control (TAC)</em>. This is a key part of my PhD thesis and it proposes three control barrier function (CBF) designs for solving the mixed relative degree problem in unicycle robot control.</span>
+      <span class="news-date">2024.10 —</span>
+      <span class="news-text">
+        Our paper, “Collision-Free Source Seeking Control Methods for Unicycle Robots,”
+        was accepted for publication in
+        <em>IEEE Transactions on Automatic Control (TAC)</em>.
+        This work forms a key part of my Ph.D. thesis.
+      </span>
     </li>
+
     <li class="news-row">
-      <span class="news-date">2024.06 -</span>
-      <span class="news-text">Honored to be a keynote speaker at the 6th AI QianTang Forum, School of Automation (School of AI), Hangzhou Dianzi University, China.</span>
+      <span class="news-date">2024.06 —</span>
+      <span class="news-text">
+        Gave a keynote talk at the 6th AI QianTang Forum,
+        School of Automation (School of AI),
+        Hangzhou Dianzi University, China.
+      </span>
     </li>
+
     <li class="news-row">
-      <span class="news-date">2024.01 -</span>
-      <span class="news-text">🎓 I am excited to announce that I have defended my Ph.D. thesis <em>"Motion control for nonholonomic unicycle robots".</em></span>
+      <span class="news-date">2024.01 —</span>
+      <span class="news-text">
+        🎓 Successfully defended my Ph.D. thesis,
+        “Motion Control for Nonholonomic Unicycle Robots,”
+        at the University of Groningen, the Netherlands.
+      </span>
     </li>
+
   </ul>
 </div>
 
-<div class="fade-in-section service-section">
+
+<!-- =========================================================
+     2023
+     ========================================================= -->
+
+<div class="fade-in-section news-section">
   <h4>2023</h4>
+
   <ul>
+
     <li class="news-row">
-      <span class="news-date">2023.06 -</span>
-      <span class="news-text">Visited Prof. Karl Henrik Johansson’s group at KTH, Sweden.</span>
-    </li>
-    <li class="news-row">
-      <span class="news-date">2023.03 -</span>
+      <span class="news-date">2023.06 —</span>
       <span class="news-text">
-        Present our work "Multi-agents Source Seeking and Flocking Control with Connectivity Preservation and Collision Avoidance" at the <em>42nd Benelux Meeting on Systems and Control</em>, Elspeet, The Netherlands. 
-     </span>
+        Visited Prof. Karl Henrik Johansson’s research group at KTH Royal Institute of Technology, Sweden.
+      </span>
     </li>
+
+    <li class="news-row">
+      <span class="news-date">2023.03 —</span>
+      <span class="news-text">
+        Presented our work,
+        “Multi-Agent Source Seeking and Flocking Control with Connectivity Preservation and Collision Avoidance,”
+        at the <em>42nd Benelux Meeting on Systems and Control</em>
+        in Elspeet, the Netherlands.
+      </span>
+    </li>
+
   </ul>
 </div>
 
-<div class="fade-in-section service-section">
+
+<!-- =========================================================
+     2022
+     ========================================================= -->
+
+<div class="fade-in-section news-section">
   <h4>2022</h4>
+
   <ul>
+
     <li class="news-row">
-      <span class="news-date">2022.07 -</span>
+      <span class="news-date">2022.07 —</span>
       <span class="news-text">
-        Present our work "Collision-free Source Seeking Control of Unicycle Robot under Uncertain Environment" at the <em>41st Benelux Meeting on Systems and Control</em>, Brussels, Belgium.
+        Presented our work,
+        “Collision-Free Source Seeking Control of Unicycle Robots under Uncertain Environments,”
+        at the <em>41st Benelux Meeting on Systems and Control</em>
+        in Brussels, Belgium.
       </span>
     </li>
+
   </ul>
 </div>
 
 
+<!-- =========================================================
+     2021
+     ========================================================= -->
 
-<div class="fade-in-section service-section">
+<div class="fade-in-section news-section">
   <h4>2021</h4>
+
   <ul>
+
     <li class="news-row">
-      <span class="news-date">2021.10 -</span>
-      <span class="news-text">Present our source-seeking work at <em>IROS 2021</em>.</span>
-    </li>
-    <li class="news-row">
-      <span class="news-date">2021.07 -</span>
-      <span class="news-text">Presented our latest work "Source-Seeking Control of Unicycle Robots With 3D-Printed Flexible Sensors" at the <em>40th Benelux Meeting on Systems and Control</em>,  Rotterdam, The Netherlands.</span>
-    </li>
-    <li class="news-row">
-      <span class="news-date">2021.06 -</span>
-      <span class="news-text">Happy to join the DISC Summer School "Planning, Learning and Control for Multi-Robot and Multi-Agent Systems" in Rotterdam, the Netherlands!.</span>
-    </li>
-    <li class="news-row">
-      <span class="news-date">2021.04 -</span>
-      <span class="news-text">I am glad to share that my first PhD project "Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors"was accepted by <em>IEEE Transactions on Robotics (TRO)</em>. 
+      <span class="news-date">2021.10 —</span>
+      <span class="news-text">
+        Presented our source-seeking work at
+        <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2021)</em>
+        (virtual).
       </span>
     </li>
+
+    <li class="news-row">
+      <span class="news-date">2021.07 —</span>
+      <span class="news-text">
+        Presented our work,
+        “Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors,”
+        at the <em>40th Benelux Meeting on Systems and Control</em>
+        in Rotterdam, the Netherlands.
+      </span>
+    </li>
+
+    <li class="news-row">
+      <span class="news-date">2021.06 —</span>
+      <span class="news-text">
+        Attended the DISC Summer School
+        “Planning, Learning and Control for Multi-Robot and Multi-Agent Systems”
+        in Rotterdam, the Netherlands.
+      </span>
+    </li>
+
+    <li class="news-row">
+      <span class="news-date">2021.04 —</span>
+      <span class="news-text">
+        My first Ph.D. paper,
+        “Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors,”
+        was accepted for publication in
+        <em>IEEE Transactions on Robotics (T-RO)</em>.
+      </span>
+    </li>
+
   </ul>
 </div>
+
+
+<!-- =========================================================
+     Fade-in animation
+     ========================================================= -->
 
 <script>
-document.addEventListener("DOMContentLoaded",function(){const o=new IntersectionObserver(e=>{e.forEach(t=>{t.isIntersecting&&t.target.classList.add("visible")})},{threshold:.15});document.querySelectorAll(".fade-in-section").forEach(e=>{o.observe(e)})});
+document.addEventListener("DOMContentLoaded", function () {
+  const observer = new IntersectionObserver(
+    function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        }
+      });
+    },
+    {
+      threshold: 0.15
+    }
+  );
+
+  document.querySelectorAll(".fade-in-section").forEach(function (section) {
+    observer.observe(section);
+  });
+});
 </script>
-
-
-
