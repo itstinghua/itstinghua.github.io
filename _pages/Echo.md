@@ -53,7 +53,7 @@ nav_order: 7
 
 
 /* ========================================
-   Echo item
+   Echo Item
 ======================================== */
 
 .echo-item {
@@ -96,7 +96,7 @@ nav_order: 7
 }
 
 
-/* Local video */
+/* Local Video */
 
 .echo-media video {
   height: auto;
@@ -153,6 +153,11 @@ nav_order: 7
   color: var(--global-theme-color);
 }
 
+
+/* ========================================
+   Short Note
+======================================== */
+
 .echo-note {
   max-width: 560px;
 
@@ -164,6 +169,57 @@ nav_order: 7
 
   color: var(--global-text-color);
   opacity: 0.68;
+}
+
+
+/* ========================================
+   Longer Story
+======================================== */
+
+.echo-story {
+  max-width: 580px;
+
+  margin-top: 0.8rem;
+
+  color: var(--global-text-color);
+}
+
+.echo-story p {
+  margin: 0 0 1rem;
+
+  font-size: 0.92rem;
+  line-height: 1.75;
+
+  color: var(--global-text-color);
+  opacity: 0.72;
+}
+
+.echo-story strong {
+  font-weight: 600;
+}
+
+
+/* ========================================
+   Link
+======================================== */
+
+.echo-link {
+  margin-top: 1.1rem;
+}
+
+.echo-link a {
+  font-size: 0.88rem;
+  font-weight: 500;
+
+  color: var(--global-theme-color);
+
+  text-decoration: none;
+}
+
+.echo-link a:hover {
+  color: var(--global-hover-color);
+
+  text-decoration: underline;
 }
 
 
@@ -198,7 +254,7 @@ nav_order: 7
 
 
 /* ========================================
-   Dark mode
+   Dark Mode
 ======================================== */
 
 html[data-theme="dark"] .echo-media {
@@ -232,7 +288,7 @@ html[data-theme="dark"] .echo-media {
 
 
 /* ========================================
-   Small mobile
+   Small Mobile
 ======================================== */
 
 @media (max-width: 480px) {
@@ -252,7 +308,8 @@ html[data-theme="dark"] .echo-media {
     font-size: 1.1rem;
   }
 
-  .echo-note {
+  .echo-note,
+  .echo-story p {
     font-size: 0.88rem;
     line-height: 1.65;
   }
@@ -260,7 +317,9 @@ html[data-theme="dark"] .echo-media {
   .echo-meta {
     font-size: 0.68rem;
   }
+
 }
+
 </style>
 
 
@@ -319,7 +378,8 @@ html[data-theme="dark"] .echo-media {
         <a
           href="https://www.bilibili.com/video/BV1Q3411k7Be?t=4.0"
           target="_blank"
-          rel="noopener noreferrer">
+          rel="noopener noreferrer"
+        >
           It's My Life
         </a>
 
@@ -345,10 +405,20 @@ html[data-theme="dark"] .echo-media {
 
     <div class="echo-media">
 
-      <img
-        src="{{ '/assets/img/echo/defence.jpeg' | relative_url }}"
-        alt="Friends on Defence Day in Groningen"
-        loading="lazy">
+      <video
+        controls
+        preload="metadata"
+        playsinline
+      >
+
+        <source
+          src="{{ '/assets/video/echo/defence.mp4' | relative_url }}"
+          type="video/mp4"
+        >
+
+        Your browser does not support HTML5 video.
+
+      </video>
 
     </div>
 
@@ -364,6 +434,60 @@ html[data-theme="dark"] .echo-media {
       </h2>
 
       <p class="echo-note">
+        The closing moment of my Ph.D. journey — made unforgettable by my
+        supervisors, paranymphs, colleagues, friends, and everyone who shared
+        this chapter with me.
+      </p>
+
+
+      <div class="echo-link">
+
+        <a
+          href="{{ '/assets/pdf/acknowledge.pdf' | relative_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Read my acknowledgements →
+        </a>
+
+      </div>
+
+    </div>
+
+  </article>
+
+
+  <div class="echo-divider"></div>
+
+
+  <!-- ====================================
+       3. Say Goodbye
+  ===================================== -->
+
+  <article class="echo-item">
+
+    <div class="echo-media">
+
+      <img
+        src="{{ '/assets/img/echo/defence.jpeg' | relative_url }}"
+        alt="Friends on Defence Day in Groningen"
+        loading="lazy"
+      >
+
+    </div>
+
+
+    <div class="echo-content">
+
+      <div class="echo-meta">
+        Groningen · 2024
+      </div>
+
+      <h2 class="echo-title">
+        Say Goodbye
+      </h2>
+
+      <p class="echo-note">
         Friends, memories, and the closing of an unforgettable chapter in Groningen.
       </p>
 
@@ -376,7 +500,7 @@ html[data-theme="dark"] .echo-media {
 
 
   <!-- ====================================
-       3. Delft
+       4. Delft
   ===================================== -->
 
   <article class="echo-item">
@@ -386,11 +510,13 @@ html[data-theme="dark"] .echo-media {
       <video
         controls
         preload="metadata"
-        playsinline>
+        playsinline
+      >
 
         <source
           src="{{ '/assets/video/echo/delft.mp4' | relative_url }}"
-          type="video/mp4">
+          type="video/mp4"
+        >
 
         Your browser does not support HTML5 video.
 

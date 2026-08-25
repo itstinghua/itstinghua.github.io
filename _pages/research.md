@@ -573,7 +573,7 @@ html[data-theme="dark"] .phd-summary img {
   <section class="projects-section">
 
     <h2 class="research-section-title">
-      Selected Research Projects
+      Selected PhD Projects
     </h2>
 
 
