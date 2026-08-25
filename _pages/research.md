@@ -8,76 +8,83 @@ nav_order: 2
 ---
 
 <style>
+/* =========================
+   Research Page
+   ========================= */
+
 .research-container {
-  max-width: 1000px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
-/* Research hero image */
-.research-hero {
-  width: 100%;
-  margin: 1.5rem 0 2rem;
-}
+/* -------------------------
+   Introduction
+   ------------------------- */
 
-.research-hero img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  border: 1px solid var(--global-divider-color);
-}
-
-/* Research introduction */
 .research-intro {
-  margin: 0 0 2.5rem;
-  max-width: 850px;
-  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 0 3.5rem;
+
+  font-size: 1.02rem;
+  line-height: 1.75;
   color: var(--global-text-color);
 }
 
-/* Project card */
+/* -------------------------
+   Project
+   ------------------------- */
+
 .project-container {
-  display: flex;
-  gap: 24px;
-  align-items: flex-start;
-  margin-bottom: 2rem;
-  padding: 24px;
+  display: grid;
+  grid-template-columns: minmax(260px, 40%) minmax(0, 1fr);
+  gap: 32px;
+  align-items: start;
+
   width: 100%;
+  padding: 0 0 2.75rem;
+  margin-bottom: 2.75rem;
 
-  background: var(--global-card-bg-color);
-  border: 1px solid var(--global-divider-color);
-  border-radius: 8px;
-
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  border-bottom: 1px solid var(--global-divider-color);
 }
 
-.project-container:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+/* Remove separator after last project */
+.project-container:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
 }
 
-/* Project video */
+/* -------------------------
+   Project media
+   ------------------------- */
+
 .project-video {
-  flex: 0 0 46%;
   min-width: 0;
 }
 
 .project-video video {
+  display: block;
   width: 100%;
-  border-radius: 8px;
+  height: auto;
+
+  border-radius: 6px;
+  border: 1px solid var(--global-divider-color);
 }
 
-/* Project text */
+/* -------------------------
+   Project text
+   ------------------------- */
+
 .project-text {
-  flex: 1;
   min-width: 0;
   color: var(--global-text-color);
 }
 
+/* Title */
+
 .project-text h3 {
-  margin-top: 0;
-  margin-bottom: 0.65rem;
-  font-size: 1.25rem;
+  margin: 0 0 0.7rem;
+
+  font-size: 1.3rem;
   font-weight: 600;
   line-height: 1.35;
 }
@@ -92,98 +99,168 @@ nav_order: 2
   text-decoration: underline;
 }
 
-/* Project summary */
+/* Summary */
+
 .project-summary {
-  margin-bottom: 0.8rem;
-  line-height: 1.6;
-  font-size: 0.98rem;
+  margin: 0 0 1rem;
+
+  font-size: 0.97rem;
+  line-height: 1.65;
+  color: var(--global-text-color);
 }
 
-/* Project tags */
+/* -------------------------
+   Tags
+   ------------------------- */
+
 .project-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
-  margin: 0.8rem 0 1rem;
+  align-items: center;
+
+  gap: 5px 10px;
+  margin: 0 0 1.1rem;
 }
 
 .project-tags span {
-  display: inline-block;
-  padding: 4px 9px;
-  font-size: 0.78rem;
-  line-height: 1.3;
-  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+
+  padding: 3px 8px;
+
+  font-size: 0.76rem;
+  font-weight: 500;
+  line-height: 1.4;
+
+  color: var(--global-text-color-light);
+  background: transparent;
+
   border: 1px solid var(--global-divider-color);
-  color: var(--global-text-color);
-  background-color: rgba(0, 83, 156, 0.06);
+  border-radius: 999px;
 }
 
-/* Paper citation */
+/* -------------------------
+   Publication
+   ------------------------- */
+
 .paper-cite {
-  margin-top: 0.9rem;
-  padding: 12px 14px;
-  border-radius: 8px;
-  border: 1px solid var(--global-divider-color);
-  background-color: rgba(0, 83, 156, 0.08);
+  margin: 0;
+  padding: 0;
+
+  font-size: 0.85rem;
+  line-height: 1.6;
+
+  color: var(--global-text-color-light);
+}
+
+.paper-cite strong {
   color: var(--global-text-color);
-  font-size: 0.9rem;
-  line-height: 1.55;
+  font-weight: 600;
 }
 
 .paper-cite em {
   font-style: italic;
 }
 
-/* Dark mode */
+/* DOI links */
+
+.paper-cite a {
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
+
+.paper-cite a:hover {
+  color: var(--global-hover-color);
+  text-decoration: underline;
+}
+
+/* -------------------------
+   Dark mode
+   ------------------------- */
+
+html[data-theme="dark"] .project-video video {
+  border-color: var(--global-divider-color);
+}
+
 html[data-theme="dark"] .project-tags span {
-  background-color: rgba(230, 237, 243, 0.05);
+  background: rgba(255, 255, 255, 0.02);
 }
 
-html[data-theme="dark"] .paper-cite {
-  background-color: rgba(230, 237, 243, 0.06);
-}
+/* -------------------------
+   Tablet / Mobile
+   ------------------------- */
 
-/* Mobile */
 @media (max-width: 768px) {
-  .research-hero {
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .research-hero img {
-    border-radius: 8px;
-  }
-
   .research-intro {
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
+
+    font-size: 1rem;
+    line-height: 1.7;
   }
 
   .project-container {
-    flex-direction: column;
+    grid-template-columns: 1fr;
     gap: 18px;
-    padding: 18px;
-  }
 
-  .project-video {
-    flex: none;
-    width: 100%;
+    padding-bottom: 2.25rem;
+    margin-bottom: 2.25rem;
   }
 
   .project-text h3 {
-    font-size: 1.15rem;
+    font-size: 1.18rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .project-summary {
+    font-size: 0.95rem;
+  }
+
+  .paper-cite {
+    font-size: 0.83rem;
+  }
+}
+
+/* -------------------------
+   Small mobile
+   ------------------------- */
+
+@media (max-width: 480px) {
+  .project-container {
+    gap: 16px;
+  }
+
+  .project-tags {
+    gap: 5px 7px;
+  }
+
+  .project-tags span {
+    font-size: 0.73rem;
+    padding: 3px 7px;
   }
 }
 </style>
 
+
 <div class="research-container">
 
+  <!-- =====================
+       Research Introduction
+       ===================== -->
 
-  <!-- Research introduction -->
   <p class="research-intro">
-    My research focuses on safe and intelligent autonomous robotic systems operating in unknown and cluttered environments. My PhD research investigated safety-critical motion control for wheeled mobile robots, while my current postdoctoral work extends this line of research to aerial robotics by developing safety-critical control methods for autonomous and safe flight.
+    My research focuses on safe and intelligent autonomous robotic systems
+    operating in unknown and cluttered environments. My PhD research
+    investigated safety-critical motion control for wheeled mobile robots,
+    while my current postdoctoral work extends this line of research to aerial
+    robotics by developing safety-critical control methods for autonomous and
+    safe flight.
   </p>
 
-  <!-- Project 1 -->
+
+  <!-- =====================
+       Project 1
+       ===================== -->
+
   <div class="project-container">
 
     <div class="project-video">
@@ -197,19 +274,24 @@ html[data-theme="dark"] .paper-cite {
     <div class="project-text">
 
       <h3>
-        <a href="https://ieeexplore.ieee.org/abstract/document/9458274">
+        <a
+          href="https://ieeexplore.ieee.org/abstract/document/9458274"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Source-Seeking Robot
         </a>
       </h3>
 
       <p class="project-summary">
-        A unicycle robot uses flexible airflow sensors and gradient-based control to locate an unknown source using only local measurements.
+        Source-seeking control for a unicycle robot using flexible airflow
+        sensors and local measurements to locate an unknown signal source.
       </p>
 
       <div class="project-tags">
         <span>Source Seeking</span>
         <span>Unicycle Robots</span>
-        <span>Flexible Piezoresistive Sensors</span>
+        <span>Flexible Sensors</span>
       </div>
 
       <p class="paper-cite">
@@ -217,19 +299,31 @@ html[data-theme="dark"] .paper-cite {
         B. Jayawardhana,
         A. M. Kamat,
         and A. G. P. Kottapalli,
-        “Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors,”
+        “Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible
+        Piezoresistive Sensors,”
         <em>IEEE Transactions on Robotics</em>,
         vol. 38,
         no. 1,
         pp. 448–462,
-        Feb. 2022,
-        doi: 10.1109/TRO.2021.3076964.
+        Feb. 2022.
+        <a
+          href="https://doi.org/10.1109/TRO.2021.3076964"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          DOI
+        </a>
       </p>
 
     </div>
+
   </div>
 
-  <!-- Project 2 -->
+
+  <!-- =====================
+       Project 2
+       ===================== -->
+
   <div class="project-container">
 
     <div class="project-video">
@@ -243,20 +337,25 @@ html[data-theme="dark"] .paper-cite {
     <div class="project-text">
 
       <h3>
-        <a href="https://ieeexplore.ieee.org/document/10735338">
+        <a
+          href="https://ieeexplore.ieee.org/document/10735338"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Collision-Free Source-Seeking Robot
         </a>
       </h3>
 
       <p class="project-summary">
-        A safety-critical source-seeking framework that allows a unicycle robot to search for a signal source while avoiding obstacles in unknown cluttered environments.
+        Safety-critical source-seeking control that enables a mobile robot to
+        locate an unknown source while avoiding obstacles in cluttered and
+        previously unknown environments.
       </p>
 
       <div class="project-tags">
+        <span>Safety-Critical Control</span>
         <span>Control Barrier Functions</span>
         <span>Obstacle Avoidance</span>
-        <span>Safety-Critical Control</span>
-        <span>Unicycle Robots</span>
       </div>
 
       <p class="paper-cite">
@@ -267,14 +366,25 @@ html[data-theme="dark"] .paper-cite {
         vol. 70,
         no. 3,
         pp. 2020–2027,
-        March 2025,
-        doi: 10.1109/TAC.2024.3486654.
+        March 2025.
+        <a
+          href="https://doi.org/10.1109/TAC.2024.3486654"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          DOI
+        </a>
       </p>
 
     </div>
+
   </div>
 
-  <!-- Project 3 -->
+
+  <!-- =====================
+       Project 3
+       ===================== -->
+
   <div class="project-container">
 
     <div class="project-video">
@@ -288,36 +398,48 @@ html[data-theme="dark"] .paper-cite {
     <div class="project-text">
 
       <h3>
-        <a href="https://ieeexplore.ieee.org/document/11311473">
+        <a
+          href="https://ieeexplore.ieee.org/document/11311473"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Flocking Control with Connectivity Preservation
         </a>
       </h3>
 
       <p class="project-summary">
-        A distributed source-seeking and flocking-control method for networked multi-agent systems, where agents maintain safety, connectivity, and coordinated motion using onboard sensing.
+        Distributed source-seeking and flocking control for multi-agent
+        systems with collision avoidance, connectivity preservation, and
+        coordinated motion using onboard sensing.
       </p>
 
       <div class="project-tags">
         <span>Multi-Agent Systems</span>
-        <span>Flocking Cohesion</span>
-        <span>Collision Avoidance</span>
-        <span>Connectivity Preservation</span>
         <span>Distributed CBFs</span>
+        <span>Connectivity Preservation</span>
       </div>
 
       <p class="paper-cite">
         <strong>T. Li*</strong>
         and B. Jayawardhana,
-        “Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation,”
+        “Collision-free Source Seeking and Flocking Control of Multi-agents
+        with Connectivity Preservation,”
         <em>IEEE Transactions on Automatic Control</em>,
         vol. 71,
         no. 6,
         pp. 3696–3711,
-        June 2026,
-        doi: 10.1109/TAC.2025.3647313.
+        June 2026.
+        <a
+          href="https://doi.org/10.1109/TAC.2025.3647313"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          DOI
+        </a>
       </p>
 
     </div>
+
   </div>
 
 </div>
