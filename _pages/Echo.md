@@ -369,7 +369,7 @@ html[data-theme="dark"] .echo-media {
       </h2>
 
       <p class="echo-note">
-        Cherry blossoms in Delft — a quiet moment worth remembering.
+        Cherry blossoms in Delft.
       </p>
 
     </div>
