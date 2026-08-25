@@ -56,7 +56,7 @@ nav_order: 7
 
 
 /* ========================================
-   Project / memory cards
+   Memory cards
 ======================================== */
 
 .project-card {
@@ -197,7 +197,7 @@ nav_order: 7
 
 
 /* ========================================
-   Small metadata / place / date
+   Metadata
 ======================================== */
 
 .echo-meta {
@@ -215,7 +215,7 @@ nav_order: 7
 
 
 /* ========================================
-   Quote area
+   Quote / description
 ======================================== */
 
 .echo-quote {
@@ -380,7 +380,7 @@ html[data-theme="dark"] .project-media {
 
 
   <!-- ======================================
-       Bon Jovi
+       1. Bon Jovi
   ======================================= -->
 
   <article class="project-card">
@@ -428,7 +428,7 @@ html[data-theme="dark"] .project-media {
 
 
   <!-- ======================================
-       Defence Day
+       2. Defence Day
   ======================================= -->
 
   <article class="project-card">
@@ -464,7 +464,7 @@ html[data-theme="dark"] .project-media {
 
 
   <!-- ======================================
-       Delft — Cherry Blossoms
+       3. Delft — Cherry Blossoms
   ======================================= -->
 
   <article class="project-card">
@@ -499,6 +499,44 @@ html[data-theme="dark"] .project-media {
 
       <p class="echo-quote">
         <strong>Cherry Blossoms in Spring, Delft, 2026</strong>
+      </p>
+
+    </div>
+
+  </article>
+
+
+
+  <!-- ======================================
+       4. New Memory — Image
+  ======================================= -->
+
+  <article class="project-card">
+
+    <div class="project-media">
+
+      <img
+        src="{{ '/assets/img/echo/work.jfif' | relative_url }}"
+        alt="A memorable moment"
+        loading="lazy">
+
+    </div>
+
+
+    <div class="project-content">
+
+      <div class="echo-meta">
+        DTPA Days
+      </div>
+
+      <h2>
+        A Moment to Remember
+      </h2>
+
+      <p class="echo-quote">
+        <strong>
+          Fix Robot@DTPA
+        </strong>
       </p>
 
     </div>
