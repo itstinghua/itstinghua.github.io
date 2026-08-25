@@ -212,9 +212,7 @@ nav_order: 4
         <span class="service-time">2021</span>
         <span class="service-content">
           <strong>
-            <a href="https://fse.studenttheses.ub.rug.nl/24672/">
               Mitigating Crosswind Effects on Aerodynamic Drag Reduction in a Platoon Formation through Lateral Offsets
-            </a>
           </strong><br>
           Co-supervised master’s thesis, <em>University of Groningen</em>
         </span>
@@ -224,9 +222,7 @@ nav_order: 4
         <span class="service-time">2020</span>
         <span class="service-content">
           <strong>
-            <a href="https://fse.studenttheses.ub.rug.nl/21794/">
               Source Seeking by a Mobile Robot using Airflow Sensor Measurements
-            </a>
           </strong><br>
           Co-supervised master’s thesis, <em>University of Groningen</em>
         </span>
@@ -290,7 +286,7 @@ nav_order: 4
     </ul>
   </div>
 
-  <div class="service-section">
+ <!--  <div class="service-section">
     <h4>Memberships</h4>
     <ul>
       <li>
@@ -300,7 +296,7 @@ nav_order: 4
         <a href="https://jcwcenter.web.rug.nl/members/">Jan C. Willems Center for Systems and Control</a>
       </li>
     </ul>
-  </div>
+  </div> -->
 
   <div class="service-section">
     <h4>Journal Reviewer</h4>
