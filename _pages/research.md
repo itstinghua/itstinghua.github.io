@@ -10,16 +10,17 @@ nav_order: 2
 <style>
 /* =========================
    Research Page
-   ========================= */
+========================= */
 
 .research-container {
   max-width: 960px;
   margin: 0 auto;
 }
 
+
 /* -------------------------
    Introduction
-   ------------------------- */
+------------------------- */
 
 .research-intro {
   width: 100%;
@@ -27,12 +28,14 @@ nav_order: 2
 
   font-size: 1.02rem;
   line-height: 1.75;
+
   color: var(--global-text-color);
 }
 
+
 /* -------------------------
    Project
-   ------------------------- */
+------------------------- */
 
 .project-container {
   display: grid;
@@ -41,21 +44,25 @@ nav_order: 2
   align-items: start;
 
   width: 100%;
+
   padding: 0 0 2.75rem;
   margin-bottom: 2.75rem;
 
   border-bottom: 1px solid var(--global-divider-color);
 }
 
+
 /* Remove separator after last project */
+
 .project-container:last-child {
   border-bottom: none;
   margin-bottom: 0;
 }
 
+
 /* -------------------------
    Project media
-   ------------------------- */
+------------------------- */
 
 .project-video {
   min-width: 0;
@@ -63,21 +70,25 @@ nav_order: 2
 
 .project-video video {
   display: block;
+
   width: 100%;
   height: auto;
 
-  border-radius: 6px;
   border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
 }
+
 
 /* -------------------------
    Project text
-   ------------------------- */
+------------------------- */
 
 .project-text {
   min-width: 0;
+
   color: var(--global-text-color);
 }
+
 
 /* Title */
 
@@ -91,57 +102,34 @@ nav_order: 2
 
 .project-text h3 a {
   color: var(--global-theme-color);
+
   text-decoration: none;
 }
 
 .project-text h3 a:hover {
   color: var(--global-hover-color);
+
   text-decoration: underline;
 }
 
-/* Summary */
+
+/* -------------------------
+   Summary
+------------------------- */
 
 .project-summary {
   margin: 0 0 1rem;
 
   font-size: 0.97rem;
   line-height: 1.65;
+
   color: var(--global-text-color);
 }
 
-/* -------------------------
-   Tags
-   ------------------------- */
-
-.project-tags {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-
-  gap: 5px 10px;
-  margin: 0 0 1.1rem;
-}
-
-.project-tags span {
-  display: inline-flex;
-  align-items: center;
-
-  padding: 3px 8px;
-
-  font-size: 0.76rem;
-  font-weight: 500;
-  line-height: 1.4;
-
-  color: var(--global-text-color-light);
-  background: transparent;
-
-  border: 1px solid var(--global-divider-color);
-  border-radius: 999px;
-}
 
 /* -------------------------
    Publication
-   ------------------------- */
+------------------------- */
 
 .paper-cite {
   margin: 0;
@@ -155,6 +143,7 @@ nav_order: 2
 
 .paper-cite strong {
   color: var(--global-text-color);
+
   font-weight: 600;
 }
 
@@ -162,35 +151,22 @@ nav_order: 2
   font-style: italic;
 }
 
-/* DOI links */
-
-.paper-cite a {
-  color: var(--global-theme-color);
-  text-decoration: none;
-}
-
-.paper-cite a:hover {
-  color: var(--global-hover-color);
-  text-decoration: underline;
-}
 
 /* -------------------------
    Dark mode
-   ------------------------- */
+------------------------- */
 
 html[data-theme="dark"] .project-video video {
   border-color: var(--global-divider-color);
 }
 
-html[data-theme="dark"] .project-tags span {
-  background: rgba(255, 255, 255, 0.02);
-}
 
 /* -------------------------
    Tablet / Mobile
-   ------------------------- */
+------------------------- */
 
 @media (max-width: 768px) {
+
   .research-intro {
     margin-bottom: 2.5rem;
 
@@ -200,6 +176,7 @@ html[data-theme="dark"] .project-tags span {
 
   .project-container {
     grid-template-columns: 1fr;
+
     gap: 18px;
 
     padding-bottom: 2.25rem;
@@ -207,8 +184,9 @@ html[data-theme="dark"] .project-tags span {
   }
 
   .project-text h3 {
-    font-size: 1.18rem;
     margin-bottom: 0.6rem;
+
+    font-size: 1.18rem;
   }
 
   .project-summary {
@@ -220,22 +198,15 @@ html[data-theme="dark"] .project-tags span {
   }
 }
 
+
 /* -------------------------
    Small mobile
-   ------------------------- */
+------------------------- */
 
 @media (max-width: 480px) {
+
   .project-container {
     gap: 16px;
-  }
-
-  .project-tags {
-    gap: 5px 7px;
-  }
-
-  .project-tags span {
-    font-size: 0.73rem;
-    padding: 3px 7px;
   }
 }
 </style>
@@ -243,9 +214,10 @@ html[data-theme="dark"] .project-tags span {
 
 <div class="research-container">
 
+
   <!-- =====================
        Research Introduction
-       ===================== -->
+  ====================== -->
 
   <p class="research-intro">
     My research focuses on safe and intelligent autonomous robotic systems
@@ -259,17 +231,20 @@ html[data-theme="dark"] .project-tags span {
 
   <!-- =====================
        Project 1
-       ===================== -->
+  ====================== -->
 
   <div class="project-container">
 
     <div class="project-video">
+
       {% include video.liquid
         path="/assets/video/SS.mp4"
         class="img-fluid rounded z-depth-1"
         controls=true
       %}
+
     </div>
+
 
     <div class="project-text">
 
@@ -283,16 +258,12 @@ html[data-theme="dark"] .project-tags span {
         </a>
       </h3>
 
+
       <p class="project-summary">
         Source-seeking control for a unicycle robot using flexible airflow
         sensors and local measurements to locate an unknown signal source.
       </p>
 
-      <div class="project-tags">
-        <span>Source Seeking</span>
-        <span>Unicycle Robots</span>
-        <span>Flexible Sensors</span>
-      </div>
 
       <p class="paper-cite">
         <strong>T. Li*</strong>,
@@ -306,13 +277,6 @@ html[data-theme="dark"] .project-tags span {
         no. 1,
         pp. 448–462,
         Feb. 2022.
-        <a
-          href="https://doi.org/10.1109/TRO.2021.3076964"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          DOI
-        </a>
       </p>
 
     </div>
@@ -322,17 +286,20 @@ html[data-theme="dark"] .project-tags span {
 
   <!-- =====================
        Project 2
-       ===================== -->
+  ====================== -->
 
   <div class="project-container">
 
     <div class="project-video">
+
       {% include video.liquid
         path="/assets/video/CO.mp4"
         class="img-fluid rounded z-depth-1"
         controls=true
       %}
+
     </div>
+
 
     <div class="project-text">
 
@@ -346,17 +313,13 @@ html[data-theme="dark"] .project-tags span {
         </a>
       </h3>
 
+
       <p class="project-summary">
         Safety-critical source-seeking control that enables a mobile robot to
         locate an unknown source while avoiding obstacles in cluttered and
         previously unknown environments.
       </p>
 
-      <div class="project-tags">
-        <span>Safety-Critical Control</span>
-        <span>Control Barrier Functions</span>
-        <span>Obstacle Avoidance</span>
-      </div>
 
       <p class="paper-cite">
         <strong>T. Li*</strong>
@@ -367,13 +330,6 @@ html[data-theme="dark"] .project-tags span {
         no. 3,
         pp. 2020–2027,
         March 2025.
-        <a
-          href="https://doi.org/10.1109/TAC.2024.3486654"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          DOI
-        </a>
       </p>
 
     </div>
@@ -383,17 +339,20 @@ html[data-theme="dark"] .project-tags span {
 
   <!-- =====================
        Project 3
-       ===================== -->
+  ====================== -->
 
   <div class="project-container">
 
     <div class="project-video">
+
       {% include video.liquid
         path="/assets/video/connectivity.mp4"
         class="img-fluid rounded z-depth-1"
         controls=true
       %}
+
     </div>
+
 
     <div class="project-text">
 
@@ -407,17 +366,13 @@ html[data-theme="dark"] .project-tags span {
         </a>
       </h3>
 
+
       <p class="project-summary">
         Distributed source-seeking and flocking control for multi-agent
         systems with collision avoidance, connectivity preservation, and
         coordinated motion using onboard sensing.
       </p>
 
-      <div class="project-tags">
-        <span>Multi-Agent Systems</span>
-        <span>Distributed CBFs</span>
-        <span>Connectivity Preservation</span>
-      </div>
 
       <p class="paper-cite">
         <strong>T. Li*</strong>
@@ -429,17 +384,11 @@ html[data-theme="dark"] .project-tags span {
         no. 6,
         pp. 3696–3711,
         June 2026.
-        <a
-          href="https://doi.org/10.1109/TAC.2025.3647313"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          DOI
-        </a>
       </p>
 
     </div>
 
   </div>
+
 
 </div>
