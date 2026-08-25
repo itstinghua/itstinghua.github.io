@@ -406,7 +406,7 @@ html[data-theme="dark"] .echo-media {
       </div>
 
       <h2 class="echo-title">
-        Don’t Let This Spring Pass By
+        Don’t Let Spring Pass By
       </h2>
 
       <p class="echo-note">
