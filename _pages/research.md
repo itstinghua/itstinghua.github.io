@@ -178,12 +178,12 @@ html[data-theme="dark"] .paper-cite {
 <div class="research-container">
 
   <!-- Research overview image -->
-  <div class="research-hero">
+ <!--  <div class="research-hero">
     <img
       src="/assets/img/research/Tinghua_work.jfif"
       alt="Safe and intelligent autonomous robotic systems operating in unknown and cluttered environments"
     >
-  </div>
+  </div> -->
 
   <!-- Research introduction -->
   <p class="research-intro">

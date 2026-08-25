@@ -1,48 +1,23 @@
----
-layout: page
-title: Echo
-permalink: /Echo/
-description: Songs, memories, and moments that echo through life.
-nav: true
-nav_order: 7
----
-
-<div class="echo-hero">
-  <blockquote>
-    “This is not a song for the broken-hearted”
-  </blockquote>
-
-  <p>
-    — Bon Jovi, <em>It's My Life</em>
-  </p>
-</div>
-
-<style>
 /* ========================================
    Main container
 ======================================== */
 
 .echo-container {
   width: 100%;
-  max-width: 1000px;
+  max-width: 980px;
   margin: 0 auto;
 }
 
 
 /* ========================================
-   Top quote — no card, no border
+   Hero quote
 ======================================== */
 
 .echo-hero {
-  max-width: 760px;
-  margin: 1rem auto 3rem;
+  max-width: 720px;
+  margin: 2rem auto 4rem;
   padding: 0;
   text-align: center;
-
-  background: none;
-  border: none;
-  border-radius: 0;
-  box-shadow: none;
 }
 
 .echo-hero blockquote {
@@ -50,39 +25,40 @@ nav_order: 7
   padding: 0;
   border: none;
 
-  font-size: clamp(1.35rem, 2.5vw, 1.7rem);
+  font-size: clamp(1.5rem, 3vw, 2rem);
   font-style: italic;
-  line-height: 1.6;
+  font-weight: 400;
+  line-height: 1.55;
+  letter-spacing: -0.01em;
+
   color: var(--global-text-color);
 }
 
 .echo-hero p {
-  margin: 0.6rem 0 0;
-  font-size: 0.95rem;
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
   color: var(--global-text-color);
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 
 /* ========================================
-   Project cards
+   Cards
 ======================================== */
 
 .project-card {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  gap: 2rem;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  gap: 2.4rem;
   align-items: center;
 
   width: 100%;
-  margin-bottom: 2rem;
-  padding: 1.8rem;
+  margin-bottom: 2.5rem;
+  padding: 1.4rem;
 
   background: var(--global-card-bg-color);
   border: 1px solid var(--global-divider-color);
-  border-radius: 20px;
-
-  overflow: hidden;
+  border-radius: 16px;
 
   transition:
     transform 0.25s ease,
@@ -93,12 +69,22 @@ nav_order: 7
 .project-card:hover {
   transform: translateY(-3px);
   border-color: var(--global-theme-color);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+
+/* alternate layout */
+.project-card:nth-of-type(even) .project-media {
+  order: 2;
+}
+
+.project-card:nth-of-type(even) .project-content {
+  order: 1;
 }
 
 
 /* ========================================
-   Media area — always on the left
+   Media
 ======================================== */
 
 .project-media {
@@ -106,7 +92,6 @@ nav_order: 7
   min-width: 0;
   overflow: hidden;
   border-radius: 12px;
-  background: rgba(0, 0, 0, 0.04);
 }
 
 .project-media iframe,
@@ -123,23 +108,21 @@ nav_order: 7
 }
 
 .project-media video {
-  width: 100%;
   height: auto;
-  max-height: 440px;
+  max-height: 460px;
   object-fit: contain;
   background: #000;
 }
 
 .project-media img {
-  width: 100%;
   height: auto;
-  max-height: 440px;
+  max-height: 460px;
   object-fit: cover;
 }
 
 
 /* ========================================
-   Text area
+   Content
 ======================================== */
 
 .project-content {
@@ -148,10 +131,12 @@ nav_order: 7
 }
 
 .project-content h2 {
-  margin: 0 0 0.8rem;
-  font-size: clamp(1.25rem, 2vw, 1.55rem);
-  font-weight: 650;
-  line-height: 1.35;
+  margin: 0 0 1rem;
+
+  font-size: clamp(1.35rem, 2vw, 1.65rem);
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
 }
 
 .project-content h2 a {
@@ -165,67 +150,72 @@ nav_order: 7
 }
 
 .project-content p {
-  margin: 0.75rem 0;
-  line-height: 1.75;
+  margin: 0.8rem 0;
+  line-height: 1.8;
 }
 
 
 /* ========================================
-   Chinese text only — KaiTi
-======================================== */
-
-.zh-kaiti {
-  font-family: "KaiTi", "STKaiti", "Kaiti SC", "DFKai-SB", serif;
-}
-
-
-/* ========================================
-   Quote box inside cards
+   Quote
 ======================================== */
 
 .echo-quote {
-  position: relative;
-
   margin-top: 1rem;
-  padding: 1rem 1.1rem 1rem 1.3rem;
+  padding: 0.9rem 0 0.9rem 1.2rem;
 
-  line-height: 1.75;
+  border: none;
+  border-left: 3px solid var(--global-theme-color);
+  border-radius: 0;
+
+  background: transparent;
+
+  font-size: 0.96rem;
+  line-height: 1.85;
   color: var(--global-text-color);
-
-  background: rgba(0, 83, 156, 0.07);
-  border: 1px solid var(--global-divider-color);
-  border-left: 4px solid var(--global-theme-color);
-  border-radius: 10px;
 }
 
 .echo-quote em {
-  opacity: 0.92;
+  opacity: 0.88;
 }
 
 
 /* ========================================
-   Dark mode
+   Chinese text
 ======================================== */
 
-html[data-theme="dark"] .echo-quote {
-  background: rgba(230, 237, 243, 0.05);
+.zh-kaiti {
+  font-family:
+    "KaiTi",
+    "STKaiti",
+    "Kaiti SC",
+    "DFKai-SB",
+    serif;
 }
 
 
 /* ========================================
-   Mobile layout
+   Mobile
 ======================================== */
 
 @media (max-width: 768px) {
+
   .echo-hero {
-    margin-bottom: 2rem;
+    margin: 1.5rem auto 2.8rem;
   }
 
   .project-card {
     grid-template-columns: 1fr;
-    gap: 1.25rem;
+    gap: 1.3rem;
+
     padding: 1rem;
-    border-radius: 16px;
+    margin-bottom: 1.8rem;
+
+    border-radius: 14px;
+  }
+
+  .project-card:nth-of-type(even) .project-media,
+  .project-card:nth-of-type(even) .project-content {
+    order: initial;
   }
 
   .project-media {
@@ -242,11 +232,13 @@ html[data-theme="dark"] .echo-quote {
 }
 
 @media (max-width: 480px) {
+
   .echo-hero blockquote {
-    font-size: 1.25rem;
+    font-size: 1.3rem;
   }
 
   .project-card {
+    padding: 0.85rem;
     border-radius: 12px;
   }
 
@@ -254,117 +246,11 @@ html[data-theme="dark"] .echo-quote {
   .project-media iframe,
   .project-media video,
   .project-media img {
-    border-radius: 8px;
+    border-radius: 9px;
   }
 
   .echo-quote {
-    padding: 0.9rem 0.9rem 0.9rem 1rem;
+    padding-left: 0.9rem;
+    font-size: 0.92rem;
   }
 }
-</style>
-
-
-<div class="echo-container">
-
-
-  <!-- ======================================
-       Bon Jovi
-  ======================================= -->
-
-  <article class="project-card">
-
-    <div class="project-media">
-      <iframe
-        src="https://www.youtube.com/embed/VUxIwnf_wZk"
-        title="Bon Jovi - It's My Life"
-        loading="lazy"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen>
-      </iframe>
-    </div>
-
-    <div class="project-content">
-      <h2>
-        <a
-          href="https://www.bilibili.com/video/BV1Q3411k7Be?t=4.0"
-          target="_blank"
-          rel="noopener noreferrer">
-          Bon Jovi — It's My Life
-        </a>
-      </h2>
-
-      <p class="echo-quote">
-        <em>This is for the ones who stood their ground</em><br>
-        <em>It's for Tommy and Gina who never backed down</em><br>
-        <em>Tomorrow's getting harder, make no mistake</em><br>
-        <em>Luck ain't enough, you've got to make your own breaks</em>
-      </p>
-    </div>
-
-  </article>
-
-
-
-   <!--======================================
-       Defence Day
-  ======================================= -->
-
-  <article class="project-card">
-
-    <div class="project-media">
-      <img
-        src="{{ '/assets/img/echo/defence.jpeg' | relative_url }}"
-        alt="the Netherlands"
-        loading="lazy">
-    </div>
-
-    <div class="project-content">
-      <h2>Friends</h2>
-
-      <p class="echo-quote">
-        <strong>Defence Day, Groningen, 2024</strong>
-      </p>
-    </div>
-
-  </article> 
-
-
- <!-- ======================================
-       Delft-Cherry blossoms
-  ======================================= -->
-
-  <article class="project-card">
-
-    <div class="project-media">
-      <video
-        controls
-        preload="metadata"
-        playsinline>
-
-        <source
-          src="{{ '/assets/video/echo/delft.mp4' | relative_url }}"
-          type="video/mp4">
-
-        Your browser does not support HTML5 video.
-      </video>
-    </div>
-
-    <div class="project-content">
-      <h2>Don't Let This Spring Pass By.</h2>
-      
-      <p class="echo-quote">
-          <strong>Cherry Blossoms in Spring Delft, 2026 </strong>
-      </p>
-    </div>
-
-  </article>
-
-
-
-
-
-
-
-</div>
-
