@@ -435,7 +435,7 @@ html[data-theme="dark"] .echo-media {
 
       <p class="echo-note">
         The closing moment of my Ph.D. journey. Thanks to everyone who shared
-        this chapter with me.
+        this moment with me.
       </p>
 
 
