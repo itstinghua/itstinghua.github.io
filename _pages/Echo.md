@@ -434,8 +434,7 @@ html[data-theme="dark"] .echo-media {
       </h2>
 
       <p class="echo-note">
-        The closing moment of my Ph.D. journey. Thanks to everyone who shared
-        this moment with me.
+        Thanks to everyone who shared this moment with me.
       </p>
 
 
@@ -446,7 +445,7 @@ html[data-theme="dark"] .echo-media {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Full acknowledgements →
+          Full Acknowledgements →
         </a>
 
       </div>
