@@ -8,6 +8,7 @@ nav_order: 2
 ---
 
 <style>
+
 /* =========================
    Research Page
 ========================= */
@@ -18,18 +19,193 @@ nav_order: 2
 }
 
 
-/* -------------------------
+/* =========================
    Introduction
-------------------------- */
+========================= */
 
 .research-intro {
   width: 100%;
-  margin: 0 0 3rem;
+
+  margin: 0 0 3.5rem;
 
   font-size: 1.02rem;
   line-height: 1.75;
 
   color: var(--global-text-color);
+}
+
+
+/* =========================
+   Section Titles
+========================= */
+
+.research-section-title {
+  margin: 0 0 1.8rem;
+
+  font-size: 1.55rem;
+  font-weight: 600;
+  line-height: 1.4;
+
+  color: var(--global-text-color);
+}
+
+
+/* =========================
+   Ph.D. Research
+========================= */
+
+.phd-research {
+  width: 100%;
+
+  margin-bottom: 4rem;
+  padding-bottom: 3.5rem;
+
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+
+/* -------------------------
+   Ph.D. Overview
+------------------------- */
+
+.phd-overview {
+  display: grid;
+
+  grid-template-columns: 210px minmax(0, 1fr);
+
+  gap: 32px;
+  align-items: start;
+}
+
+
+/* Thesis cover */
+
+.phd-cover {
+  min-width: 0;
+}
+
+.phd-cover img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  border-radius: 6px;
+
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10);
+}
+
+
+/* Thesis text */
+
+.phd-content {
+  min-width: 0;
+
+  color: var(--global-text-color);
+}
+
+.phd-content h3 {
+  margin: 0 0 0.8rem;
+
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.4;
+
+  color: var(--global-text-color);
+}
+
+.phd-description {
+  margin: 0 0 1.3rem;
+
+  font-size: 0.97rem;
+  line-height: 1.7;
+
+  color: var(--global-text-color);
+}
+
+
+/* -------------------------
+   Ph.D. Research Parts
+------------------------- */
+
+.phd-part {
+  margin-bottom: 1rem;
+}
+
+.phd-part strong {
+  display: block;
+
+  margin-bottom: 0.25rem;
+
+  font-size: 0.93rem;
+  font-weight: 600;
+  line-height: 1.5;
+
+  color: var(--global-text-color);
+}
+
+.phd-part span {
+  display: block;
+
+  font-size: 0.9rem;
+  line-height: 1.6;
+
+  color: var(--global-text-color-light);
+}
+
+
+/* -------------------------
+   Thesis Link
+------------------------- */
+
+.phd-link {
+  display: inline-block;
+
+  margin-top: 0.4rem;
+
+  font-size: 0.9rem;
+  font-weight: 500;
+
+  color: var(--global-theme-color);
+
+  text-decoration: none;
+}
+
+.phd-link:hover {
+  color: var(--global-hover-color);
+
+  text-decoration: underline;
+}
+
+
+/* -------------------------
+   Thesis Summary Figure
+------------------------- */
+
+.phd-summary {
+  width: 100%;
+
+  margin-top: 2.3rem;
+}
+
+.phd-summary img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  border-radius: 8px;
+
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10);
+}
+
+
+/* =========================
+   Selected Projects
+========================= */
+
+.projects-section {
+  width: 100%;
 }
 
 
@@ -39,7 +215,9 @@ nav_order: 2
 
 .project-container {
   display: grid;
+
   grid-template-columns: minmax(260px, 40%) minmax(0, 1fr);
+
   gap: 32px;
   align-items: start;
 
@@ -56,12 +234,13 @@ nav_order: 2
 
 .project-container:last-child {
   border-bottom: none;
+
   margin-bottom: 0;
 }
 
 
 /* -------------------------
-   Project media
+   Project Media
 ------------------------- */
 
 .project-video {
@@ -80,7 +259,7 @@ nav_order: 2
 
 
 /* -------------------------
-   Project text
+   Project Text
 ------------------------- */
 
 .project-text {
@@ -90,7 +269,7 @@ nav_order: 2
 }
 
 
-/* Title */
+/* Project title */
 
 .project-text h3 {
   margin: 0 0 0.7rem;
@@ -114,7 +293,7 @@ nav_order: 2
 
 
 /* -------------------------
-   Summary
+   Project Summary
 ------------------------- */
 
 .project-summary {
@@ -152,27 +331,76 @@ nav_order: 2
 }
 
 
-/* -------------------------
-   Dark mode
-------------------------- */
+/* =========================
+   Dark Mode
+========================= */
 
 html[data-theme="dark"] .project-video video {
   border-color: var(--global-divider-color);
 }
 
+html[data-theme="dark"] .phd-cover img,
+html[data-theme="dark"] .phd-summary img {
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.30);
+}
 
-/* -------------------------
+
+/* =========================
    Tablet / Mobile
-------------------------- */
+========================= */
 
 @media (max-width: 768px) {
 
   .research-intro {
-    margin-bottom: 2.5rem;
+    margin-bottom: 3rem;
 
     font-size: 1rem;
     line-height: 1.7;
   }
+
+
+  /* Section title */
+
+  .research-section-title {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+  }
+
+
+  /* Ph.D. Research */
+
+  .phd-research {
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .phd-overview {
+    grid-template-columns: 1fr;
+
+    gap: 20px;
+  }
+
+  .phd-cover {
+    width: 100%;
+    max-width: 220px;
+
+    margin: 0 auto;
+  }
+
+  .phd-content h3 {
+    font-size: 1.18rem;
+  }
+
+  .phd-description {
+    font-size: 0.95rem;
+  }
+
+  .phd-summary {
+    margin-top: 2rem;
+  }
+
+
+  /* Projects */
 
   .project-container {
     grid-template-columns: 1fr;
@@ -199,16 +427,22 @@ html[data-theme="dark"] .project-video video {
 }
 
 
-/* -------------------------
-   Small mobile
-------------------------- */
+/* =========================
+   Small Mobile
+========================= */
 
 @media (max-width: 480px) {
 
   .project-container {
     gap: 16px;
   }
+
+  .phd-cover {
+    max-width: 200px;
+  }
+
 }
+
 </style>
 
 
@@ -229,166 +463,310 @@ html[data-theme="dark"] .project-video video {
   </p>
 
 
+
   <!-- =====================
-       Project 1
+       Ph.D. Research
   ====================== -->
 
-  <div class="project-container">
+  <section class="phd-research">
 
-    <div class="project-video">
-
-      {% include video.liquid
-        path="/assets/video/SS.mp4"
-        class="img-fluid rounded z-depth-1"
-        controls=true
-      %}
-
-    </div>
+    <h2 class="research-section-title">
+      Ph.D. Research
+    </h2>
 
 
-    <div class="project-text">
+    <div class="phd-overview">
 
-      <h3>
+
+      <!-- Thesis Cover -->
+
+      <div class="phd-cover">
+
+        <img
+          src="{{ '/assets/img/thesis/cover.jpg' | relative_url }}"
+          alt="Cover of the thesis Motion Control for Nonholonomic Unicycle Robots"
+        >
+
+      </div>
+
+
+      <!-- Thesis Information -->
+
+      <div class="phd-content">
+
+        <h3>
+          Motion Control for Nonholonomic Unicycle Robots
+        </h3>
+
+
+        <p class="phd-description">
+          My doctoral research focused on safety-critical motion control for
+          nonholonomic mobile robots operating in unknown and cluttered
+          environments using limited onboard sensing.
+        </p>
+
+
+        <div class="phd-part">
+
+          <strong>
+            Part I — Safe Source Seeking for a Single Unicycle Robot
+          </strong>
+
+          <span>
+            Source-seeking control, obstacle avoidance, and control barrier
+            function design for autonomous exploration using local sensory
+            measurements.
+          </span>
+
+        </div>
+
+
+        <div class="phd-part">
+
+          <strong>
+            Part II — Distributed Safe Motion Control for Multi-Agent Systems
+          </strong>
+
+          <span>
+            Distributed safety-critical control for multi-agent systems with
+            collision avoidance, connectivity preservation, and coordinated
+            motion.
+          </span>
+
+        </div>
+
+
         <a
-          href="https://ieeexplore.ieee.org/abstract/document/9458274"
+          class="phd-link"
+          href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Source-Seeking Robot
+          View Full Thesis →
         </a>
-      </h3>
 
-
-      <p class="project-summary">
-        Source-seeking control for a unicycle robot using flexible airflow
-        sensors and local measurements to locate an unknown signal source.
-      </p>
-
-
-      <p class="paper-cite">
-        <strong>T. Li*</strong>,
-        B. Jayawardhana,
-        A. M. Kamat,
-        and A. G. P. Kottapalli,
-        “Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible
-        Piezoresistive Sensors,”
-        <em>IEEE Transactions on Robotics</em>,
-        vol. 38,
-        no. 1,
-        pp. 448–462,
-        Feb. 2022.
-      </p>
+      </div>
 
     </div>
 
-  </div>
+
+    <!-- Thesis Summary Figure -->
+
+    <div class="phd-summary">
+
+      <img
+        src="{{ '/assets/img/thesis/summary.png' | relative_url }}"
+        alt="Summary of the Ph.D. research on motion control for nonholonomic unicycle robots"
+        loading="lazy"
+      >
+
+    </div>
+
+  </section>
+
 
 
   <!-- =====================
-       Project 2
+       Selected Research Projects
   ====================== -->
 
-  <div class="project-container">
+  <section class="projects-section">
 
-    <div class="project-video">
+    <h2 class="research-section-title">
+      Selected Research Projects
+    </h2>
 
-      {% include video.liquid
-        path="/assets/video/CO.mp4"
-        class="img-fluid rounded z-depth-1"
-        controls=true
-      %}
+
+
+    <!-- =====================
+         Project 1
+    ====================== -->
+
+    <div class="project-container">
+
+
+      <div class="project-video">
+
+        {% include video.liquid
+          path="/assets/video/SS.mp4"
+          class="img-fluid rounded z-depth-1"
+          controls=true
+        %}
+
+      </div>
+
+
+      <div class="project-text">
+
+        <h3>
+
+          <a
+            href="https://ieeexplore.ieee.org/abstract/document/9458274"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Source-Seeking Robot
+          </a>
+
+        </h3>
+
+
+        <p class="project-summary">
+          Source-seeking control for a unicycle robot using flexible airflow
+          sensors and local measurements to locate an unknown signal source.
+        </p>
+
+
+        <p class="paper-cite">
+
+          <strong>T. Li*</strong>,
+          B. Jayawardhana,
+          A. M. Kamat,
+          and A. G. P. Kottapalli,
+
+          “Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible
+          Piezoresistive Sensors,”
+
+          <em>IEEE Transactions on Robotics</em>,
+
+          vol. 38,
+          no. 1,
+          pp. 448–462,
+          Feb. 2022.
+
+        </p>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- =====================
+         Project 2
+    ====================== -->
+
+    <div class="project-container">
+
+
+      <div class="project-video">
+
+        {% include video.liquid
+          path="/assets/video/CO.mp4"
+          class="img-fluid rounded z-depth-1"
+          controls=true
+        %}
+
+      </div>
+
+
+      <div class="project-text">
+
+        <h3>
+
+          <a
+            href="https://ieeexplore.ieee.org/document/10735338"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Collision-Free Source-Seeking Robot
+          </a>
+
+        </h3>
+
+
+        <p class="project-summary">
+          Safety-critical source-seeking control that enables a mobile robot to
+          locate an unknown source while avoiding obstacles in cluttered and
+          previously unknown environments.
+        </p>
+
+
+        <p class="paper-cite">
+
+          <strong>T. Li*</strong>
+          and B. Jayawardhana,
+
+          “Collision-free Source Seeking Control Methods for Unicycle Robots,”
+
+          <em>IEEE Transactions on Automatic Control</em>,
+
+          vol. 70,
+          no. 3,
+          pp. 2020–2027,
+          March 2025.
+
+        </p>
+
+      </div>
 
     </div>
 
 
-    <div class="project-text">
 
-      <h3>
-        <a
-          href="https://ieeexplore.ieee.org/document/10735338"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Collision-Free Source-Seeking Robot
-        </a>
-      </h3>
+    <!-- =====================
+         Project 3
+    ====================== -->
+
+    <div class="project-container">
 
 
-      <p class="project-summary">
-        Safety-critical source-seeking control that enables a mobile robot to
-        locate an unknown source while avoiding obstacles in cluttered and
-        previously unknown environments.
-      </p>
+      <div class="project-video">
+
+        {% include video.liquid
+          path="/assets/video/connectivity.mp4"
+          class="img-fluid rounded z-depth-1"
+          controls=true
+        %}
+
+      </div>
 
 
-      <p class="paper-cite">
-        <strong>T. Li*</strong>
-        and B. Jayawardhana,
-        “Collision-free Source Seeking Control Methods for Unicycle Robots,”
-        <em>IEEE Transactions on Automatic Control</em>,
-        vol. 70,
-        no. 3,
-        pp. 2020–2027,
-        March 2025.
-      </p>
+      <div class="project-text">
 
-    </div>
+        <h3>
 
-  </div>
+          <a
+            href="https://ieeexplore.ieee.org/document/11311473"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Flocking Control with Connectivity Preservation
+          </a>
 
-
-  <!-- =====================
-       Project 3
-  ====================== -->
-
-  <div class="project-container">
-
-    <div class="project-video">
-
-      {% include video.liquid
-        path="/assets/video/connectivity.mp4"
-        class="img-fluid rounded z-depth-1"
-        controls=true
-      %}
-
-    </div>
+        </h3>
 
 
-    <div class="project-text">
-
-      <h3>
-        <a
-          href="https://ieeexplore.ieee.org/document/11311473"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Flocking Control with Connectivity Preservation
-        </a>
-      </h3>
+        <p class="project-summary">
+          Distributed source-seeking and flocking control for multi-agent
+          systems with collision avoidance, connectivity preservation, and
+          coordinated motion using onboard sensing.
+        </p>
 
 
-      <p class="project-summary">
-        Distributed source-seeking and flocking control for multi-agent
-        systems with collision avoidance, connectivity preservation, and
-        coordinated motion using onboard sensing.
-      </p>
+        <p class="paper-cite">
 
+          <strong>T. Li*</strong>
+          and B. Jayawardhana,
 
-      <p class="paper-cite">
-        <strong>T. Li*</strong>
-        and B. Jayawardhana,
-        “Collision-free Source Seeking and Flocking Control of Multi-agents
-        with Connectivity Preservation,”
-        <em>IEEE Transactions on Automatic Control</em>,
-        vol. 71,
-        no. 6,
-        pp. 3696–3711,
-        June 2026.
-      </p>
+          “Collision-free Source Seeking and Flocking Control of Multi-agents
+          with Connectivity Preservation,”
+
+          <em>IEEE Transactions on Automatic Control</em>,
+
+          vol. 71,
+          no. 6,
+          pp. 3696–3711,
+          June 2026.
+
+        </p>
+
+      </div>
 
     </div>
 
-  </div>
+
+  </section>
 
 
 </div>
