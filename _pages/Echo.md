@@ -61,11 +61,23 @@ nav_order: 7
 
 
 /* ========================================
+   Media + content width
+======================================== */
+
+.echo-media,
+.echo-content {
+  width: 100%;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* ========================================
    Media
 ======================================== */
 
 .echo-media {
-  width: 100%;
   overflow: hidden;
 
   border-radius: 10px;
@@ -82,23 +94,29 @@ nav_order: 7
   border-radius: 10px;
 }
 
+
+/* YouTube */
+
 .echo-media iframe {
   aspect-ratio: 16 / 9;
 }
 
+
+/* Video */
+
 .echo-media video {
   height: auto;
-  max-height: 520px;
+  max-height: 480px;
 
   object-fit: contain;
   background: #000;
 }
 
+
+/* Image */
+
 .echo-media img {
   height: auto;
-  max-height: 520px;
-
-  object-fit: cover;
 }
 
 
@@ -150,7 +168,7 @@ nav_order: 7
 
 
 /* ========================================
-   Small divider
+   Divider
 ======================================== */
 
 .echo-divider {
@@ -187,7 +205,7 @@ html[data-theme="dark"] .echo-media {
 
 
 /* ========================================
-   Mobile
+   Tablet / Mobile
 ======================================== */
 
 @media (max-width: 768px) {
@@ -204,11 +222,24 @@ html[data-theme="dark"] .echo-media {
     margin-bottom: 3rem;
   }
 
+  .echo-media,
+  .echo-content {
+    max-width: 100%;
+  }
+
   .echo-content {
     margin-top: 1rem;
   }
+
+  .echo-divider {
+    margin: 3rem auto;
+  }
 }
 
+
+/* ========================================
+   Small mobile
+======================================== */
 
 @media (max-width: 480px) {
 
@@ -229,6 +260,11 @@ html[data-theme="dark"] .echo-media {
 
   .echo-note {
     font-size: 0.9rem;
+    line-height: 1.7;
+  }
+
+  .echo-meta {
+    font-size: 0.7rem;
   }
 }
 </style>
