@@ -248,8 +248,7 @@ nav_order: 5
     <li class="news-row">
       <span class="news-date">2025.02 —</span>
       <span class="news-text">
-        Started my postdoctoral journey at Delft University of Technology (TU Delft),
-        expanding my research from ground mobile robotics to aerospace.
+        Started my postdoctoral journey at Delft University of Technology (TU Delft).
       </span>
     </li>
 
@@ -272,7 +271,6 @@ nav_order: 5
         Our paper, “Collision-Free Source Seeking Control Methods for Unicycle Robots,”
         was accepted for publication in
         <em>IEEE Transactions on Automatic Control (TAC)</em>.
-        This work forms a key part of my Ph.D. thesis.
       </span>
     </li>
 
