@@ -2,541 +2,662 @@
 layout: page
 title: Ph.D. Thesis
 permalink: /Ph.D.-thesis/
-description: 
+description:
 nav: true
 nav_order: 6
 ---
 
 <style>
-/* ---------------------------
-   Thesis Header
-   --------------------------- */
+/* ========================================
+   Main page container
+======================================== */
+
+.thesis-page {
+  width: 100%;
+  max-width: 920px;
+  margin: 0 auto;
+  color: var(--global-text-color);
+}
+
+
+/* ========================================
+   Thesis overview
+======================================== */
+
 .thesis-header {
-  display: flex;
-  gap: 40px;
-  align-items: flex-start;
-  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: 3rem;
+  align-items: start;
+
+  margin: 1.5rem 0 3rem;
 }
 
-.thesis-left {
-  flex: 1;
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+/* Thesis cover */
+
+.thesis-cover {
+  width: 100%;
 }
 
-.thesis-image img {
+.thesis-cover img {
   display: block;
   width: 100%;
-  max-width: 300px;
   height: auto;
-  border-radius: 0.5rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  border-radius: 6px;
+  border: 1px solid var(--global-divider-color);
 }
 
-.thesis-text {
-  flex: 2;
+
+/* Thesis information */
+
+.thesis-info {
   min-width: 0;
-  text-align: left;
-  color: var(--global-text-color);
 }
 
 .thesis-title {
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
-  font-weight: bold;
-  line-height: 1.4;
-  color: var(--global-text-color);
-}
+  margin: 0 0 0.75rem;
 
-.thesis-text h5 {
-  margin-top: 1.2rem;
-  font-size: 1.1rem;
+  font-size: clamp(1.55rem, 2.5vw, 1.9rem);
   font-weight: 600;
+  line-height: 1.35;
+
   color: var(--global-text-color);
 }
 
-.thesis-text ul {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  padding-left: 1.25rem;
+.thesis-meta {
+  margin-bottom: 1.25rem;
+
+  font-size: 0.9rem;
+  line-height: 1.6;
+
+  color: var(--global-text-color);
+  opacity: 0.62;
 }
 
-@media (max-width: 768px) {
-  .thesis-header {
-    flex-direction: column;
-  }
+.thesis-summary {
+  margin: 0 0 1.5rem;
 
-  .thesis-left,
-  .thesis-text {
-    width: 100%;
-  }
+  font-size: 1rem;
+  line-height: 1.8;
 
-  .thesis-text {
-    padding-top: 1rem;
-  }
+  color: var(--global-text-color);
 }
 
 
-/* ---------------------------
-   Shared Section Divider
-   --------------------------- */
+/* ========================================
+   Full thesis button
+======================================== */
+
+.thesis-link {
+  display: inline-block;
+
+  padding: 0.55rem 1rem;
+
+  border: 1px solid var(--global-theme-color);
+  border-radius: 6px;
+
+  color: var(--global-theme-color);
+  background: transparent;
+
+  font-size: 0.92rem;
+  font-weight: 500;
+
+  text-decoration: none;
+
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.thesis-link:hover {
+  color: #fff;
+  background: var(--global-theme-color);
+  text-decoration: none;
+}
+
+
+/* ========================================
+   Large thesis summary figure
+======================================== */
+
+.thesis-summary-figure {
+  width: 100%;
+  margin: 0 0 4rem;
+}
+
+.thesis-summary-figure figure {
+  margin: 0;
+}
+
+.thesis-summary-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+
+  border-radius: 8px;
+  border: 1px solid var(--global-divider-color);
+}
+
+.thesis-summary-caption {
+  margin: 0.8rem auto 0;
+  max-width: 760px;
+
+  font-size: 0.86rem;
+  line-height: 1.6;
+  text-align: center;
+
+  color: var(--global-text-color);
+  opacity: 0.6;
+}
+
+
+/* ========================================
+   Section divider
+======================================== */
+
 .section-divider {
-  margin: 3rem 0;
+  margin: 4rem 0 0;
+
   border: 0;
   border-top: 1px solid var(--global-divider-color);
 }
 
 
-/* ---------------------------
-   Gallery
-   --------------------------- */
-.gallery-section {
-  margin-top: 3rem;
-  color: var(--global-text-color);
+/* ========================================
+   Shared section
+======================================== */
+
+.thesis-section {
+  margin-top: 3.5rem;
 }
 
-.gallery-section h2 {
-  margin-bottom: 1.5rem;
-  font-size: 1.75rem;
+.thesis-section h2 {
+  margin: 0 0 1.6rem;
+
+  font-size: 1.4rem;
   font-weight: 600;
-  text-align: center;
+  line-height: 1.4;
+
   color: var(--global-text-color);
 }
 
-.gallery-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  justify-content: center;
+
+/* ========================================
+   Research highlights
+======================================== */
+
+.highlight-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2.5rem;
 }
 
-.gallery-col {
-  flex: 1 1 30%;
-  max-width: 320px;
-  overflow: hidden;
-  border-radius: 0.75rem;
+.highlight-item {
+  min-width: 0;
 }
 
-.gallery-row img {
+.highlight-item h3 {
+  margin: 0 0 0.65rem;
+
+  font-size: 1.08rem;
+  font-weight: 600;
+  line-height: 1.4;
+
+  color: var(--global-text-color);
+}
+
+.highlight-item p {
+  margin: 0;
+
+  font-size: 0.96rem;
+  line-height: 1.75;
+
+  color: var(--global-text-color);
+  opacity: 0.88;
+}
+
+
+/* ========================================
+   Defence gallery
+======================================== */
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  gap: 12px;
+}
+
+.gallery-grid img {
   display: block;
+
   width: 100%;
-  height: 260px;
+  aspect-ratio: 4 / 3;
+
   object-fit: cover;
-  border-radius: 0.75rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
+
+  border-radius: 6px;
+  border: 1px solid var(--global-divider-color);
 }
 
-.gallery-row img:hover {
-  transform: scale(1.025);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
-}
+
+/* ========================================
+   Defence video
+======================================== */
 
 .gallery-video {
-  margin-top: 2rem;
-  text-align: center;
+  margin-top: 16px;
 }
 
 .gallery-video video {
   display: block;
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
-  border-radius: 0.75rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-}
 
-@media (max-width: 768px) {
-  .gallery-col {
-    flex: 1 1 100%;
-    max-width: 100%;
-  }
-
-  .gallery-row img {
-    height: auto;
-    aspect-ratio: 4 / 3;
-  }
-}
-
-
-/* ---------------------------
-   Vincent van Gogh Image
-   --------------------------- */
-.artwork-section {
-  margin-top: 3rem;
-  color: var(--global-text-color);
-}
-
-.artwork-section h2 {
-  margin-bottom: 1.5rem;
-  font-size: 1.75rem;
-  font-weight: 600;
-  line-height: 1.4;
-  text-align: center;
-  color: var(--global-text-color);
-}
-
-.artwork-card {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 1rem;
-
-  background-color: rgba(0, 83, 156, 0.05);
-  border: 1px solid var(--global-divider-color);
-  border-radius: 1rem;
-  box-shadow: 0 0.5rem 1.2rem rgba(0, 0, 0, 0.08);
-
-  opacity: 0;
-  transform: translateY(30px);
-  transition:
-    opacity 0.8s ease-out,
-    transform 0.8s ease-out,
-    box-shadow 0.3s ease;
-}
-
-.artwork-card.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.artwork-card:hover {
-  box-shadow: 0 0.8rem 1.8rem rgba(0, 0, 0, 0.14);
-}
-
-.artwork-card figure {
-  margin: 0;
-}
-
-.artwork-card img {
-  display: block;
   width: 100%;
   height: auto;
-  border-radius: 0.75rem;
-}
 
-.artwork-caption {
-  margin-top: 1rem;
-  margin-bottom: 0;
-  padding: 0 0.5rem 0.25rem;
+  border-radius: 6px;
+  border: 1px solid var(--global-divider-color);
 
-  font-size: 0.95rem;
-  line-height: 1.7;
-  text-align: center;
-  color: var(--global-text-color-light);
-}
-
-.artwork-caption strong {
-  color: var(--global-text-color);
-}
-
-html[data-theme="dark"] .artwork-card {
-  background-color: rgba(255, 255, 255, 0.04);
-  box-shadow: 0 0.5rem 1.2rem rgba(0, 0, 0, 0.25);
-}
-
-@media (max-width: 768px) {
-  .artwork-card {
-    padding: 0.75rem;
-  }
-
-  .artwork-section h2 {
-    font-size: 1.5rem;
-  }
+  background: #000;
 }
 
 
-/* ---------------------------
-   Acknowledgments Card
-   --------------------------- */
-.acknowledgment-section {
-  margin-top: 3rem;
-  padding: 2rem 1.5rem;
+/* ========================================
+   Acknowledgments
+======================================== */
 
-  font-size: 1rem;
+.acknowledgments {
+  max-width: 820px;
+}
+
+.acknowledgments p {
+  margin: 0 0 1rem;
+
+  font-size: 0.98rem;
   line-height: 1.8;
 
-  background-color: rgba(0, 83, 156, 0.08);
-  border: 1px solid var(--global-divider-color);
-  border-radius: 1rem;
-  box-shadow: 0 0.5rem 1.2rem rgba(0, 0, 0, 0.05);
-
-  opacity: 0;
-  transform: translateY(30px);
-  transition:
-    opacity 0.8s ease-out,
-    transform 0.8s ease-out;
-
   color: var(--global-text-color);
 }
 
-.acknowledgment-section.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.acknowledgment-section h2 {
-  margin-bottom: 1.5rem;
-  font-size: 1.75rem;
-  font-weight: 600;
-  text-align: center;
-  color: var(--global-text-color);
-}
-
-.acknowledgment-section p {
-  margin-bottom: 1rem;
-  color: var(--global-text-color);
-}
-
-.acknowledgment-section strong {
+.acknowledgments strong {
   font-weight: 600;
 }
 
-.acknowledgment-section a {
+.acknowledgments a {
   display: inline-block;
-  margin-top: 1rem;
+  margin-top: 0.3rem;
+
   color: var(--global-theme-color);
+  text-decoration: none;
+}
+
+.acknowledgments a:hover {
+  color: var(--global-hover-color);
   text-decoration: underline;
 }
 
-.acknowledgment-section a:hover {
-  color: var(--global-hover-color);
+
+/* ========================================
+   Dark mode
+======================================== */
+
+html[data-theme="dark"] .thesis-cover img,
+html[data-theme="dark"] .thesis-summary-figure img,
+html[data-theme="dark"] .gallery-grid img,
+html[data-theme="dark"] .gallery-video video {
+  border-color: var(--global-divider-color);
 }
 
-html[data-theme="dark"] .acknowledgment-section {
-  background-color: rgba(255, 255, 255, 0.05);
-  box-shadow: 0 0.5rem 1.2rem rgba(0, 0, 0, 0.25);
-}
+
+/* ========================================
+   Tablet / mobile
+======================================== */
 
 @media (max-width: 768px) {
-  .acknowledgment-section {
-    padding: 1.5rem 1rem;
+
+  .thesis-page {
+    max-width: 100%;
+  }
+
+  .thesis-header {
+    grid-template-columns: 1fr;
+
+    gap: 1.8rem;
+
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .thesis-cover {
+    width: 100%;
+    max-width: 280px;
+
+    margin: 0 auto;
+  }
+
+  .thesis-info {
+    width: 100%;
+  }
+
+  .thesis-summary-figure {
+    margin-bottom: 3rem;
+  }
+
+  .highlight-list {
+    grid-template-columns: 1fr;
+    gap: 1.7rem;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .gallery-grid img {
+    aspect-ratio: 4 / 3;
+  }
+
+  .section-divider {
+    margin-top: 3rem;
+  }
+
+  .thesis-section {
+    margin-top: 2.8rem;
   }
 }
 
 
-/* ---------------------------
-   Reduced Motion
-   --------------------------- */
-@media (prefers-reduced-motion: reduce) {
-  .gallery-row img,
-  .artwork-card,
-  .acknowledgment-section {
-    transition: none;
+/* ========================================
+   Small phones
+======================================== */
+
+@media (max-width: 480px) {
+
+  .thesis-cover {
+    max-width: 230px;
   }
 
-  .artwork-card,
-  .acknowledgment-section {
-    opacity: 1;
-    transform: none;
+  .thesis-title {
+    font-size: 1.4rem;
+  }
+
+  .thesis-summary {
+    font-size: 0.94rem;
+  }
+
+  .thesis-section h2 {
+    font-size: 1.25rem;
+  }
+
+  .highlight-item p,
+  .acknowledgments p {
+    font-size: 0.94rem;
+  }
+
+  .thesis-summary-caption {
+    font-size: 0.8rem;
   }
 }
 </style>
 
 
-<!-- Thesis Summary Section -->
-<div class="thesis-header">
+<div class="thesis-page">
 
-  <div class="thesis-left">
-    <div class="thesis-image">
+
+  <!-- ======================================
+       Thesis overview
+  ======================================= -->
+
+  <section class="thesis-header">
+
+
+    <!-- Thesis cover -->
+
+    <div class="thesis-cover">
+
       <img
-        src="/assets/img/thesis/cover.jpg"
-        class="img-fluid rounded"
+        src="{{ '/assets/img/thesis/cover.jpg' | relative_url }}"
         alt="Cover of the thesis Motion Control for Nonholonomic Unicycle Robots"
       >
+
     </div>
 
-    <p style="margin-top: 1rem;">
+
+    <!-- Thesis description -->
+
+    <div class="thesis-info">
+
+      <h1 class="thesis-title">
+        Motion Control for Nonholonomic Unicycle Robots
+      </h1>
+
+      <div class="thesis-meta">
+        Ph.D. Thesis · University of Groningen
+      </div>
+
+      <p class="thesis-summary">
+        This doctoral research focuses on developing motion-control methods
+        for nonholonomic robots operating in unknown and cluttered environments.
+        The proposed algorithms rely only on limited onboard sensory measurements
+        and address autonomous exploration, source seeking, obstacle avoidance,
+        multi-agent coordination, and connectivity preservation.
+      </p>
+
       <a
         href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots"
-        class="btn btn-primary"
+        class="thesis-link"
         target="_blank"
-        rel="noopener noreferrer"
-      >
-        Full Thesis
+        rel="noopener noreferrer">
+        Full Thesis →
       </a>
-    </p>
-  </div>
 
-  <div class="thesis-text">
-    <div class="thesis-title">
-      Motion Control for Nonholonomic Unicycle Robots
     </div>
 
-    <p>
-      This doctoral research focuses on developing algorithms for
-      nonholonomic robots in unknown cluttered environments, relying solely
-      on limited onboard sensory measurements for exploration.
-    </p>
-
-    <h5>
-      Part I: Safe Source Seeking (for Single Unicycle Robot)
-    </h5>
-
-    <ul>
-      <li>Projected gradient-ascent source-seeking control</li>
-      <li>Safety guarantees for single robots in obstacle fields</li>
-      <li>CBF design with uniform relative degree</li>
-    </ul>
-
-    <h5>
-      Part II: Distributed Safe Motion Control (for Multi-Agent System)
-    </h5>
-
-    <ul>
-      <li>Distributed CBF-QP framework</li>
-      <li>Collision avoidance and connectivity preservation</li>
-      <li>Adaptive spacing policy for flexible coordination</li>
-    </ul>
-  </div>
-
-</div>
+  </section>
 
 
-<hr class="section-divider">
 
+  <!-- ======================================
+       Thesis summary figure
+  ======================================= -->
 
-<!-- Defense Gallery Section -->
-<div class="gallery-section">
+  <section class="thesis-summary-figure">
 
-  <h2>PhD Defence Gallery</h2>
+    <figure>
 
-  <div class="gallery-row">
-
-    <div class="gallery-col">
       <img
-        src="/assets/img/news/phd_1.jpg"
+        src="{{ '/assets/img/thesis/summary.png' | relative_url }}"
+        alt="Research overview of the PhD thesis on motion control for nonholonomic robots"
+      >
+
+      <figcaption class="thesis-summary-caption">
+        Overview of the research topics and control methods developed in this thesis.
+      </figcaption>
+
+    </figure>
+
+  </section>
+
+
+
+  <!-- ======================================
+       Research Highlights
+  ======================================= -->
+
+  <hr class="section-divider">
+
+
+  <section class="thesis-section">
+
+    <h2>
+      Research Highlights
+    </h2>
+
+
+    <div class="highlight-list">
+
+
+      <!-- Highlight 1 -->
+
+      <div class="highlight-item">
+
+        <h3>
+          Safe Source Seeking
+        </h3>
+
+        <p>
+          Source-seeking control methods for single nonholonomic robots,
+          combining gradient-based exploration with safety guarantees
+          for navigation in unknown and obstacle-filled environments.
+        </p>
+
+      </div>
+
+
+      <!-- Highlight 2 -->
+
+      <div class="highlight-item">
+
+        <h3>
+          Distributed Safe Motion Control
+        </h3>
+
+        <p>
+          Distributed control-barrier-function frameworks for multi-agent
+          systems, addressing collision avoidance, connectivity preservation,
+          coordinated motion, and adaptive inter-agent spacing.
+        </p>
+
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+
+  <!-- ======================================
+       PhD Defence
+  ======================================= -->
+
+  <hr class="section-divider">
+
+
+  <section class="thesis-section">
+
+    <h2>
+      PhD Defence
+    </h2>
+
+
+    <!-- Photos -->
+
+    <div class="gallery-grid">
+
+      <img
+        src="{{ '/assets/img/news/phd_1.jpg' | relative_url }}"
         alt="PhD defence photo 1"
         loading="lazy"
       >
-    </div>
 
-    <div class="gallery-col">
       <img
-        src="/assets/img/news/phd.jpg"
+        src="{{ '/assets/img/news/phd.jpg' | relative_url }}"
         alt="PhD defence photo 2"
         loading="lazy"
       >
-    </div>
 
-    <div class="gallery-col">
       <img
-        src="/assets/img/news/phd_3.jpg"
+        src="{{ '/assets/img/news/phd_3.jpg' | relative_url }}"
         alt="PhD defence photo 3"
         loading="lazy"
       >
+
     </div>
 
-  </div>
 
-  <div class="gallery-video">
-    <video controls preload="metadata" playsinline>
-      <source
-        src="/assets/video/defence.mp4"
-        type="video/mp4"
-      >
-      Your browser does not support the video tag.
-    </video>
-  </div>
+    <!-- Defence video -->
+
+    <div class="gallery-video">
+
+      <video
+        controls
+        preload="metadata"
+        playsinline>
+
+        <source
+          src="{{ '/assets/video/defence.mp4' | relative_url }}"
+          type="video/mp4">
+
+        Your browser does not support the video tag.
+
+      </video>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- ======================================
+       Acknowledgments
+  ======================================= -->
+
+  <hr class="section-divider">
+
+
+  <section class="thesis-section acknowledgments">
+
+    <h2>
+      Acknowledgments
+    </h2>
+
+
+    <p>
+      I would like to sincerely thank my dearest supervisors,
+      <strong>Prof. Bayu Jayawardhana</strong> and
+      <strong>Prof. Ming Cao</strong>,
+      for their constant support and guidance throughout my Ph.D. journey.
+    </p>
+
+
+    <p>
+      I am deeply grateful to my paranymphs,
+      <strong>Simon Busman</strong> and
+      <strong>Wouter Baar</strong>,
+      for their invaluable help and friendship.
+      I also thank all my lovely colleagues and friends in the
+      <strong>DTPA group</strong>
+      for making this journey memorable.
+    </p>
+
+
+    <p>
+      Heartfelt appreciation goes to the members of my defense committee
+      for their insightful discussions and valuable feedback:
+      <strong>
+        Prof. Claudio De Persis,
+        Prof. Dimos Dimarogonas,
+        Prof. Tamas Keviczky,
+        Prof. Raffaella Carloni,
+        Prof. Maryam Ghandchi Tehrani,
+        Prof. Sami Haddadin,
+        Dr. Bahar Haghighat,
+        and Dr. Ashish Cherukuri.
+      </strong>
+    </p>
+
+
+    <a
+      href="{{ '/assets/pdf/acknowledge.pdf' | relative_url }}"
+      target="_blank"
+      rel="noopener noreferrer">
+      Read the full acknowledgment →
+    </a>
+
+  </section>
+
 
 </div>
-
-
-<hr class="section-divider">
-
-
-
-<hr class="section-divider">
-
-
-<!-- Acknowledgments Section -->
-<div
-  class="acknowledgment-section"
-  id="acknowledgments"
->
-  <h2>Acknowledgments</h2>
-
-  <p>
-    I would like to sincerely thank my dearest supervisors
-    <strong>Prof. Bayu Jayawardhana</strong> and
-    <strong>Prof. Ming Cao</strong> for their constant support and guidance
-    throughout my Ph.D. journey.
-  </p>
-
-  <p>
-    I’m deeply grateful to my paranymphs
-    <strong>Simon Busman</strong> and
-    <strong>Wouter Baar</strong> for their invaluable help and friendship.
-    Thanks to all my lovely colleagues and friends in the
-    <strong>DTPA group</strong> for making this journey memorable.
-  </p>
-
-  <p>
-    Heartfelt appreciation to the defense committee members for their
-    insightful discussions and valuable feedback:
-    <strong>
-      Prof. Claudio De Persis, Prof. Dimos Dimarogonas,
-      Prof. Tamas Keviczky, Prof. Raffaella Carloni,
-      Prof. Maryam Ghandchi Tehrani, Prof. Sami Haddadin,
-      Dr. Bahar Haghighat, and Dr. Ashish Cherukuri
-    </strong>.
-  </p>
-
-  <a
-    href="/assets/pdf/acknowledge.pdf"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    Read the full acknowledgment here →
-  </a>
-</div>
-
-
-
-
-<!-- Intersection Observer Script for Scroll Animation -->
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const animatedSections = [
-      document.getElementById("starry-nights-artwork"),
-      document.getElementById("acknowledgments")
-    ].filter(Boolean);
-
-    const prefersReducedMotion = window.matchMedia(
-      "(prefers-reduced-motion: reduce)"
-    ).matches;
-
-    if (
-      prefersReducedMotion ||
-      !("IntersectionObserver" in window)
-    ) {
-      animatedSections.forEach(function (section) {
-        section.classList.add("visible");
-      });
-
-      return;
-    }
-
-    const observer = new IntersectionObserver(
-      function (entries, currentObserver) {
-        entries.forEach(function (entry) {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("visible");
-            currentObserver.unobserve(entry.target);
-          }
-        });
-      },
-      {
-        threshold: 0.2
-      }
-    );
-
-    animatedSections.forEach(function (section) {
-      observer.observe(section);
-    });
-  });
-</script>
-

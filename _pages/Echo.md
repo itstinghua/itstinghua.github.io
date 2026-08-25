@@ -9,24 +9,23 @@ nav_order: 7
 
 <style>
 /* ========================================
-   Page container
+   Container
 ======================================== */
 
 .echo-container {
   width: 100%;
-  max-width: 980px;
+  max-width: 760px;
   margin: 0 auto;
 }
 
 
 /* ========================================
-   Hero quote
+   Hero
 ======================================== */
 
 .echo-hero {
-  max-width: 720px;
-  margin: 2rem auto 4rem;
-  padding: 0;
+  max-width: 680px;
+  margin: 2rem auto 4.5rem;
   text-align: center;
 }
 
@@ -35,211 +34,137 @@ nav_order: 7
   padding: 0;
   border: none;
 
-  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-size: clamp(1.35rem, 2.8vw, 1.85rem);
   font-style: italic;
   font-weight: 400;
-  line-height: 1.55;
-  letter-spacing: -0.01em;
+  line-height: 1.6;
 
   color: var(--global-text-color);
 }
 
 .echo-hero p {
-  margin: 0.8rem 0 0;
-
-  font-size: 0.92rem;
-  line-height: 1.5;
+  margin-top: 0.7rem;
+  font-size: 0.88rem;
 
   color: var(--global-text-color);
-  opacity: 0.6;
+  opacity: 0.55;
 }
 
 
 /* ========================================
-   Memory cards
+   Echo item
 ======================================== */
 
-.project-card {
-  display: grid;
-  grid-template-columns:
-    minmax(0, 1.15fr)
-    minmax(0, 0.85fr);
+.echo-item {
+  margin-bottom: 4.5rem;
+}
 
-  gap: 2.4rem;
-  align-items: center;
 
+/* ========================================
+   Media
+======================================== */
+
+.echo-media {
   width: 100%;
-  margin-bottom: 2.5rem;
-  padding: 1.4rem;
-
-  background: var(--global-card-bg-color);
-  border: 1px solid var(--global-divider-color);
-  border-radius: 16px;
-
   overflow: hidden;
 
-  transition:
-    transform 0.25s ease,
-    box-shadow 0.25s ease,
-    border-color 0.25s ease;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.025);
 }
 
-.project-card:hover {
-  transform: translateY(-3px);
-  border-color: var(--global-theme-color);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
-}
-
-
-/* ========================================
-   Alternating layout
-======================================== */
-
-.project-card:nth-of-type(even) {
-  grid-template-columns:
-    minmax(0, 0.85fr)
-    minmax(0, 1.15fr);
-}
-
-.project-card:nth-of-type(even) .project-media {
-  order: 2;
-}
-
-.project-card:nth-of-type(even) .project-content {
-  order: 1;
-}
-
-
-/* ========================================
-   Media area
-======================================== */
-
-.project-media {
-  width: 100%;
-  min-width: 0;
-
-  overflow: hidden;
-  border-radius: 12px;
-
-  background: rgba(0, 0, 0, 0.03);
-}
-
-.project-media iframe,
-.project-media video,
-.project-media img {
+.echo-media iframe,
+.echo-media video,
+.echo-media img {
   display: block;
   width: 100%;
 
-  border: none;
-  border-radius: 12px;
+  border: 0;
+  border-radius: 10px;
 }
 
-
-/* YouTube */
-.project-media iframe {
+.echo-media iframe {
   aspect-ratio: 16 / 9;
 }
 
-
-/* Video */
-.project-media video {
-  width: 100%;
+.echo-media video {
   height: auto;
-  max-height: 460px;
+  max-height: 520px;
 
   object-fit: contain;
   background: #000;
 }
 
-
-/* Image */
-.project-media img {
-  width: 100%;
+.echo-media img {
   height: auto;
-  max-height: 460px;
+  max-height: 520px;
 
   object-fit: cover;
 }
 
 
 /* ========================================
-   Content area
+   Text
 ======================================== */
 
-.project-content {
-  min-width: 0;
+.echo-content {
+  margin-top: 1.25rem;
+}
+
+.echo-meta {
+  margin-bottom: 0.35rem;
+
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+
   color: var(--global-text-color);
+  opacity: 0.45;
 }
 
-.project-content h2 {
-  margin: 0 0 1rem;
+.echo-title {
+  margin: 0;
 
-  font-size: clamp(1.35rem, 2vw, 1.65rem);
+  font-size: clamp(1.2rem, 2vw, 1.45rem);
   font-weight: 600;
-  line-height: 1.3;
-  letter-spacing: -0.01em;
+  line-height: 1.4;
 }
 
-.project-content h2 a {
-  color: var(--global-theme-color);
+.echo-title a {
+  color: var(--global-text-color);
   text-decoration: none;
 }
 
-.project-content h2 a:hover {
-  color: var(--global-hover-color);
-  text-decoration: underline;
+.echo-title a:hover {
+  color: var(--global-theme-color);
 }
 
-.project-content p {
-  margin: 0.8rem 0;
-  line-height: 1.8;
-}
+.echo-note {
+  margin-top: 0.65rem;
 
-
-/* ========================================
-   Metadata
-======================================== */
-
-.echo-meta {
-  margin-bottom: 0.8rem;
-
-  font-size: 0.82rem;
-  line-height: 1.5;
+  font-size: 0.95rem;
+  line-height: 1.75;
 
   color: var(--global-text-color);
-  opacity: 0.55;
-
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
+  opacity: 0.75;
 }
 
 
 /* ========================================
-   Quote / description
+   Small divider
 ======================================== */
 
-.echo-quote {
-  margin-top: 1rem;
-  padding: 0.9rem 0 0.9rem 1.2rem;
+.echo-divider {
+  width: 36px;
+  height: 1px;
 
-  border: none;
-  border-left: 3px solid var(--global-theme-color);
+  margin: 4rem auto;
 
-  background: transparent;
-
-  font-size: 0.96rem;
-  line-height: 1.85;
-
-  color: var(--global-text-color);
-}
-
-.echo-quote em {
-  opacity: 0.88;
+  background: var(--global-divider-color);
 }
 
 
 /* ========================================
-   Chinese text
+   Chinese
 ======================================== */
 
 .zh-kaiti {
@@ -256,16 +181,8 @@ nav_order: 7
    Dark mode
 ======================================== */
 
-html[data-theme="dark"] .project-card {
-  box-shadow: none;
-}
-
-html[data-theme="dark"] .project-card:hover {
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
-}
-
-html[data-theme="dark"] .project-media {
-  background: rgba(255, 255, 255, 0.03);
+html[data-theme="dark"] .echo-media {
+  background: rgba(255, 255, 255, 0.025);
 }
 
 
@@ -275,81 +192,43 @@ html[data-theme="dark"] .project-media {
 
 @media (max-width: 768px) {
 
+  .echo-container {
+    max-width: 100%;
+  }
+
   .echo-hero {
-    margin: 1.5rem auto 2.8rem;
+    margin: 1.5rem auto 3rem;
   }
 
-  .project-card,
-  .project-card:nth-of-type(even) {
-    grid-template-columns: 1fr;
-
-    gap: 1.3rem;
-
-    padding: 1rem;
-    margin-bottom: 1.8rem;
-
-    border-radius: 14px;
+  .echo-item {
+    margin-bottom: 3rem;
   }
 
-  .project-card .project-media,
-  .project-card:nth-of-type(even) .project-media {
-    order: 1;
-  }
-
-  .project-card .project-content,
-  .project-card:nth-of-type(even) .project-content {
-    order: 2;
-  }
-
-  .project-content h2 {
-    font-size: 1.25rem;
+  .echo-content {
+    margin-top: 1rem;
   }
 }
 
 
-/* ========================================
-   Small phones
-======================================== */
-
 @media (max-width: 480px) {
 
-  .echo-hero {
-    margin-top: 1rem;
-    margin-bottom: 2.2rem;
-  }
-
   .echo-hero blockquote {
-    font-size: 1.3rem;
+    font-size: 1.25rem;
   }
 
-  .echo-hero p {
-    font-size: 0.85rem;
+  .echo-media,
+  .echo-media iframe,
+  .echo-media video,
+  .echo-media img {
+    border-radius: 8px;
   }
 
-  .project-card {
-    padding: 0.85rem;
-    border-radius: 12px;
+  .echo-title {
+    font-size: 1.15rem;
   }
 
-  .project-media,
-  .project-media iframe,
-  .project-media video,
-  .project-media img {
-    border-radius: 9px;
-  }
-
-  .project-content h2 {
-    margin-bottom: 0.7rem;
-    font-size: 1.18rem;
-  }
-
-  .echo-quote {
-    padding-left: 0.9rem;
-    font-size: 0.92rem;
-  }
-
-  .echo-meta {
-    font-size: 0.76rem;
+  .echo-note {
+    font-size: 0.9rem;
   }
 }
 </style>
@@ -373,19 +252,17 @@ html[data-theme="dark"] .project-media {
 
 
 <!-- ======================================
-     Echo content
+     Echo
 ======================================= -->
 
 <div class="echo-container">
 
 
-  <!-- ======================================
-       1. Bon Jovi
-  ======================================= -->
+  <!-- 1. Bon Jovi -->
 
-  <article class="project-card">
+  <article class="echo-item">
 
-    <div class="project-media">
+    <div class="echo-media">
 
       <iframe
         src="https://www.youtube.com/embed/VUxIwnf_wZk"
@@ -398,27 +275,23 @@ html[data-theme="dark"] .project-media {
 
     </div>
 
-
-    <div class="project-content">
+    <div class="echo-content">
 
       <div class="echo-meta">
         Music · Bon Jovi
       </div>
 
-      <h2>
+      <h2 class="echo-title">
         <a
           href="https://www.bilibili.com/video/BV1Q3411k7Be?t=4.0"
           target="_blank"
           rel="noopener noreferrer">
-          Bon Jovi — It's My Life
+          It's My Life
         </a>
       </h2>
 
-      <p class="echo-quote">
-        <em>This is for the ones who stood their ground</em><br>
-        <em>It's for Tommy and Gina who never backed down</em><br>
-        <em>Tomorrow's getting harder, make no mistake</em><br>
-        <em>Luck ain't enough, you've got to make your own breaks</em>
+      <p class="echo-note">
+        A song that has stayed with me through different stages of life.
       </p>
 
     </div>
@@ -426,14 +299,14 @@ html[data-theme="dark"] .project-media {
   </article>
 
 
+  <div class="echo-divider"></div>
 
-  <!-- ======================================
-       2. Defence Day
-  ======================================= -->
 
-  <article class="project-card">
+  <!-- 2. Defence Day -->
 
-    <div class="project-media">
+  <article class="echo-item">
+
+    <div class="echo-media">
 
       <img
         src="{{ '/assets/img/echo/defence.jpeg' | relative_url }}"
@@ -442,19 +315,18 @@ html[data-theme="dark"] .project-media {
 
     </div>
 
-
-    <div class="project-content">
+    <div class="echo-content">
 
       <div class="echo-meta">
         Groningen · 2024
       </div>
 
-      <h2>
-        Friends
+      <h2 class="echo-title">
+        Defence Day
       </h2>
 
-      <p class="echo-quote">
-        <strong>Defence Day, Groningen, 2024</strong>
+      <p class="echo-note">
+        Friends, memories, and the closing of an unforgettable chapter in Groningen.
       </p>
 
     </div>
@@ -462,14 +334,14 @@ html[data-theme="dark"] .project-media {
   </article>
 
 
+  <div class="echo-divider"></div>
 
-  <!-- ======================================
-       3. Delft — Cherry Blossoms
-  ======================================= -->
 
-  <article class="project-card">
+  <!-- 3. Delft -->
 
-    <div class="project-media">
+  <article class="echo-item">
+
+    <div class="echo-media">
 
       <video
         controls
@@ -486,57 +358,18 @@ html[data-theme="dark"] .project-media {
 
     </div>
 
-
-    <div class="project-content">
+    <div class="echo-content">
 
       <div class="echo-meta">
         Delft · Spring 2026
       </div>
 
-      <h2>
+      <h2 class="echo-title">
         Don’t Let This Spring Pass By
       </h2>
 
-      <p class="echo-quote">
-        <strong>Cherry Blossoms in Spring, Delft, 2026</strong>
-      </p>
-
-    </div>
-
-  </article>
-
-
-
-  <!-- ======================================
-       4. New Memory — Image
-  ======================================= -->
-
-  <article class="project-card">
-
-    <div class="project-media">
-
-      <img
-        src="{{ '/assets/img/echo/work.jfif' | relative_url }}"
-        alt="A memorable moment"
-        loading="lazy">
-
-    </div>
-
-
-    <div class="project-content">
-
-      <div class="echo-meta">
-        DTPA Days
-      </div>
-
-      <h2>
-        A Moment to Remember
-      </h2>
-
-      <p class="echo-quote">
-        <strong>
-          Fix Robot@DTPA
-        </strong>
+      <p class="echo-note">
+        Cherry blossoms in Delft — a quiet moment worth remembering.
       </p>
 
     </div>
