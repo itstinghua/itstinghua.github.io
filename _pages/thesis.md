@@ -243,12 +243,7 @@ nav_order: 6
 }
 
 
-/* ----------------------------------------
-   Individual crop adjustment
 
-   如果某一张人物被裁掉，可以只修改这里，
-   不会影响三张图片尺寸。
----------------------------------------- */
 
 .gallery-col:nth-child(1) img {
   object-position: center center;
@@ -269,7 +264,7 @@ nav_order: 6
 
 .gallery-video {
   width: 100%;
-  max-width: 1000px;
+  max-width: 760px;
 
   margin: 2.5rem auto 0;
 
@@ -604,42 +599,6 @@ html[data-theme="dark"] .gallery-video video {
 
   <h2>Ph.D. Defence Gallery</h2>
 
-
-  <div class="gallery-row">
-
-    <div class="gallery-col">
-
-      <img
-        src="{{ '/assets/img/news/phd_1.jpg' | relative_url }}"
-        alt="Ph.D. defence photo 1"
-        loading="lazy"
-      >
-
-    </div>
-
-
-    <div class="gallery-col">
-
-      <img
-        src="{{ '/assets/img/news/phd.jpg' | relative_url }}"
-        alt="Ph.D. defence photo 2"
-        loading="lazy"
-      >
-
-    </div>
-
-
-    <div class="gallery-col">
-
-      <img
-        src="{{ '/assets/img/news/phd_3.jpg' | relative_url }}"
-        alt="Ph.D. defence photo 3"
-        loading="lazy"
-      >
-
-    </div>
-
-  </div>
 
 
   <!-- Defence Video -->
