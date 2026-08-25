@@ -22,8 +22,8 @@ nav_order: 2
    ------------------------- */
 
 .research-intro {
-  max-width: 800px;
-  margin: 0 0 3.5rem;
+  width: 100%;
+  margin: 0 0 3rem;
 
   font-size: 1.02rem;
   line-height: 1.75;
