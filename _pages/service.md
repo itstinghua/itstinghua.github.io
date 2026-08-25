@@ -256,8 +256,7 @@ nav_order: 4
           <span class="service-time-line">2020</span>
         </span>
         <span class="service-content">
-          <strong>Robotics (Master's Course)</strong><br>
-          <a href="https://ocasys.rug.nl/2022-2023/catalog/course/WMIE005-05">Course Link</a><br>
+          <strong><a href="https://ocasys.rug.nl/2022-2023/catalog/course/WMIE005-05">Robotics (Master's Course)</a></strong><br>
           Faculty of Science and Engineering, <em>University of Groningen</em><br>
           In collaboration with
           <a href="https://www.rug.nl/staff/m.cao/?lang=en">Prof. Ming Cao</a>,
