@@ -278,8 +278,7 @@ nav_order: 4
       <li class="dated-item">
         <span class="service-time">May 2026</span>
         <span class="service-content">
-          <strong>Workshop on Opto-Mechatronics and Control of Nonlinear Systems</strong><br>
-          <a href="https://sites.google.com/view/bayujayawardhanainaugural/home">Workshop Website</a><br>
+          <strong> <a href="https://sites.google.com/view/bayujayawardhanainaugural/home">Workshop on Opto-Mechatronics and Control of Nonlinear Systems</a></strong><br>
           <em>University of Groningen</em>
         </span>
       </li>
