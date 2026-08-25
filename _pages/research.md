@@ -13,13 +13,29 @@ nav_order: 2
   margin: 0 auto;
 }
 
+/* Research hero image */
+.research-hero {
+  width: 100%;
+  margin: 1.5rem 0 2rem;
+}
+
+.research-hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid var(--global-divider-color);
+}
+
+/* Research introduction */
 .research-intro {
-  margin: 1.5rem 0 2.5rem;
+  margin: 0 0 2.5rem;
   max-width: 850px;
   line-height: 1.7;
   color: var(--global-text-color);
 }
 
+/* Project card */
 .project-container {
   display: flex;
   gap: 24px;
@@ -40,6 +56,7 @@ nav_order: 2
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
 
+/* Project video */
 .project-video {
   flex: 0 0 46%;
   min-width: 0;
@@ -50,6 +67,7 @@ nav_order: 2
   border-radius: 8px;
 }
 
+/* Project text */
 .project-text {
   flex: 1;
   min-width: 0;
@@ -74,12 +92,14 @@ nav_order: 2
   text-decoration: underline;
 }
 
+/* Project summary */
 .project-summary {
   margin-bottom: 0.8rem;
   line-height: 1.6;
   font-size: 0.98rem;
 }
 
+/* Project tags */
 .project-tags {
   display: flex;
   flex-wrap: wrap;
@@ -98,6 +118,7 @@ nav_order: 2
   background-color: rgba(0, 83, 156, 0.06);
 }
 
+/* Paper citation */
 .paper-cite {
   margin-top: 0.9rem;
   padding: 12px 14px;
@@ -113,6 +134,7 @@ nav_order: 2
   font-style: italic;
 }
 
+/* Dark mode */
 html[data-theme="dark"] .project-tags span {
   background-color: rgba(230, 237, 243, 0.05);
 }
@@ -121,9 +143,19 @@ html[data-theme="dark"] .paper-cite {
   background-color: rgba(230, 237, 243, 0.06);
 }
 
+/* Mobile */
 @media (max-width: 768px) {
-  .research-intro {
+  .research-hero {
     margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .research-hero img {
+    border-radius: 8px;
+  }
+
+  .research-intro {
+    margin-bottom: 2rem;
   }
 
   .project-container {
@@ -145,16 +177,32 @@ html[data-theme="dark"] .paper-cite {
 
 <div class="research-container">
 
+  <!-- Research overview image -->
+  <div class="research-hero">
+    <img
+      src="/assets/img/research/Tinghua_work.jfif"
+      alt="Safe and intelligent autonomous robotic systems operating in unknown and cluttered environments"
+    >
+  </div>
+
+  <!-- Research introduction -->
   <p class="research-intro">
-     My research focuses on safe and intelligent autonomous robotic systems operating in unknown and cluttered environments. My PhD research investigated safety-critical motion control for wheeled mobile robots, while my current postdoctoral work extends this line of research to aerial robotics by developing safety-critical control methods for autonomous and safe flight.
+    My research focuses on safe and intelligent autonomous robotic systems operating in unknown and cluttered environments. My PhD research investigated safety-critical motion control for wheeled mobile robots, while my current postdoctoral work extends this line of research to aerial robotics by developing safety-critical control methods for autonomous and safe flight.
   </p>
 
+  <!-- Project 1 -->
   <div class="project-container">
+
     <div class="project-video">
-      {% include video.liquid path="/assets/video/SS.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+      {% include video.liquid
+        path="/assets/video/SS.mp4"
+        class="img-fluid rounded z-depth-1"
+        controls=true
+      %}
     </div>
 
     <div class="project-text">
+
       <h3>
         <a href="https://ieeexplore.ieee.org/abstract/document/9458274">
           Source-Seeking Robot
@@ -172,20 +220,35 @@ html[data-theme="dark"] .paper-cite {
       </div>
 
       <p class="paper-cite">
-        <strong>T. Li*</strong>, B. Jayawardhana, A. M. Kamat, and A. G. P. Kottapalli,
+        <strong>T. Li*</strong>,
+        B. Jayawardhana,
+        A. M. Kamat,
+        and A. G. P. Kottapalli,
         “Source-Seeking Control of Unicycle Robots With 3-D-Printed Flexible Piezoresistive Sensors,”
-        <em>IEEE Transactions on Robotics</em>, vol. 38, no. 1, pp. 448–462, Feb. 2022,
+        <em>IEEE Transactions on Robotics</em>,
+        vol. 38,
+        no. 1,
+        pp. 448–462,
+        Feb. 2022,
         doi: 10.1109/TRO.2021.3076964.
       </p>
+
     </div>
   </div>
 
+  <!-- Project 2 -->
   <div class="project-container">
+
     <div class="project-video">
-      {% include video.liquid path="/assets/video/CO.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+      {% include video.liquid
+        path="/assets/video/CO.mp4"
+        class="img-fluid rounded z-depth-1"
+        controls=true
+      %}
     </div>
 
     <div class="project-text">
+
       <h3>
         <a href="https://ieeexplore.ieee.org/document/10735338">
           Collision-Free Source-Seeking Robot
@@ -199,25 +262,38 @@ html[data-theme="dark"] .paper-cite {
       <div class="project-tags">
         <span>Control Barrier Functions</span>
         <span>Obstacle Avoidance</span>
-        <span>Safety-critical Control</span>
+        <span>Safety-Critical Control</span>
         <span>Unicycle Robots</span>
       </div>
 
       <p class="paper-cite">
-        <strong>T. Li*</strong> and B. Jayawardhana,
+        <strong>T. Li*</strong>
+        and B. Jayawardhana,
         “Collision-free Source Seeking Control Methods for Unicycle Robots,”
-        <em>IEEE Transactions on Automatic Control</em>, vol. 70, no. 3, pp. 2020–2027, March 2025,
+        <em>IEEE Transactions on Automatic Control</em>,
+        vol. 70,
+        no. 3,
+        pp. 2020–2027,
+        March 2025,
         doi: 10.1109/TAC.2024.3486654.
       </p>
+
     </div>
   </div>
 
+  <!-- Project 3 -->
   <div class="project-container">
+
     <div class="project-video">
-      {% include video.liquid path="/assets/video/connectivity.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+      {% include video.liquid
+        path="/assets/video/connectivity.mp4"
+        class="img-fluid rounded z-depth-1"
+        controls=true
+      %}
     </div>
 
     <div class="project-text">
+
       <h3>
         <a href="https://ieeexplore.ieee.org/document/11311473">
           Flocking Control with Connectivity Preservation
@@ -229,7 +305,7 @@ html[data-theme="dark"] .paper-cite {
       </p>
 
       <div class="project-tags">
-        <span>Multi-agent systems</span>
+        <span>Multi-Agent Systems</span>
         <span>Flocking Cohesion</span>
         <span>Collision Avoidance</span>
         <span>Connectivity Preservation</span>
@@ -237,11 +313,17 @@ html[data-theme="dark"] .paper-cite {
       </div>
 
       <p class="paper-cite">
-        <strong>T. Li*</strong> and B. Jayawardhana,
+        <strong>T. Li*</strong>
+        and B. Jayawardhana,
         “Collision-free Source Seeking and Flocking Control of Multi-agents with Connectivity Preservation,”
-        <em>IEEE Transactions on Automatic Control</em>, vol. 71, no. 6, pp. 3696–3711, June 2026,
+        <em>IEEE Transactions on Automatic Control</em>,
+        vol. 71,
+        no. 6,
+        pp. 3696–3711,
+        June 2026,
         doi: 10.1109/TAC.2025.3647313.
       </p>
+
     </div>
   </div>
 
