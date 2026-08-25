@@ -53,12 +53,10 @@ nav_order: 5
     <li class="news-row">
       <span class="news-date">2026.05 -</span>
       <span class="news-text"> Happy to attend the <a href="https://eurognc.ceas.org/">2026 CEAS Conference on Guidance, Navigation and Control Conference (EuroGNC)</a> and join the workshop <a href = "https://safeflighteurognc.github.io/">Control Barrier Functions in Aerospace: From Foundations to Real-World Applications</a> in Madrid, Spain. 
-    </li>
+    </span>
     <li class="news-row">
       <span class="news-date">2026.04 -</span>
       <span class="news-text">Glad to co-organize the workshop on <a href="https://sites.google.com/view/bayujayawardhanainaugural/home?authuser=0">"Opto-Mechatronics and Control of Nonlinear Systems"</a> with our colleagues and celebrate the Inaugural Lecture of Prof. Bayu Jayawardhana in the University of Groningen. Fijn om weer terug te zijn in Groningen! </span>
-    </li>
-    </ul>
   </div>
 
 
