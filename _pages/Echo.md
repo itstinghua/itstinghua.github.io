@@ -4,7 +4,7 @@ title: Echo
 permalink: /Echo/
 description: Songs, memories, and moments that echo through life.
 nav: true
-nav_order: 7
+nav_order: 6
 ---
 
 <style>
