@@ -538,8 +538,7 @@ html[data-theme="dark"] .phd-summary img {
 
         <a
           class="phd-link"
-          href="https://research.rug.nl/en/publications/motion-control-for-nonholonomic-unicycle-robots"
-          target="_blank"
+          href="https://doi.org/10.33612/diss.870575695"
           rel="noopener noreferrer"
         >
           View Full Thesis →
